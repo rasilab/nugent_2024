@@ -1,0 +1,2 @@
+owner,srr,sample_name,plasmid_snapgene_map,amplicon_snapgene_map,library_type,sample_id,read1_sequencing_primer,read2_sequencing_primer,read3_sequencing_primer,insert1_read,insert1_start,insert1_length,insert2_read,insert2_start,insert2_length,barcode1_read,barcode1_start,barcode1_length,barcode2_read,barcode2_start,barcode2_length,read1_length,read2_length,read3_length,run_id
+pn,SRR27390986,rbp_dual_sgrna_linkage,pHPHS842,lPNHS20,plasmid,182p1,oAS1701,oAS1702,oKC186,3,0,19,3,44,19,1,0,20,2,0,20,26,20,75,221229_VH01189_45_AACH7CYM5-1
