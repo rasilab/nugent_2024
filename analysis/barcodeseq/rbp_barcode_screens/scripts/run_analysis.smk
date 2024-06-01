@@ -359,8 +359,7 @@ rule run_mageck:
   """Run MaGeCK to identify genes and sgRNAs with significant fold changes between reporter of interest and control reporter
   """
   input: 
-    counts = '../data/mageck/{treatment}_vs_{control}/input_counts.tsv',
-    nontargeting_sgrna = '../../rbp_sgrna_barcode_linkage/annotations/ctrl_sgrnas.txt'
+    counts = '../data/mageck/{treatment}_vs_{control}/input_counts.tsv'
   output:
     mageck_gene_summary = '../data/mageck/{treatment}_vs_{control}/mageck.gene_summary.tsv',
     mageck_sgrna_summary = '../data/mageck/{treatment}_vs_{control}/mageck.sgrna_summary.tsv',
