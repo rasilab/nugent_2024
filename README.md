@@ -28,7 +28,7 @@ Our work demonstrates ReLiC as a versatile platform for discovering and dissecti
  
 - We use [Snakemake](https://anaconda.org/bioconda/snakemake-minimal) for workflow management. This can be installed using `conda` or might be already available in your distributed cluster.
 
-- To reproduce the analysis on a cluster, load singularity and snakemake (or activate the conda environment with these software). Ensure that all necessary folders are mounted using `-B` in [analysis/submit_cluster.sh](./analysis/submit_cluster.sh) and [analysis/submit_local.sh](./analysis/submit_local.sh). These folder locations will be specific to your computing environment. If the correct location is not mounted, you will get `path not found` error in Snakemake workflows that use Singularity containers.
+- To reproduce the analysis on a cluster, load singularity and snakemake (or activate the conda environment with these software). Ensure that all necessary folders are mounted using `--bind` in [analysis/submit_cluster.sh](./analysis/submit_cluster.sh) and [analysis/submit_local.sh](./analysis/submit_local.sh). These folder locations will be specific to your computing environment. If the correct location is not mounted, you will get `path not found` error in Snakemake workflows that use Singularity containers.
 
 ```
 module load Singularity snakemake # for fred hutch cluster
@@ -38,11 +38,11 @@ sh run_everything.sh
 - Typically, you will want to run only parts of the `run_everything.sh` script depending on which analysis or figure you are trying to reproduce. You can paste the corresponding lines from the script onto the command line.
 
 - The ```run_everything.sh``` file will:
-  - Download FASTQ files from SRA
   - Run linkage sequencing and barcode sequencing [analysis](analysis/barcodeseq)
   - Run RNA seq [analysis](analysis/rnaseq)
   - Run Ribo seq [analysis](analysis/riboseq)
   - Run [code](analysis/run_all_ipynb_scripts.smk) to regenerate figure panels, which will also run the analysis of flow cytometry and polysome profiling data
+  - Note that the high throughput sequencing analysis will also automatically download the SRA files and convert them to FASTQ.
 
 ## Useful Docker containers for interactive analyses
 
