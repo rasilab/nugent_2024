@@ -1,0 +1,17 @@
+*sample_name	sample_title	bioproject_accession	*organism	*isolate	*age	*biomaterial_provider	*collection_date	*geo_loc_name	*sex	*tissue	cell_line	sample_type	sample_id
+aqr	AQR sgRNA	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	polyA RNA	226p1
+sf3b5	SF3B5 sgRNA	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	polyA RNA	226p10
+sf3b6	SF3B6 sgRNA	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	polyA RNA	226p11
+fluc	FLUC sgRNA	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	polyA RNA	226p12
+gcn1_1_2_rep1_0h	GCN1_1_2 sgRNA rep 1 untreated	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	polyA RNA	220p11
+gcn1_1_2_rep2_0h	GCN1_1_2 sgRNA rep 2 untreated	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	polyA RNA	220p12
+gcn1_3_4_rep1_0h	GCN1_3_4 sgRNA rep 1 untreated	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	polyA RNA	220p13
+gcn1_3_4_rep2_0h	GCN1_3_4 sgRNA rep 2 untreated	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	polyA RNA	220p14
+fluc_1_2_rep1_0h	FLUC_1_2 sgRNA rep 1 untreated	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	polyA RNA	220p15
+fluc_1_2_rep2_0h	FLUC_1_2 sgRNA rep 2 untreated	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	polyA RNA	220p16
+gcn1_3_4_rep1_6h	GCN1_3_4 sgRNA rep 1 homoharringtonine 6hr	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	polyA RNA	220p19
+gcn1_3_4_rep2_6h	GCN1_3_4 sgRNA rep 2 homoharringtonine 6hr	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	polyA RNA	220p20
+fluc_1_2_rep1_6h	FLUC_1_2 sgRNA rep 1 homoharringtonine 6hr	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	polyA RNA	220p21
+fluc_1_2_rep2_6h	FLUC_1_2 sgRNA rep 2 homoharringtonine 6hr	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	polyA RNA	220p22
+gcn1_1_2_rep1_6h	GCN1_1_2 sgRNA rep 1 homoharringtonine 6hr	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	polyA RNA	220p17
+gcn1_1_2_rep2_6h	GCN1_1_2 sgRNA rep 2 homoharringtonine 6hr	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	polyA RNA	220p18
