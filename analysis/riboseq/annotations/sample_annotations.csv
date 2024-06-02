@@ -1,0 +1,9 @@
+sample_id,sample_name,trim5,trim3,adapter
+225p41,sggcn1_hht_mono_rep1,0,0,AAAAAAAAAA
+225p43,sggcn1_dmso_mono_rep1,0,0,AAAAAAAAAA
+225p45,sgfluc_hht_mono_rep1,0,0,AAAAAAAAAA
+225p47,sgfluc_dmso_mono_rep1,0,0,AAAAAAAAAA
+225p61,sggcn1_hht_mono_rep2,0,0,AAAAAAAAAA
+225p62,sggcn1_dmso_mono_rep2,0,0,AAAAAAAAAA
+225p63,sgfluc_hht_mono_rep2,0,0,AAAAAAAAAA
+225p64,sgfluc_dmso_mono_rep2,0,0,AAAAAAAAAA

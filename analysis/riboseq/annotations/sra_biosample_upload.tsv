@@ -1,0 +1,9 @@
+*sample_name	sample_title	bioproject_accession	*organism	*isolate	*age	*biomaterial_provider	*collection_date	*geo_loc_name	*sex	*tissue	cell_line	sample_id
+sggcn1_hht_rep1	GCN1 sgRNA homoharringtonine treated rep 1	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	225p41
+sggcn1_dmso_rep1	GCN1 sgRNA DMSO treated rep 1	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	225p43
+sgfluc_hht_rep1	FLUC sgRNA homoharringtonine treated rep 1	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	225p45
+sgfluc_dmso_rep1	FLUC sgRNA DMSO treated rep 1	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	225p47
+sggcn1_hht_rep2	GCN1 sgRNA homoharringtonine treated rep 2	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	225p61
+sggcn1_dmso_rep2	GCN1 sgRNA DMSO treated rep 2	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	225p62
+sgfluc_hht_rep2	FLUC sgRNA homoharringtonine treated rep 2	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	225p63
+sgfluc_dmso_rep2	FLUC sgRNA DMSO treated rep 2	PRJNA1059490	Homo sapiens	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	not applicable	HEK293T	225p64
