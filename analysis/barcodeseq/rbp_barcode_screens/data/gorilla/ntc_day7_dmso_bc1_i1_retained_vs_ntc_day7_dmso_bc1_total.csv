@@ -1,0 +1,152 @@
+GO term,Description,P-value,FDR q-value,"Enrichment (N, B, n, b)",Genes,Ontology,Direction
+GO:0000398,"mRNA splicing, via spliceosome",3.75E-25,2.74E-21,"3.46 (2093,241,193,77)",[+] Show genes,Process,Up
+GO:0000377,"RNA splicing, via transesterification reactions with bulged adenosine as nucleophile",3.75E-25,1.37E-21,"3.46 (2093,241,193,77)",[+] Show genes,Process,Up
+GO:0000375,"RNA splicing, via transesterification reactions",1.85E-24,4.52E-21,"3.39 (2093,246,193,77)",[+] Show genes,Process,Up
+GO:0016071,mRNA metabolic process,5.93E-22,1.09E-18,"2.24 (2093,552,198,117)",[+] Show genes,Process,Up
+GO:0008380,RNA splicing,1.84E-20,2.69E-17,"2.77 (2093,329,195,85)",[+] Show genes,Process,Up
+GO:0006397,mRNA processing,1.87E-17,2.28E-14,"2.49 (2093,375,195,87)",[+] Show genes,Process,Up
+GO:0006396,RNA processing,2.01E-11,0.000000021,"1.41 (2093,709,470,225)",[+] Show genes,Process,Up
+GO:0009057,macromolecule catabolic process,3.48E-11,0.0000000318,"1.48 (2093,278,843,166)",[+] Show genes,Process,Up
+GO:0044265,cellular macromolecule catabolic process,6.1E-11,0.0000000496,"1.49 (2093,269,843,161)",[+] Show genes,Process,Up
+GO:0000956,nuclear-transcribed mRNA catabolic process,1.4E-10,0.000000102,"1.62 (2093,175,843,114)",[+] Show genes,Process,Up
+GO:0016070,RNA metabolic process,0.00000000104,0.000000692,"1.47 (2093,988,199,138)",[+] Show genes,Process,Up
+GO:0006402,mRNA catabolic process,0.00000000357,0.00000218,"1.55 (2093,191,843,119)",[+] Show genes,Process,Up
+GO:0006612,protein targeting to membrane,0.00000000762,0.00000429,"1.81 (2093,91,825,65)",[+] Show genes,Process,Up
+GO:0090304,nucleic acid metabolic process,0.00000000808,0.00000422,"1.41 (2093,1066,199,143)",[+] Show genes,Process,Up
+GO:0006413,translational initiation,0.0000000124,0.00000605,"1.55 (2093,133,986,97)",[+] Show genes,Process,Up
+GO:0019083,viral transcription,0.0000000155,0.0000071,"1.73 (2093,87,917,66)",[+] Show genes,Process,Up
+GO:0006401,RNA catabolic process,0.0000000208,0.00000894,"1.49 (2093,215,843,129)",[+] Show genes,Process,Up
+GO:0006614,SRP-dependent cotranslational protein targeting to membrane,0.0000000218,0.00000886,"1.81 (2093,87,825,62)",[+] Show genes,Process,Up
+GO:0090150,establishment of protein localization to membrane,0.0000000232,0.00000892,"1.63 (2093,98,980,75)",[+] Show genes,Process,Up
+GO:0006613,cotranslational protein targeting to membrane,0.0000000249,0.00000913,"1.80 (2093,89,825,63)",[+] Show genes,Process,Up
+GO:0046907,intracellular transport,0.0000000352,0.0000123,"1.41 (2093,311,777,163)",[+] Show genes,Process,Up
+GO:0051649,establishment of localization in cell,0.0000000403,0.0000134,"1.39 (2093,328,806,175)",[+] Show genes,Process,Up
+GO:0006139,nucleobase-containing compound metabolic process,0.0000000526,0.0000168,"1.38 (2093,1099,199,144)",[+] Show genes,Process,Up
+GO:0070972,protein localization to endoplasmic reticulum,0.0000000528,0.0000161,"1.78 (2093,90,825,63)",[+] Show genes,Process,Up
+GO:0072599,establishment of protein localization to endoplasmic reticulum,0.0000000528,0.0000155,"1.78 (2093,90,825,63)",[+] Show genes,Process,Up
+GO:0045047,protein targeting to ER,0.0000000528,0.0000149,"1.78 (2093,90,825,63)",[+] Show genes,Process,Up
+GO:0000184,"nuclear-transcribed mRNA catabolic process, nonsense-mediated decay",0.0000000701,0.000019,"1.67 (2093,113,843,76)",[+] Show genes,Process,Up
+GO:0006725,cellular aromatic compound metabolic process,0.0000000868,0.0000227,"1.37 (2093,1106,199,144)",[+] Show genes,Process,Up
+GO:0046483,heterocycle metabolic process,0.0000000868,0.0000219,"1.37 (2093,1106,199,144)",[+] Show genes,Process,Up
+GO:0072657,protein localization to membrane,0.0000000928,0.0000226,"1.58 (2093,108,980,80)",[+] Show genes,Process,Up
+GO:1901360,organic cyclic compound metabolic process,0.000000106,0.000025,"1.36 (2093,1120,199,145)",[+] Show genes,Process,Up
+GO:0071705,nitrogen compound transport,0.00000013,0.0000297,"1.39 (2093,322,777,166)",[+] Show genes,Process,Up
+GO:0043170,macromolecule metabolic process,0.000000136,0.0000301,"1.23 (2093,1389,258,211)",[+] Show genes,Process,Up
+GO:0006605,protein targeting,0.00000016,0.0000344,"1.71 (2093,101,825,68)",[+] Show genes,Process,Up
+GO:0071826,ribonucleoprotein complex subunit organization,0.000000181,0.0000378,"2.20 (2093,209,232,51)",[+] Show genes,Process,Up
+GO:0006913,nucleocytoplasmic transport,0.000000187,0.0000381,"2.00 (2093,142,427,58)",[+] Show genes,Process,Up
+GO:0044248,cellular catabolic process,0.000000273,0.000054,"1.35 (2093,334,843,181)",[+] Show genes,Process,Up
+GO:0071702,organic substance transport,0.000000308,0.0000594,"1.37 (2093,332,777,169)",[+] Show genes,Process,Up
+GO:0051169,nuclear transport,0.00000034,0.0000638,"1.97 (2093,144,427,58)",[+] Show genes,Process,Up
+GO:0044419,interspecies interaction between organisms,0.000000546,0.0000999,"1.35 (2093,263,937,159)",[+] Show genes,Process,Up
+GO:0006886,intracellular protein transport,0.000000604,0.000108,"1.53 (2093,180,777,102)",[+] Show genes,Process,Up
+GO:0034655,nucleobase-containing compound catabolic process,0.000000704,0.000123,"2.02 (2093,246,227,54)",[+] Show genes,Process,Up
+GO:0019439,aromatic compound catabolic process,0.000000704,0.00012,"2.02 (2093,246,227,54)",[+] Show genes,Process,Up
+GO:0016032,viral process,0.000000718,0.000119,"1.38 (2093,237,936,146)",[+] Show genes,Process,Up
+GO:0044403,symbiont process,0.000000718,0.000117,"1.38 (2093,237,936,146)",[+] Show genes,Process,Up
+GO:0008152,metabolic process,0.000000758,0.000121,"1.19 (2093,1526,258,223)",[+] Show genes,Process,Up
+GO:0006807,nitrogen compound metabolic process,0.000000771,0.00012,"1.22 (2093,1389,258,209)",[+] Show genes,Process,Up
+GO:0022618,ribonucleoprotein complex assembly,0.000000806,0.000123,"2.18 (2093,199,232,48)",[+] Show genes,Process,Up
+GO:1901361,organic cyclic compound catabolic process,0.000000824,0.000123,"2.02 (2093,247,227,54)",[+] Show genes,Process,Up
+GO:0046700,heterocycle catabolic process,0.000000824,0.000121,"2.02 (2093,247,227,54)",[+] Show genes,Process,Up
+GO:0044238,primary metabolic process,0.000000881,0.000126,"1.21 (2093,1405,258,210)",[+] Show genes,Process,Up
+GO:1901575,organic substance catabolic process,0.000000884,0.000124,"1.33 (2093,325,861,178)",[+] Show genes,Process,Up
+GO:0044237,cellular metabolic process,0.00000097,0.000134,"1.19 (2093,1504,258,220)",[+] Show genes,Process,Up
+GO:0051641,cellular localization,0.000000971,0.000132,"1.77 (2093,376,226,72)",[+] Show genes,Process,Up
+GO:0072594,establishment of protein localization to organelle,0.00000108,0.000144,"1.62 (2093,130,777,78)",[+] Show genes,Process,Up
+GO:0044270,cellular nitrogen compound catabolic process,0.00000123,0.00016,"1.99 (2093,250,227,54)",[+] Show genes,Process,Up
+GO:0009056,catabolic process,0.00000163,0.000209,"1.32 (2093,340,843,181)",[+] Show genes,Process,Up
+GO:0071704,organic substance metabolic process,0.00000215,0.000272,"1.19 (2093,1468,258,216)",[+] Show genes,Process,Up
+GO:0034641,cellular nitrogen compound metabolic process,0.00000302,0.000375,"1.51 (2093,1185,70,60)",[+] Show genes,Process,Up
+GO:0042886,amide transport,0.00000331,0.000404,"1.45 (2093,218,777,117)",[+] Show genes,Process,Up
+GO:0015031,protein transport,0.00000331,0.000397,"1.45 (2093,218,777,117)",[+] Show genes,Process,Up
+GO:0015833,peptide transport,0.00000331,0.000391,"1.45 (2093,218,777,117)",[+] Show genes,Process,Up
+GO:0034622,cellular protein-containing complex assembly,0.00000488,0.000568,"1.90 (2093,261,232,55)",[+] Show genes,Process,Up
+GO:0034475,U4 snRNA 3'-end processing,0.0000119,0.00136,"10.98 (2093,8,143,6)",[+] Show genes,Process,Up
+GO:0033365,protein localization to organelle,0.0000128,0.00145,"2.20 (2093,164,226,39)",[+] Show genes,Process,Up
+GO:0006405,RNA export from nucleus,0.0000129,0.00143,"2.02 (2093,95,459,42)",[+] Show genes,Process,Up
+GO:0051168,nuclear export,0.0000147,0.0016,"2.01 (2093,105,427,43)",[+] Show genes,Process,Up
+GO:0006810,transport,0.0000206,0.00222,"1.24 (2093,490,797,232)",[+] Show genes,Process,Up
+GO:0045184,establishment of protein localization,0.0000281,0.00299,"1.40 (2093,225,777,117)",[+] Show genes,Process,Up
+GO:0000389,mRNA 3'-splice site recognition,0.0000368,0.00385,"12.03 (2093,6,145,5)",[+] Show genes,Process,Up
+GO:0000245,spliceosomal complex assembly,0.0000373,0.00384,"5.03 (2093,26,176,11)",[+] Show genes,Process,Up
+GO:0034427,"nuclear-transcribed mRNA catabolic process, exonucleolytic, 3'-5'",0.0000375,0.00382,"9.76 (2093,9,143,6)",[+] Show genes,Process,Up
+GO:0051179,localization,0.0000403,0.00404,"1.50 (2093,553,229,91)",[+] Show genes,Process,Up
+GO:0002181,cytoplasmic translation,0.0000567,0.00561,"6.70 (2093,38,74,9)",[+] Show genes,Process,Up
+GO:1902750,negative regulation of cell cycle G2/M phase transition,0.0000568,0.00555,"3.95 (2093,20,318,12)",[+] Show genes,Process,Up
+GO:0010972,negative regulation of G2/M transition of mitotic cell cycle,0.0000568,0.00547,"3.95 (2093,20,318,12)",[+] Show genes,Process,Up
+GO:0016073,snRNA metabolic process,0.0000612,0.00582,"1.88 (2093,57,702,36)",[+] Show genes,Process,Up
+GO:0051234,establishment of localization,0.0000719,0.00675,"1.52 (2093,504,229,84)",[+] Show genes,Process,Up
+GO:0051170,import into nucleus,0.000105,0.00969,"3.32 (2093,46,219,16)",[+] Show genes,Process,Up
+GO:0033036,macromolecule localization,0.000114,0.0104,"1.32 (2093,282,783,139)",[+] Show genes,Process,Up
+GO:0016078,tRNA catabolic process,0.000124,0.0112,"10.45 (2093,7,143,5)",[+] Show genes,Process,Up
+GO:0045292,"mRNA cis splicing, via spliceosome",0.000135,0.012,"9.10 (2093,12,115,6)",[+] Show genes,Process,Up
+GO:0010948,negative regulation of cell cycle process,0.000135,0.0119,"2.19 (2093,60,447,28)",[+] Show genes,Process,Up
+GO:0008150,biological_process,0.000139,0.0121,"1.05 (2093,1993,267,266)",[+] Show genes,Process,Up
+GO:0070727,cellular macromolecule localization,0.00014,0.0121,"1.97 (2093,193,226,41)",[+] Show genes,Process,Up
+GO:0043928,exonucleolytic nuclear-transcribed mRNA catabolic process involved in deadenylation-dependent decay,0.000168,0.0143,"2.58 (2093,29,504,18)",[+] Show genes,Process,Up
+GO:0034613,cellular protein localization,0.000173,0.0145,"1.33 (2093,186,961,114)",[+] Show genes,Process,Up
+GO:0051704,multi-organism process,0.0002,0.0167,"1.24 (2093,334,937,185)",[+] Show genes,Process,Up
+GO:0090263,positive regulation of canonical Wnt signaling pathway,0.000203,0.0167,"3.42 (2093,25,318,13)",[+] Show genes,Process,Up
+GO:0002479,"antigen processing and presentation of exogenous peptide antigen via MHC class I, TAP-dependent",0.000209,0.017,"3.81 (2093,19,318,11)",[+] Show genes,Process,Up
+GO:0042590,antigen processing and presentation of exogenous peptide antigen via MHC class I,0.000209,0.0168,"3.81 (2093,19,318,11)",[+] Show genes,Process,Up
+GO:0031146,SCF-dependent proteasomal ubiquitin-dependent protein catabolic process,0.000248,0.0197,"2.33 (2093,17,794,15)",[+] Show genes,Process,Up
+GO:0071027,nuclear RNA surveillance,0.000251,0.0197,"7.98 (2093,11,143,6)",[+] Show genes,Process,Up
+GO:0008104,protein localization,0.000269,0.021,"1.31 (2093,267,783,131)",[+] Show genes,Process,Up
+GO:0045930,negative regulation of mitotic cell cycle,0.000273,0.021,"1.66 (2093,52,922,38)",[+] Show genes,Process,Up
+GO:0071028,nuclear mRNA surveillance,0.000283,0.0216,"10.20 (2093,9,114,5)",[+] Show genes,Process,Up
+GO:0002474,antigen processing and presentation of peptide antigen via MHC class I,0.000293,0.0221,"3.48 (2093,22,328,12)",[+] Show genes,Process,Up
+GO:0034473,U1 snRNA 3'-end processing,0.000294,0.0219,"18.36 (2093,3,114,3)",[+] Show genes,Process,Up
+GO:0034476,U5 snRNA 3'-end processing,0.000294,0.0217,"18.36 (2093,3,114,3)",[+] Show genes,Process,Up
+GO:0030490,maturation of SSU-rRNA,0.000307,0.0225,"1.87 (2093,34,855,26)",[+] Show genes,Process,Up
+GO:0016072,rRNA metabolic process,0.000336,0.0243,"1.34 (2093,200,865,111)",[+] Show genes,Process,Up
+GO:0034472,snRNA 3'-end processing,0.000358,0.0257,"3.16 (2093,18,442,12)",[+] Show genes,Process,Up
+GO:0016180,snRNA processing,0.000386,0.0274,"2.88 (2093,23,442,14)",[+] Show genes,Process,Up
+GO:0006364,rRNA processing,0.000396,0.0279,"1.35 (2093,188,865,105)",[+] Show genes,Process,Up
+GO:0042274,ribosomal small subunit biogenesis,0.000446,0.0311,"2.01 (2093,17,980,16)",[+] Show genes,Process,Up
+GO:0043632,modification-dependent macromolecule catabolic process,0.00045,0.0311,"2.47 (2093,56,318,21)",[+] Show genes,Process,Up
+GO:0042795,snRNA transcription by RNA polymerase II,0.000549,0.0376,"1.99 (2093,36,702,24)",[+] Show genes,Process,Up
+GO:0009301,snRNA transcription,0.000549,0.0372,"1.99 (2093,36,702,24)",[+] Show genes,Process,Up
+GO:0000291,"nuclear-transcribed mRNA catabolic process, exonucleolytic",0.00056,0.0376,"2.41 (2093,31,504,18)",[+] Show genes,Process,Up
+GO:0010629,negative regulation of gene expression,0.000565,0.0376,"1.49 (2093,435,249,77)",[+] Show genes,Process,Up
+GO:0030177,positive regulation of Wnt signaling pathway,0.000565,0.0373,"3.17 (2093,27,318,13)",[+] Show genes,Process,Up
+GO:1903241,U2-type prespliceosome assembly,0.000614,0.0402,"14.43 (2093,3,145,3)",[+] Show genes,Process,Up
+GO:1901988,negative regulation of cell cycle phase transition,0.000695,0.045,"2.24 (2093,46,447,22)",[+] Show genes,Process,Up
+GO:1901991,negative regulation of mitotic cell cycle phase transition,0.000695,0.0446,"2.24 (2093,46,447,22)",[+] Show genes,Process,Up
+GO:0000390,spliceosomal complex disassembly,0.000825,0.0525,"48.67 (2093,2,43,2)",[+] Show genes,Process,Up
+GO:0071025,RNA surveillance,0.000828,0.0523,"6.76 (2093,13,143,6)",[+] Show genes,Process,Up
+GO:0065003,protein-containing complex assembly,0.000913,0.0571,"1.62 (2093,307,232,55)",[+] Show genes,Process,Up
+GO:0005684,U2-type spliceosomal complex,3.8E-26,4.01E-23,"6.42 (2093,82,175,44)",[+] Show genes,Component,Up
+GO:0005681,spliceosomal complex,4.97E-24,2.62E-21,"4.32 (2093,169,169,59)",[+] Show genes,Component,Up
+GO:0071013,catalytic step 2 spliceosome,7.59E-22,2.66E-19,"6.41 (2093,80,155,38)",[+] Show genes,Component,Up
+GO:0071011,precatalytic spliceosome,8.06E-19,2.12E-16,"6.01 (2093,48,232,32)",[+] Show genes,Component,Up
+GO:0071005,U2-type precatalytic spliceosome,5.37E-18,1.13E-15,"5.95 (2093,47,232,31)",[+] Show genes,Component,Up
+GO:1990904,ribonucleoprotein complex,8.46E-16,1.49E-13,"1.68 (2093,727,284,166)",[+] Show genes,Component,Up
+GO:0032991,protein-containing complex,1.07E-13,1.6E-11,"1.44 (2093,1221,203,171)",[+] Show genes,Component,Up
+GO:1902494,catalytic complex,1.78E-13,2.35E-11,"2.69 (2093,274,182,64)",[+] Show genes,Component,Up
+GO:0120114,Sm-like protein family complex,1.34E-12,1.57E-10,"4.06 (2093,72,236,33)",[+] Show genes,Component,Up
+GO:0030532,small nuclear ribonucleoprotein complex,1.85E-12,1.95E-10,"5.28 (2093,61,169,26)",[+] Show genes,Component,Up
+GO:0097525,spliceosomal snRNP complex,1.52E-11,0.00000000146,"5.31 (2093,56,169,24)",[+] Show genes,Component,Up
+GO:0071007,U2-type catalytic step 2 spliceosome,1.59E-11,0.00000000139,"6.01 (2093,27,245,19)",[+] Show genes,Component,Up
+GO:0005654,nucleoplasm,2.08E-11,0.00000000168,"1.42 (2093,917,318,198)",[+] Show genes,Component,Up
+GO:0016607,nuclear speck,1.14E-10,0.00000000855,"3.00 (2093,182,165,43)",[+] Show genes,Component,Up
+GO:0044428,nuclear part,1.7E-10,0.000000012,"1.32 (2093,1162,295,217)",[+] Show genes,Component,Up
+GO:0016604,nuclear body,0.00000000114,0.0000000748,"2.29 (2093,281,189,58)",[+] Show genes,Component,Up
+GO:0005634,nucleus,0.0000000362,0.00000225,"1.42 (2093,996,206,139)",[+] Show genes,Component,Up
+GO:0044451,nucleoplasm part,0.0000000967,0.00000566,"1.97 (2093,354,189,63)",[+] Show genes,Component,Up
+GO:0097526,spliceosomal tri-snRNP complex,0.000000183,0.0000102,"4.81 (2093,30,232,16)",[+] Show genes,Component,Up
+GO:0046540,U4/U6 x U5 tri-snRNP complex,0.000000183,0.00000965,"4.81 (2093,30,232,16)",[+] Show genes,Component,Up
+GO:0044446,intracellular organelle part,0.000000184,0.00000924,"1.20 (2093,1566,207,186)",[+] Show genes,Component,Up
+GO:0044445,cytosolic part,0.00000024,0.0000115,"1.64 (2093,119,825,77)",[+] Show genes,Component,Up
+GO:0005686,U2 snRNP,0.000000373,0.0000171,"7.17 (2093,19,169,11)",[+] Show genes,Component,Up
+GO:0044422,organelle part,0.000000836,0.0000367,"1.19 (2093,1577,207,186)",[+] Show genes,Component,Up
+GO:0022625,cytosolic large ribosomal subunit,0.00000352,0.000148,"3.67 (2093,55,197,19)",[+] Show genes,Component,Up
+GO:0071012,catalytic step 1 spliceosome,0.00000846,0.000343,"9.79 (2093,11,136,7)",[+] Show genes,Component,Up
+GO:0071006,U2-type catalytic step 1 spliceosome,0.00000846,0.00033,"9.79 (2093,11,136,7)",[+] Show genes,Component,Up
+GO:0005689,U12-type spliceosomal complex,0.00000855,0.000322,"3.28 (2093,27,402,17)",[+] Show genes,Component,Up
+GO:0071014,post-mRNA release spliceosomal complex,0.0000229,0.000833,"18.30 (2093,11,52,5)",[+] Show genes,Component,Up
+GO:0005732,small nucleolar ribonucleoprotein complex,0.000145,0.0051,"3.15 (2093,23,404,14)",[+] Show genes,Component,Up
+GO:0032040,small-subunit processome,0.000395,0.0134,"1.72 (2093,36,980,29)",[+] Show genes,Component,Up
+GO:0005846,nuclear cap binding complex,0.000544,0.0179,"59.80 (2093,2,35,2)",[+] Show genes,Component,Up
+GO:0005682,U5 snRNP,0.000593,0.0189,"10.72 (2093,16,61,5)",[+] Show genes,Component,Up
+GO:0044424,intracellular part,0.000967,0.03,"1.05 (2093,1982,207,206)",[+] Show genes,Component,Up

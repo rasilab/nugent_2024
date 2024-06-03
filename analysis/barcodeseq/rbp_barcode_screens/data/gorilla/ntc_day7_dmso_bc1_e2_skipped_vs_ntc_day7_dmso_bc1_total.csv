@@ -1,0 +1,76 @@
+GO term,Description,P-value,FDR q-value,"Enrichment (N, B, n, b)",Genes,Ontology,Direction
+GO:0000398,"mRNA splicing, via spliceosome",0.00000000215,0.0000158,"2.56 (2093,241,163,48)",[+] Show genes,Process,Up
+GO:0000377,"RNA splicing, via transesterification reactions with bulged adenosine as nucleophile",0.00000000215,0.00000788,"2.56 (2093,241,163,48)",[+] Show genes,Process,Up
+GO:0000375,"RNA splicing, via transesterification reactions",0.00000000227,0.00000555,"2.51 (2093,246,163,48)",[+] Show genes,Process,Up
+GO:0044766,multi-organism transport,0.0000000602,0.00011,"17.76 (2093,23,41,8)",[+] Show genes,Process,Up
+GO:1902579,multi-organism localization,0.0000000602,0.0000882,"17.76 (2093,23,41,8)",[+] Show genes,Process,Up
+GO:0008380,RNA splicing,0.000000189,0.00023,"1.43 (2093,329,662,149)",[+] Show genes,Process,Up
+GO:0034504,protein localization to nucleus,0.000000433,0.000453,"26.83 (2093,39,12,6)",[+] Show genes,Process,Up
+GO:0006606,protein import into nucleus,0.00000208,0.00191,"21.65 (2093,29,20,6)",[+] Show genes,Process,Up
+GO:0075733,intracellular transport of virus,0.00000307,0.0025,"28.75 (2093,13,28,5)",[+] Show genes,Process,Up
+GO:0046794,transport of virus,0.00000307,0.00225,"28.75 (2093,13,28,5)",[+] Show genes,Process,Up
+GO:0065003,protein-containing complex assembly,0.00000316,0.0021,"1.77 (2093,307,262,68)",[+] Show genes,Process,Up
+GO:0017038,protein import,0.00000414,0.00253,"19.62 (2093,32,20,6)",[+] Show genes,Process,Up
+GO:0016071,mRNA metabolic process,0.00000752,0.00423,"1.99 (2093,552,80,42)",[+] Show genes,Process,Up
+GO:0046907,intracellular transport,0.000011,0.00573,"1.69 (2093,311,283,71)",[+] Show genes,Process,Up
+GO:0034622,cellular protein-containing complex assembly,0.0000221,0.0108,"1.78 (2093,261,261,58)",[+] Show genes,Process,Up
+GO:0006397,mRNA processing,0.0000272,0.0124,"3.82 (2093,375,19,13)",[+] Show genes,Process,Up
+GO:0051170,import into nucleus,0.0000286,0.0123,"20.68 (2093,46,11,5)",[+] Show genes,Process,Up
+GO:0051649,establishment of localization in cell,0.0000478,0.0194,"1.62 (2093,328,283,72)",[+] Show genes,Process,Up
+GO:0051641,cellular localization,0.0000612,0.0236,"2.44 (2093,376,57,25)",[+] Show genes,Process,Up
+GO:0071702,organic substance transport,0.000083,0.0304,"1.60 (2093,332,284,72)",[+] Show genes,Process,Up
+GO:0048384,retinoic acid receptor signaling pathway,0.0000831,0.029,"27.54 (2093,3,76,3)",[+] Show genes,Process,Up
+GO:0006810,transport,0.0000862,0.0287,"1.46 (2093,490,290,99)",[+] Show genes,Process,Up
+GO:0006913,nucleocytoplasmic transport,0.0000957,0.0305,"3.39 (2093,142,74,17)",[+] Show genes,Process,Up
+GO:0051234,establishment of localization,0.0000999,0.0305,"1.45 (2093,504,290,101)",[+] Show genes,Process,Up
+GO:0071705,nitrogen compound transport,0.000104,0.0304,"1.60 (2093,322,284,70)",[+] Show genes,Process,Up
+GO:0051169,nuclear transport,0.000114,0.0321,"3.34 (2093,144,74,17)",[+] Show genes,Process,Up
+GO:0006891,intra-Golgi vesicle-mediated transport,0.00017,0.0462,"34.88 (2093,5,36,3)",[+] Show genes,Process,Up
+GO:0022618,ribonucleoprotein complex assembly,0.000249,0.0652,"1.88 (2093,199,240,43)",[+] Show genes,Process,Up
+GO:0051179,localization,0.000257,0.0649,"1.40 (2093,553,290,107)",[+] Show genes,Process,Up
+GO:1903241,U2-type prespliceosome assembly,0.000278,0.0678,"93.02 (2093,3,15,2)",[+] Show genes,Process,Up
+GO:0051168,nuclear export,0.000282,0.0666,"4.20 (2093,105,57,12)",[+] Show genes,Process,Up
+GO:0071826,ribonucleoprotein complex subunit organization,0.000286,0.0655,"1.59 (2093,209,422,67)",[+] Show genes,Process,Up
+GO:0022607,cellular component assembly,0.000297,0.066,"1.54 (2093,373,262,72)",[+] Show genes,Process,Up
+GO:0006607,NLS-bearing protein import into nucleus,0.000396,0.0852,"95.14 (2093,4,11,2)",[+] Show genes,Process,Up
+GO:0015931,nucleobase-containing compound transport,0.000401,0.0838,"1.37 (2093,133,986,86)",[+] Show genes,Process,Up
+GO:0051236,establishment of RNA localization,0.000548,0.112,"1.37 (2093,132,986,85)",[+] Show genes,Process,Up
+GO:0050658,RNA transport,0.000548,0.109,"1.37 (2093,132,986,85)",[+] Show genes,Process,Up
+GO:0050657,nucleic acid transport,0.000548,0.106,"1.37 (2093,132,986,85)",[+] Show genes,Process,Up
+GO:0007338,single fertilization,0.000561,0.105,"2.80 (2093,9,748,9)",[+] Show genes,Process,Up
+GO:0006409,tRNA export from nucleus,0.000602,0.11,"31.39 (2093,10,20,3)",[+] Show genes,Process,Up
+GO:0006611,protein export from nucleus,0.000718,0.128,"33.22 (2093,21,9,3)",[+] Show genes,Process,Up
+GO:0051031,tRNA transport,0.000857,0.149,"28.54 (2093,11,20,3)",[+] Show genes,Process,Up
+GO:0005684,U2-type spliceosomal complex,2.63E-14,2.78E-11,"5.04 (2093,82,162,32)",[+] Show genes,Component,Up
+GO:0071005,U2-type precatalytic spliceosome,2.71E-14,1.43E-11,"5.31 (2093,47,235,28)",[+] Show genes,Component,Up
+GO:0071011,precatalytic spliceosome,3.41E-14,1.2E-11,"5.20 (2093,48,235,28)",[+] Show genes,Component,Up
+GO:0005686,U2 snRNP,2.09E-12,5.51E-10,"51.84 (2093,19,17,8)",[+] Show genes,Component,Up
+GO:0097525,spliceosomal snRNP complex,7.06E-12,0.00000000149,"4.45 (2093,56,235,28)",[+] Show genes,Component,Up
+GO:0030532,small nuclear ribonucleoprotein complex,1.38E-11,0.00000000242,"4.23 (2093,61,235,29)",[+] Show genes,Component,Up
+GO:0120114,Sm-like protein family complex,5.83E-11,0.00000000877,"3.83 (2093,72,235,31)",[+] Show genes,Component,Up
+GO:1902494,catalytic complex,8.95E-10,0.000000118,"1.79 (2093,274,414,97)",[+] Show genes,Component,Up
+GO:0005681,spliceosomal complex,0.00000000806,0.000000944,"8.74 (2093,169,17,12)",[+] Show genes,Component,Up
+GO:0071013,catalytic step 2 spliceosome,0.00000000881,0.000000928,"2.29 (2093,80,526,46)",[+] Show genes,Component,Up
+GO:0097526,spliceosomal tri-snRNP complex,0.000000217,0.0000208,"4.75 (2093,30,235,16)",[+] Show genes,Component,Up
+GO:0046540,U4/U6 x U5 tri-snRNP complex,0.000000217,0.0000191,"4.75 (2093,30,235,16)",[+] Show genes,Component,Up
+GO:0016607,nuclear speck,0.000000359,0.0000291,"3.78 (2093,182,67,22)",[+] Show genes,Component,Up
+GO:0016604,nuclear body,0.0000015,0.000113,"2.78 (2093,281,75,28)",[+] Show genes,Component,Up
+GO:0043657,host cell,0.00000491,0.000345,"26.70 (2093,14,28,5)",[+] Show genes,Component,Up
+GO:0044216,other organism cell,0.00000491,0.000324,"26.70 (2093,14,28,5)",[+] Show genes,Component,Up
+GO:0044217,other organism part,0.00000491,0.000305,"26.70 (2093,14,28,5)",[+] Show genes,Component,Up
+GO:0071007,U2-type catalytic step 2 spliceosome,0.00000578,0.000339,"4.34 (2093,27,250,14)",[+] Show genes,Component,Up
+GO:0005654,nucleoplasm,0.0000062,0.000344,"1.89 (2093,917,41,34)",[+] Show genes,Component,Up
+GO:0044451,nucleoplasm part,0.0000157,0.000826,"2.47 (2093,354,67,28)",[+] Show genes,Component,Up
+GO:0005689,U12-type spliceosomal complex,0.0000179,0.000898,"22.80 (2093,27,17,5)",[+] Show genes,Component,Up
+GO:0032991,protein-containing complex,0.0000281,0.00134,"1.24 (2093,1221,242,175)",[+] Show genes,Component,Up
+GO:0044428,nuclear part,0.0000662,0.00303,"1.23 (2093,1162,279,190)",[+] Show genes,Component,Up
+GO:0005635,nuclear envelope,0.000201,0.00882,"14.53 (2093,36,20,5)",[+] Show genes,Component,Up
+GO:0031975,envelope,0.000231,0.00973,"14.14 (2093,37,20,5)",[+] Show genes,Component,Up
+GO:0031967,organelle envelope,0.000231,0.00936,"14.14 (2093,37,20,5)",[+] Show genes,Component,Up
+GO:0005634,nucleus,0.000253,0.00986,"1.67 (2093,996,44,35)",[+] Show genes,Component,Up
+GO:0005690,U4atac snRNP,0.000397,0.015,"69.77 (2093,2,30,2)",[+] Show genes,Component,Up
+GO:0043227,membrane-bounded organelle,0.000425,0.0154,"1.33 (2093,1439,60,55)",[+] Show genes,Component,Up
+GO:1990234,transferase complex,0.000474,0.0166,"1.67 (2093,95,621,47)",[+] Show genes,Component,Up
+GO:0061695,"transferase complex, transferring phosphorus-containing groups",0.000651,0.0221,"2.30 (2093,32,541,19)",[+] Show genes,Component,Up
+GO:0005642,annulate lamellae,0.000695,0.0229,"18.47 (2093,4,85,3)",[+] Show genes,Component,Up
+GO:0005643,nuclear pore,0.000733,0.0234,"16.74 (2093,25,20,4)",[+] Show genes,Component,Up

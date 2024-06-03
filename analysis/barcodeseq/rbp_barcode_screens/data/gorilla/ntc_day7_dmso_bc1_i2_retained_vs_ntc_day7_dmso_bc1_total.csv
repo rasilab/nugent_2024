@@ -1,0 +1,87 @@
+GO term,Description,P-value,FDR q-value,"Enrichment (N, B, n, b)",Genes,Ontology,Direction
+GO:0000398,"mRNA splicing, via spliceosome",1.16E-30,8.47E-27,"6.66 (2093,241,60,46)",[+] Show genes,Process,Up
+GO:0000377,"RNA splicing, via transesterification reactions with bulged adenosine as nucleophile",1.16E-30,4.23E-27,"6.66 (2093,241,60,46)",[+] Show genes,Process,Up
+GO:0000375,"RNA splicing, via transesterification reactions",3.23E-30,7.89E-27,"6.52 (2093,246,60,46)",[+] Show genes,Process,Up
+GO:0008380,RNA splicing,5.04E-29,9.23E-26,"5.15 (2093,329,63,51)",[+] Show genes,Process,Up
+GO:0006397,mRNA processing,5.65E-26,8.27E-23,"4.52 (2093,375,63,51)",[+] Show genes,Process,Up
+GO:0016071,mRNA metabolic process,2.76E-17,3.37E-14,"3.07 (2093,552,63,51)",[+] Show genes,Process,Up
+GO:0006396,RNA processing,2.29E-13,2.39E-10,"2.34 (2093,709,68,54)",[+] Show genes,Process,Up
+GO:0016070,RNA metabolic process,0.0000000478,0.0000438,"1.92 (2093,988,43,39)",[+] Show genes,Process,Up
+GO:0000387,spliceosomal snRNP assembly,0.000000101,0.0000819,"3.02 (2093,34,490,24)",[+] Show genes,Process,Up
+GO:0090304,nucleic acid metabolic process,0.00000048,0.000352,"1.52 (2093,1066,102,79)",[+] Show genes,Process,Up
+GO:0006139,nucleobase-containing compound metabolic process,0.00000198,0.00132,"1.73 (2093,1099,43,39)",[+] Show genes,Process,Up
+GO:0006725,cellular aromatic compound metabolic process,0.00000229,0.0014,"1.72 (2093,1106,43,39)",[+] Show genes,Process,Up
+GO:0046483,heterocycle metabolic process,0.00000229,0.00129,"1.72 (2093,1106,43,39)",[+] Show genes,Process,Up
+GO:1901360,organic cyclic compound metabolic process,0.00000352,0.00184,"1.69 (2093,1120,43,39)",[+] Show genes,Process,Up
+GO:0000244,spliceosomal tri-snRNP complex assembly,0.00000798,0.0039,"10.26 (2093,12,119,7)",[+] Show genes,Process,Up
+GO:1900087,positive regulation of G1/S transition of mitotic cell cycle,0.000022,0.0101,"4.00 (2093,11,476,10)",[+] Show genes,Process,Up
+GO:0034641,cellular nitrogen compound metabolic process,0.000022,0.00949,"1.60 (2093,1185,43,39)",[+] Show genes,Process,Up
+GO:0000350,generation of catalytic spliceosome for second transesterification step,0.0000256,0.0104,"261.62 (2093,2,8,2)",[+] Show genes,Process,Up
+GO:1901990,regulation of mitotic cell cycle phase transition,0.0000372,0.0143,"2.90 (2093,75,212,22)",[+] Show genes,Process,Up
+GO:1901987,regulation of cell cycle phase transition,0.000047,0.0172,"2.86 (2093,76,212,22)",[+] Show genes,Process,Up
+GO:1902750,negative regulation of cell cycle G2/M phase transition,0.0000575,0.02,"5.10 (2093,20,205,10)",[+] Show genes,Process,Up
+GO:0010972,negative regulation of G2/M transition of mitotic cell cycle,0.0000575,0.0191,"5.10 (2093,20,205,10)",[+] Show genes,Process,Up
+GO:0043170,macromolecule metabolic process,0.0000663,0.0211,"1.20 (2093,1389,237,188)",[+] Show genes,Process,Up
+GO:0006807,nitrogen compound metabolic process,0.0000929,0.0284,"1.38 (2093,1389,60,55)",[+] Show genes,Process,Up
+GO:0044237,cellular metabolic process,0.0000996,0.0292,"1.16 (2093,1504,237,198)",[+] Show genes,Process,Up
+GO:0044238,primary metabolic process,0.000106,0.0298,"1.37 (2093,1405,60,55)",[+] Show genes,Process,Up
+GO:1902808,positive regulation of cell cycle G1/S phase transition,0.000112,0.0304,"3.66 (2093,12,476,10)",[+] Show genes,Process,Up
+GO:0071826,ribonucleoprotein complex subunit organization,0.000114,0.0298,"2.68 (2093,209,86,23)",[+] Show genes,Process,Up
+GO:0007346,regulation of mitotic cell cycle,0.000123,0.031,"2.52 (2093,98,212,25)",[+] Show genes,Process,Up
+GO:0006521,regulation of cellular amino acid metabolic process,0.000157,0.0382,"5.10 (2093,18,205,9)",[+] Show genes,Process,Up
+GO:0033238,regulation of cellular amine metabolic process,0.000157,0.037,"5.10 (2093,18,205,9)",[+] Show genes,Process,Up
+GO:1901988,negative regulation of cell cycle phase transition,0.000251,0.0575,"3.30 (2093,46,207,15)",[+] Show genes,Process,Up
+GO:1901991,negative regulation of mitotic cell cycle phase transition,0.000251,0.0557,"3.30 (2093,46,207,15)",[+] Show genes,Process,Up
+GO:0002479,"antigen processing and presentation of exogenous peptide antigen via MHC class I, TAP-dependent",0.000274,0.059,"4.84 (2093,19,205,9)",[+] Show genes,Process,Up
+GO:0042590,antigen processing and presentation of exogenous peptide antigen via MHC class I,0.000274,0.0573,"4.84 (2093,19,205,9)",[+] Show genes,Process,Up
+GO:0000390,spliceosomal complex disassembly,0.000274,0.0557,"83.72 (2093,2,25,2)",[+] Show genes,Process,Up
+GO:0045930,negative regulation of mitotic cell cycle,0.000307,0.0607,"3.11 (2093,52,207,16)",[+] Show genes,Process,Up
+GO:0008152,metabolic process,0.000347,0.0669,"1.15 (2093,1526,237,199)",[+] Show genes,Process,Up
+GO:2000045,regulation of G1/S transition of mitotic cell cycle,0.000379,0.0711,"2.66 (2093,33,405,17)",[+] Show genes,Process,Up
+GO:1902806,regulation of cell cycle G1/S phase transition,0.000379,0.0693,"2.66 (2093,33,405,17)",[+] Show genes,Process,Up
+GO:1901992,positive regulation of mitotic cell cycle phase transition,0.000431,0.077,"3.38 (2093,13,476,10)",[+] Show genes,Process,Up
+GO:0045582,positive regulation of T cell differentiation,0.000453,0.079,"65.41 (2093,2,32,2)",[+] Show genes,Process,Up
+GO:0010948,negative regulation of cell cycle process,0.000554,0.0944,"2.86 (2093,60,207,17)",[+] Show genes,Process,Up
+GO:0022618,ribonucleoprotein complex assembly,0.000573,0.0954,"2.57 (2093,199,86,21)",[+] Show genes,Process,Up
+GO:0033209,tumor necrosis factor-mediated signaling pathway,0.000574,0.0933,"2.01 (2093,21,892,18)",[+] Show genes,Process,Up
+GO:0045292,"mRNA cis splicing, via spliceosome",0.000656,0.104,"4.31 (2093,12,324,8)",[+] Show genes,Process,Up
+GO:0043555,regulation of translation in response to stress,0.000787,0.123,"5.49 (2093,8,286,6)",[+] Show genes,Process,Up
+GO:0038061,NIK/NF-kappaB signaling,0.000803,0.122,"4.80 (2093,17,205,8)",[+] Show genes,Process,Up
+GO:0031146,SCF-dependent proteasomal ubiquitin-dependent protein catabolic process,0.000803,0.12,"4.80 (2093,17,205,8)",[+] Show genes,Process,Up
+GO:0036490,regulation of translation in response to endoplasmic reticulum stress,0.000939,0.138,"7.32 (2093,4,286,4)",[+] Show genes,Process,Up
+GO:0071704,organic substance metabolic process,0.000962,0.138,"1.31 (2093,1468,60,55)",[+] Show genes,Process,Up
+GO:0050851,antigen receptor-mediated signaling pathway,0.000981,0.138,"3.27 (2093,28,274,12)",[+] Show genes,Process,Up
+GO:0050852,T cell receptor signaling pathway,0.000981,0.135,"3.27 (2093,28,274,12)",[+] Show genes,Process,Up
+GO:0005684,U2-type spliceosomal complex,2.4E-35,2.53E-32,"12.29 (2093,82,81,39)",[+] Show genes,Component,Up
+GO:0005681,spliceosomal complex,8.81E-34,4.65E-31,"8.65 (2093,169,63,44)",[+] Show genes,Component,Up
+GO:0071013,catalytic step 2 spliceosome,1.35E-27,4.75E-25,"9.22 (2093,80,105,37)",[+] Show genes,Component,Up
+GO:0071007,U2-type catalytic step 2 spliceosome,2.43E-19,6.4E-17,"17.89 (2093,27,78,18)",[+] Show genes,Component,Up
+GO:0071005,U2-type precatalytic spliceosome,2.34E-14,4.94E-12,"10.45 (2093,47,81,19)",[+] Show genes,Component,Up
+GO:0071011,precatalytic spliceosome,3.85E-14,6.76E-12,"10.23 (2093,48,81,19)",[+] Show genes,Component,Up
+GO:1990904,ribonucleoprotein complex,6.21E-14,9.34E-12,"2.17 (2093,727,89,67)",[+] Show genes,Component,Up
+GO:0016607,nuclear speck,1.73E-13,2.29E-11,"4.55 (2093,182,86,34)",[+] Show genes,Component,Up
+GO:1902494,catalytic complex,2.16E-13,2.53E-11,"3.60 (2093,274,89,42)",[+] Show genes,Component,Up
+GO:0005654,nucleoplasm,3.69E-12,3.89E-10,"1.96 (2093,917,71,61)",[+] Show genes,Component,Up
+GO:0016604,nuclear body,1.55E-11,0.00000000149,"3.29 (2093,281,86,38)",[+] Show genes,Component,Up
+GO:0030532,small nuclear ribonucleoprotein complex,5.41E-11,0.00000000475,"7.62 (2093,61,81,18)",[+] Show genes,Component,Up
+GO:0097526,spliceosomal tri-snRNP complex,1.2E-10,0.00000000973,"3.50 (2093,30,498,25)",[+] Show genes,Component,Up
+GO:0046540,U4/U6 x U5 tri-snRNP complex,1.2E-10,0.00000000904,"3.50 (2093,30,498,25)",[+] Show genes,Component,Up
+GO:0097525,spliceosomal snRNP complex,1.33E-10,0.00000000933,"7.84 (2093,56,81,17)",[+] Show genes,Component,Up
+GO:0120114,Sm-like protein family complex,1.51E-10,0.00000000992,"2.53 (2093,72,518,45)",[+] Show genes,Component,Up
+GO:0044428,nuclear part,2.39E-10,0.0000000148,"1.69 (2093,1162,64,60)",[+] Show genes,Component,Up
+GO:0005634,nucleus,5.23E-10,0.0000000306,"1.72 (2093,996,88,72)",[+] Show genes,Component,Up
+GO:0071014,post-mRNA release spliceosomal complex,0.00000000132,0.000000073,"54.36 (2093,11,21,6)",[+] Show genes,Component,Up
+GO:0000974,Prp19 complex,0.00000000244,0.000000129,"19.52 (2093,11,78,8)",[+] Show genes,Component,Up
+GO:0071012,catalytic step 1 spliceosome,0.00000000305,0.000000153,"19.27 (2093,11,79,8)",[+] Show genes,Component,Up
+GO:0071006,U2-type catalytic step 1 spliceosome,0.00000000305,0.000000146,"19.27 (2093,11,79,8)",[+] Show genes,Component,Up
+GO:0044451,nucleoplasm part,0.00000000572,0.000000262,"2.77 (2093,354,79,37)",[+] Show genes,Component,Up
+GO:0032991,protein-containing complex,0.0000000342,0.0000015,"1.46 (2093,1221,103,88)",[+] Show genes,Component,Up
+GO:0005682,U5 snRNP,0.00000638,0.000269,"11.89 (2093,16,77,7)",[+] Show genes,Component,Up
+GO:0071020,post-spliceosomal complex,0.0000256,0.00104,"261.62 (2093,2,8,2)",[+] Show genes,Component,Up
+GO:0034719,SMN-Sm protein complex,0.0000547,0.00214,"3.27 (2093,17,490,13)",[+] Show genes,Component,Up
+GO:0015030,Cajal body,0.000115,0.00432,"3.33 (2093,34,277,15)",[+] Show genes,Component,Up
+GO:0071008,U2-type post-mRNA release spliceosomal complex,0.000119,0.00434,"139.53 (2093,3,10,2)",[+] Show genes,Component,Up
+GO:0005690,U4atac snRNP,0.000749,0.0263,"51.05 (2093,2,41,2)",[+] Show genes,Component,Up
+GO:0005851,eukaryotic translation initiation factor 2B complex,0.000862,0.0293,"6.37 (2093,6,274,5)",[+] Show genes,Component,Up
+GO:0043231,intracellular membrane-bounded organelle,0.000875,0.0288,"1.33 (2093,1341,74,63)",[+] Show genes,Component,Up
+GO:0044446,intracellular organelle part,0.000884,0.0282,"1.25 (2093,1566,64,60)",[+] Show genes,Component,Up

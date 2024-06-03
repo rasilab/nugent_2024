@@ -1,0 +1,101 @@
+gene,annotation,comment
+AQR,Spliceosome/splicing-associated,"IBC, helicase"
+BRF2,Spliceosome/splicing-associated,
+BUD13,Spliceosome/splicing-associated,RES
+CACTIN,Spliceosome/splicing-associated,C
+CDC40,Spliceosome/splicing-associated,Step 2
+CDC5L,Spliceosome/splicing-associated,NTC
+CDK11B,Spliceosome/splicing-associated,
+CRNKL1,Spliceosome/splicing-associated,NTC
+RBM22,Spliceosome/splicing-associated,NTC
+ZMAT2,Spliceosome/splicing-associated,B
+CSE1L,Nuclear import,
+CWC15,Spliceosome/splicing-associated,NTR
+CWC22,Spliceosome/splicing-associated,Bact
+CWC25,Spliceosome/splicing-associated,Bact
+CWF19L2,Spliceosome/splicing-associated,ILS
+DDX23,Spliceosome/splicing-associated,"U5, helicase"
+DDX41,Spliceosome/splicing-associated,C
+ESS2,Spliceosome/splicing-associated,C
+MFAP1,Spliceosome/splicing-associated,B
+DHX15,Spliceosome/splicing-associated,"ILS, helicase"
+DHX16,Spliceosome/splicing-associated,"Bact, helicase"
+DHX38,Spliceosome/splicing-associated,"Step 2, helicase"
+DHX8,Spliceosome/splicing-associated,Step 2
+DNAJC17,Spliceosome/splicing-associated,
+ELAVL1,Spliceosome/splicing-associated,
+EXOSC4,RNA exosome,
+EXOSC6,RNA exosome,
+EXOSC8,RNA exosome,
+EXOSC9,RNA exosome,
+FAM32A,Spliceosome/splicing-associated,
+GPKOW,Spliceosome/splicing-associated,Bact
+HNRNPC,Spliceosome/splicing-associated,
+ISY1,Spliceosome/splicing-associated,IBC
+KPNB1,Nuclear import,
+LSM4,Spliceosome/splicing-associated,U4/U6
+SNU13,Spliceosome/splicing-associated,U4/U6
+NKAP,Spliceosome/splicing-associated,Step 2
+NSRP1,Spliceosome/splicing-associated,C
+NUTF2,Nuclear import,
+PHF5A,U2 snRNP,U2
+PLRG1,Spliceosome/splicing-associated,NTC
+PPIE,Spliceosome/splicing-associated,IBC
+PPIL4,Spliceosome/splicing-associated,Bact
+PPWD1,Spliceosome/splicing-associated,C
+PRPF18,Spliceosome/splicing-associated,Step 2
+PRPF19,Spliceosome/splicing-associated,NTC
+PRPF31,Spliceosome/splicing-associated,U4/U6
+PRPF38A,Spliceosome/splicing-associated,B
+PRPF4,Spliceosome/splicing-associated,U4/U6
+PRPF6,Spliceosome/splicing-associated,U5
+RAN,Nuclear import,
+RANBP2,Nuclear import,
+RNF113A,Spliceosome/splicing-associated,Bact
+RPL13,60S ribosome,
+RPL15,60S ribosome,
+RPL18,60S ribosome,
+RPL18,60S ribosome,
+RPL30,60S ribosome,
+RPL31,60S ribosome,
+RPL35A,60S ribosome,
+RPL7,60S ribosome,
+RPL8,60S ribosome,
+SART1,Spliceosome/splicing-associated,Tri-snRNP
+SART3,Spliceosome/splicing-associated,
+SF3A1,U2 snRNP,U2
+SF3A3,U2 snRNP,U2
+SF3B1,U2 snRNP,U2
+SF3B2,U2 snRNP,U2
+SF3B3,U2 snRNP,U2
+SF3B5,U2 snRNP,U2
+SF3B6,U2 snRNP,U2
+MTREX,RNA exosome,
+SLU7,Spliceosome/splicing-associated,Step 2
+SNIP1,Spliceosome/splicing-associated,RES
+RBMX2,Spliceosome/splicing-associated,RES
+SNRNP200,Spliceosome/splicing-associated,"U5, helicase"
+SNRNP40,Spliceosome/splicing-associated,U5
+SNRPF,Spliceosome/splicing-associated,U5
+SNRPA1,U2 snRNP,U2
+SNW1,Spliceosome/splicing-associated,Bact
+SRRM2,Spliceosome/splicing-associated,C
+TFIP11,Spliceosome/splicing-associated,ILS
+USP39,Spliceosome/splicing-associated,U4/U6
+XAB2,Spliceosome/splicing-associated,IBC
+YTHDC1,Spliceosome/splicing-associated,
+EIF4A3,Spliceosome/splicing-associated,
+MAGOH,Spliceosome/splicing-associated,
+RBM8A,Spliceosome/splicing-associated,
+DBR1,Spliceosome/splicing-associated,
+WBP11,Spliceosome/splicing-associated,
+SUPT6H,Spliceosome/splicing-associated,
+NCBP1,Spliceosome/splicing-associated,
+NCBP2,Spliceosome/splicing-associated,
+THOC1,Spliceosome/splicing-associated,
+ZC3H13,Spliceosome/splicing-associated,
+WTAP,Spliceosome/splicing-associated,
+METTL3,Spliceosome/splicing-associated,
+ALYREF,Spliceosome/splicing-associated,
+EFTUD2,Spliceosome/splicing-associated,U5
+U2SURP,Spliceosome/splicing-associated,
