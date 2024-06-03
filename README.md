@@ -52,7 +52,7 @@ sh run_everything.sh
 
 ## Code to generate figure panels from manuscript
 
-| Figure panels | Experiment                                                              | Script                                                                      |
-| ------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| 1B            | Flow cytometry of cells expressing sgEYFP/FLUC, Cas9, and EYFP reporter | [analysis/flow_cytometry/eyfp_reporter_sgeyfp/scripts/plot_fig1_flow.ipynb] |
-| S4A           | qPCR comparison of β-globin PTC/NTC reporter levels                     | [analysis/qpcr/nmd_reporter_validation/scripts/plot_figs4_qpcr.ipynb]       |
+| Figure panels | Experiment                                                              | Script                                                                                                                                                 |
+| ------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1B            | Flow cytometry of cells expressing sgEYFP/FLUC, Cas9, and EYFP reporter | [analysis/flow_cytometry/eyfp_reporter_sgeyfp/scripts/plot_fig1_flow.ipynb](analysis/flow_cytometry/eyfp_reporter_sgeyfp/scripts/plot_fig1_flow.ipynb) |
+| S4A           | qPCR comparison of β-globin PTC/NTC reporter levels                     | [analysis/qpcr/nmd_reporter_validation/scripts/plot_figs4_qpcr.ipynb](analysis/qpcr/nmd_reporter_validation/scripts/plot_figs4_qpcr.ipynb)             |
