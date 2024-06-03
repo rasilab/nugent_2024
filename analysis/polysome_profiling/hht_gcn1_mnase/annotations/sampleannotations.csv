@@ -1,9 +1,9 @@
 file,sgRNA,Treatment,nuclease
-227l2,GCN1,HHT,no MNase
-227l3,GCN1,DMSO,no MNase
-227l5,FLUC,HHT,no MNase
-227l6,FLUC,DMSO,no MNase
-227l12,GCN1,HHT,MNase
-227l13,GCN1,DMSO,MNase
-227l15,FLUC,HHT,MNase
-227l16,FLUC,DMSO,MNase
+227l2,GCN1,HHT,- micrococcal nuclease
+227l3,GCN1,DMSO,- micrococcal nuclease
+227l5,FLUC,HHT,- micrococcal nuclease
+227l6,FLUC,DMSO,- micrococcal nuclease
+227l12,GCN1,HHT,+ micrococcal nuclease
+227l13,GCN1,DMSO,+ micrococcal nuclease
+227l15,FLUC,HHT,+ micrococcal nuclease
+227l16,FLUC,DMSO,+ micrococcal nuclease

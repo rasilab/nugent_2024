@@ -52,7 +52,8 @@ sh run_everything.sh
 
 ## Code to generate figure panels from manuscript
 
-| Figure panels | Experiment                                                              | Script                                                                                                                                                 |
-| ------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1B            | Flow cytometry of cells expressing sgEYFP/FLUC, Cas9, and EYFP reporter | [analysis/flow_cytometry/eyfp_reporter_sgeyfp/scripts/plot_fig1_flow.ipynb](analysis/flow_cytometry/eyfp_reporter_sgeyfp/scripts/plot_fig1_flow.ipynb) |
-| S4A           | qPCR comparison of β-globin PTC/NTC reporter levels                     | [analysis/qpcr/nmd_reporter_validation/scripts/plot_figs4_qpcr.ipynb](analysis/qpcr/nmd_reporter_validation/scripts/plot_figs4_qpcr.ipynb)             |
+| Figure panels | Experiment                                                                  | Script                                                                                                                                                 |
+| ------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1B            | Flow cytometry of cells expressing sgEYFP/FLUC, Cas9, and EYFP reporter     | [analysis/flow_cytometry/eyfp_reporter_sgeyfp/scripts/plot_fig1_flow.ipynb](analysis/flow_cytometry/eyfp_reporter_sgeyfp/scripts/plot_fig1_flow.ipynb) |
+| S4A           | qPCR comparison of β-globin PTC/NTC reporter levels                         | [analysis/qpcr/nmd_reporter_validation/scripts/plot_figs4_qpcr.ipynb](analysis/qpcr/nmd_reporter_validation/scripts/plot_figs4_qpcr.ipynb)             |
+| S4F           | Polysome profiles from GCN1-depleted and control cells during HHT treatment | [analysis/polysome_profiling/hht_gcn1_mnase/plot_figs4_polysomes.ipynb](analysis/polysome_profiling/hht_gcn1_mnase/plot_figs4_polysomes.ipynb)         |
