@@ -372,6 +372,7 @@ rule run_mageck:
     mageck test -k {input.counts} -t treatment -c control \
     --sort-criteria pos \
     -n {params.output_prefix} \
+    --additional-rra-parameters "--min-number-goodsgrna 3" \
     &> {log}
     mv $(echo {output.mageck_gene_summary} | sed 's/.tsv/.txt/') {output.mageck_gene_summary}
     mv $(echo {output.mageck_sgrna_summary} | sed 's/.tsv/.txt/') {output.mageck_sgrna_summary}
