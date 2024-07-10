@@ -34,7 +34,7 @@ body:
     attributes:
       label: Contact Details
       description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      placeholder: email address or a link to your contact info webpage
     validations:
       required: true
   - type: checkboxes
