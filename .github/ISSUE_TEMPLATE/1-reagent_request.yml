@@ -8,8 +8,8 @@ body:
   - type: markdown
     attributes:
       value: >
-        We are happy to share all [plasmids](/data/supplementary_tables/table_s2_list_of_plasmids.csv) 
-        and most [cell lines](/data/supplementary_tables/table_s4_list_of_celllines.csv) 
+        We are happy to share all [plasmids](/rasilab/nugent_2024/data/supplementary_tables/table_s2_list_of_plasmids.csv) 
+        and most [cell lines](/rasilab/nugent_2024/data/supplementary_tables/table_s4_list_of_celllines.csv) 
         developed as part of this paper. 
         We are unable to ship cell line pools with integrated plasmid libraries 
         since they need large volume culturing to maintain library diversity.
