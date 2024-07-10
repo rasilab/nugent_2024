@@ -1,0 +1,44 @@
+name: Ask a methodological question
+description: Methodological questions
+title: 
+labels: ["question"]
+assignees:
+  - rasi
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We are happy to address any methodological questions that you might have.
+  - type: input
+    id: name
+    attributes:
+      label: Requester name
+      description: 
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: institution
+    attributes:
+      label: Institution
+      description: 
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Questions
+      description: What would you like to ask us?
+      placeholder: 
+      value: 
+    validations:
+      required: true  

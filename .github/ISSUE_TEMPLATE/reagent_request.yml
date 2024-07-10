@@ -1,0 +1,71 @@
+name: Reagent request
+description: Requesting reagents from paper
+title: 
+labels: ["request"]
+assignees:
+  - rasi
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We are happy to share all plasmids and most cell lines that are part of this paper. The exception is CRISPR library cell lines due to challenges with maintaining and storing such large amounts of cells.
+  - type: input
+    id: name
+    attributes:
+      label: Requester name
+      description: 
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: institution
+    attributes:
+      label: Institution
+      description: 
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: checkboxes
+    id: request-type
+    attributes:
+      label: What are you requesting?
+      description: You may select more than one
+      options:
+        - label: Plasmid(s)
+        - label: Cell line(s)
+      validations:
+        required: true
+  - type: textarea
+    id: reagent-list
+    attributes:
+      label: Reagents requested
+      description: Please provide a list of the reagent(s) that you would like us to send.
+      placeholder: ex. pHPHS806, hsPN266, Cas9 landing pad cell line
+      value: 
+    validations:
+      required: true  
+  - type: input
+    id: fedex
+    attributes:
+      label: Fedex account number
+      description: Please provide a Fedex account number that we can charge for shipping.
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: shipping-address
+    attributes:
+      label: Shipping address
+      description: Please provide the address that you would like the reagent(s) sent to.
+      placeholder: 
+      value: 
+    validations:
+      required: true

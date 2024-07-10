@@ -1,0 +1,44 @@
+name: Request for clarification
+description: Requesting clarification
+title: 
+labels: ["clarification"]
+assignees:
+  - rasi
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please let us know if you would like us to clarify any points from the paper. We will be happy to answer your question.
+  - type: input
+    id: name
+    attributes:
+      label: Requester name
+      description: 
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: institution
+    attributes:
+      label: Institution
+      description: 
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Questions or comments
+      description: What would you like us to clarify?
+      placeholder: 
+      value: 
+    validations:
+      required: true  
