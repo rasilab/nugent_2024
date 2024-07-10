@@ -7,8 +7,12 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: |
-        We are happy to share all plasmids and most cell lines that are part of this paper. The exception is CRISPR library cell lines due to challenges with maintaining and storing such large amounts of cells.
+      value: >
+        We are happy to share all [plasmids](data/supplementary_tables/table_s2_list_of_plasmids.csv) 
+        and most [cell lines](data/supplementary_tables/table_s4_list_of_celllines.csv) 
+        developed as part of this paper. 
+        We are unable to ship cell line pools with integrated plasmid libraries 
+        since they need large volume culturing to maintain library diversity.
   - type: input
     id: name
     attributes:
@@ -46,7 +50,7 @@ body:
     attributes:
       label: Reagents requested
       description: Please provide a list of the reagent(s) that you would like us to send.
-      placeholder: ex. pHPHS806, hsPN266, Cas9 landing pad cell line
+      placeholder: example pHPHS806 (reporter vector) or hsPN266 (Cas9 landing pad cell line)
       value: 
     validations:
       required: true  
