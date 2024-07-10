@@ -1,6 +1,6 @@
 name: Protocol question
 description: Questions related to materials or methods used in the paper
-title: "<Example: Enzyme used for PCR amplication during cloning>"
+title: "<Example: Enzyme used for PCR amplification during cloning>"
 labels: ["protocol"]
 assignees:
   - rasi
