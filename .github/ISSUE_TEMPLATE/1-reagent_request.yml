@@ -50,7 +50,10 @@ body:
     attributes:
       label: Reagents requested
       description: Please provide a list of the reagent(s) that you would like us to send.
-      placeholder: example pHPHS806 (reporter vector) or hsPN266 (Cas9 landing pad cell line)
+      placeholder: |
+        example:
+        - pHPHS806 (reporter vector)
+        - hsPN266 (Cas9 landing pad cell line)
       value: 
     validations:
       required: true  
