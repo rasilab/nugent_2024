@@ -41,8 +41,6 @@ body:
       options:
         - label: Plasmid(s)
         - label: Cell line(s)
-      validations:
-        required: true
   - type: textarea
     id: reagent-list
     attributes:
