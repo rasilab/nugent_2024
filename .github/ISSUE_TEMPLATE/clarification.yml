@@ -1,6 +1,6 @@
 name: Request for clarification
 description: Requesting clarification
-title: 
+title: "[Clarification:] "
 labels: ["clarification"]
 assignees:
   - rasi

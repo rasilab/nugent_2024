@@ -1,6 +1,6 @@
 name: Reagent request
 description: Requesting reagents from paper
-title: 
+title: "[Request:] "
 labels: ["request"]
 assignees:
   - rasi

@@ -1,6 +1,6 @@
 name: Ask a methodological question
 description: Methodological questions
-title: 
+title: "[Question:] "
 labels: ["question"]
 assignees:
   - rasi
