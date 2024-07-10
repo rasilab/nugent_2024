@@ -1,13 +1,13 @@
-name: Request for clarification
-description: Requesting clarification
-title: "[Clarification:] "
-labels: ["clarification"]
+name: Clarification
+description: Anything else you want to ask us about our paper   
+title: "<example: Reason for choice of cell line>"
+labels: ["question"]
 assignees:
   - rasi
 body:
   - type: markdown
     attributes:
-      value: |
+      value: >
         Please let us know if you would like us to clarify any points from the paper. We will be happy to answer your question.
   - type: input
     id: name
@@ -30,7 +30,7 @@ body:
     attributes:
       label: Contact Details
       description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      placeholder: email address or a link to your contact info webpage
     validations:
       required: true
   - type: textarea
