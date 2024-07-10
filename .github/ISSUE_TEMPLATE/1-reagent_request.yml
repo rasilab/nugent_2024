@@ -1,7 +1,7 @@
 name: Reagent request
 description: Requesting reagents from paper
-title: "Example: Requesting Cas9 expression plasmid"
-labels: ["request"]
+title: "<Example: Requesting Cas9 expression plasmid>"
+labels: ["reagent request"]
 assignees:
   - rasi
 body:
