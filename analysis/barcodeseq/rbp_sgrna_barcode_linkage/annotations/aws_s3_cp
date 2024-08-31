@@ -1,0 +1,22 @@
+#!/bin/bash
+# change this location to mirror the location of the current folder in your local computer
+s3_location="s3://fh-pi-subramaniam-a-eco/git_repos/nugent_2024/analysis/barcodeseq/rbp_sgrna_barcode_linkage/annotations"
+# file pattern to transfer. You can use wildcards like *.fastq
+pattern="*.csv"
+
+if [[ "$1" == "upload" ]]; then
+  files=`ls $pattern`
+  for file in $files; do
+    aws s3 cp  $file $s3_location/
+  done
+elif [[ "$1" == "download" ]]; then
+  for file in `aws s3 ls $s3_location/ | awk '{print $4}' | grep -E "$pattern"`; do
+    aws s3 cp  $s3_location/$file .
+  done
+else
+  echo "Copy files to or from AWS S3
+Usage: aws_s3_cp [upload|download]"
+  for file in $files; do
+    echo $s3_location/$file 
+  done
+fi
