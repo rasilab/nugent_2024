@@ -23,6 +23,9 @@ illumina_sample_annotations = (
   .set_index('illumina_sample_id')
 )
 
+# calculate reads we need for pre-processing
+illumina_sample_annotations['n_reads'] = illumina_sample_annotations[['barcode1_read','subpool_barcode_read','umi_read']].max(axis=1).astype(int) 
+
 # barcodes with UMI counts below this cutoff are discarded
 umi_cutoff = 20
 
@@ -46,8 +49,8 @@ rule all:
       illumina_sample_id=illumina_sample_annotations.index),
     subpool_counts = expand('../data/subpool_barcode_counts/{sample_id}.csv', 
       sample_id=sample_annotations.index),
-    # library_stats = expand('../data/library_statistics/{sample_id}.csv',
-    #   sample_id=sample_annotations.index),
+    library_stats = expand('../data/library_statistics/{sample_id}.csv',
+      sample_id=sample_annotations.index),
     insert_counts = expand('../data/insert_counts/{sample_id}.csv',
       sample_id=sample_annotations.index),
     insert_counts_random_partition = expand('../data/insert_counts_random_partition/{sample_id}.csv',
@@ -62,20 +65,77 @@ rule all:
                            sample_name=list(zip(mageck_comparisons['treatment'], mageck_comparisons['control']))),
     mageck_sgrna_summary = expand('../data/mageck/{sample_name[0]}_vs_{sample_name[1]}/mageck.sgrna_summary.tsv', 
                            sample_name=list(zip(mageck_comparisons['treatment'], mageck_comparisons['control']))),
-    gene_summary = '../data/mageck/gene_summary_table.csv',
-    sgrna_summary = '../data/mageck/sgrna_summary_table.csv',
+    gene_summary = '../data/mageck/gene_summary_table.csv.gz',
+    sgrna_summary = '../data/mageck/sgrna_summary_table.csv.gz',
+
+
+def get_fastq_files_from_srr(srr):
+  """This function returns the names of fastq files for parallel-fastq-dump
+  """
+  illumina_sample_id = illumina_sample_annotations.loc[illumina_sample_annotations['srr'] == srr].index[0]
+  n_reads = illumina_sample_annotations.loc[illumina_sample_id, 'n_reads']
+  filenames = [f'../data/fastq/{srr}_{read}.fastq' for read in range(1,n_reads+1)]
+  return filenames
 
 
 def get_split_read_files_input(wildcards):
-  """This function returns the names of R1,R2,R3 files for combining them
+  """This function returns the names of fastq files for combining them
   """
-  filenames = [f'../data/fastq/{filename}' 
-      for filename in filter(lambda x: re.search(f'{wildcards.illumina_sample_id}_', x) and re.search('_R[123]_', x) and x.endswith('.fastq'), os.listdir('../data/fastq/'))]
-  if len(filenames) == 0:
-      raise FileNotFoundError(f"No input FASTQ files for {wildcards.illumina_sample_id}!") 
-  if len(filenames) > 3:
-      raise RuntimeError(f"Too many input FASTQ files for {wildcards.illumina_sample_id}: " + " | ".join(filenames)) 
-  return list(sorted(filenames))
+  srr = illumina_sample_annotations.loc[wildcards.illumina_sample_id, 'srr']
+  # Get the results from the checkpoint, this is done here simply to make
+  # the function depend on the checkpoint, but is not used in the function
+  checkpoint_output = checkpoints.get_fastq.get(srr=srr).output[0]
+  n_reads = illumina_sample_annotations.loc[wildcards.illumina_sample_id, 'n_reads']
+  filenames = [f'../data/fastq/{srr}_{read}.fastq' for read in range(1,n_reads+1)]
+  return filenames
+
+
+rule download_sra:
+  """Download SRA file from NCBI database"""
+  input:
+  output:
+    '../data/sra/{srr}.sra'
+  threads: 1 
+  container: "docker://ghcr.io/rasilab/sratools:3.0.8"
+  shell:
+    """
+    set +e # continue if there is an error code
+    prefetch {wildcards.srr} --output-file {output} 
+    exitcode=$?
+    if [ $exitcode -eq 1 ]
+    then
+      exit 1
+    else
+      exit 0
+    fi    
+    """
+
+
+checkpoint get_fastq:
+  """Convert SRA to variable fastq"""
+  input: '../data/sra/{srr}.sra'
+  output: '../data/fastq/{srr}_1.fastq'
+  params:
+    directory = '../data/fastq'
+  threads: 36
+  container: "docker://ghcr.io/rasilab/parallel_fastq_dump:0.6.7"
+  shell:
+    """
+    set +e # continue if there is an error code
+    parallel-fastq-dump \
+      --sra-id {input} \
+      --threads {threads} \
+      --outdir {params.directory} \
+      --tmpdir {params.directory} \
+      --split-files
+    exitcode=$?
+    if [ $exitcode -eq 1 ]
+    then
+      exit 1
+    else
+      exit 0
+    fi    
+    """
 
 
 rule extract_barcodes_and_count_umi_read:
@@ -410,13 +470,13 @@ rule combine_mageck_tables:
                            sample_name=list(zip(mageck_comparisons['treatment'], mageck_comparisons['control']))),
     notebook = "combine_mageck_data.ipynb"
   output:
-    gene_summary = '../data/mageck/gene_summary_table.csv',
-    sgrna_summary = '../data/mageck/sgrna_summary_table.csv',
+    gene_summary = '../data/mageck/gene_summary_table.csv.gz',
+    sgrna_summary = '../data/mageck/sgrna_summary_table.csv.gz',
   container: 'docker://ghcr.io/rasilab/r:1.0.0'
   shell:
     """
       jupyter nbconvert --to script --ExecutePreprocessor.kernel_name=ir {input.notebook}
       notebook={input.notebook}
       script="${{notebook/.ipynb/.r}}"
-      Rscript ${{script}}  
+      Rscript ${{script}}
     """

@@ -1,0 +1,21 @@
+#! /bin/bash
+S3_LOCATION_START="s3://fh-pi-subramaniam-a-eco-public/git_repos/"
+S3_LOCATION_END=$(pwd | grep -o -P "(?<=git/).+$")/
+PATTERN="*_summary_table.csv.gz"
+
+if [[ "$1" == "upload" ]]; then
+  FILES=`ls $PATTERN`
+  for FILE in $FILES; do
+    aws s3 cp  $FILE $S3_LOCATION_START$S3_LOCATION_END
+  done
+elif [[ "$1" == "download" ]]; then
+  for FILE in `aws s3 ls $S3_LOCATION_START$S3_LOCATION_END | awk '{print $4}' | grep -E "$PATTERN"`; do
+    aws s3 cp $S3_LOCATION_START$S3_LOCATION_END$FILE .
+  done
+else
+  echo "Copy files to or from AWS S3
+Usage: aws_s3_cp [upload|download] FILE_NAME_PATTERN"
+  for file in $FILES; do
+    echo $s3_location/$file 
+  done
+fi
