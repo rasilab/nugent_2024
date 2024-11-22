@@ -15,3 +15,7 @@ hsPN305,HEK293T AAVS1::pTet_Cas9-T2A-hygro_cHS4_pEF1a_mCherry_puro_20xN_KanR_cHS
 hsPN306,HEK293T AAVS1::pTet_Cas9-T2A-hygro_cHS4_pEF1a_mCherry_puro_20xN_KanR_cHS4_U6_mU6_custom_rbp_dual_sgRNA_library_pTet_Bglob_NTC_20xN_bghpA,"pHPHS232, pHPHS800, pAS244",This work
 hsPN309,HEK293T AAVS1::pTet_Cas9-T2A-hygro_cHS4_pEF1a_mCherry_puro_KanR_pU6_sgRNA_GCN1_1_2_cHS4_pTet_EYFP_HA_bGHpA,"pHPHS232, pHPHS800, pAS251",This work
 hsPN313,HEK293T AAVS1::pTet_Cas9-T2A-hygro_cHS4_pEF1a_mCherry_puro_KanR_pU6_sgRNA_FLUC_1_2_cHS4_pTet_EYFP_HA_bGHpA,"pHPHS232, pHPHS800, pAS254",This work
+hsPN349,HEK293T AAVS1::pTet_Cas9-T2A-hygro_cHS4_pEF1a_mCherry_puro_cHS4_pU6_sgFLUC_pTet_EYFP_bghpA,"pHPHS232, pHPHS800, pHPHS885",This work
+hsPN351,HEK293T AAVS1::pTet_Cas9-T2A-hygro_cHS4_pEF1a_mCherry_puro_cHS4_pU6_sgYFP_pTet_EYFP_bghpA,"pHPHS232, pHPHS800, pHPHS886",This work
+hsPN353,U2OS AAVS1::pTet_Cas9-T2A-hygro_cHS4_pEF1a_mCherry_puro_cHS4_pU6_sgFLUC_pTet_EYFP_bghpA,"pHPHS232, pHPHS800, pHPHS885",This work
+hsPN354,U2OS AAVS1::pTet_Cas9-T2A-hygro_cHS4_pEF1a_mCherry_puro_cHS4_pU6_sgYFP_pTet_EYFP_bghpA,"pHPHS232, pHPHS800, pHPHS886",This work
