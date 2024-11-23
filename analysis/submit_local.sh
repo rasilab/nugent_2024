@@ -1,5 +1,6 @@
 snakemake \
-    --cores=all \
+    --jobs 999 \
     --use-singularity \
-    --singularity-args "--bind /fh --bind /hpc" \
+    --singularity-args "--bind /hpc --bind /fh" \
+    --cores=all \
     -p $@

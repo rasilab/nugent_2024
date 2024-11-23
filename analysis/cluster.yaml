@@ -1,6 +1,31 @@
 "__default__" :
   "account" : "rasi"
-  "time" : "24:00:00"
+  "time" : "6:00:00"
   "name" : "{rule}.{wildcards}"
-  "mem" : 32
-  "n" :  36
+  "nodes": "1"
+  "mem" : "128"
+  "cores" : 16
+
+"create_genome_index_for_alignment" :
+  "account" : "rasi"
+  "time" : "3:00:00"
+  "name" : "{rule}"
+  "nodes" : 1
+  "mem": "128000"
+  "cores" : 16
+
+"plasmid_align" :
+  "account" : "rasi"
+  "time" : "2:00:00"
+  "name" : "{rule}.{wildcards.sample_id}"
+  "nodes" : 1
+  "mem": "128000"
+  "cores" : 36
+
+"genome_annotated_align" :
+  "account" : "rasi"
+  "time" : "3:00:00"
+  "name" : "{rule}.{wildcards.sample_id}"
+  "nodes" : 1
+  "mem": "128000"
+  "cores" : 36

@@ -1,10 +1,8 @@
 snakemake \
     --jobs 999 \
-    --latency-wait 30 \
     --cluster-config cluster.yaml \
-    --cluster "sbatch -n {cluster.n}  -t {cluster.time}" \
+    --cluster "sbatch -J {cluster.name} -n {cluster.cores}  -t {cluster.time} --mem {cluster.mem} -N {cluster.nodes}" \
     --use-singularity \
-    --use-envmodules \
-    --singularity-args "--bind /fh --bind /hpc" \
+    --singularity-args "--bind /hpc --bind /fh" \
     --cores=all \
     -p $@

@@ -17,11 +17,11 @@ sample_ids = [x for x in sample_annotations.index.tolist()]
 study_list = sample_annotations['study'].unique()
 
 
-def get_fastq_files(wildcards):
-    """Get input files based on sample_id
-    """
-    fastq = [f'../data/fastq/{filename}' for filename in filter(lambda x: re.search(f'{wildcards.sample_id}_', x) and re.search('_R[12]_', x), sorted(os.listdir('../data/fastq/')))]
-    return fastq
+# def get_fastq_files(wildcards):
+#     """Get input files based on sample_id
+#     """
+#     fastq = [f'../data/fastq/{filename}' for filename in filter(lambda x: re.search(f'{wildcards.sample_id}_', x) and re.search('_R[12]_', x), sorted(os.listdir('../data/fastq/')))]
+#     return fastq
 
 
 rule all:
@@ -29,11 +29,81 @@ rule all:
         genome = [f"../data/ensembl/genome/Homo_sapiens.GRCh38.dna_rm.chromosome.{chr}.fa"
                     for chr in list(range(1,23)) + ['X', 'MT']],
         annotations = "../data/ensembl/Homo_sapiens.GRCh38.108.gtf",
-        genome_splice_sites = "../data/ensembl/Homo_sapiens.GRCh38.108.all.ss",
-        genome_splice_annotations = "../data/ensembl/Homo_sapiens.GRCh38.108.all.ss.tsv",
+        # genome_splice_sites = "../data/ensembl/Homo_sapiens.GRCh38.108.all.ss",
+        # genome_splice_annotations = "../data/ensembl/Homo_sapiens.GRCh38.108.all.ss.tsv",
         genome_index = "../data/star/Homo_sapiens.GRCh38genome.108tran/genomeParameters.txt",
         genome_alignments = [f'../data/alignments/genome_{sample_id}/Aligned.out.bam' for sample_id in sample_ids],
-        genome_intron_counts = [f'../data/intron_counts/genome_{sample_id}.csv' for sample_id in sample_ids],
+        geo_uploads = [f'../data/geo_upload/{sample_name}.ReadsPerGene.out.tab' for sample_name in sample_annotations["sample_name"]],
+        # genome_intron_counts = [f'../data/intron_counts/genome_{sample_id}.csv' for sample_id in sample_ids],
+
+
+def get_fastq_files_from_srr(srr):
+  """This function returns the names of fastq files for parallel-fastq-dump
+  """
+  sample_id = sample_annotations.loc[sample_annotations['srr'] == srr].index[0]
+  n_reads = 2
+  filenames = [f'../data/fastq/{srr}_{read}.fastq' for read in range(1,n_reads+1)]
+  return filenames
+
+
+def get_split_read_files_input(wildcards):
+  """This function returns the names of fastq files for combining them
+  """
+  srr = sample_annotations.loc[wildcards.sample_id, 'srr']
+  # Get the results from the checkpoint, this is done here simply to make
+  # the function depend on the checkpoint, but is not used in the function
+  checkpoint_output = checkpoints.get_fastq.get(srr=srr).output[0]
+  n_reads = 2
+  filenames = [f'../data/fastq/{srr}_{read}.fastq' for read in range(1,n_reads+1)]
+  return filenames
+
+
+rule download_sra:
+  """Download SRA file from NCBI database"""
+  input:
+  output:
+    '../data/sra/{srr}.sra'
+  threads: 1 
+  container: "docker://ghcr.io/rasilab/sratools:3.0.8"
+  shell:
+    """
+    set +e # continue if there is an error code
+    prefetch {wildcards.srr} --output-file {output} 
+    exitcode=$?
+    if [ $exitcode -eq 1 ]
+    then
+      exit 1
+    else
+      exit 0
+    fi    
+    """
+
+
+checkpoint get_fastq:
+  """Convert SRA to variable fastq"""
+  input: '../data/sra/{srr}.sra'
+  output: '../data/fastq/{srr}_1.fastq'
+  params:
+    directory = '../data/fastq'
+  threads: 36
+  container: "docker://ghcr.io/rasilab/parallel_fastq_dump:0.6.7"
+  shell:
+    """
+    set +e # continue if there is an error code
+    parallel-fastq-dump \
+      --sra-id {input} \
+      --threads {threads} \
+      --outdir {params.directory} \
+      --tmpdir {params.directory} \
+      --split-files
+    exitcode=$?
+    if [ $exitcode -eq 1 ]
+    then
+      exit 1
+    else
+      exit 0
+    fi    
+    """
 
 
 rule download_genome:
@@ -100,8 +170,7 @@ rule create_genome_index_for_alignment:
         index_file = "../data/star/Homo_sapiens.GRCh38genome.108tran/genomeParameters.txt"
     params:
         genomeDir = "../data/star/Homo_sapiens.GRCh38genome.108tran/"
-    # singularity: "docker://ghcr.io/rasilab/star:2.7.11a"
-    envmodules: 'STAR/2.7.10b-GCC-12.2.0'
+    singularity: "docker://ghcr.io/rasilab/star:2.7.11a"
     threads: 36
     shell:
         """
@@ -119,7 +188,7 @@ rule genome_annotated_align:
     """Align reads against genome with annotated splice sites
     """
     input: 
-        fastq = get_fastq_files,
+        fastq = get_split_read_files_input,
         index_file = '../data/star/Homo_sapiens.GRCh38genome.108tran/genomeParameters.txt'
     output: 
         alignments = "../data/alignments/genome_{sample_id}/Aligned.out.sam",
@@ -128,9 +197,9 @@ rule genome_annotated_align:
     threads: 36
     params:
         genomeDir = "../data/star/Homo_sapiens.GRCh38genome.108tran",
-        input_file_string = get_fastq_files,
+        input_file_string = get_split_read_files_input,
         outFileNamePrefix = "../data/alignments/genome_{sample_id}/"
-    envmodules: 'STAR/2.7.10b-GCC-12.2.0'
+    singularity: "docker://ghcr.io/rasilab/star:2.7.11a"
     shell:
         """
         STAR \
@@ -143,7 +212,6 @@ rule genome_annotated_align:
         --outReadsUnmapped Fastx \
         --genomeDir  {params.genomeDir} \
         --readFilesIn {params.input_file_string} \
-        --readFilesCommand zcat \
         --outFileNamePrefix {params.outFileNamePrefix}
         """
 
@@ -168,6 +236,16 @@ rule sort_and_index_alignments:
         samtools index -@ {threads} {output.bam}
         # remove unsorted bam
         rm {output.bam}.tmp
+        """
+
+rule create_sym_links_gene_counts:
+    input: lambda wildcards: "../data/alignments/genome_" + sample_annotations.loc[sample_annotations['sample_name'] == wildcards.sample_name].index[0] + "/ReadsPerGene.out.tab"
+    output: "../data/geo_upload/{sample_name}.ReadsPerGene.out.tab"
+    params: 
+        sample_id = lambda wildcards: sample_annotations.loc[sample_annotations['sample_name'] == wildcards.sample_name].index[0]
+    shell:
+        """
+        cp -Rp ../data/alignments/genome_{params.sample_id}/ReadsPerGene.out.tab {output}
         """
 
 
