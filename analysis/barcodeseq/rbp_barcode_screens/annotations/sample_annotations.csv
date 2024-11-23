@@ -37,3 +37,5 @@ sample_number,srr,owner,sample_name,library_type,plasmid_snapgene_map,amplicon_s
 38,SRR29254864,pn,ptc_dmso_1_bc1_total,mrna,pHPHS949,lPNHS23,pn_207p12_208p12,207p12,1,1,20,3,1,6,2,1,7,182p1,1,230615_VH01189_126_AACVCG5M5-1,50,7,50,ATCACG
 59,SRR29254863,pn,eyfpwt_homoharringtonine_bc1_total,mrna,pHPHS951,lPNHS23,pn_208p10,208p10a,1,1,20,1,41,6,2,1,7,182p1,1,230912_VH01189_160_AACYLGJM5,50,7,0,ATTGGC
 60,SRR29254862,pn,eyfpwt_untreated_bc1_total,mrna,pHPHS951,lPNHS23,pn_208p12,208p12a,1,1,20,1,41,6,2,1,7,182p1,1,230912_VH01189_160_AACYLGJM5,50,7,0,ATTGGC
+125,SRR31476502,pn,ntc_polysome_bc1_supernatant_rep1,mrna,pAS244,lPNHS23,pn_288p3,288p3,1,1,20,1,41,6,2,1,7,182p1,1,241107_VH00699_548_AAG5JGFM5,115,7,0,CACTGT
+126,SRR31476502,pn,ntc_polysome_bc1_supernatant_rep2,mrna,pAS244,lPNHS23,pn_288p4,288p4,1,1,20,1,41,6,2,1,7,182p1,1,241107_VH00699_548_AAG5JGFM5,115,7,0,CACTGT
