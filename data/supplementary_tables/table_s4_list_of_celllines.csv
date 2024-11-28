@@ -11,6 +11,7 @@ hsPN266,HEK293T AAVS1::pTet_Cas9-T2A-hygro_cHS4_pEF1a_Bxb1attPGA_BFP-iCasp9-Blas
 hsPN279,U2OS AAVS1::pTet_BxB1-attP_BFP-iCasp9-Blast-rTTA3,pHPHS232,This work
 hsPN280,U2OS AAVS1::pTet_Cas9-T2A-hygro_cHS4_pEF1a_Bxb1attPGA_BFP-iCasp9-Blast-rTTA3,"pHPHS232, pHPHS800",This work
 hsPN285,HEK293T AAVS1::pTet_Cas9-T2A-hygro_cHS4_pEF1a_mCherry_puro_20xN_KanR_cHS4_U6_mU6_custom_rbp_dual_sgRNA_library_pTet_EYFPwt_20xN_bghpA,"pHPHS232, pHPHS800, pHPHS951",This work
+hsPN301,HEK293T AAVS1::pTet_Cas9-T2A-hygro_cHS4_pEF1a_mCherry_puro_barcode3_20xN_KanR_cHS4_GCN1_EIF2B_minipool_hU6_tracrRNAv2_AmpR_mU6_tracrRNAv1_cHS4_pTET_EYFPwt_HA_barcode3_20xN_R1_T7_bghpA,"pHPHS232, pHPHS800, pAS221",This work
 hsPN305,HEK293T AAVS1::pTet_Cas9-T2A-hygro_cHS4_pEF1a_mCherry_puro_20xN_KanR_cHS4_U6_mU6_custom_rbp_dual_sgRNA_library_pTet_Bglob_PTC_20xN_bghpA,"pHPHS232, pHPHS800, pAS243",This work
 hsPN306,HEK293T AAVS1::pTet_Cas9-T2A-hygro_cHS4_pEF1a_mCherry_puro_20xN_KanR_cHS4_U6_mU6_custom_rbp_dual_sgRNA_library_pTet_Bglob_NTC_20xN_bghpA,"pHPHS232, pHPHS800, pAS244",This work
 hsPN309,HEK293T AAVS1::pTet_Cas9-T2A-hygro_cHS4_pEF1a_mCherry_puro_KanR_pU6_sgRNA_GCN1_1_2_cHS4_pTet_EYFP_HA_bGHpA,"pHPHS232, pHPHS800, pAS251",This work
