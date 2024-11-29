@@ -13,32 +13,88 @@ sample_annotations = (
 
 sample_ids = sample_annotations.index.tolist()
 
-def get_fastq(wildcards):
-  """This function returns the FASTQ files for a given sample
-  """
-  filenames = [f'../data/fastq/{filename}' 
-      for filename in filter(
-        lambda x: re.search(f'{wildcards.sample_id}_', x) 
-        and re.search('_R1_', x) 
-        and x.endswith('.fastq.gz'), os.listdir('../data/fastq/'))]
-  if len(filenames) == 0:
-      raise FileNotFoundError(f"No input FASTQ files for {wildcards.sample_id}!") 
-  if len(filenames) > 1:
-      raise RuntimeError(f"Too many input FASTQ files for {wildcards.sample_id}: " + " | ".join(filenames)) 
-  return list(sorted(filenames))
-
 
 rule all:
     input:
         trimmed = expand('../data/trim/{sample_id}.fastq', sample_id=sample_ids),
         norrna = expand('../data/norrna/{sample_id}.fastq', sample_id=sample_ids),
         alignments = expand('../data/alignments/{sample_id}.bam', sample_id=sample_ids),
+        plasmid_alignments = expand('../data/alignments/{sample_id}_plasmid.bam', sample_id=sample_ids),
         tx_counts = expand('../data/tx_counts/{sample_id}.tsv', sample_id=sample_ids),
+
+
+def get_fastq_files_from_srr(srr):
+  """This function returns the names of fastq files for parallel-fastq-dump
+  """
+  sample_id = sample_annotations.loc[sample_annotations['srr'] == srr].index[0]
+  n_reads = 1
+  filenames = [f'../data/fastq/{srr}_{read}.fastq' for read in range(1,n_reads+1)]
+  return filenames
+
+
+def get_split_read_files_input(wildcards):
+  """This function returns the names of fastq files for combining them
+  """
+  srr = sample_annotations.loc[wildcards.sample_id, 'srr']
+  # Get the results from the checkpoint, this is done here simply to make
+  # the function depend on the checkpoint, but is not used in the function
+  checkpoint_output = checkpoints.get_fastq.get(srr=srr).output[0]
+  n_reads = 1
+  filenames = [f'../data/fastq/{srr}_{read}.fastq' for read in range(1,n_reads+1)]
+  return filenames
+
+
+rule download_sra:
+  """Download SRA file from NCBI database"""
+  input:
+  output:
+    '../data/sra/{srr}.sra'
+  threads: 1 
+  container: "docker://ghcr.io/rasilab/sratools:3.0.8"
+  shell:
+    """
+    set +e # continue if there is an error code
+    prefetch {wildcards.srr} --output-file {output} 
+    exitcode=$?
+    if [ $exitcode -eq 1 ]
+    then
+      exit 1
+    else
+      exit 0
+    fi    
+    """
+
+
+checkpoint get_fastq:
+  """Convert SRA to variable fastq"""
+  input: '../data/sra/{srr}.sra'
+  output: '../data/fastq/{srr}_1.fastq'
+  params:
+    directory = '../data/fastq'
+  threads: 36
+  container: "docker://ghcr.io/rasilab/parallel_fastq_dump:0.6.7"
+  shell:
+    """
+    set +e # continue if there is an error code
+    parallel-fastq-dump \
+      --sra-id {input} \
+      --threads {threads} \
+      --outdir {params.directory} \
+      --tmpdir {params.directory} \
+      --split-files
+    exitcode=$?
+    if [ $exitcode -eq 1 ]
+    then
+      exit 1
+    else
+      exit 0
+    fi    
+    """
 
 
 rule trim_linker:
   """Remove extra sequences before aligning"""
-  input: get_fastq
+  input: get_split_read_files_input
   params:
     adapter = lambda wildcards, output: sample_annotations.loc[wildcards.sample_id, 'adapter'],
     trim5 = lambda wildcards, output: sample_annotations.loc[wildcards.sample_id, 'trim5'],
@@ -170,6 +226,46 @@ rule align_transcriptome:
   log: "../data/alignments/{sample}.bowtie.log"
   params:
     index =  "../data/mane/MANE.GRCh38.v1.3.ensembl_rna"
+  threads: 36
+  container: "docker://ghcr.io/rasilab/bowtie:1.3.1"
+  shell:
+    """
+    bowtie \
+    --norc \
+    --sam \
+    --no-unal \
+    --threads {threads} \
+    -x {params.index} \
+    {input.reads} \
+    1> {output.aligned} 2> {log}
+    """
+
+
+rule make_plasmid_bowtie_index:
+  input: "../annotations/plasmids/pHPHS232_pHPHS800_pPNHS189.fa",
+  output: "../data/plasmid_bowtie/pHPHS232_pHPHS800_pPNHS189.1.ebwt",
+  params: 
+    index = "../data/plasmid_bowtie/pHPHS232_pHPHS800_pPNHS189",
+  threads: 36
+  container: "docker://ghcr.io/rasilab/bowtie:1.3.1"
+  shell:
+    """
+    bowtie-build \
+    --threads {threads} \
+    {input} \
+    {params.index} &> {params.index}.log
+    """
+
+
+rule align_plasmids:
+  input:
+    reads = "../data/norrna/{sample}.fastq",
+    index = "../data/plasmid_bowtie/pHPHS232_pHPHS800_pPNHS189.1.ebwt"
+  output:
+    aligned = "../data/alignments/{sample}_plasmid.sam"
+  log: "../data/alignments/{sample}_plasmid.bowtie.log"
+  params:
+    index =  "../data/plasmid_bowtie/pHPHS232_pHPHS800_pPNHS189"
   threads: 36
   container: "docker://ghcr.io/rasilab/bowtie:1.3.1"
   shell:

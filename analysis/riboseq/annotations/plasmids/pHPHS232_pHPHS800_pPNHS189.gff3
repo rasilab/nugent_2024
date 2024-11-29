@@ -1,0 +1,1064 @@
+##gff-version 3
+##sequence-region urn.local...a-64dnuok 1 30476
+# conversion-by bp_genbank2gff3.pl
+# organism synthetic DNA construct
+# Note Addgene 66577.
+# date 09-JAN-2024
+pHPHS232_pHPHS80	GenBank	region	1	30476	.	+	1	ID=urn.local...a-64dnuok;Name=urn.local...a-64dnuok;Name=urn.local...a-64dnuok;Note=Addgene 66577.;date=09-JAN-2024;mol_type=other DNA;organism=synthetic DNA construct
+pHPHS232_pHPHS80	GenBank	region	9985	10047	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:9985:10047;Name=GenBank:region:pHPHS232_pHPHS80:9985:10047;label=source
+pHPHS232_pHPHS80	GenBank	region	11071	11073	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:11071:11073;Name=GenBank:region:pHPHS232_pHPHS80:11071:11073;label=source
+pHPHS232_pHPHS80	GenBank	region	11075	11087	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:11075:11087;Name=GenBank:region:pHPHS232_pHPHS80:11075:11087;mol_type=other DNA;organism=AAVS1_Puro_PGK1_3xFLAG_Twin_Strep
+pHPHS232_pHPHS80	GenBank	region	22320	23084	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:22320:23084;Name=GenBank:region:pHPHS232_pHPHS80:22320:23084;label=source;mol_type=other DNA;organism=AAVS1_Puro_PGK1_3xFLAG_Twin_Strep
+pHPHS232_pHPHS80	GenBank	region	23031	23066	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:23031:23066;Name=GenBank:region:pHPHS232_pHPHS80:23031:23066;label=source;mol_type=other DNA;organism=AAVS1_Puro_PGK1_3xFLAG_Twin_Strep
+pHPHS232_pHPHS80	GenBank	region	23061	23066	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:23061:23066;Name=GenBank:region:pHPHS232_pHPHS80:23061:23066;mol_type=other DNA;organism=AAVS1_Puro_PGK1_3xFLAG_Twin_Strep
+pHPHS232_pHPHS80	GenBank	region	23067	23084	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:23067:23084;Name=GenBank:region:pHPHS232_pHPHS80:23067:23084;mol_type=other DNA;organism=pGL3-Control
+pHPHS232_pHPHS80	GenBank	region	23085	23086	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:23085:23086;Name=GenBank:region:pHPHS232_pHPHS80:23085:23086;label=source;mol_type=other DNA;organism=AAVS1_Puro_PGK1_3xFLAG_Twin_Strep
+pHPHS232_pHPHS80	GenBank	CDS	114	923	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:114:923;Name=GenBank:CDS:pHPHS232_pHPHS80:114:923;codon_start=1;label=ORF frame 3;translation=length.269
+pHPHS232_pHPHS80	GenBank	primer_binding_site	931	949	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:931:949;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:931:949;Note=KanRt_end_F;label=oAS1411
+pHPHS232_pHPHS80	GenBank	primer_binding_site	931	949	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:931:949.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:931:949.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:931:949;Note=KanRt_SV40pAend_R;label=oAS1571
+pHPHS232_pHPHS80	GenBank	primer_binding_site	976	1013	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:976:1013;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:976:1013;Note=AmpR_terminator_end_R;label=oAS1877
+pHPHS232_pHPHS80	GenBank	primer_binding_site	1005	1024	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:1005:1024;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:1005:1024;Note=AmpRt_SV40pA_R;label=oAS1327
+pHPHS232_pHPHS80	GenBank	primer_binding_site	1005	1024	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:1005:1024.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:1005:1024.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:1005:1024;Note=_AmpR_R;label=oAS1316
+pHPHS232_pHPHS80	GenBank	origin_of_replication	1085	1704	.	+	1	ID=GenBank:origin_of_replication:pHPHS232_pHPHS80:1085:1704;Name=GenBank:origin_of_replication:pHPHS232_pHPHS80:1085:1704;Note=/translation%3DMSHIQRETSRPRLNSNMDADLYGYKWARDNVGQSGATIY RLYGK PDAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGK TAFQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVD ASDFDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRV GIADRYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF*;label=pBR322_origin
+pHPHS232_pHPHS80	GenBank	primer_binding_site	1590	1609	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:1590:1609;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:1590:1609;Note=pBR322 origin%2C forward primer;label=pBR322ori-F
+pHPHS232_pHPHS80	GenBank	primer_binding_site	1771	1788	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:1771:1788;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:1771:1788;Note=ColE1_R;label=oAS1315
+pHPHS232_pHPHS80	GenBank	primer_binding_site	1771	1788	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:1771:1788.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:1771:1788.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:1771:1788;Note=ColE1_Xba1_pU6_start_F;label=oAS1406
+pHPHS232_pHPHS80	GenBank	primer_binding_site	1771	1788	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:1771:1788.primer_binding_site.1;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:1771:1788.primer_binding_site.1;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:1771:1788;label=oAS1315 (1)
+pHPHS232_pHPHS80	GenBank	primer_binding_site	1772	1788	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:1772:1788;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:1772:1788;Note=ColE1_NotI_cHS4_F;label=oAS1579
+pHPHS232_pHPHS80	GenBank	primer_binding_site	1843	1860	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:1843:1860;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:1843:1860;Note=L4440 vector%2C forward primer;label=L4440
+pHPHS232_pHPHS80	GenBank	promoter	2013	2042	.	+	1	ID=GenBank:promoter:pHPHS232_pHPHS80:2013:2042;Name=GenBank:promoter:pHPHS232_pHPHS80:2013:2042;Note=/translation%3DMSHIQRETSRPRLNSNMDADLYGYKWARDNVGQSGATIY RLYGK PDAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGK TAFQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVD ASDFDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRV GIADRYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF*;label=lac_promoter
+pHPHS232_pHPHS80	GenBank	region	2056	2078	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:2056:2078;Name=GenBank:region:pHPHS232_pHPHS80:2056:2078;Note=/translation%3DMSHIQRETSRPRLNSNMDADLYGYKWARDNVGQSGATIY RLYGK PDAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGK TAFQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVD ASDFDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRV GIADRYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF*;label=M13_pUC_rev_primer
+pHPHS232_pHPHS80	GenBank	promoter	2077	2095	.	+	1	ID=GenBank:promoter:pHPHS232_pHPHS80:2077:2095;Name=GenBank:promoter:pHPHS232_pHPHS80:2077:2095;Note=/translation%3DMSHIQRETSRPRLNSNMDADLYGYKWARDNVGQSGATIY RLYGK PDAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGK TAFQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVD ASDFDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRV GIADRYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF*;label=M13_reverse_primer
+pHPHS232_pHPHS80	GenBank	region	2112	2915	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:2112:2915;Name=GenBank:region:pHPHS232_pHPHS80:2112:2915;label=AAVS1_left_arm
+pHPHS232_pHPHS80	GenBank	primer_binding_site	2836	2853	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:2836:2853;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:2836:2853;Note=aavs1l_end_f;label=oAS1381
+pHPHS232_pHPHS80	GenBank	primer_binding_site	2892	2980	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:2892:2980;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:2892:2980;Note=LA_aavs1_SA_f;label=oAS1267
+pHPHS232_pHPHS80	GenBank	region	2924	2957	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:2924:2957;Name=GenBank:region:pHPHS232_pHPHS80:2924:2957;Note=/translation%3DMSHIQRETSRPRLNSNMDADLYGYKWARDNVGQSGATIY RLYGK PDAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGK TAFQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVD ASDFDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRV GIADRYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF*;label=loxP
+pHPHS232_pHPHS80	GenBank	region	2958	2983	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:2958:2983;Name=GenBank:region:pHPHS232_pHPHS80:2958:2983;Note=splice acceptor site;label=SA
+pHPHS232_pHPHS80	GenBank	primer_binding_site	2958	2983	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:2958:2983;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:2958:2983;Note=splice_acceptor_f;label=oAS1490
+pHPHS232_pHPHS80	GenBank	gene	114	923	.	+	1	ID=KanR2;Name=KanR2;Name=KanR2;label=KanR2
+pHPHS232_pHPHS80	GenBank	exon	2983	4114	.	+	1	ID=GenBank:exon:pHPHS232_pHPHS80:2983:4114;Name=GenBank:exon:pHPHS232_pHPHS80:2983:4114;label=NeoR
+pHPHS232_pHPHS80	GenBank	CDS	2983	3855	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:2983:3855;Name=GenBank:CDS:pHPHS232_pHPHS80:2983:3855;codon_start=1;label=NeoR;translation=length.290
+pHPHS232_pHPHS80	GenBank	primer_binding_site	2990	3016	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:2990:3016;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:2990:3016;Note=flag_bamh1_t2a_f;label=oAS1373
+pHPHS232_pHPHS80	GenBank	primer_binding_site	2997	3028	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:2997:3028;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:2997:3028;Note=mtagbfp2_end_t2a_start_f;label=oAS1379
+pHPHS232_pHPHS80	GenBank	CDS	3007	3060	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:3007:3060;Name=GenBank:CDS:pHPHS232_pHPHS80:3007:3060;Name="";Note=Eukaryotic ribosomes fail to insert a peptide bond between the Gly and Pro residues%2C yielding separate polypeptides.;codon_start=1;label=T2A;product=2A peptide from Thosea asigna virus capsid protein;translation=length.18
+pHPHS232_pHPHS80	GenBank	primer_binding_site	3007	3025	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:3007:3025;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:3007:3025;Note=mCherry_T2A_F;label=oAS1311
+pHPHS232_pHPHS80	GenBank	primer_binding_site	3029	3065	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:3029:3065;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:3029:3065;Note=puro_T2A_R;label=oAS1676
+pHPHS232_pHPHS80	GenBank	CDS	3064	3855	.	+	0	ID=aph(3')-II (or nptII);Name=aph(3')-II (or nptII);Name=aph(3')-II (or nptII);Note=confers resistance to neomycin%2C kanamycin%2C and G418 (Geneticin(R));codon_start=1;label=NeoR/KanR;product=aminoglycoside phosphotransferase from Tn5;translation=length.263
+pHPHS232_pHPHS80	GenBank	primer_binding_site	3115	3134	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:3115:3134;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:3115:3134;Note=Neomycin resistance gene%2C reverse primer;label=Neo-R
+pHPHS232_pHPHS80	GenBank	primer_binding_site	3725	3744	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:3725:3744;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:3725:3744;Note=Neomycin resistance gene%2C forward primer;label=Neo-F
+pHPHS232_pHPHS80	GenBank	3'UTR	3856	4114	.	+	1	ID=GenBank:3'UTR:pHPHS232_pHPHS80:3856:4114;Name=GenBank:3'UTR:pHPHS232_pHPHS80:3856:4114;label=NeoR
+pHPHS232_pHPHS80	GenBank	primer_binding_site	3873	3889	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:3873:3889;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:3873:3889;Note=not1_linker_puro_end_R;label=oAS1361
+pHPHS232_pHPHS80	GenBank	polyA_signal	3890	4114	.	+	1	ID=GenBank:polyA_signal:pHPHS232_pHPHS80:3890:4114;Name=GenBank:polyA_signal:pHPHS232_pHPHS80:3890:4114;Note=bovine growth hormone polyadenylation signal;label=bGH poly(A) signal
+pHPHS232_pHPHS80	GenBank	primer_binding_site	3894	3916	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:3894:3916;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:3894:3916;Note=Flucend_NotI_bghpA_start_F;label=oAS1554
+pHPHS232_pHPHS80	GenBank	primer_binding_site	3899	3919	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:3899:3919;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:3899:3919;label=oPN202
+pHPHS232_pHPHS80	GenBank	primer_binding_site	3899	3916	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:3899:3916;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:3899:3916;Note=R1_T7_bghpA_F;label=oAS1574
+pHPHS232_pHPHS80	GenBank	primer_binding_site	4087	4114	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:4087:4114;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:4087:4114;Note=bghpA_attB_F;label=oAS1671
+pHPHS232_pHPHS80	GenBank	primer_binding_site	4092	4115	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:4092:4115;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:4092:4115;Note=aavs1r_start_bghpA_end_r;label=oAS1380
+pHPHS232_pHPHS80	GenBank	primer_binding_site	4092	4114	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:4092:4114;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:4092:4114;Note=bGHpA_end_R;label=oAS1491
+pHPHS232_pHPHS80	GenBank	primer_binding_site	4092	4114	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:4092:4114.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:4092:4114.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:4092:4114;label=oAS1491 (1)
+pHPHS232_pHPHS80	GenBank	primer_binding_site	4095	4114	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:4095:4114;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:4095:4114;Note=attBL_bghpA_R;label=oAS1581
+pHPHS232_pHPHS80	GenBank	primer_binding_site	4095	4114	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:4095:4114.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:4095:4114.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:4095:4114;Note=bgh_pA_attB_GA_F;label=oAS1854
+pHPHS232_pHPHS80	GenBank	primer_binding_site	4096	4114	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:4096:4114;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:4096:4114;Note=part8b_bghpA_r;label=oAS1268
+pHPHS232_pHPHS80	GenBank	region	4115	4148	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:4115:4148;Name=GenBank:region:pHPHS232_pHPHS80:4115:4148;Note=/translation%3DMTEYKPTVRLATRDDVPRAVRTLAAAFADYPATRHTVDP DRHIE RVTELQELFLTRVGLDIGKVWVADDGAAVAVWTTPESVEAGAVFAEIGPRMAELSGSR LAAQQQMEGLLAPHRPKEPAWFLATVGVSPDHQGKGLGSAVVLPGVEAAERAGVPAFL ETSAPRNLPFYERLGFTVTADVEVPEGPRTWCMTRKPGA*;label=loxP
+pHPHS232_pHPHS80	GenBank	region	4149	5359	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:4149:5359;Name=GenBank:region:pHPHS232_pHPHS80:4149:5359;label=cHS4_insulator
+pHPHS232_pHPHS80	GenBank	primer_binding_site	4149	4187	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:4149:4187;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:4149:4187;Note=attBL_cHS4_F;label=oAS1507
+pHPHS232_pHPHS80	GenBank	primer_binding_site	4149	4183	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:4149:4183;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:4149:4183;Note=ColE1_NotI_cHS4_F;label=oAS1579
+pHPHS232_pHPHS80	GenBank	primer_binding_site	4319	4336	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:4319:4336;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:4319:4336;Note=cHS4_start_R;label=oAS1601
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5325	5360	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5325:5360;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5325:5360;Note=CMVenhancer_EcoRI_cHS4_R;label=oAS1510
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5336	5360	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5336:5360;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5336:5360;Note=cHS4_EcoRV_pEF1a_F;label=oAS1711
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5342	5360	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5342:5360;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5342:5360;Note=cHS4_pCMV_F;label=oAS1533
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5342	5360	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5342:5360.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5342:5360.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:5342:5360;Note=pPGK1_cHS4_R;label=oAS1473
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5345	5398	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5345:5398;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5345:5398;Note=cHS4_pTet_F;label=oAS1532
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5382	5398	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5382:5398;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5382:5398;Note=attB_pTet_F;label=oAS1468
+pHPHS232_pHPHS80	GenBank	promoter	5399	5748	.	+	1	ID=GenBank:promoter:pHPHS232_pHPHS80:5399:5748;Name=GenBank:promoter:pHPHS232_pHPHS80:5399:5748;Note=3rd-generation Tet-responsive promoter that can be activated by binding of Tet-On(R) 3G%2C optimized for retroviral and lentiviral vectors;label=TRE3GV promoter
+pHPHS232_pHPHS80	GenBank	promoter	5403	5748	.	+	1	ID=GenBank:promoter:pHPHS232_pHPHS80:5403:5748;Name=GenBank:promoter:pHPHS232_pHPHS80:5403:5748;label=PTRE3G
+pHPHS232_pHPHS80	GenBank	protein_binding_site	5407	5425	.	+	1	ID=tetO;Name=tetO;Name=tetO;Note=bacterial operator O2 for the tetR and tetA genes;bound_moiety=tetracycline repressor TetR;label=tet operator
+pHPHS232_pHPHS80	GenBank	protein_binding_site	5443	5461	.	+	1	ID=tetO.protein_binding_site;Name=tetO.protein_binding_site;Alias=tetO;Name=tetO;Note=bacterial operator O2 for the tetR and tetA genes;bound_moiety=tetracycline repressor TetR;label=tet operator
+pHPHS232_pHPHS80	GenBank	protein_binding_site	5479	5497	.	+	1	ID=tetO.protein_binding_site.1;Name=tetO.protein_binding_site.1;Alias=tetO;Name=tetO;Note=bacterial operator O2 for the tetR and tetA genes;bound_moiety=tetracycline repressor TetR;label=tet operator
+pHPHS232_pHPHS80	GenBank	protein_binding_site	5515	5533	.	+	1	ID=tetO.protein_binding_site.2;Name=tetO.protein_binding_site.2;Alias=tetO;Name=tetO;Note=bacterial operator O2 for the tetR and tetA genes;bound_moiety=tetracycline repressor TetR;label=tet operator
+pHPHS232_pHPHS80	GenBank	protein_binding_site	5551	5569	.	+	1	ID=tetO.protein_binding_site.3;Name=tetO.protein_binding_site.3;Alias=tetO;Name=tetO;Note=bacterial operator O2 for the tetR and tetA genes;bound_moiety=tetracycline repressor TetR;label=tet operator
+pHPHS232_pHPHS80	GenBank	protein_binding_site	5587	5605	.	+	1	ID=tetO.protein_binding_site.4;Name=tetO.protein_binding_site.4;Alias=tetO;Name=tetO;Note=bacterial operator O2 for the tetR and tetA genes;bound_moiety=tetracycline repressor TetR;label=tet operator
+pHPHS232_pHPHS80	GenBank	protein_binding_site	5623	5641	.	+	1	ID=tetO.protein_binding_site.5;Name=tetO.protein_binding_site.5;Alias=tetO;Name=tetO;Note=bacterial operator O2 for the tetR and tetA genes;bound_moiety=tetracycline repressor TetR;label=tet operator
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5642	5658	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5642:5658;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5642:5658;Note=pTet_End_Seq_F;label=oAS1463
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5680	5744	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5680:5744;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5680:5744;Note=5primeUTR_EcoRI_pTet_r;label=oHP621
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5684	5712	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5684:5712;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5684:5712;label=oPN211
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5688	5744	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5688:5744;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5688:5744;Note=pTet_EcoRI_R;label=oTB140
+pHPHS232_pHPHS80	GenBank	gene	2983	4114	.	+	1	ID="";Name="";label=NeoR
+pHPHS232_pHPHS80	GenBank	exon	5704	11226	.	+	1	ID=GenBank:exon:pHPHS232_pHPHS80:5704:11226;Name=GenBank:exon:pHPHS232_pHPHS80:5704:11226;label=Cas9
+pHPHS232_pHPHS80	GenBank	5'UTR	5704	5802	.	+	1	ID=GenBank:5'UTR:pHPHS232_pHPHS80:5704:5802;Name=GenBank:5'UTR:pHPHS232_pHPHS80:5704:5802;label=Cas9
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5725	5748	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5725:5748;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5725:5748;Note=pTREend_hind3_kozak_r;label=oAS1469
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5725	5748	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5725:5748.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5725:5748.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:5725:5748;Note=pTet_KpnI_EYFP_R;label=oTB141
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5750	5777	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5750:5777;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5750:5777;Note=Bxb1_attP_F;label=oAS1710
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5750	5766	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5750:5766;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5750:5766;Note=Bxb1_attP_F;label=oAS1303
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5757	5777	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5757:5777;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5757:5777;Note=Bxb1_attP_GA_right_attB_GT_left;label=oAS1848
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5760	5794	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5760:5794;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5760:5794;label=oAS1482
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5760	5792	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5760:5792;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5760:5792;Note=bgh_pA_attB_GA_F;label=oAS1854
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5760	5784	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5760:5784;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5760:5784;Note=bghpA_attB_F;label=oAS1671
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5767	5821	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5767:5821;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5767:5821;label=oPB482
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5770	5794	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5770:5794;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5770:5794;label=oAS1540
+pHPHS232_pHPHS80	GenBank	primer_binding_site	5770	5791	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:5770:5791;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:5770:5791;Note=attB_pTet_F;label=oAS1468
+pHPHS232_pHPHS80	GenBank	region	5774	5794	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:5774:5794;Name=GenBank:region:pHPHS232_pHPHS80:5774:5794;label=attB-Right
+pHPHS232_pHPHS80	GenBank	regulatory	5797	5806	.	+	1	ID=GenBank:regulatory:pHPHS232_pHPHS80:5797:5806;Name=GenBank:regulatory:pHPHS232_pHPHS80:5797:5806;Note=vertebrate consensus sequence for strong initiation of translation (Kozak%2C 1987);label=Kozak sequence;regulatory_class=other
+pHPHS232_pHPHS80	GenBank	CDS	5803	11073	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:5803:11073;Name=GenBank:CDS:pHPHS232_pHPHS80:5803:11073;codon_start=1;label=Cas9;translation=length.1756
+pHPHS232_pHPHS80	GenBank	CDS	5803	9906	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:5803:9906;Name=GenBank:CDS:pHPHS232_pHPHS80:5803:9906;Name="";Note=generates RNA-guided double strand breaks in DNA;codon_start=1;label=Cas9;product=Cas9 (Csn1) endonuclease from the Streptococcus pyogenes Type II CRISPR/Cas system;translation=length.1368
+pHPHS232_pHPHS80	GenBank	primer_binding_site	9848	9865	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:9848:9865;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:9848:9865;Note=cas9_3'_fwd;label=oPB205
+pHPHS232_pHPHS80	GenBank	CDS	9907	9954	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:9907:9954;Name=GenBank:CDS:pHPHS232_pHPHS80:9907:9954;Name="";codon_start=1;label=nucleoplasmin NLS;product=bipartite nuclear localization signal from nucleoplasmin;translation=length.16
+pHPHS232_pHPHS80	GenBank	CDS	9955	9978	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:9955:9978;Name=GenBank:CDS:pHPHS232_pHPHS80:9955:9978;Name="";codon_start=1;label=FLAG;product=FLAG(R) epitope tag%2C followed by an enterokinase cleavage site;translation=length.8
+pHPHS232_pHPHS80	GenBank	primer_binding_site	9960	10003	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:9960:10003;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:9960:10003;Note=flag_bamh1_t2a_f;label=oAS1373
+pHPHS232_pHPHS80	GenBank	CDS	9985	10047	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:9985:10047;Name=GenBank:CDS:pHPHS232_pHPHS80:9985:10047;label=T2A
+pHPHS232_pHPHS80	GenBank	primer_binding_site	9985	10015	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:9985:10015;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:9985:10015;Note=mtagbfp2_end_t2a_start_f;label=oAS1379
+pHPHS232_pHPHS80	GenBank	primer_binding_site	9985	9999	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:9985:9999;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:9985:9999;label=BG90_ZhangCas9pRRL_Rev
+pHPHS232_pHPHS80	GenBank	primer_binding_site	9994	10012	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:9994:10012;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:9994:10012;Note=mCherry_T2A_F;label=oAS1311
+pHPHS232_pHPHS80	GenBank	primer_binding_site	10016	10047	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:10016:10047;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:10016:10047;Note=puro_T2A_R;label=oAS1676
+pHPHS232_pHPHS80	GenBank	CDS	10048	11070	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:10048:11070;Name=GenBank:CDS:pHPHS232_pHPHS80:10048:11070;label=HPH (Hygromycin Phosphotransferase)
+pHPHS232_pHPHS80	GenBank	primer_binding_site	11054	11113	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:11054:11113;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:11054:11113;Note=Hygro_flucfrag_sv40PA_rev;label=oPB483
+pHPHS232_pHPHS80	GenBank	primer_binding_site	11057	11071	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:11057:11071;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:11057:11071;Note=wpre_ecor1_hygro_r;label=oAS1374
+pHPHS232_pHPHS80	GenBank	primer_binding_site	11071	11095	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:11071:11095;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:11071:11095;Note=not1_linker_puro_end_R;label=oAS1361
+pHPHS232_pHPHS80	GenBank	gene	5704	11226	.	+	1	ID=.gene;Name=.gene;Alias="";label=Cas9
+pHPHS232_pHPHS80	GenBank	primer_binding_site	11073	11095	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:11073:11095;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:11073:11095;Note=Fluc_NotI_F;label=oAS1882
+pHPHS232_pHPHS80	GenBank	primer_binding_site	11073	11089	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:11073:11089;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:11073:11089;Note=FLucfrag_AscI_bghpAfrag_T7p_R;label=oAS1573
+pHPHS232_pHPHS80	GenBank	3'UTR	11074	11226	.	+	1	ID=GenBank:3'UTR:pHPHS232_pHPHS80:11074:11226;Name=GenBank:3'UTR:pHPHS232_pHPHS80:11074:11226;label=Cas9
+pHPHS232_pHPHS80	GenBank	CDS	11075	11087	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:11075:11087;Name=GenBank:CDS:pHPHS232_pHPHS80:11075:11087;Note=/created_by%3DUser;label=Fluc
+pHPHS232_pHPHS80	GenBank	primer_binding_site	11078	11117	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:11078:11117;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:11078:11117;Note=Fluc_BamHI_SV40pAstart_F;label=oAS1582
+pHPHS232_pHPHS80	GenBank	terminator	11097	11226	.	+	1	ID=GenBank:terminator:pHPHS232_pHPHS80:11097:11226;Name=GenBank:terminator:pHPHS232_pHPHS80:11097:11226;label=SV40-PA
+pHPHS232_pHPHS80	GenBank	primer_binding_site	11097	11121	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:11097:11121;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:11097:11121;Note=SV40pA_F;label=oAS1535
+pHPHS232_pHPHS80	GenBank	primer_binding_site	11097	11117	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:11097:11117;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:11097:11117;Note=SV40pA_rtTA3_R;label=oAS1534
+pHPHS232_pHPHS80	GenBank	primer_binding_site	11097	11113	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:11097:11113;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:11097:11113;label=oAS1307
+pHPHS232_pHPHS80	GenBank	primer_binding_site	11202	11226	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:11202:11226;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:11202:11226;Note=KanRt_SV40pAend_R;label=oAS1571
+pHPHS232_pHPHS80	GenBank	primer_binding_site	11206	11256	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:11206:11256;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:11206:11256;Note=AmpRt_SV40pA_R;label=oAS1327
+pHPHS232_pHPHS80	GenBank	primer_binding_site	11206	11231	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:11206:11231;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:11206:11231;Note=cHS4_SV40pA_R;label=oAS1536
+pHPHS232_pHPHS80	GenBank	terminator	11237	11333	.	-	1	ID=GenBank:terminator:pHPHS232_pHPHS80:11237:11333;Name=GenBank:terminator:pHPHS232_pHPHS80:11237:11333;label=AmpR Terminator
+pHPHS232_pHPHS80	GenBank	primer_binding_site	11237	11256	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:11237:11256;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:11237:11256;Note=_AmpR_R;label=oAS1316
+pHPHS232_pHPHS80	GenBank	primer_binding_site	11248	11285	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:11248:11285;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:11248:11285;Note=AmpR_terminator_end_R;label=oAS1877
+pHPHS232_pHPHS80	GenBank	CDS	11334	12191	.	-	0	ID=GenBank:CDS:pHPHS232_pHPHS80:11334:12191;Name=GenBank:CDS:pHPHS232_pHPHS80:11334:12191;label=AmpR
+pHPHS232_pHPHS80	GenBank	promoter	12192	12322	.	-	1	ID=GenBank:promoter:pHPHS232_pHPHS80:12192:12322;Name=GenBank:promoter:pHPHS232_pHPHS80:12192:12322;label=AmpR Promoter
+pHPHS232_pHPHS80	GenBank	primer_binding_site	12298	12322	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:12298:12322;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:12298:12322;label=oTB11
+pHPHS232_pHPHS80	GenBank	origin_of_replication	12323	13086	.	-	1	ID=GenBank:origin_of_replication:pHPHS232_pHPHS80:12323:13086;Name=GenBank:origin_of_replication:pHPHS232_pHPHS80:12323:13086;direction=LEFT;label=ColE1
+pHPHS232_pHPHS80	GenBank	primer_binding_site	12888	12907	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:12888:12907;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:12888:12907;Note=pBR322 origin%2C forward primer;label=pBR322ori-F
+pHPHS232_pHPHS80	GenBank	primer_binding_site	13069	13086	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:13069:13086;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:13069:13086;Note=ColE1_R;label=oAS1315
+pHPHS232_pHPHS80	GenBank	primer_binding_site	13069	13086	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:13069:13086.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:13069:13086.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:13069:13086;Note=ColE1_Xba1_pU6_start_F;label=oAS1406
+pHPHS232_pHPHS80	GenBank	primer_binding_site	13069	13086	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:13069:13086.primer_binding_site.1;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:13069:13086.primer_binding_site.1;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:13069:13086;label=oAS1315 (1)
+pHPHS232_pHPHS80	GenBank	primer_binding_site	13070	13129	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:13070:13129;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:13070:13129;Note=ColE1_NotI_cHS4_F;label=oAS1579
+pHPHS232_pHPHS80	GenBank	primer_binding_site	13090	13133	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:13090:13133;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:13090:13133;Note=attBL_cHS4_F;label=oAS1507
+pHPHS232_pHPHS80	GenBank	region	13095	14305	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:13095:14305;Name=GenBank:region:pHPHS232_pHPHS80:13095:14305;Note=/created_by%3DUser;label=cHS4_insulator,insulator
+pHPHS232_pHPHS80	GenBank	primer_binding_site	13265	13282	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:13265:13282;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:13265:13282;Note=cHS4_start_R;label=oAS1601
+pHPHS232_pHPHS80	GenBank	primer_binding_site	14271	14307	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:14271:14307;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:14271:14307;Note=CMVenhancer_EcoRI_cHS4_R;label=oAS1510
+pHPHS232_pHPHS80	GenBank	primer_binding_site	14282	14341	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:14282:14341;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:14282:14341;Note=cHS4_EcoRV_pEF1a_F;label=oAS1711
+pHPHS232_pHPHS80	GenBank	primer_binding_site	14288	14307	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:14288:14307;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:14288:14307;Note=pPGK1_cHS4_R;label=oAS1473
+pHPHS232_pHPHS80	GenBank	primer_binding_site	14288	14306	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:14288:14306;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:14288:14306;Note=cHS4_pCMV_F;label=oAS1533
+pHPHS232_pHPHS80	GenBank	primer_binding_site	14291	14306	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:14291:14306;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:14291:14306;Note=cHS4_pTet_F;label=oAS1532
+pHPHS232_pHPHS80	GenBank	region	14316	15277	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:14316:15277;Name=GenBank:region:pHPHS232_pHPHS80:14316:15277;label=EF1Alpha
+pHPHS232_pHPHS80	GenBank	TATA_signal	14477	14483	.	+	1	ID=GenBank:TATA_signal:pHPHS232_pHPHS80:14477:14483;Name=GenBank:TATA_signal:pHPHS232_pHPHS80:14477:14483;
+pHPHS232_pHPHS80	GenBank	gene	11071	11073	.	+	1	ID=.gene.1;Name=.gene.1;Alias="";label=puro (variant)
+pHPHS232_pHPHS80	GenBank	5'UTR	14507	14539	.	+	1	ID=GenBank:5'UTR:pHPHS232_pHPHS80:14507:15550;Name=GenBank:5'UTR:pHPHS232_pHPHS80:14507:15550;label=mcherry
+pHPHS232_pHPHS80	GenBank	5'UTR	15479	15550	.	+	1	ID=GenBank:5'UTR:pHPHS232_pHPHS80:14507:15550;Name=GenBank:5'UTR:pHPHS232_pHPHS80:14507:15550;label=mcherry
+pHPHS232_pHPHS80	GenBank	exon	14507	14539	.	+	1	ID=GenBank:exon:pHPHS232_pHPHS80:14507:14539;Name=GenBank:exon:pHPHS232_pHPHS80:14507:14539;label=mcherry
+pHPHS232_pHPHS80	GenBank	intron	14540	15478	.	+	1	ID=GenBank:intron:pHPHS232_pHPHS80:14540:15478;Name=GenBank:intron:pHPHS232_pHPHS80:14540:15478;label=EF1a-intron
+pHPHS232_pHPHS80	GenBank	primer_binding_site	15100	15116	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:15100:15116;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:15100:15116;Note=EF1a_intron_R;label=oAS1716
+pHPHS232_pHPHS80	GenBank	region	15279	15433	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:15279:15433;Name=GenBank:region:pHPHS232_pHPHS80:15279:15433;label=EF1Alpha
+pHPHS232_pHPHS80	GenBank	primer_binding_site	15366	15382	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:15366:15382;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:15366:15382;label=oAS1261
+pHPHS232_pHPHS80	GenBank	primer_binding_site	15470	15517	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:15470:15517;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:15470:15517;Note=Bxb1_attP-NheI_pEF1a_R;label=oAS1712
+pHPHS232_pHPHS80	GenBank	exon	15479	17070	.	+	1	ID=GenBank:exon:pHPHS232_pHPHS80:15479:17070;Name=GenBank:exon:pHPHS232_pHPHS80:15479:17070;label=mcherry
+pHPHS232_pHPHS80	GenBank	primer_binding_site	15494	15517	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:15494:15517;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:15494:15517;Note=Bxb1_attP_F;label=oAS1710
+pHPHS232_pHPHS80	GenBank	primer_binding_site	15494	15510	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:15494:15510;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:15494:15510;Note=Bxb1_attP_F;label=oAS1303
+pHPHS232_pHPHS80	GenBank	primer_binding_site	15501	15521	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:15501:15521;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:15501:15521;Note=Bxb1_attP_GA_right_attB_GT_left;label=oAS1848
+pHPHS232_pHPHS80	GenBank	primer_binding_site	15504	15563	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:15504:15563;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:15504:15563;Note=attB_NheI_mCherry_F;label=oAS1675
+pHPHS232_pHPHS80	GenBank	primer_binding_site	15504	15538	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:15504:15538;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:15504:15538;label=oAS1482
+pHPHS232_pHPHS80	GenBank	primer_binding_site	15504	15536	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:15504:15536;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:15504:15536;Note=bgh_pA_attB_GA_F;label=oAS1854
+pHPHS232_pHPHS80	GenBank	primer_binding_site	15504	15528	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:15504:15528;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:15504:15528;Note=bghpA_attB_F;label=oAS1671
+pHPHS232_pHPHS80	GenBank	primer_binding_site	15514	15572	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:15514:15572;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:15514:15572;Note=attB_GA_NheI_mCherry_R;label=oAS1853
+pHPHS232_pHPHS80	GenBank	region	15518	15538	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:15518:15538;Name=GenBank:region:pHPHS232_pHPHS80:15518:15538;label=attB_GA-Right,attB-Right
+pHPHS232_pHPHS80	GenBank	region	15518	15518	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:15518:15518;Name=GenBank:region:pHPHS232_pHPHS80:15518:15518;label=T>A
+pHPHS232_pHPHS80	GenBank	primer_binding_site	15519	15538	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:15519:15538;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:15519:15538;label=oAS1540
+pHPHS232_pHPHS80	GenBank	primer_binding_site	15519	15535	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:15519:15535;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:15519:15535;Note=attB_pTet_F;label=oAS1468
+pHPHS232_pHPHS80	GenBank	CDS	15551	16915	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:15551:16915;Name=GenBank:CDS:pHPHS232_pHPHS80:15551:16915;codon_start=1;label=mcherry;translation=length.454
+pHPHS232_pHPHS80	GenBank	CDS	15551	16258	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:15551:16258;Name=GenBank:CDS:pHPHS232_pHPHS80:15551:16258;Name="";Note=mammalian codon-optimized;codon_start=1;label=mCherry;product=monomeric derivative of DsRed fluorescent protein (Shaner et al.%2C 2004);translation=length.236
+pHPHS232_pHPHS80	GenBank	regulatory	15551	15554	.	+	1	ID=GenBank:regulatory:pHPHS232_pHPHS80:15551:15554;Name=GenBank:regulatory:pHPHS232_pHPHS80:15551:15554;Note=vertebrate consensus sequence for strong initiation of translation (Kozak%2C 1987);label=Kozak sequence;regulatory_class=other
+pHPHS232_pHPHS80	GenBank	primer_binding_site	15557	15571	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:15557:15571;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:15557:15571;label=oPB hsprimers Rev
+pHPHS232_pHPHS80	GenBank	gene	14507	17070	.	+	1	ID=.gene.2;Name=.gene.2;Alias="";label=mcherry
+pHPHS232_pHPHS80	GenBank	mature_transcript	15635	15654	.	+	1	ID=GenBank:mature_transcript:pHPHS232_pHPHS80:15635:15654;Name=GenBank:mature_transcript:pHPHS232_pHPHS80:15635:15654;Note=from Wheeler 2020;label=sgrna_1_wheeler_2020
+pHPHS232_pHPHS80	GenBank	mature_transcript	15640	15659	.	-	1	ID=GenBank:mature_transcript:pHPHS232_pHPHS80:15640:15659;Name=GenBank:mature_transcript:pHPHS232_pHPHS80:15640:15659;Note=from Wheeler 2020;label=sgrna_2_wheeler_2020
+pHPHS232_pHPHS80	GenBank	mature_transcript	16007	16026	.	+	1	ID=GenBank:mature_transcript:pHPHS232_pHPHS80:16007:16026;Name=GenBank:mature_transcript:pHPHS232_pHPHS80:16007:16026;label=sgrna_3_designed
+pHPHS232_pHPHS80	GenBank	primer_binding_site	16238	16277	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:16238:16277;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:16238:16277;Note=mCherry_T2A_F;label=oAS1311
+pHPHS232_pHPHS80	GenBank	primer_binding_site	16238	16259	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:16238:16259;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:16238:16259;Note=EYFP_FLUCend_R;label=oAS1325
+pHPHS232_pHPHS80	GenBank	primer_binding_site	16238	16258	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:16238:16258;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:16238:16258;Note=mCherry_end_R;label=oAS1310
+pHPHS232_pHPHS80	GenBank	primer_binding_site	16238	16258	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:16238:16258.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:16238:16258.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:16238:16258;Note=EYFPwt_HA_stop_R;label=oAS1873
+pHPHS232_pHPHS80	GenBank	primer_binding_site	16244	16258	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:16244:16258;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:16244:16258;Note=EYFPend_AgeI_Flucend_F;label=oAS1555
+pHPHS232_pHPHS80	GenBank	CDS	16259	16312	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:16259:16312;Name=GenBank:CDS:pHPHS232_pHPHS80:16259:16312;label=T2A
+pHPHS232_pHPHS80	GenBank	primer_binding_site	16259	16280	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:16259:16280;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:16259:16280;Note=mtagbfp2_end_t2a_start_f;label=oAS1379
+pHPHS232_pHPHS80	GenBank	primer_binding_site	16281	16335	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:16281:16335;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:16281:16335;Note=puro_T2A_R;label=oAS1676
+pHPHS232_pHPHS80	GenBank	CDS	16316	16915	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:16316:16915;Name=GenBank:CDS:pHPHS232_pHPHS80:16316:16915;label=puro
+pHPHS232_pHPHS80	GenBank	primer_binding_site	16688	16726	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:16688:16726;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:16688:16726;Note=remove_bsmb1_puro_f;label=oAS1292
+pHPHS232_pHPHS80	GenBank	primer_binding_site	16688	16726	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:16688:16726.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:16688:16726.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:16688:16726;Note=remove_bsmb1_puro_r;label=oAS1293
+pHPHS232_pHPHS80	GenBank	region	16801	16801	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:16801:16801;Name=GenBank:region:pHPHS232_pHPHS80:16801:16801;label=Remove_bsa1_CtoA
+pHPHS232_pHPHS80	GenBank	primer_binding_site	16899	16932	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:16899:16932;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:16899:16932;Note=not1_linker_puro_end_R;label=oAS1361
+pHPHS232_pHPHS80	GenBank	primer_binding_site	16915	16931	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:16915:16931;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:16915:16931;Note=FLucfrag_AscI_bghpAfrag_T7p_R;label=oAS1573
+pHPHS232_pHPHS80	GenBank	3'UTR	16916	17070	.	+	1	ID=GenBank:3'UTR:pHPHS232_pHPHS80:16916:17070;Name=GenBank:3'UTR:pHPHS232_pHPHS80:16916:17070;label=mcherry
+pHPHS232_pHPHS80	GenBank	CDS	16917	16929	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:16917:16929;Name=GenBank:CDS:pHPHS232_pHPHS80:16917:16929;Note=/created_by%3DUser;label=Fluc
+pHPHS232_pHPHS80	GenBank	primer_binding_site	16938	16959	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:16938:16959;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:16938:16959;label=oAS1369
+pHPHS232_pHPHS80	GenBank	primer_binding_site	16938	16955	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:16938:16955;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:16938:16955;label=oAS1331
+pHPHS232_pHPHS80	GenBank	terminator	16941	17070	.	+	1	ID=GenBank:terminator:pHPHS232_pHPHS80:16941:17070;Name=GenBank:terminator:pHPHS232_pHPHS80:16941:17070;label=SV40-PA
+pHPHS232_pHPHS80	GenBank	primer_binding_site	16941	16965	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:16941:16965;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:16941:16965;Note=SV40pA_F;label=oAS1535
+pHPHS232_pHPHS80	GenBank	primer_binding_site	16941	16961	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:16941:16961;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:16941:16961;Note=SV40pA_rtTA3_R;label=oAS1534
+pHPHS232_pHPHS80	GenBank	primer_binding_site	16941	16961	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:16941:16961.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:16941:16961.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:16941:16961;Note=Fluc_BamHI_SV40pAstart_F;label=oAS1582
+pHPHS232_pHPHS80	GenBank	primer_binding_site	16941	16957	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:16941:16957;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:16941:16957;label=oAS1307
+pHPHS232_pHPHS80	GenBank	primer_binding_site	16941	16957	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:16941:16957.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:16941:16957.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:16941:16957;Note=Hygro_flucfrag_sv40PA_rev;label=oPB483
+pHPHS232_pHPHS80	GenBank	primer_binding_site	17046	17096	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:17046:17096;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:17046:17096;Note=KanRt_SV40pAend_R;label=oAS1571
+pHPHS232_pHPHS80	GenBank	primer_binding_site	17050	17070	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:17050:17070;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:17050:17070;Note=cHS4_SV40pA_R;label=oAS1536
+pHPHS232_pHPHS80	GenBank	primer_binding_site	17050	17070	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:17050:17070.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:17050:17070.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:17050:17070;Note=AmpRt_SV40pA_R;label=oAS1327
+pHPHS232_pHPHS80	GenBank	terminator	17077	17103	.	-	1	ID=GenBank:terminator:pHPHS232_pHPHS80:17077:17103;Name=GenBank:terminator:pHPHS232_pHPHS80:17077:17103;label=KanR Terminator
+pHPHS232_pHPHS80	GenBank	primer_binding_site	17077	17096	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:17077:17096;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:17077:17096;Note=KanRt_end_F;label=oAS1411
+pHPHS232_pHPHS80	GenBank	CDS	17104	17919	.	-	0	ID=GenBank:CDS:pHPHS232_pHPHS80:17104:17919;Name=GenBank:CDS:pHPHS232_pHPHS80:17104:17919;label=KanR
+pHPHS232_pHPHS80	GenBank	promoter	17920	18067	.	-	1	ID=GenBank:promoter:pHPHS232_pHPHS80:17920:18067;Name=GenBank:promoter:pHPHS232_pHPHS80:17920:18067;label=KanR Promoter
+pHPHS232_pHPHS80	GenBank	origin_of_replication	18068	18831	.	-	1	ID=GenBank:origin_of_replication:pHPHS232_pHPHS80:18068:18831;Name=GenBank:origin_of_replication:pHPHS232_pHPHS80:18068:18831;direction=LEFT;label=ColE1
+pHPHS232_pHPHS80	GenBank	primer_binding_site	18633	18652	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:18633:18652;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:18633:18652;Note=pBR322 origin%2C forward primer;label=pBR322ori-F
+pHPHS232_pHPHS80	GenBank	primer_binding_site	18814	18855	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:18814:18855;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:18814:18855;Note=ColE1_Xba1_pU6_start_F;label=oAS1406
+pHPHS232_pHPHS80	GenBank	primer_binding_site	18814	18831	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:18814:18831;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:18814:18831;Note=ColE1_R;label=oAS1315
+pHPHS232_pHPHS80	GenBank	primer_binding_site	18814	18831	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:18814:18831.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:18814:18831.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:18814:18831;label=oAS1315 (1)
+pHPHS232_pHPHS80	GenBank	primer_binding_site	18815	18831	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:18815:18831;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:18815:18831;Note=ColE1_NotI_cHS4_F;label=oAS1579
+pHPHS232_pHPHS80	GenBank	promoter	18835	19084	.	+	1	ID=GenBank:promoter:pHPHS232_pHPHS80:18835:19084;Name=GenBank:promoter:pHPHS232_pHPHS80:18835:19084;Note=RNA polymerase III promoter for human U6 snRNA;label=U6 promoter
+pHPHS232_pHPHS80	GenBank	primer_binding_site	18835	18855	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:18835:18855;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:18835:18855;Note=Human U6 promoter%2C forward primer;label=hU6-F
+pHPHS232_pHPHS80	GenBank	primer_binding_site	19006	19025	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:19006:19025;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:19006:19025;Note=Human U6 promoter%2C forward primer;label=LKO.1 5'
+pHPHS232_pHPHS80	GenBank	primer_binding_site	19055	19084	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:19055:19084;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:19055:19084;label=oAS1386
+pHPHS232_pHPHS80	GenBank	primer_binding_site	19062	19121	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:19062:19121;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:19062:19121;label=oPN748
+pHPHS232_pHPHS80	GenBank	region	19085	19103	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:19085:19103;Name=GenBank:region:pHPHS232_pHPHS80:19085:19103;label=Fluc sgRNA 1
+pHPHS232_pHPHS80	GenBank	region	19104	19189	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:19104:19189;Name=GenBank:region:pHPHS232_pHPHS80:19104:19189;Note=From Sanson 2018 Fig 2 https://www.nature.com/articles/s41467-018-07901-8;label=tracrRNA_v2
+pHPHS232_pHPHS80	GenBank	region	19108	19108	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:19108:19108;Name=GenBank:region:pHPHS232_pHPHS80:19108:19108;label=T>C_v1>v2
+pHPHS232_pHPHS80	GenBank	region	19116	19120	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:19116:19120;Name=GenBank:region:pHPHS232_pHPHS80:19116:19120;label=extension_v2
+pHPHS232_pHPHS80	GenBank	region	19125	19129	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:19125:19129;Name=GenBank:region:pHPHS232_pHPHS80:19125:19129;label=extension_v2
+pHPHS232_pHPHS80	GenBank	region	19139	19139	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:19139:19139;Name=GenBank:region:pHPHS232_pHPHS80:19139:19139;label=A>G_v1>v2
+pHPHS232_pHPHS80	GenBank	primer_binding_site	19175	19196	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:19175:19196;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:19175:19196;Note=flucend_NotI_cHS4start_gRNAend_R;label=oAS1572
+pHPHS232_pHPHS80	GenBank	primer_binding_site	19175	19189	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:19175:19189;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:19175:19189;Note=flucend_NotI_cHS4start_gRNAend_R;label=oAS1572
+pHPHS232_pHPHS80	GenBank	terminator	19196	19291	.	-	1	ID=GenBank:terminator:pHPHS232_pHPHS80:19196:19291;Name=GenBank:terminator:pHPHS232_pHPHS80:19196:19291;label=AmpR Terminator
+pHPHS232_pHPHS80	GenBank	region	19204	19205	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:19204:19205;Name=GenBank:region:pHPHS232_pHPHS80:19204:19205;label=mutated_for_gene_fragment
+pHPHS232_pHPHS80	GenBank	primer_binding_site	19206	19243	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:19206:19243;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:19206:19243;Note=AmpR_terminator_end_R;label=oAS1877
+pHPHS232_pHPHS80	GenBank	CDS	19292	20149	.	-	0	ID=GenBank:CDS:pHPHS232_pHPHS80:19292:20149;Name=GenBank:CDS:pHPHS232_pHPHS80:19292:20149;label=AmpR
+pHPHS232_pHPHS80	GenBank	promoter	20150	20280	.	-	1	ID=GenBank:promoter:pHPHS232_pHPHS80:20150:20280;Name=GenBank:promoter:pHPHS232_pHPHS80:20150:20280;label=AmpR Promoter
+pHPHS232_pHPHS80	GenBank	primer_binding_site	20256	20280	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:20256:20280;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:20256:20280;label=oTB11
+pHPHS232_pHPHS80	GenBank	promoter	20281	20595	.	+	1	ID=GenBank:promoter:pHPHS232_pHPHS80:20281:20595;Name=GenBank:promoter:pHPHS232_pHPHS80:20281:20595;Note=mouse U6 (Weissman);label=mU6,mU6 promoter (modified)(1)
+pHPHS232_pHPHS80	GenBank	primer_binding_site	20441	20469	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:20441:20469;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:20441:20469;label=Forward-DG Primer
+pHPHS232_pHPHS80	GenBank	primer_binding_site	20511	20541	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:20511:20541;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:20511:20541;label=NFwd-DG Primer (P5)
+pHPHS232_pHPHS80	GenBank	primer_binding_site	20558	20595	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:20558:20595;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:20558:20595;label=Seq-DG1 NGS Primer (READ 1)
+pHPHS232_pHPHS80	GenBank	primer_binding_site	20578	20637	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:20578:20637;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:20578:20637;label=oPN749
+pHPHS232_pHPHS80	GenBank	region	20596	20614	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:20596:20614;Name=GenBank:region:pHPHS232_pHPHS80:20596:20614;label=Fluc sgRNA 2
+pHPHS232_pHPHS80	GenBank	mature_transcript	16199	16218	.	+	1	ID=GenBank:mature_transcript:pHPHS232_pHPHS80:16199:16218;Name=GenBank:mature_transcript:pHPHS232_pHPHS80:16199:16218;label=sgrna_1_designed
+pHPHS232_pHPHS80	GenBank	primer_binding_site	20615	20634	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:20615:20634;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:20615:20634;label=oAS1334
+pHPHS232_pHPHS80	GenBank	primer_binding_site	20676	20715	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:20676:20715;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:20676:20715;Note=flucend_NotI_cHS4start_gRNAend_R;label=oAS1572
+pHPHS232_pHPHS80	GenBank	primer_binding_site	20676	20690	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:20676:20690;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:20676:20690;Note=flucend_NotI_cHS4start_gRNAend_R;label=oAS1572
+pHPHS232_pHPHS80	GenBank	primer_binding_site	20697	20733	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:20697:20733;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:20697:20733;Note=ColE1_NotI_cHS4_F;label=oAS1579
+pHPHS232_pHPHS80	GenBank	region	20699	21909	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:20699:21909;Name=GenBank:region:pHPHS232_pHPHS80:20699:21909;Note=/created_by%3DUser;label=cHS4_insulator,insulator
+pHPHS232_pHPHS80	GenBank	primer_binding_site	20699	20737	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:20699:20737;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:20699:20737;Note=attBL_cHS4_F;label=oAS1507
+pHPHS232_pHPHS80	GenBank	primer_binding_site	20869	20886	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:20869:20886;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:20869:20886;Note=cHS4_start_R;label=oAS1601
+pHPHS232_pHPHS80	GenBank	primer_binding_site	21875	21910	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:21875:21910;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:21875:21910;Note=CMVenhancer_EcoRI_cHS4_R;label=oAS1510
+pHPHS232_pHPHS80	GenBank	primer_binding_site	21886	21910	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:21886:21910;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:21886:21910;Note=cHS4_EcoRV_pEF1a_F;label=oAS1711
+pHPHS232_pHPHS80	GenBank	primer_binding_site	21892	21910	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:21892:21910;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:21892:21910;Note=cHS4_pCMV_F;label=oAS1533
+pHPHS232_pHPHS80	GenBank	primer_binding_site	21892	21910	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:21892:21910.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:21892:21910.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:21892:21910;Note=pPGK1_cHS4_R;label=oAS1473
+pHPHS232_pHPHS80	GenBank	primer_binding_site	21895	21948	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:21895:21948;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:21895:21948;Note=cHS4_pTet_F;label=oAS1532
+pHPHS232_pHPHS80	GenBank	primer_binding_site	21932	21948	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:21932:21948;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:21932:21948;Note=attB_pTet_F;label=oAS1468
+pHPHS232_pHPHS80	GenBank	promoter	21949	22254	.	+	1	ID=GenBank:promoter:pHPHS232_pHPHS80:21949:22254;Name=GenBank:promoter:pHPHS232_pHPHS80:21949:22254;Note=3rd-generation Tet-responsive promoter that can be activated by binding of Tet-On(R) 3G%2C optimized for retroviral and lentiviral vectors;label=TRE3GV promoter
+pHPHS232_pHPHS80	GenBank	promoter	21953	22254	.	+	1	ID=GenBank:promoter:pHPHS232_pHPHS80:21953:22254;Name=GenBank:promoter:pHPHS232_pHPHS80:21953:22254;label=PTRE3G
+pHPHS232_pHPHS80	GenBank	protein_binding_site	21957	21975	.	+	1	ID=tetO.protein_binding_site.6;Name=tetO.protein_binding_site.6;Alias=tetO;Name=tetO;Note=bacterial operator O2 for the tetR and tetA genes;bound_moiety=tetracycline repressor TetR;label=tet operator
+pHPHS232_pHPHS80	GenBank	region	21983	22018	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:21983:22018;Name=GenBank:region:pHPHS232_pHPHS80:21983:22018;Note=Original pHPHS317-1 has one Tet missing ;label=One_Tet_missing
+pHPHS232_pHPHS80	GenBank	protein_binding_site	21993	22011	.	+	1	ID=tetO.protein_binding_site.7;Name=tetO.protein_binding_site.7;Alias=tetO;Name=tetO;Note=bacterial operator O2 for the tetR and tetA genes;bound_moiety=tetracycline repressor TetR;label=tet operator
+pHPHS232_pHPHS80	GenBank	protein_binding_site	22029	22047	.	+	1	ID=tetO.protein_binding_site.8;Name=tetO.protein_binding_site.8;Alias=tetO;Name=tetO;Note=bacterial operator O2 for the tetR and tetA genes;bound_moiety=tetracycline repressor TetR;label=tet operator
+pHPHS232_pHPHS80	GenBank	protein_binding_site	22065	22083	.	+	1	ID=tetO.protein_binding_site.9;Name=tetO.protein_binding_site.9;Alias=tetO;Name=tetO;Note=bacterial operator O2 for the tetR and tetA genes;bound_moiety=tetracycline repressor TetR;label=tet operator
+pHPHS232_pHPHS80	GenBank	protein_binding_site	22101	22119	.	+	1	ID=tetO.protein_binding_site.10;Name=tetO.protein_binding_site.10;Alias=tetO;Name=tetO;Note=bacterial operator O2 for the tetR and tetA genes;bound_moiety=tetracycline repressor TetR;label=tet operator
+pHPHS232_pHPHS80	GenBank	protein_binding_site	22137	22155	.	+	1	ID=tetO.protein_binding_site.111;Name=tetO.protein_binding_site.111;Alias=tetO;Name=tetO;Note=bacterial operator O2 for the tetR and tetA genes;bound_moiety=tetracycline repressor TetR;label=tet operator
+pHPHS232_pHPHS80	GenBank	protein_binding_site	22173	22191	.	+	1	ID=tetO.protein_binding_site.1112;Name=tetO.protein_binding_site.1112;Alias=tetO;Name=tetO;Note=bacterial operator O2 for the tetR and tetA genes;bound_moiety=tetracycline repressor TetR;label=tet operator
+pHPHS232_pHPHS80	GenBank	primer_binding_site	22192	22208	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:22192:22208;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:22192:22208;Note=pTet_End_Seq_F;label=oAS1463
+pHPHS232_pHPHS80	GenBank	primer_binding_site	22230	22297	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:22230:22297;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:22230:22297;Note=5primeUTR_EcoRI_pTet_r;label=oHP621
+pHPHS232_pHPHS80	GenBank	primer_binding_site	22234	22265	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:22234:22265;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:22234:22265;label=oPN211
+pHPHS232_pHPHS80	GenBank	primer_binding_site	22238	22297	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:22238:22297;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:22238:22297;Note=pTet_EcoRI_R;label=oTB140
+pHPHS232_pHPHS80	GenBank	mature_transcript	20615	20690	.	+	1	ID=GenBank:mature_transcript:pHPHS232_pHPHS80:20615:20690;Name=GenBank:mature_transcript:pHPHS232_pHPHS80:20615:20690;Note=guide RNA scaffold for the Streptococcus pyogenes CRISPR/Cas9 system;label=gRNA scaffold
+pHPHS232_pHPHS80	GenBank	exon	22255	23348	.	+	1	Parent=GenBank:mature_transcript:pHPHS232_pHPHS80:20615:20690;Note=/created_by%3DUser;label=eyfp,Mm beta-globin exon 3
+pHPHS232_pHPHS80	GenBank	5'UTR	22255	22313	.	+	1	ID=GenBank:5'UTR:pHPHS232_pHPHS80:22255:22313;Name=GenBank:5'UTR:pHPHS232_pHPHS80:22255:22313;Note=based on homology to CMV promoter near SacI site;label=eyfp
+pHPHS232_pHPHS80	GenBank	primer_binding_site	22278	22337	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:22278:22337;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:22278:22337;Note=pTet_KpnI_EYFP_R;label=oTB141
+pHPHS232_pHPHS80	GenBank	primer_binding_site	22278	22319	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:22278:22319;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:22278:22319;Note=pTREend_hind3_kozak_r;label=oAS1469
+pHPHS232_pHPHS80	GenBank	primer_binding_site	22311	22326	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:22311:22326;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:22311:22326;Note=attB_NheI_mCherry_F;label=oAS1675
+pHPHS232_pHPHS80	GenBank	CDS	22314	23060	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:22314:23060;Name=GenBank:CDS:pHPHS232_pHPHS80:22314:23060;codon_start=1;label=eyfp;translation=length.248
+pHPHS232_pHPHS80	GenBank	primer_binding_site	22320	22343	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:22320:22343;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:22320:22343;label=oPB hsprimers Rev
+pHPHS232_pHPHS80	GenBank	primer_binding_site	22320	22343	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:22320:22343.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:22320:22343.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:22320:22343;Note=EYFP_KpnI_Mmbglobin_e3_R;label=oAS1567
+pHPHS232_pHPHS80	GenBank	primer_binding_site	22324	22343	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:22324:22343;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:22324:22343;label=oHP557_EYFP_f
+pHPHS232_pHPHS80	GenBank	gene	22255	23348	.	+	1	ID=.gene.3;Name=.gene.3;Alias="";label=eyfp
+pHPHS232_pHPHS80	GenBank	mature_transcript	22325	22344	.	+	1	ID=GenBank:mature_transcript:pHPHS232_pHPHS80:22325:22344;Name=GenBank:mature_transcript:pHPHS232_pHPHS80:22325:22344;Note=from both Shalem 2013 and Wheeler 2020;label=sgrna_1
+pHPHS232_pHPHS80	GenBank	mature_transcript	22365	22384	.	+	1	ID=GenBank:mature_transcript:pHPHS232_pHPHS80:22365:22384;Name=GenBank:mature_transcript:pHPHS232_pHPHS80:22365:22384;Note=from both Shalem 2013 and Wheeler 2020;label=sgrna_2
+pHPHS232_pHPHS80	GenBank	primer_binding_site	22436	22452	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:22436:22452;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:22436:22452;Note=eyfp_122nt_r;label=oHP583
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23008	23031	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23008:23031;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23008:23031;Note=EYFP_bglobine2_f;label=oAS1614
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23010	23084	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23010:23084;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23010:23084;Note=EYFP_FLUCend_R;label=oAS1325
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23010	23060	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23010:23060;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23010:23060;Note=EYFPwt_HA_stop_R;label=oAS1873
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23010	23030	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23010:23030;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23010:23030;Note=mCherry_T2A_F;label=oAS1311
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23010	23030	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23010:23030.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23010:23030.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:23010:23030;Note=mCherry_end_R;label=oAS1310
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23016	23086	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23016:23086;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23016:23086;Note=EYFPend_AgeI_Flucend_F;label=oAS1555
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23031	23060	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23031:23060;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23031:23060;Note=Mmbglobin_HA_F;label=oAS1868
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23037	23086	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23037:23086;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23037:23086;Note=HA_ACAGTG_Flucend_R;label=oAS1870
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23037	23086	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23037:23086.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23037:23086.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:23037:23086;Note=HA_GCCAAT_Flucend_R;label=oAS1871
+pHPHS232_pHPHS80	GenBank	3'UTR	23061	23348	.	+	1	ID=GenBank:3'UTR:pHPHS232_pHPHS80:23061:23348;Name=GenBank:3'UTR:pHPHS232_pHPHS80:23061:23348;label=eyfp
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23066	23086	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23066:23086;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23066:23086;Note=FLucend_bglobine3_R;label=oAS1615
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23067	23150	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23067:23150;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23067:23150;Note=Flucend_NotI_bghpA_start_F;label=oAS1554
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23067	23109	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23067:23109;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23067:23109;Note=Flucend_20xN_R1_F;label=oAS1576
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23067	23109	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23067:23109.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23067:23109.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:23067:23109;Note=Flucend_EcoRV_R1_F;label=oAS1577
+pHPHS232_pHPHS80	GenBank	mature_transcript	22386	22405	.	+	1	ID=GenBank:mature_transcript:pHPHS232_pHPHS80:22386:22405;Name=GenBank:mature_transcript:pHPHS232_pHPHS80:22386:22405;Note=from both Shalem 2013 and Wheeler 2020;label=sgrna_3
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23093	23150	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23093:23150;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23093:23150;Note=R1_T7_bghpA_F;label=oAS1574
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23116	23150	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23116:23150;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23116:23150;Note=FLucfrag_AscI_bghpAfrag_T7p_R;label=oAS1573
+pHPHS232_pHPHS80	GenBank	terminator	23133	23348	.	+	1	ID=GenBank:terminator:pHPHS232_pHPHS80:23133:23348;Name=GenBank:terminator:pHPHS232_pHPHS80:23133:23348;label=bGH_PA_terminator
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23133	23153	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23133:23153;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23133:23153;label=oPN202
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23321	23369	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23321:23369;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23321:23369;Note=bghpA_attB_F;label=oAS1671
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23326	23348	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23326:23348;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23326:23348;Note=aavs1r_start_bghpA_end_r;label=oAS1380
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23326	23348	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23326:23348.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23326:23348.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:23326:23348;Note=bGHpA_end_R;label=oAS1491
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23326	23348	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23326:23348.primer_binding_site.1;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23326:23348.primer_binding_site.1;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:23326:23348;label=oAS1491 (1)
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23329	23373	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23329:23373;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23329:23373;Note=bgh_pA_attB_GA_F;label=oAS1854
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23329	23366	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23329:23366;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23329:23366;Note=attBL_bghpA_R;label=oAS1581
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23330	23350	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23330:23350;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23330:23350;Note=part8b_bghpA_r;label=oAS1268
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23349	23373	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23349:23373;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23349:23373;label=oAS1540
+pHPHS232_pHPHS80	GenBank	region	23349	23369	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:23349:23369;Name=GenBank:region:pHPHS232_pHPHS80:23349:23369;label=attB-Left
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23349	23369	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23349:23369;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23349:23369;Note=attBL_cHS4_F;label=oAS1507
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23349	23369	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23349:23369.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23349:23369.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:23349:23369;label=oAS1482
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23349	23369	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23349:23369.primer_binding_site.1;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23349:23369.primer_binding_site.1;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:23349:23369;Note=Bxb1_attP_GA_right_attB_GT_left;label=oAS1848
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23366	23412	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23366:23412;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23366:23412;Note=Bxb1_attP_GA_right_attB_GT_left;label=oAS1848
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23366	23393	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23366:23393;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23366:23393;Note=Bxb1_attP_F;label=oAS1710
+pHPHS232_pHPHS80	GenBank	region	23370	23370	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:23370:23370;Name=GenBank:region:pHPHS232_pHPHS80:23370:23370;label=T>A
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23392	23416	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23392:23416;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23392:23416;label=oAS1482
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23392	23416	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23392:23416.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23392:23416.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:23392:23416;label=oAS1540
+pHPHS232_pHPHS80	GenBank	region	23392	23412	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:23392:23412;Name=GenBank:region:pHPHS232_pHPHS80:23392:23412;label=attB-Left
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23392	23412	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23392:23412;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23392:23412;Note=attBL_cHS4_F;label=oAS1507
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23392	23409	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23392:23409;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23392:23409;Note=attBL_bghpA_R;label=oAS1581
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23399	23416	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23399:23416;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23399:23416;Note=attB_NheI_mCherry_F;label=oAS1675
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23401	23416	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23401:23416;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23401:23416;label=oPB482
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23409	23436	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23409:23436;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23409:23436;Note=Bxb1_attP_F;label=oAS1710
+pHPHS232_pHPHS80	GenBank	gene	23067	23084	.	+	1	ID=firefly_Luciferase;Name=firefly_Luciferase;Name=firefly_Luciferase;label=firefly_Luciferase
+pHPHS232_pHPHS80	GenBank	exon	23437	26465	.	+	1	ID=GenBank:exon:pHPHS232_pHPHS80:23437:26465;Name=GenBank:exon:pHPHS232_pHPHS80:23437:26465;label=bfp
+pHPHS232_pHPHS80	GenBank	region	23437	24153	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:23437:24153;Name=GenBank:region:pHPHS232_pHPHS80:23437:24153;label=INSERT,INSERT(1)
+pHPHS232_pHPHS80	GenBank	regulatory	23437	23446	.	+	1	ID=GenBank:regulatory:pHPHS232_pHPHS80:23437:23446;Name=GenBank:regulatory:pHPHS232_pHPHS80:23437:23446;Note=vertebrate consensus sequence for strong initiation of translation (Kozak%2C 1987);label=Kozak sequence;regulatory_class=other
+pHPHS232_pHPHS80	GenBank	CDS	23443	25926	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:23443:25926;Name=GenBank:CDS:pHPHS232_pHPHS80:23443:25926;codon_start=1;label=bfp;translation=length.827
+pHPHS232_pHPHS80	GenBank	CDS	23443	24153	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:23443:24153;Name=GenBank:CDS:pHPHS232_pHPHS80:23443:24153;Name="";Note=mammalian codon-optimized;codon_start=1;label=mTagBFP2;product=enhanced monomeric blue fluorescent protein (Subach et al.%2C 2011);translation=length.237
+pHPHS232_pHPHS80	GenBank	region	23443	23445	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:23443:23445;Name=GenBank:region:pHPHS232_pHPHS80:23443:23445;label=mCherry
+pHPHS232_pHPHS80	GenBank	region	23446	24153	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:23446:24153;Name=GenBank:region:pHPHS232_pHPHS80:23446:24153;label=mTagBFP2
+pHPHS232_pHPHS80	GenBank	primer_binding_site	23517	23534	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:23517:23534;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:23517:23534;Note=mtagbfp2_nterm_R;label=oAS1493
+pHPHS232_pHPHS80	GenBank	primer_binding_site	24082	24098	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:24082:24098;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:24082:24098;label=oAS1320
+pHPHS232_pHPHS80	GenBank	primer_binding_site	24131	24153	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:24131:24153;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:24131:24153;Note=mTagBFP2_end_F;label=oAS1494
+pHPHS232_pHPHS80	GenBank	primer_binding_site	24132	24161	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:24132:24161;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:24132:24161;Note=mtagbfp2_end_r;label=oAS1378
+pHPHS232_pHPHS80	GenBank	primer_binding_site	24137	24163	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:24137:24163;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:24137:24163;Note=mtagbfp2_end_t2a_start_f;label=oAS1379
+pHPHS232_pHPHS80	GenBank	region	24157	24219	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:24157:24219;Name=GenBank:region:pHPHS232_pHPHS80:24157:24219;label=GSG-P2A
+pHPHS232_pHPHS80	GenBank	CDS	24163	24219	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:24163:24219;Name=GenBank:CDS:pHPHS232_pHPHS80:24163:24219;Name="";Note=Eukaryotic ribosomes fail to insert a peptide bond between the Gly and Pro residues%2C yielding separate polypeptides.;codon_start=1;label=P2A;product=2A peptide from porcine teschovirus-1 polyprotein;translation=length.19
+pHPHS232_pHPHS80	GenBank	region	24229	25464	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:24229:25464;Name=GenBank:region:pHPHS232_pHPHS80:24229:25464;label=iCasp9
+pHPHS232_pHPHS80	GenBank	CDS	24235	24555	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:24235:24555;Name=GenBank:CDS:pHPHS232_pHPHS80:24235:24555;Name="";Note=binds synthetic ligands that do not bind wild-typeFKBP;codon_start=1;label=DmrB;product=F36V mutant of FK506-binding protein FKBP12;translation=length.107
+pHPHS232_pHPHS80	GenBank	CDS	24907	24918	.	-	0	ID=GenBank:CDS:pHPHS232_pHPHS80:24907:24918;Name=GenBank:CDS:pHPHS232_pHPHS80:24907:24918;Name="";codon_start=1;label=WELQut site;product=WELQut protease recognition and cleavage site;translation=length.4
+pHPHS232_pHPHS80	GenBank	CDS	25432	25458	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:25432:25458;Name=GenBank:CDS:pHPHS232_pHPHS80:25432:25458;Name="";codon_start=1;label=HA;product=HA (human influenza hemagglutinin) epitope tag;translation=length.9
+pHPHS232_pHPHS80	GenBank	primer_binding_site	25467	25498	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:25467:25498;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:25467:25498;Note=mtagbfp2_end_t2a_start_f;label=oAS1379
+pHPHS232_pHPHS80	GenBank	region	25468	25530	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:25468:25530;Name=GenBank:region:pHPHS232_pHPHS80:25468:25530;label=2A
+pHPHS232_pHPHS80	GenBank	region	25468	25530	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:25468:25530.region;Name=GenBank:region:pHPHS232_pHPHS80:25468:25530.region;Alias=GenBank:region:pHPHS232_pHPHS80:25468:25530;label=2A_peptide
+pHPHS232_pHPHS80	GenBank	primer_binding_site	25468	25486	.	+	1	ID=flag_bamh1_t2a_f1;Name=flag_bamh1_t2a_f1;Name=flag_bamh1_t2a_f1;label=oAS1373
+pHPHS232_pHPHS80	GenBank	CDS	25477	25530	.	+	0	ID=Eukaryoti1;Name=Eukaryoti1;=_no_value,_no_value;Name=Eukaryoti1;codon_start=1;label=T2A;product=2A peptide from Thosea asigna virus capsid protein;translation=length.18
+pHPHS232_pHPHS80	GenBank	primer_binding_site	25477	25495	.	+	1	ID=mCherry_T2A_F1;Name=mCherry_T2A_F1;Name=mCherry_T2A_F1;label=oAS1311
+pHPHS232_pHPHS80	GenBank	primer_binding_site	25499	25530	.	-	1	ID=puro_T2A_R1;Name=puro_T2A_R1;Name=puro_T2A_R1;label=oAS1676
+pHPHS232_pHPHS80	GenBank	CDS	25531	25926	.	+	0	ID=Aspergillu1;Name=Aspergillu1;Name=Aspergillu1;codon_start=1;label=BSD;product=blasticidin S deaminase;translation=length.131
+pHPHS232_pHPHS80	GenBank	gene	23437	26465	.	+	1	ID=.gene.4;Name=.gene.4;Alias="";label=bfp
+pHPHS232_pHPHS80	GenBank	terminator	25939	26465	.	+	1	ID=GenBank:terminator:pHPHS232_pHPHS80:25939:26465;Name=GenBank:terminator:pHPHS232_pHPHS80:25939:26465;Note=/translation%3DMLKGLHDVPIIFGRGKKISVVFVSQGIGHTSHHLLIGSL HLRSE FTRLARSGGAGSGGAVHGRIGRLSAGSGEGDGGLEGVLVLHDAQLGVAVQLLHAAEGE HGAPVLQDAGVDGALEVHVAVHHEAVVAAVAQAEGAGEAAHQHVIAHGVQVLHGGVAA DDLVGEDHAVLGEAGAHHLEVADHAAGLVAVAEAHVQHAAVLVLLDAGVGVAAVVDGV QEGVLVAAGVGAEVVEAVAHHVAQQVGAEGQGAFGALHLVGHAALLGGALSAAHQLEL HAVQGAGDAALDLHGGQAALVALHGCTQFFAKMMRQHNNQHVAQEL*;label=rb_glob_PA_terminator
+pHPHS232_pHPHS80	GenBank	primer_binding_site	25939	25958	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:25939:25958;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:25939:25958;label=oHP604
+pHPHS232_pHPHS80	GenBank	region	26472	26505	.	-	1	ID=GenBank:region:pHPHS232_pHPHS80:26472:26505;Name=GenBank:region:pHPHS232_pHPHS80:26472:26505;Note=/translation%3DMLKGLHDVPIIFGRGKKISVVFVSQGIGHTSHHLLIGSL HLRSE FTRLARSGGAGSGGAVHGRIGRLSAGSGEGDGGLEGVLVLHDAQLGVAVQLLHAAEGE HGAPVLQDAGVDGALEVHVAVHHEAVVAAVAQAEGAGEAAHQHVIAHGVQVLHGGVAA DDLVGEDHAVLGEAGAHHLEVADHAAGLVAVAEAHVQHAAVLVLLDAGVGVAAVVDGV QEGVLVAAGVGAEVVEAVAHHVAQQVGAEGQGAFGALHLVGHAALLGGALSAAHQLEL HAVQGAGDAALDLHGGQAALVALHGCTQFFAKMMRQHNNQHVAQEL*;label=loxP
+pHPHS232_pHPHS80	GenBank	region	26472	26505	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:26472:26505.region;Name=GenBank:region:pHPHS232_pHPHS80:26472:26505.region;Alias=GenBank:region:pHPHS232_pHPHS80:26472:26505;Note=/translation%3DMLKGLHDVPIIFGRGKKISVVFVSQGIGHTSHHLLIGSL HLRSE FTRLARSGGAGSGGAVHGRIGRLSAGSGEGDGGLEGVLVLHDAQLGVAVQLLHAAEGE HGAPVLQDAGVDGALEVHVAVHHEAVVAAVAQAEGAGEAAHQHVIAHGVQVLHGGVAA DDLVGEDHAVLGEAGAHHLEVADHAAGLVAVAEAHVQHAAVLVLLDAGVGVAAVVDGV QEGVLVAAGVGAEVVEAVAHHVAQQVGAEGQGAFGALHLVGHAALLGGALSAAHQLEL HAVQGAGDAALDLHGGQAALVALHGCTQFFAKMMRQHNNQHVAQEL*;label=loxP
+pHPHS232_pHPHS80	GenBank	region	26538	27748	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:26538:27748;Name=GenBank:region:pHPHS232_pHPHS80:26538:27748;label=cHS4_insulator
+pHPHS232_pHPHS80	GenBank	primer_binding_site	26538	26576	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:26538:26576;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:26538:26576;Note=attBL_cHS4_F;label=oAS1507
+pHPHS232_pHPHS80	GenBank	primer_binding_site	26538	26572	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:26538:26572;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:26538:26572;Note=ColE1_NotI_cHS4_F;label=oAS1579
+pHPHS232_pHPHS80	GenBank	primer_binding_site	26708	26725	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:26708:26725;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:26708:26725;Note=cHS4_start_R;label=oAS1601
+pHPHS232_pHPHS80	GenBank	primer_binding_site	27714	27749	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:27714:27749;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:27714:27749;Note=CMVenhancer_EcoRI_cHS4_R;label=oAS1510
+pHPHS232_pHPHS80	GenBank	primer_binding_site	27725	27749	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:27725:27749;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:27725:27749;Note=cHS4_EcoRV_pEF1a_F;label=oAS1711
+pHPHS232_pHPHS80	GenBank	primer_binding_site	27731	27783	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:27731:27783;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:27731:27783;Note=cHS4_pCMV_F;label=oAS1533
+pHPHS232_pHPHS80	GenBank	primer_binding_site	27731	27749	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:27731:27749;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:27731:27749;Note=pPGK1_cHS4_R;label=oAS1473
+pHPHS232_pHPHS80	GenBank	primer_binding_site	27734	27749	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:27734:27749;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:27734:27749;Note=cHS4_pTet_F;label=oAS1532
+pHPHS232_pHPHS80	GenBank	region	27757	28288	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:27757:28288;Name=GenBank:region:pHPHS232_pHPHS80:27757:28288;label=CMVpromoter
+pHPHS232_pHPHS80	GenBank	primer_binding_site	27757	27776	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:27757:27776;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:27757:27776;label=KAM063
+pHPHS232_pHPHS80	GenBank	promoter	27760	28286	.	+	1	ID=GenBank:promoter:pHPHS232_pHPHS80:27760:28286;Name=GenBank:promoter:pHPHS232_pHPHS80:27760:28286;label=CMV promoter
+pHPHS232_pHPHS80	GenBank	enhancer	27760	28063	.	+	1	ID=GenBank:enhancer:pHPHS232_pHPHS80:27760:28063;Name=GenBank:enhancer:pHPHS232_pHPHS80:27760:28063;Note=human cytomegalovirus immediate early enhancer;label=CMV enhancer
+pHPHS232_pHPHS80	GenBank	promoter	27764	28051	.	+	1	ID=GenBank:promoter:pHPHS232_pHPHS80:27764:28051;Name=GenBank:promoter:pHPHS232_pHPHS80:27764:28051;label=CAG_enhancer
+pHPHS232_pHPHS80	GenBank	promoter	28064	28267	.	+	1	ID=GenBank:promoter:pHPHS232_pHPHS80:28064:28267;Name=GenBank:promoter:pHPHS232_pHPHS80:28064:28267;Note=human cytomegalovirus (CMV) immediate early promoter;label=CMV promoter
+pHPHS232_pHPHS80	GenBank	primer_binding_site	28064	28082	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:28064:28082;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:28064:28082;Note=CMVenhancer_EcoRI_cHS4_R;label=oAS1510
+pHPHS232_pHPHS80	GenBank	primer_binding_site	28218	28238	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:28218:28238;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:28218:28238;label=CMV_F
+pHPHS232_pHPHS80	GenBank	primer_binding_site	28261	28312	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:28261:28312;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:28261:28312;label=oPN211
+pHPHS232_pHPHS80	GenBank	primer_binding_site	28265	28296	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:28265:28296;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:28265:28296;Note=pTet_EcoRI_R;label=oTB140
+pHPHS232_pHPHS80	GenBank	gene	25531	25923	.	+	1	ID=blast;Name=blast;Name=blast;Note=/translation%3DMAARLCCHLDSARDVLLLRPFGPQSSGPSFPRPAAGSAA SSASS PSPSDESDLPLGRLPAWNSADIRLVMSLELILWNVCQLGCGKSPGSPGRQKYAKHASQ LVSNQVWKVPRLPSRQKYAKHASQLVSNHSPAPNSAHPAPNSAQFRPFSAPWLTNFFY LCRGRGRLCL*;label=blast
+pHPHS232_pHPHS80	GenBank	3'UTR	25927	26465	.	+	1	Parent=blast;label=bfp
+pHPHS232_pHPHS80	GenBank	exon	28285	29236	.	+	1	ID=GenBank:exon:pHPHS232_pHPHS80:28285:29236;Name=GenBank:exon:pHPHS232_pHPHS80:28285:29236;label=rtta3
+pHPHS232_pHPHS80	GenBank	5'UTR	28285	28398	.	+	1	ID=GenBank:5'UTR:pHPHS232_pHPHS80:28285:28398;Name=GenBank:5'UTR:pHPHS232_pHPHS80:28285:28398;label=rtta3
+pHPHS232_pHPHS80	GenBank	protein_binding_site	28372	28396	.	+	1	ID=mutant version of attB;Name=mutant version of attB;Name=mutant version of attB;Note=recombination site for the Gateway(R) BP reaction;bound_moiety=BP Clonase(TM);label=attB1
+pHPHS232_pHPHS80	GenBank	CDS	28399	29106	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:28399:29106;Name=GenBank:CDS:pHPHS232_pHPHS80:28399:29106;Name="";Note=activates expression from Tet-responsive promoters in the presence of doxycycline;codon_start=1;label=rtTA3;product=reverse tetracycline transactivator 3;translation=length.235
+pHPHS232_pHPHS80	GenBank	CDS	28399	29106	.	+	0	ID=GenBank:CDS:pHPHS232_pHPHS80:28399:29106.CDS;Name=GenBank:CDS:pHPHS232_pHPHS80:28399:29106.CDS;Alias=GenBank:CDS:pHPHS232_pHPHS80:28399:29106;codon_start=1;label=rtta3;translation=length.235
+pHPHS232_pHPHS80	GenBank	gene	28285	29236	.	+	1	ID=.gene.5;Name=.gene.5;Alias="";label=rtta3
+pHPHS232_pHPHS80	GenBank	primer_binding_site	29085	29127	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:29085:29127;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:29085:29127;Note=SV40pA_rtTA3_R;label=oAS1534
+pHPHS232_pHPHS80	GenBank	terminator	29107	29236	.	+	1	ID=GenBank:terminator:pHPHS232_pHPHS80:29107:29236;Name=GenBank:terminator:pHPHS232_pHPHS80:29107:29236;label=SV40-PA
+pHPHS232_pHPHS80	GenBank	3'UTR	29107	29236	.	+	1	ID=GenBank:3'UTR:pHPHS232_pHPHS80:29107:29236;Name=GenBank:3'UTR:pHPHS232_pHPHS80:29107:29236;label=rtta3
+pHPHS232_pHPHS80	GenBank	primer_binding_site	29107	29131	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:29107:29131;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:29107:29131;Note=SV40pA_F;label=oAS1535
+pHPHS232_pHPHS80	GenBank	primer_binding_site	29107	29127	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:29107:29127;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:29107:29127;Note=Fluc_BamHI_SV40pAstart_F;label=oAS1582
+pHPHS232_pHPHS80	GenBank	primer_binding_site	29107	29123	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:29107:29123;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:29107:29123;label=oAS1307
+pHPHS232_pHPHS80	GenBank	primer_binding_site	29107	29123	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:29107:29123.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:29107:29123.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:29107:29123;Note=Hygro_flucfrag_sv40PA_rev;label=oPB483
+pHPHS232_pHPHS80	GenBank	primer_binding_site	29212	29236	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:29212:29236;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:29212:29236;Note=KanRt_SV40pAend_R;label=oAS1571
+pHPHS232_pHPHS80	GenBank	primer_binding_site	29216	29259	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:29216:29259;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:29216:29259;Note=cHS4_SV40pA_R;label=oAS1536
+pHPHS232_pHPHS80	GenBank	primer_binding_site	29216	29241	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:29216:29241;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:29216:29241;Note=AmpRt_SV40pA_R;label=oAS1327
+pHPHS232_pHPHS80	GenBank	region	29237	30073	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:29237:30073;Name=GenBank:region:pHPHS232_pHPHS80:29237:30073;label=AAVS1_right_arm
+pHPHS232_pHPHS80	GenBank	primer_binding_site	29237	29259	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:29237:29259;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:29237:29259;Note=aavs1r_start_bghpA_end_r;label=oAS1380
+pHPHS232_pHPHS80	GenBank	primer_binding_site	29350	29369	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:29350:29369;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:29350:29369;label=oPN449
+pHPHS232_pHPHS80	GenBank	primer_binding_site	29376	29400	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:29376:29400;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:29376:29400;label=oAS1958_AAVS1_1715
+pHPHS232_pHPHS80	GenBank	primer_binding_site	29379	29400	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:29379:29400;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:29379:29400;label=AAVS1_AVA1715
+pHPHS232_pHPHS80	GenBank	region	29409	29428	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:29409:29428;Name=GenBank:region:pHPHS232_pHPHS80:29409:29428;label=pegRNA_1705b
+pHPHS232_pHPHS80	GenBank	region	29513	29532	.	-	1	ID=GenBank:region:pHPHS232_pHPHS80:29513:29532;Name=GenBank:region:pHPHS232_pHPHS80:29513:29532;label=pegRNA_1615a
+pHPHS232_pHPHS80	GenBank	primer_binding_site	29567	29590	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:29567:29590;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:29567:29590;label=oAS1959_aavs1_pegrna_3_r
+pHPHS232_pHPHS80	GenBank	region	29695	29711	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:29695:29711;Name=GenBank:region:pHPHS232_pHPHS80:29695:29711;label=AVA1652
+pHPHS232_pHPHS80	GenBank	primer_binding_site	29949	29972	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:29949:29972;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:29949:29972;label=AAVS1_AVA1651
+pHPHS232_pHPHS80	GenBank	primer_binding_site	30048	30107	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:30048:30107;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:30048:30107;Note=cHS4_lacZ_F;label=oAS1538
+pHPHS232_pHPHS80	GenBank	primer_binding_site	30048	30107	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:30048:30107.primer_binding_site;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:30048:30107.primer_binding_site;Alias=GenBank:primer_binding_site:pHPHS232_pHPHS80:30048:30107;Note=lacZ_cHS4_R;label=oAS1537
+pHPHS232_pHPHS80	GenBank	promoter	30082	30098	.	-	1	ID=GenBank:promoter:pHPHS232_pHPHS80:30082:30098;Name=GenBank:promoter:pHPHS232_pHPHS80:30082:30098;Note=/translation%3DMLKGLHDVPIIFGRGKKISVVFVSQGIGHTSHHLLIGSL HLRSE FTRLARSGGAGSGGAVHGRIGRLSAGSGEGDGGLEGVLVLHDAQLGVAVQLLHAAEGE HGAPVLQDAGVDGALEVHVAVHHEAVVAAVAQAEGAGEAAHQHVIAHGVQVLHGGVAA DDLVGEDHAVLGEAGAHHLEVADHAAGLVAVAEAHVQHAAVLVLLDAGVGVAAVVDGV QEGVLVAAGVGAEVVEAVAHHVAQQVGAEGQGAFGALHLVGHAALLGGALSAAHQLEL HAVQGAGDAALDLHGGQAALVALHGCTQFFAKMMRQHNNQHVAQEL*;label=M13_forward20_primer
+pHPHS232_pHPHS80	GenBank	region	30091	30234	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:30091:30234;Name=GenBank:region:pHPHS232_pHPHS80:30091:30234;Note=/translation%3DMLKGLHDVPIIFGRGKKISVVFVSQGIGHTSHHLLIGSL HLRSE FTRLARSGGAGSGGAVHGRIGRLSAGSGEGDGGLEGVLVLHDAQLGVAVQLLHAAEGE HGAPVLQDAGVDGALEVHVAVHHEAVVAAVAQAEGAGEAAHQHVIAHGVQVLHGGVAA DDLVGEDHAVLGEAGAHHLEVADHAAGLVAVAEAHVQHAAVLVLLDAGVGVAAVVDGV QEGVLVAAGVGAEVVEAVAHHVAQQVGAEGQGAFGALHLVGHAALLGGALSAAHQLEL HAVQGAGDAALDLHGGQAALVALHGCTQFFAKMMRQHNNQHVAQEL*;label=lacZ_a
+pHPHS232_pHPHS80	GenBank	region	30091	30113	.	-	1	ID=GenBank:region:pHPHS232_pHPHS80:30091:30113;Name=GenBank:region:pHPHS232_pHPHS80:30091:30113;Note=/translation%3DMLKGLHDVPIIFGRGKKISVVFVSQGIGHTSHHLLIGSL HLRSE FTRLARSGGAGSGGAVHGRIGRLSAGSGEGDGGLEGVLVLHDAQLGVAVQLLHAAEGE HGAPVLQDAGVDGALEVHVAVHHEAVVAAVAQAEGAGEAAHQHVIAHGVQVLHGGVAA DDLVGEDHAVLGEAGAHHLEVADHAAGLVAVAEAHVQHAAVLVLLDAGVGVAAVVDGV QEGVLVAAGVGAEVVEAVAHHVAQQVGAEGQGAFGALHLVGHAALLGGALSAAHQLEL HAVQGAGDAALDLHGGQAALVALHGCTQFFAKMMRQHNNQHVAQEL*;label=M13_pUC_fwd_primer
+pHPHS232_pHPHS80	GenBank	primer_binding_site	30307	30326	.	-	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:30307:30326;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:30307:30326;Note=pRS vectors%2C use to sequence yeast selectable marker;label=pRS-marker
+pHPHS232_pHPHS80	GenBank	region	30426	30448	.	+	1	ID=GenBank:region:pHPHS232_pHPHS80:30426:30448;Name=GenBank:region:pHPHS232_pHPHS80:30426:30448;Note=/translation%3DMLKGLHDVPIIFGRGKKISVVFVSQGIGHTSHHLLIGSL HLRSE FTRLARSGGAGSGGAVHGRIGRLSAGSGEGDGGLEGVLVLHDAQLGVAVQLLHAAEGE HGAPVLQDAGVDGALEVHVAVHHEAVVAAVAQAEGAGEAAHQHVIAHGVQVLHGGVAA DDLVGEDHAVLGEAGAHHLEVADHAAGLVAVAEAHVQHAAVLVLLDAGVGVAAVVDGV QEGVLVAAGVGAEVVEAVAHHVAQQVGAEGQGAFGALHLVGHAALLGGALSAAHQLEL HAVQGAGDAALDLHGGQAALVALHGCTQFFAKMMRQHNNQHVAQEL*;label=pGEX_3_primer
+pHPHS232_pHPHS80	GenBank	primer_binding_site	30426	30448	.	+	1	ID=GenBank:primer_binding_site:pHPHS232_pHPHS80:30426:30448;Name=GenBank:primer_binding_site:pHPHS232_pHPHS80:30426:30448;Note=pGEX vectors%2C reverse primer;label=pGEX 3'
+pHPHS232_pHPHS80	GenBank	gene	28399	29103	.	+	1	ID=.gene.6;Name=.gene.6;Alias="";label=rtTA3
+##FASTA
+>urn.local...a-64dnuok
+TGCAGCTCTGGCCCGTGTCTCAAAATCTCTGATGTTACATTGCACAAGATAAAAATATAT
+CATCATGAACAATAAAACTGTCTGCTTACATAAACAGTAATACAAGGGGTGTTATGAGCC
+ATATTCAACGGGAAACGTCGAGGCCGCGATTAAATTCCAACATGGATGCTGATTTATATG
+GGTATAAATGGGCTCGCGATAATGTCGGGCAATCAGGTGCGACAATCTATCGCTTGTATG
+GGAAGCCCGATGCGCCAGAGTTGTTTCTGAAACATGGCAAAGGTAGCGTTGCCAATGATG
+TTACAGATGAGATGGTCAGACTAAACTGGCTGACGGAATTTATGCCTCTTCCGACCATCA
+AGCATTTTATCCGTACTCCTGATGATGCATGGTTACTCACCACTGCGATCCCCGGAAAAA
+CAGCATTCCAGGTATTAGAAGAATATCCTGATTCAGGTGAAAATATTGTTGATGCGCTGG
+CAGTGTTCCTGCGCCGGTTGCATTCGATTCCTGTTTGTAATTGTCCTTTTAACAGCGATC
+GCGTATTTCGTCTCGCTCAGGCGCAATCACGAATGAATAACGGTTTGGTTGATGCGAGTG
+ATTTTGATGACGAGCGTAATGGCTGGCCTGTTGAACAAGTCTGGAAAGAAATGCATAAAC
+TTTTGCCATTCTCACCGGATTCAGTCGTCACTCATGGTGATTTCTCACTTGATAACCTTA
+TTTTTGACGAGGGGAAATTAATAGGTTGTATTGATGTTGGACGAGTCGGAATCGCAGACC
+GATACCAGGATCTTGCCATCCTATGGAACTGCCTCGGTGAGTTTTCTCCTTCATTACAGA
+AACGGCTTTTTCAAAAATATGGTATTGATAATCCTGATATGAATAAATTGCAGTTTCATT
+TGATGCTCGATGAGTTTTTCTAATCAGAATTGGTTAATTGGTTGTAACATTATTCAGATT
+GGGCTTGATTTAAAACTTCATTTTTAATTTAAAAGGATCTAGGTGAAGATCCTTTTTGAT
+AATCTCATGACCAAAATCCCTTAACGTGAGTTTTCGTTCCACTGAGCGTCAGACCCCGTA
+GAAAAGATCAAAGGATCTTCTTGAGATCCTTTTTTTCTGCGCGTAATCTGCTGCTTGCAA
+ACAAAAAAACCACCGCTACCAGCGGTGGTTTGTTTGCCGGATCAAGAGCTACCAACTCTT
+TTTCCGAAGGTAACTGGCTTCAGCAGAGCGCAGATACCAAATACTGTTCTTCTAGTGTAG
+CCGTAGTTAGGCCACCACTTCAAGAACTCTGTAGCACCGCCTACATACCTCGCTCTGCTA
+ATCCTGTTACCAGTGGCTGCTGCCAGTGGCGATAAGTCGTGTCTTACCGGGTTGGACTCA
+AGACGATAGTTACCGGATAAGGCGCAGCGGTCGGGCTGAACGGGGGGTTCGTGCACACAG
+CCCAGCTTGGAGCGAACGACCTACACCGAACTGAGATACCTACAGCGTGAGCTATGAGAA
+AGCGCCACGCTTCCCGAAGGGAGAAAGGCGGACAGGTATCCGGTAAGCGGCAGGGTCGGA
+ACAGGAGAGCGCACGAGGGAGCTTCCAGGGGGAAACGCCTGGTATCTTTATAGTCCTGTC
+GGGTTTCGCCACCTCTGACTTGAGCGTCGATTTTTGTGATGCTCGTCAGGGGGGCGGAGC
+CTATGGAAAAACGCCAGCAACGCGGCCTTTTTACGGTTCCTGGCCTTTTGCTGGCCTTTT
+GCTCACATGTTCTTTCCTGCGTTATCCCCTGATTCTGTGGATAACCGTATTACCGCCTTT
+GAGTGAGCTGATACCGCTCGCCGCAGCCGAACGACCGAGCGCAGCGAGTCAGTGAGCGAG
+GAAGCGGAAGAGCGCCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAA
+TGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAAT
+GTGAGTTAGCTCACTCATTAGGCACCCCAGGCTTTACACTTTATGCTTCCGGCTCGTATG
+TTGTGTGGAATTGTGAGCGGATAACAATTTCACACAGGAAACAGCTATGACCATGATTAC
+GCCGCGGCCGCTGCTTTCTCTGACCAGCATTCTCTCCCCTGGGCCTGTGCCGCTTTCTGT
+CTGCAGCTTGTGGCCTGGGTCACCTCTACGGCTGGCCCAGATCCTTCCCTGCCGCCTCCT
+TCAGGTTCCGTCTTCCTCCACTCCCTCTTCCCCTTGCTCTCTGCTGTGTTGCTGCCCAAG
+GATGCTCTTTCCGGAGCACTTCCTTCTCGGCGCTGCACCACGTGATGTCCTCTGAGCGGA
+TCCTCCCCGTGTCTGGGTCCTCTCCGGGCATCTCTCCTCCCTCACCCAACCCCATGCCGT
+CTTCACTCGCTGGGTTCCCTTTTCCTTCTCCTTCTGGGGCCTGTGCCATCTCTCGTTTCT
+TAGGATGGCCTTCTCCGACGGATGTCTCCCTTGCGTCCCGCCTCCCCTTCTTGTAGGCCT
+GCATCATCACCGTTTTTCTGGACAACCCCAAAGTACCCCGTCTCCCTGGCTTTAGCCACC
+TCTCCATCCTCTTGCTTTCTTTGCCTGGACACCCCGTTCTCCTGTGGATTCGGGTCACCT
+CTCACTCCTTTCATTTGGGCAGCTCCCCTACCCCCCTTACCTCTCTAGTCTGTGCTAGCT
+CTTCCAGCCCCCTGTCATGGCATCTTCCAGGGGTCCGAGAGCTCAGCTAGTCTTCTTCCT
+CCAACCCGGGCCCCTATGTCCACTTCAGGACAGCATGTTTGCTGCCTCCAGGGATCCTGT
+GTCCCCGAGCTGGGACCACCTTATATTCCCAGGGCCGGTTAATGTGGCTCTGGTTCTGGG
+TACTTTTATCTGTCCCCTCCACCCCACAGTGGGGCGCGGCCGCATAACTTCGTATAGCAT
+ACATTATACGAAGTTATCTGACCTCTTCTCTTCCTCCCACAGGGCCTCGAGAGATCTGGC
+AGCGGAGAGGGCAGAGGAAGTCTTCTAACATGCGGTGACGTGGAGGAGAATCCCGGCCCT
+AGGATTGAACAAGATGGATTGCACGCAGGTTCTCCGGCCGCTTGGGTGGAGAGGCTATTC
+GGCTATGACTGGGCACAACAGACAATCGGCTGCTCTGATGCCGCCGTGTTCCGGCTGTCA
+GCGCAGGGGCGCCCGGTTCTTTTTGTCAAGACCGACCTGTCCGGTGCCCTGAATGAACTG
+CAGGACGAGGCAGCGCGGCTATCGTGGCTGGCCACGACGGGCGTTCCTTGCGCAGCTGTG
+CTCGACGTTGTCACTGAAGCGGGAAGGGACTGGCTGCTATTGGGCGAAGTGCCGGGGCAG
+GATCTCCTGTCATCTCACCTTGCTCCTGCCGAGAAAGTATCCATCATGGCTGATGCAATG
+CGGCGGCTGCATACGCTTGATCCGGCTACCTGCCCATTCGACCACCAAGCGAAACATCGC
+ATCGAGCGAGCACGTACTCGGATGGAAGCCGGTCTTGTCGATCAGGATGATCTGGACGAA
+GAGCATCAGGGGCTCGCGCCAGCCGAACTGTTCGCCAGGCTCAAGGCGCGCATGCCCGAC
+GGCGAGGATCTCGTCGTGACCCATGGCGATGCCTGCTTGCCGAATATCATGGTGGAAAAT
+GGCCGCTTTTCTGGATTCATCGACTGTGGCCGGCTGGGTGTGGCGGACCGCTATCAGGAC
+ATAGCGTTGGCTACCCGTGATATTGCTGAAGAGCTTGGCGGCGAATGGGCTGACCGCTTC
+CTCGTGCTTTACGGTATCGCCGCTCCCGATTCGCAGCGCATCGCCTTCTATCGCCTTCTT
+GACGAGTTCTTCTAACACCTGGTGCATGACCCGCAAGCCCGGTGCCTGACTGTGCCTTCT
+AGTTGCCAGCCATCTGTTGTTTGCCCCTCCCCCGTGCCTTCCTTGACCCTGGAAGGTGCC
+ACTCCCACTGTCCTTTCCTAATAAAATGAGGAAATTGCATCGCATTGTCTGAGTAGGTGT
+CATTCTATTCTGGGGGGTGGGGTGGGGCAGGACAGCAAGGGGGAGGATTGGGAAGACAAT
+AGCAGGCATGCTGGGGATGCGGTGGGCTCTATGGATAACTTCGTATAGCATACATTATAC
+GAAGTTATGAGCTCACGGGGACAGCCCCCCCCCAAAGCCCCCAGGGATGTAATTACGTCC
+CTCCCCCGCTAGGGGGCAGCAGCGAGCCGCCCGGGGCTCCGCTCCGGTCCGGCGCTCCCC
+CCGCATCCCCGAGCCGGCAGCGTGCGGGGACAGCCCGGGCACGGGGAAGGTGGCACGGGA
+TCGCTTTCCTCTGAACGCTTCTCGCTGCTCTTTGAGCCTGCAGACACCTGGGGGGATACG
+GGGAAAAAGCTTTAGGCTGAAAGAGAGATTTAGAATGACAGAATCATAGAACGGCCTGGG
+TTGCAAAGGAGCACAGTGCTCATCCAGATCCAACCCCCTGCTATGTGCAGGGTCATCAAC
+CAGCAGCCCAGGCTGCCCAGAGCCACATCCAGCCTGGCCTTGAATGCCTGCAGGGATGGG
+GCATCCACAGCCTCCTTGGGCAACCTGTTCAGTGCGTCACCACCCTCTGGGGGAAAAACT
+GCCTCCTCATATCCAACCCAAACCTCCCCTGTCTCAGTGTAAAGCCATTCCCCCTTGTCC
+TATCAAGGGGGAGTTTGCTGTGACATTGTTGGTCTGGGGTGACACATGTTTGCCAATTCA
+GTGCATCACGGAGAGGCAGATCTTGGGGATAAGGAAGTGCAGGACAGCATGGACGTGGGA
+CATGCAGGTGTTGAGGGCTCTGGGACACTCTCCAAGTCACAGCGTTCAGAACAGCCTTAA
+GGATAAGAAGATAGGATAGAAGGACAAAGAGCAAGTTAAAACCCAGCATGGAGAGGAGCA
+CAAAAAGGCCACAGACACTGCTGGTCCCTGTGTCTGAGCCTGCATGTTTGATGGTGTCTG
+GATGCAAGCAGAAGGGGTGGAAGAGCTTGCCTGGAGAGATACAGCTGGGTCAGTAGGACT
+GGGACAGGCAGCTGGAGAATTGCCATGTAGATGTTCATACAATCGTCAAATCATGAAGGC
+TGGAAAAGCCCTCCAAGATCCCCAAGACCAACCCCAACCCACCCACCGTGCCCACTGGCC
+ATGTCCCTCAGTGCCACATCCCCACAGTTCTTCATCACCTCCAGGGACGGTGACCCCCCC
+ACCTCCGTGGGCAGCTGTGCCACTGCAGCACCGCTCTTTGGAGAAGGTAAATCTTGCTAA
+ATCCAGCCCGACCCTCCCCTGGCACAACGTAAGGCCATTATCTCTCATCCAACTCCAGGA
+CGGAGTCAGTGAGAATATTGGCGCGCCGATATCCGATGAGGCCCTTTCGTCTTCACTCGA
+GTTTACTCCCTATCAGTGATAGAGAACGTATGAAGAGTTTACTCCCTATCAGTGATAGAG
+AACGTATGCAGACTTTACTCCCTATCAGTGATAGAGAACGTATAAGGAGTTTACTCCCTA
+TCAGTGATAGAGAACGTATGACCAGTTTACTCCCTATCAGTGATAGAGAACGTATCTACA
+GTTTACTCCCTATCAGTGATAGAGAACGTATATCCAGTTTACTCCCTATCAGTGATAGAG
+AACGTATGTCGAGGTAGGCGTGTACGGTGGGCGCCTATAAAAGCAGAGCTCGTTTAGTGA
+ACCGTCAGATCGCCTGGAGCAATTCCACAACACTTTTGTCTTATACTTGGGTTTGTCTGG
+TCAACCACCGCGGTCTCCGTCGTCAGGATCATCCGCGCCACCATGGACAAGAAGTACAGC
+ATCGGCCTGGACATCGGCACCAACTCTGTGGGCTGGGCCGTGATCACCGACGAGTACAAG
+GTGCCCAGCAAGAAATTCAAGGTGCTGGGCAACACCGACCGGCACAGCATCAAGAAGAAC
+CTGATCGGAGCCCTGCTGTTCGACAGCGGCGAAACAGCCGAGGCCACCCGGCTGAAGAGA
+ACCGCCAGAAGAAGATACACCAGACGGAAGAACCGGATCTGCTATCTGCAAGAGATCTTC
+AGCAACGAGATGGCCAAGGTGGACGACAGCTTCTTCCACAGACTGGAAGAGTCCTTCCTG
+GTGGAAGAGGATAAGAAGCACGAGCGGCACCCCATCTTCGGCAACATCGTGGACGAGGTG
+GCCTACCACGAGAAGTACCCCACCATCTACCACCTGAGAAAGAAACTGGTGGACAGCACC
+GACAAGGCCGACCTGCGGCTGATCTATCTGGCCCTGGCCCACATGATCAAGTTCCGGGGC
+CACTTCCTGATCGAGGGCGACCTGAACCCCGACAACAGCGACGTGGACAAGCTGTTCATC
+CAGCTGGTGCAGACCTACAACCAGCTGTTCGAGGAAAACCCCATCAACGCCAGCGGCGTG
+GACGCCAAGGCCATCCTGTCTGCCAGACTGAGCAAGAGCAGACGGCTGGAAAATCTGATC
+GCCCAGCTGCCCGGCGAGAAGAAGAATGGCCTGTTCGGAAACCTGATTGCCCTGAGCCTG
+GGCCTGACCCCCAACTTCAAGAGCAACTTCGACCTGGCCGAGGATGCCAAACTGCAGCTG
+AGCAAGGACACCTACGACGACGACCTGGACAACCTGCTGGCCCAGATCGGCGACCAGTAC
+GCCGACCTGTTTCTGGCCGCCAAGAACCTGTCCGACGCCATCCTGCTGAGCGACATCCTG
+AGAGTGAACACCGAGATCACCAAGGCCCCCCTGAGCGCCTCTATGATCAAGAGATACGAC
+GAGCACCACCAGGACCTGACCCTGCTGAAAGCTCTCGTGCGGCAGCAGCTGCCTGAGAAG
+TACAAAGAGATTTTCTTCGACCAGAGCAAGAACGGCTACGCCGGCTACATTGACGGCGGA
+GCCAGCCAGGAAGAGTTCTACAAGTTCATCAAGCCCATCCTGGAAAAGATGGACGGCACC
+GAGGAACTGCTCGTGAAGCTGAACAGAGAGGACCTGCTGCGGAAGCAGCGGACCTTCGAC
+AACGGCAGCATCCCCCACCAGATCCACCTGGGAGAGCTGCACGCCATTCTGCGGCGGCAG
+GAAGATTTTTACCCATTCCTGAAGGACAACCGGGAAAAGATCGAGAAGATCCTGACCTTC
+CGCATCCCCTACTACGTGGGCCCTCTGGCCAGGGGAAACAGCAGATTCGCCTGGATGACC
+AGAAAGAGCGAGGAAACCATCACCCCCTGGAACTTCGAGGAAGTGGTGGACAAGGGCGCT
+TCCGCCCAGAGCTTCATCGAGCGGATGACCAACTTCGATAAGAACCTGCCCAACGAGAAG
+GTGCTGCCCAAGCACAGCCTGCTGTACGAGTACTTCACCGTGTATAACGAGCTGACCAAA
+GTGAAATACGTGACCGAGGGAATGAGAAAGCCCGCCTTCCTGAGCGGCGAGCAGAAAAAG
+GCCATCGTGGACCTGCTGTTCAAGACCAACCGGAAAGTGACCGTGAAGCAGCTGAAAGAG
+GACTACTTCAAGAAAATCGAGTGCTTCGACTCCGTGGAAATCTCCGGCGTGGAAGATCGG
+TTCAACGCCTCCCTGGGCACATACCACGATCTGCTGAAAATTATCAAGGACAAGGACTTC
+CTGGACAATGAGGAAAACGAGGACATTCTGGAAGATATCGTGCTGACCCTGACACTGTTT
+GAGGACAGAGAGATGATCGAGGAACGGCTGAAAACCTATGCCCACCTGTTCGACGACAAA
+GTGATGAAGCAGCTGAAGCGGCGGAGATACACCGGCTGGGGCAGGCTGAGCCGGAAGCTG
+ATCAACGGCATCCGGGACAAGCAGTCCGGCAAGACAATCCTGGATTTCCTGAAGTCCGAC
+GGCTTCGCCAACAGAAACTTCATGCAGCTGATCCACGACGACAGCCTGACCTTTAAAGAG
+GACATCCAGAAAGCCCAGGTGTCCGGCCAGGGCGATAGCCTGCACGAGCACATTGCCAAT
+CTGGCCGGCAGCCCCGCCATTAAGAAGGGCATCCTGCAGACAGTGAAGGTGGTGGACGAG
+CTCGTGAAAGTGATGGGCCGGCACAAGCCCGAGAACATCGTGATCGAAATGGCCAGAGAG
+AACCAGACCACCCAGAAGGGACAGAAGAACAGCCGCGAGAGAATGAAGCGGATCGAAGAG
+GGCATCAAAGAGCTGGGCAGCCAGATCCTGAAAGAACACCCCGTGGAAAACACCCAGCTG
+CAGAACGAGAAGCTGTACCTGTACTACCTGCAGAATGGGCGGGATATGTACGTGGACCAG
+GAACTGGACATCAACCGGCTGTCCGACTACGATGTGGACCATATCGTGCCTCAGAGCTTT
+CTGAAGGACGACTCCATCGACAACAAGGTGCTGACCAGAAGCGACAAGAACCGGGGCAAG
+AGCGACAACGTGCCCTCCGAAGAGGTCGTGAAGAAGATGAAGAACTACTGGCGGCAGCTG
+CTGAACGCCAAGCTGATTACCCAGAGAAAGTTCGACAATCTGACCAAGGCCGAGAGAGGC
+GGCCTGAGCGAACTGGATAAGGCCGGCTTCATCAAGAGACAGCTGGTGGAAACCCGGCAG
+ATCACAAAGCACGTGGCACAGATCCTGGACTCCCGGATGAACACTAAGTACGACGAGAAT
+GACAAGCTGATCCGGGAAGTGAAAGTGATCACCCTGAAGTCCAAGCTGGTGTCCGATTTC
+CGGAAGGATTTCCAGTTTTACAAAGTGCGCGAGATCAACAACTACCACCACGCCCACGAC
+GCCTACCTGAACGCCGTCGTGGGAACCGCCCTGATCAAAAAGTACCCTAAGCTGGAAAGC
+GAGTTCGTGTACGGCGACTACAAGGTGTACGACGTGCGGAAGATGATCGCCAAGAGCGAG
+CAGGAAATCGGCAAGGCTACCGCCAAGTACTTCTTCTACAGCAACATCATGAACTTTTTC
+AAGACCGAGATTACCCTGGCCAACGGCGAGATCCGGAAGCGGCCTCTGATCGAGACAAAC
+GGCGAAACCGGGGAGATCGTGTGGGATAAGGGCCGGGATTTTGCCACCGTGCGGAAAGTG
+CTGAGCATGCCCCAAGTGAATATCGTGAAAAAGACCGAGGTGCAGACAGGCGGCTTCAGC
+AAAGAGTCTATCCTGCCCAAGAGGAACAGCGATAAGCTGATCGCCAGAAAGAAGGACTGG
+GACCCTAAGAAGTACGGCGGCTTCGACAGCCCCACCGTGGCCTATTCTGTGCTGGTGGTG
+GCCAAAGTGGAAAAGGGCAAGTCCAAGAAACTGAAGAGTGTGAAAGAGCTACTGGGGATC
+ACCATCATGGAAAGAAGCAGCTTCGAGAAGAATCCCATCGACTTTCTGGAAGCCAAGGGC
+TACAAAGAAGTGAAAAAGGACCTGATCATCAAGCTGCCTAAGTACTCCCTGTTCGAGCTG
+GAAAACGGCCGGAAGAGAATGCTGGCCTCTGCCGGCGAACTGCAGAAGGGAAACGAACTG
+GCCCTGCCCTCCAAATATGTGAACTTCCTGTACCTGGCCAGCCACTATGAGAAGCTGAAG
+GGCTCCCCCGAGGATAATGAGCAGAAACAGCTGTTTGTGGAACAGCACAAGCACTACCTG
+GACGAGATCATCGAGCAGATCAGCGAGTTCTCCAAGAGAGTGATCCTGGCCGACGCTAAT
+CTGGACAAAGTGCTGTCCGCCTACAACAAGCACCGGGATAAGCCCATCAGAGAGCAGGCC
+GAGAATATCATCCACCTGTTTACCCTGACCAATCTGGGAGCCCCTGCCGCCTTCAAGTAC
+TTTGACACCACCATCGACCGGAAGAGGTACACCAGCACCAAAGAGGTGCTGGACGCCACC
+CTGATCCACCAGAGCATCACCGGCCTGTACGAGACACGGATCGACCTGTCTCAGCTGGGA
+GGCGACAAGCGACCTGCCGCCACAAAGAAGGCTGGACAGGCTAAGAAGAAGAAAGATTAC
+AAAGACGATGACGATAAGGGATCCGGCAGCGGTGAGGGCAGAGGAAGTCTTCTAACATGC
+GGTGACGTGGAGGAGAATCCGGGCCCTGGTAAAAAGCCTGAACTCACCGCGACGTCTGTC
+GAGAAGTTTCTGATCGAAAAGTTCGACAGCGTGTCCGACCTGATGCAGCTCTCGGAGGGC
+GAAGAATCTCGTGCTTTCAGCTTCGATGTAGGAGGGCGTGGATATGTCCTGCGGGTAAAT
+AGCTGCGCCGATGGTTTCTACAAAGATCGTTATGTTTATCGGCACTTTGCATCGGCCGCG
+CTCCCGATTCCGGAAGTGCTTGACATTGGGGAATTTAGCGAGAGCCTGACCTATTGCATC
+TCCCGCCGTGCACAGGGTGTCACGTTGCAAGACCTGCCTGAAACCGAACTGCCCGCTGTT
+CTGCAACCGGTCGCGGAGGCCATGGATGCGATCGCTGCGGCCGATCTTAGCCAGACGAGC
+GGGTTCGGCCCATTCGGACCGCAAGGAATCGGTCAATACACTACATGGCGTGATTTCATA
+TGCGCGATTGCTGATCCCCATGTGTATCACTGGCAAACTGTGATGGACGACACCGTCAGT
+GCGTCCGTCGCGCAGGCTCTCGATGAGCTGATGCTTTGGGCCGAGGACTGCCCCGAAGTC
+CGGCACCTCGTGCACGCGGATTTCGGCTCCAACAATGTCCTGACGGACAATGGCCGCATA
+ACAGCGGTCATTGACTGGAGCGAGGCGATGTTCGGGGATTCCCAATACGAGGTCGCCAAC
+ATCTTCTTCTGGAGGCCGTGGTTGGCTTGTATGGAGCAGCAGACGCGCTACTTCGAGCGG
+AGGCATCCGGAGCTTGCAGGATCGCCGCGGCTCCGGGCGTATATGCTCCGCATTGGTCTT
+GACCAACTCTATCAGAGCTTGGTTGACGGCAATTTCGATGATGCAGCTTGGGCGCAGGGT
+CGATGCGACGCAATCGTCCGATCCGGAGCCGGGACTGTCGGGCGTACACAAATCGCCCGC
+AGAAGCGCGGCCGTCTGGACCGATGGCTGTGTAGAAGTACTCGCCGATAGTGGAAACCGA
+CGCCCCAGCACTCGTCCGAGGGCAAAGGAATGATCAGAGAGATCCTCGCGGCCGCGGATC
+CAGACATGATAAGATACATTGATGAGTTTGGACAAACCACAACTAGAATGCAGTGAAAAA
+AATGCTTTATTTGTGAAATTTGTGATGCTATTGCTTTATTTGTAACCATTATAAGCTGCA
+ATAAACTCTAGAGAGTGATTATCAAAAAGGATCTTCACCTAGATCCTTTTAAATTAAAAA
+TGAAGTTTTAAATCAATCTAAAGTATATATGAGTAAACTTGGTCTGACAGTTACCAATGC
+TTAATCAGTGAGGCACCTATCTCAGCGATCTGTCTATTTCGTTCATCCATAGTTGCCTGA
+CTCCCCGTCGTGTAGATAACTACGATACGGGAGGGCTTACCATCTGGCCCCAGTGCTGCA
+ATGATACCGCGGGACCCACGCTCACCGGCTCCAGATTTATCAGCAATAAACCAGCCAGCC
+GGAAGGGCCGAGCGCAGAAGTGGTCCTGCAACTTTATCCGCCTCCATCCAGTCTATTAAT
+TGTTGCCGGGAAGCTAGAGTAAGTAGTTCGCCAGTTAATAGTTTGCGCAACGTTGTTGCC
+ATTGCTACAGGCATCGTGGTGTCACGCTCGTCGTTTGGTATGGCTTCATTCAGCTCCGGT
+TCCCAACGATCAAGGCGAGTTACATGATCCCCCATGTTGTGCAAAAAAGCGGTTAGCTCC
+TTCGGTCCTCCGATCGTTGTCAGAAGTAAGTTGGCCGCAGTGTTATCACTCATGGTTATG
+GCAGCACTGCATAATTCTCTTACTGTCATGCCATCCGTAAGATGCTTTTCTGTGACTGGT
+GAGTACTCAACCAAGTCATTCTGAGAATAGTGTATGCGGCGACCGAGTTGCTCTTGCCCG
+GCGTCAATACGGGATAATACCGCGCCACATAGCAGAACTTTAAAAGTGCTCATCATTGGA
+AAACGTTCTTCGGGGCGAAAACTCTCAAGGATCTTACCGCTGTTGAGATCCAGTTCGATG
+TAACCCACTCGTGCACCCAACTGATCTTCAGCATCTTTTACTTTCACCAGCGTTTCTGGG
+TGAGCAAAAACAGGAAGGCAAAATGCCGCAAAAAAGGGAATAAGGGCGACACGGAAATGT
+TGAATACTCATACTCTTCCTTTTTCAATATTATTGAAGCATTTATCAGGGTTATTGTCTC
+ATGAGCGGATACATATTTGAATGTATTTAGAAAAATAAACAAATAGGGGTTCCGCGCACA
+TTTCCCCGAAAAGTGCCACCTGTCATGACCAAAATCCCTTAACGTGAGTTTTCGTTCCAC
+TGAGCGTCAGACCCCGTAGAAAAGATCAAAGGATCTTCTTGAGATCCTTTTTTTCTGCGC
+GTAATCTGCTGCTTGCAAACAAAAAAACCACCGCTACCAGCGGTGGTTTGTTTGCCGGAT
+CAAGAGCTACCAACTCTTTTTCCGAAGGTAACTGGCTTCAGCAGAGCGCAGATACCAAAT
+ACTGTTCTTCTAGTGTAGCCGTAGTTAGGCCACCACTTCAAGAACTCTGTAGCACCGCCT
+ACATACCTCGCTCTGCTAATCCTGTTACCAGTGGCTGCTGCCAGTGGCGATAAGTCGTGT
+CTTACCGGGTTGGACTCAAGACGATAGTTACCGGATAAGGCGCAGCGGTCGGGCTGAACG
+GGGGGTTCGTGCACACAGCCCAGCTTGGAGCGAACGACCTACACCGAACTGAGATACCTA
+CAGCGTGAGCTATGAGAAAGCGCCACGCTTCCCGAAGGGAGAAAGGCGGACAGGTATCCG
+GTAAGCGGCAGGGTCGGAACAGGAGAGCGCACGAGGGAGCTTCCAGGGGGAAACGCCTGG
+TATCTTTATAGTCCTGTCGGGTTTCGCCACCTCTGACTTGAGCGTCGATTTTTGTGATGC
+TCGTCAGGGGGGCGGAGCCTATGGAAAAACGCCAGCAACGCGGCCTTTTTACGGTTCCTG
+GCCTTTTGCTGGCCTTTTGCTCACATGTTCTTTCCTGCGTTATCCCCTGATTCTGTGGAT
+AACCGTGCGGCCGCGAGCTCACGGGGACAGCCCCCCCCCAAAGCCCCCAGGGATGTAATT
+ACGTCCCTCCCCCGCTAGGGGGCAGCAGCGAGCCGCCCGGGGCTCCGCTCCGGTCCGGCG
+CTCCCCCCGCATCCCCGAGCCGGCAGCGTGCGGGGACAGCCCGGGCACGGGGAAGGTGGC
+ACGGGATCGCTTTCCTCTGAACGCTTCTCGCTGCTCTTTGAGCCTGCAGACACCTGGGGG
+GATACGGGGAAAAAGCTTTAGGCTGAAAGAGAGATTTAGAATGACAGAATCATAGAACGG
+CCTGGGTTGCAAAGGAGCACAGTGCTCATCCAGATCCAACCCCCTGCTATGTGCAGGGTC
+ATCAACCAGCAGCCCAGGCTGCCCAGAGCCACATCCAGCCTGGCCTTGAATGCCTGCAGG
+GATGGGGCATCCACAGCCTCCTTGGGCAACCTGTTCAGTGCGTCACCACCCTCTGGGGGA
+AAAACTGCCTCCTCATATCCAACCCAAACCTCCCCTGTCTCAGTGTAAAGCCATTCCCCC
+TTGTCCTATCAAGGGGGAGTTTGCTGTGACATTGTTGGTCTGGGGTGACACATGTTTGCC
+AATTCAGTGCATCACGGAGAGGCAGATCTTGGGGATAAGGAAGTGCAGGACAGCATGGAC
+GTGGGACATGCAGGTGTTGAGGGCTCTGGGACACTCTCCAAGTCACAGCGTTCAGAACAG
+CCTTAAGGATAAGAAGATAGGATAGAAGGACAAAGAGCAAGTTAAAACCCAGCATGGAGA
+GGAGCACAAAAAGGCCACAGACACTGCTGGTCCCTGTGTCTGAGCCTGCATGTTTGATGG
+TGTCTGGATGCAAGCAGAAGGGGTGGAAGAGCTTGCCTGGAGAGATACAGCTGGGTCAGT
+AGGACTGGGACAGGCAGCTGGAGAATTGCCATGTAGATGTTCATACAATCGTCAAATCAT
+GAAGGCTGGAAAAGCCCTCCAAGATCCCCAAGACCAACCCCAACCCACCCACCGTGCCCA
+CTGGCCATGTCCCTCAGTGCCACATCCCCACAGTTCTTCATCACCTCCAGGGACGGTGAC
+CCCCCCACCTCCGTGGGCAGCTGTGCCACTGCAGCACCGCTCTTTGGAGAAGGTAAATCT
+TGCTAAATCCAGCCCGACCCTCCCCTGGCACAACGTAAGGCCATTATCTCTCATCCAACT
+CCAGGACGGAGTCAGTGAGAATATTGATATCAACGGTGCCCGTCAGTGGGCAGAGCGCAC
+ATCGCCCACAGTCCCCGAGAAGTTGGGGGGAGGGGTCGGCAATTGAACCGGTGCCTAGAG
+AAGGTGGCGCGGGGTAAACTGGGAAAGTGATGTCGTGTACTGGCTCCGCCTTTTTCCCGA
+GGGTGGGGGAGAACCGTATATAAGTGCAGTAGTCGCCGTGAACGTTCTTTTTCGCAACGG
+GTTTGCCGCCAGAACACAGGTAAGTGCCGTGTGTGGTTCCCGCGGGCCTGGCCTCTTTAC
+GGGTTATGGCCCTTGCGTGCCTTGAATTACTTCCACCTGGCTGCAGTACGTGATTCTTGA
+TCCCGAGCTTCGGGTTGGAAGTGGGTGGGAGAGTTCGAGGCCTTGCGCTTAAGGAGCCCC
+TTCGCCTCGTGCTTGAGTTGAGGCCTGGCCTGGGCGCTGGGGCCGCCGCGTGCGAATCTG
+GTGGCACCTTCGCGCCTGTCTCGCTGCTTTCGATAAGTCTCTAGCCATTTAAAATTTTTG
+ATGACCTGCTGCGACGCTTTTTTTCTGGCAAGATAGTCTTGTAAATGCGGGCCAAGATCT
+GCACACTGGTATTTCGGTTTTTGGGGCCGCGGGCGGCGACGGGGCCCGTGCGTCCCAGCG
+CACATGTTCGGCGAGGCGGGGCCTGCGAGCGCGGCCACCGAGAATCGGACGGGGGTAGTC
+TCAAGCTGGCCGGCCTGCTCTGGTGCCTGGCCTCGCGCCGCCGTGTATCGCCCCGCCCTG
+GGCGGCAAGGCTGGCCCGGTCGGCACCAGTTGCGTGAGCGGAAAGATGGCCGCTTCCCGG
+CCCTGCTGCAGGGAGCTCAAAATGGAGGACGCGGCGCTCGGGAGAGCGGGCGGGTGAGTC
+ACCCACACAAAGGAAAAGGGCCTTTCCGTCCTCAGCCGTCGCTTCATGTGACTCCACGGA
+GTACCGGGCGCCGTCCAGGCACCTCGATTAGTTCTCGCGCTTTTGGAGTACGTCGTCTTT
+AGGTTGGGGGGAGGGGTTTTATGCGATGGAGTTTCCCCACACTGAGTGGGTGGAGACTGA
+AGTTAGGCCAGCTTGGCACTTGATGTAATTCTCCTTGGAATTTGCCCTTTTTGAGTTTGG
+ATCTTGGTTCATTCTCAAGCCTCAGACAGTGGTTCAAAGTTTTTTTCTTCCATTTCAGGT
+GTCGTGAGCTAGCGGTTTGTCTGGTCAACCACCGCGGACTCCGTCGTCAGGATCATCCGC
+GCTAGCCACCATGGTGAGCAAGGGCGAGGAGGATAACATGGCCATCATCAAGGAGTTCAT
+GCGCTTCAAGGTGCACATGGAGGGCTCCGTGAACGGCCACGAGTTCGAGATCGAGGGCGA
+GGGCGAGGGCCGCCCCTACGAGGGCACCCAGACCGCCAAGCTGAAGGTGACCAAGGGTGG
+CCCCCTGCCCTTCGCCTGGGACATCCTGTCCCCTCAGTTCATGTACGGCTCCAAGGCCTA
+CGTGAAGCACCCCGCCGACATCCCCGACTACTTGAAGCTGTCCTTCCCCGAGGGCTTCAA
+GTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGTGACCGTGACCCAGGACTCCTC
+CCTGCAGGACGGCGAGTTCATCTACAAGGTGAAGCTGCGCGGCACCAACTTCCCCTCCGA
+CGGCCCCGTAATGCAGAAGAAGACCATGGGCTGGGAGGCCTCCTCCGAGCGGATGTACCC
+CGAGGACGGCGCCCTGAAGGGCGAGATCAAGCAGAGGCTGAAGCTGAAGGACGGCGGCCA
+CTACGACGCTGAGGTCAAGACCACCTACAAGGCCAAGAAGCCCGTGCAGCTGCCCGGCGC
+CTACAACGTCAACATCAAGTTGGACATCACCTCCCACAACGAGGACTACACCATCGTGGA
+ACAGTACGAACGCGCCGAGGGCCGCCACTCCACCGGCGGCATGGACGAGCTGTACAAGGA
+GGGCAGAGGAAGTCTTCTAACATGCGGTGACGTGGAGGAGAATCCCGGCCCTAGGATGAC
+CGAGTACAAGCCCACGGTGCGCCTCGCCACCCGCGACGACGTCCCCAGGGCCGTACGCAC
+CCTCGCCGCCGCGTTCGCCGACTACCCCGCCACGCGCCACACCGTCGATCCGGACCGCCA
+CATCGAGCGGGTCACCGAGCTGCAAGAACTCTTCCTCACGCGCGTCGGGCTCGACATCGG
+CAAGGTGTGGGTCGCGGACGACGGCGCCGCGGTGGCGGTCTGGACCACGCCGGAGAGCGT
+CGAAGCGGGGGCGGTGTTCGCCGAGATCGGCCCGCGCATGGCCGAGTTGAGCGGTTCCCG
+GCTGGCCGCGCAGCAACAGATGGAAGGCCTCCTGGCGCCGCACCGGCCCAAGGAGCCCGC
+GTGGTTCCTGGCCACCGTCGGCGTCTCGCCCGACCACCAGGGCAAGGGTCTGGGCAGCGC
+CGTCGTGCTCCCCGGAGTGGAGGCGGCCGAGCGCGCCGGGGTGCCCGCCTTCCTGGAGAC
+ATCCGCGCCCCGCAACCTCCCCTTCTACGAGCGGCTCGGCTTCACCGTCACCGCCGACGT
+CGAGGTGCCCGAAGGACCGCGCACCTGGTGCATGACCCGCAAGCCCGGTGCCTGATCAGA
+GAGATCCTCGCGAATTCGGCGATCCAGACATGATAAGATACATTGATGAGTTTGGACAAA
+CCACAACTAGAATGCAGTGAAAAAAATGCTTTATTTGTGAAATTTGTGATGCTATTGCTT
+TATTTGTAACCATTATAAGCTGCAATAAACGGTACCGTGTTACAACCAATTAACCAATTC
+TGATTAGAAAAACTCATCGAGCATCAAATGAAACTGCAATTTATTCATATCAGGATTATC
+AATACCATATTTTTGAAAAAGCCGTTTCTGTAATGAAGGAGAAAACTCACCGAGGCAGTT
+CCATAGGATGGCAAGATCCTGGTATCGGTCTGCGATTCCGACTCGTCCAACATCAATACA
+ACCTATTAATTTCCCCTCGTCAAAAATAAGGTTATCAAGTGAGAAATCACCATGAGTGAC
+GACTGAATCCGGTGAGAATGGCAAAAGCTTATGCATTTCTTTCCAGACTTGTTCAACAGG
+CCAGCCATTACGCTCGTCATCAAAATCACTCGCATCAACCAAACCGTTATTCATTCGTGA
+TTGCGCCTGAGCGAGGCGAAATACGCGATCGCTGTTAAAAGGACAATTACAAACAGGAAT
+CGAATGCAACCGGCGCAGGAACACTGCCAGCGCATCAACAATATTTTCACCTGAATCAGG
+ATATTCTTCTAATACCTGGAATGCTGTTTTCCCGGGGATCGCAGTGGTGAGTAACCATGC
+ATCATCAGGAGTACGGATAAAATGCTTGATGGTCGGAAGAGGCATAAATTCCGTCAGCCA
+GTTTAGTCTGACCATCTCATCTGTAACATCATTGGCAACGCTACCTTTGCCATGTTTCAG
+AAACAACTCTGGCGCATCGGGCTTCCCATACAATCGATAGATTGTCGCACCTGATTGCCC
+GACATTATCGCGAGCCCATTTATACCCATATAAATCAGCATCCATGTTGGAATTTAATCG
+CGGCCTGGAGCAAGACGTTTCCCGTTGAATATGGCTCATAACACCCCTTGTATTACTGTT
+TATGTAAGCAGACAGTTTTATTGTTCATGATGATATATTTTTATCTTGTGCAATGTAACA
+TCAGAGATTTTGAGACACAACGTGGCTTTGTTGAATAAATCGAACTTTTGCTGAGTTGAA
+GGATCAGTCATGACCAAAATCCCTTAACGTGAGTTTTCGTTCCACTGAGCGTCAGACCCC
+GTAGAAAAGATCAAAGGATCTTCTTGAGATCCTTTTTTTCTGCGCGTAATCTGCTGCTTG
+CAAACAAAAAAACCACCGCTACCAGCGGTGGTTTGTTTGCCGGATCAAGAGCTACCAACT
+CTTTTTCCGAAGGTAACTGGCTTCAGCAGAGCGCAGATACCAAATACTGTTCTTCTAGTG
+TAGCCGTAGTTAGGCCACCACTTCAAGAACTCTGTAGCACCGCCTACATACCTCGCTCTG
+CTAATCCTGTTACCAGTGGCTGCTGCCAGTGGCGATAAGTCGTGTCTTACCGGGTTGGAC
+TCAAGACGATAGTTACCGGATAAGGCGCAGCGGTCGGGCTGAACGGGGGGTTCGTGCACA
+CAGCCCAGCTTGGAGCGAACGACCTACACCGAACTGAGATACCTACAGCGTGAGCTATGA
+GAAAGCGCCACGCTTCCCGAAGGGAGAAAGGCGGACAGGTATCCGGTAAGCGGCAGGGTC
+GGAACAGGAGAGCGCACGAGGGAGCTTCCAGGGGGAAACGCCTGGTATCTTTATAGTCCT
+GTCGGGTTTCGCCACCTCTGACTTGAGCGTCGATTTTTGTGATGCTCGTCAGGGGGGCGG
+AGCCTATGGAAAAACGCCAGCAACGCGGCCTTTTTACGGTTCCTGGCCTTTTGCTGGCCT
+TTTGCTCACATGTTCTTTCCTGCGTTATCCCCTGATTCTGTGGATAACCGTCTAGAGGGC
+CTATTTCCCATGATTCCTTCATATTTGCATATACGATACAAGGCTGTTAGAGAGATAATT
+AGAATTAATTTGACTGTAAACACAAAGATATTAGTACAAAATACGTGACGTAGAAAGTAA
+TAATTTCTTGGGTAGTTTGCAGTTTTAAAATTATGTTTTAAAATGGACTATCATATGCTT
+ACCGTAACTTGAAAGTATTTCGATTTCTTGGCTTTATATATCTTGTGGAAAGGACGAAAC
+ACCGCAACCGCGAAAAAGTTGCGGTTTCAGAGCTACAGCAGAAATGCTGTAGCAAGTTGA
+AATAAGGCTAGTCCGTTATCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTGAATT
+CAAGCAGGATCTTCACCTAGATCCTTTTAAATTAAAAATGAAGTTTTAAATCAATCTAAA
+GTATATATGAGTAAACTTGGTCTGACAGTTACCAATGCTTAATCAGTGAGGCACCTATCT
+CAGCGATCTGTCTATTTCGTTCATCCATAGTTGCCTGACTCCCCGTCGTGTAGATAACTA
+CGATACGGGAGGGCTTACCATCTGGCCCCAGTGCTGCAATGATACCGCGGGACCCACGCT
+CACCGGCTCCAGATTTATCAGCAATAAACCAGCCAGCCGGAAGGGCCGAGCGCAGAAGTG
+GTCCTGCAACTTTATCCGCCTCCATCCAGTCTATTAATTGTTGCCGGGAAGCTAGAGTAA
+GTAGTTCGCCAGTTAATAGTTTGCGCAACGTTGTTGCCATTGCTACAGGCATCGTGGTGT
+CACGCTCGTCGTTTGGTATGGCTTCATTCAGCTCCGGTTCCCAACGATCAAGGCGAGTTA
+CATGATCCCCCATGTTGTGCAAAAAAGCGGTTAGCTCCTTCGGTCCTCCGATCGTTGTCA
+GAAGTAAGTTGGCCGCAGTGTTATCACTCATGGTTATGGCAGCACTGCATAATTCTCTTA
+CTGTCATGCCATCCGTAAGATGCTTTTCTGTGACTGGTGAGTACTCAACCAAGTCATTCT
+GAGAATAGTGTATGCGGCGACCGAGTTGCTCTTGCCCGGCGTCAATACGGGATAATACCG
+CGCCACATAGCAGAACTTTAAAAGTGCTCATCATTGGAAAACGTTCTTCGGGGCGAAAAC
+TCTCAAGGATCTTACCGCTGTTGAGATCCAGTTCGATGTAACCCACTCGTGCACCCAACT
+GATCTTCAGCATCTTTTACTTTCACCAGCGTTTCTGGGTGAGCAAAAACAGGAAGGCAAA
+ATGCCGCAAAAAAGGGAATAAGGGCGACACGGAAATGTTGAATACTCATACTCTTCCTTT
+TTCAATATTATTGAAGCATTTATCAGGGTTATTGTCTCATGAGCGGATACATATTTGAAT
+GTATTTAGAAAAATAAACAAATAGGGGTTCCGCGCACATTTCCCCGAAAAGTGCCACCTG
+GATCCGACGCGCCATCTCTAGGCCCGCGCCGGCCCCCTCGCACGGACTTGTGGGAGAAGC
+TCGGCTACTCCCCTGCCCCGGTTAATTTGCATATAATATTTCCTAGTAACTATAGAGGCT
+TAATGTGCGATAAAAGACAGATAATCTGTTCTTTTTAATACTAGCTACATTTTACATGAT
+AGGCTTGGATTTCTATAACTTCGTATAGCATACATTATACGAAGTTATAAACAGCACAAA
+AGGAAACTCACCCTAACTGTAAAGTAATTGTGTGTTTTGAGACTATAAGTATCCCTTGGA
+GAACCACCTTGTTGGACCCCAACATCTTCGACGCGTTTTAGAGCTAGAAATAGCAAGTTA
+AAATAAGGCTAGTCCGTTATCAACTTGAAAAAGTGGCACCGAGTCGGTGCTTTTTTGCGA
+GCTCACGGGGACAGCCCCCCCCCAAAGCCCCCAGGGATGTAATTACGTCCCTCCCCCGCT
+AGGGGGCAGCAGCGAGCCGCCCGGGGCTCCGCTCCGGTCCGGCGCTCCCCCCGCATCCCC
+GAGCCGGCAGCGTGCGGGGACAGCCCGGGCACGGGGAAGGTGGCACGGGATCGCTTTCCT
+CTGAACGCTTCTCGCTGCTCTTTGAGCCTGCAGACACCTGGGGGGATACGGGGAAAAAGC
+TTTAGGCTGAAAGAGAGATTTAGAATGACAGAATCATAGAACGGCCTGGGTTGCAAAGGA
+GCACAGTGCTCATCCAGATCCAACCCCCTGCTATGTGCAGGGTCATCAACCAGCAGCCCA
+GGCTGCCCAGAGCCACATCCAGCCTGGCCTTGAATGCCTGCAGGGATGGGGCATCCACAG
+CCTCCTTGGGCAACCTGTTCAGTGCGTCACCACCCTCTGGGGGAAAAACTGCCTCCTCAT
+ATCCAACCCAAACCTCCCCTGTCTCAGTGTAAAGCCATTCCCCCTTGTCCTATCAAGGGG
+GAGTTTGCTGTGACATTGTTGGTCTGGGGTGACACATGTTTGCCAATTCAGTGCATCACG
+GAGAGGCAGATCTTGGGGATAAGGAAGTGCAGGACAGCATGGACGTGGGACATGCAGGTG
+TTGAGGGCTCTGGGACACTCTCCAAGTCACAGCGTTCAGAACAGCCTTAAGGATAAGAAG
+ATAGGATAGAAGGACAAAGAGCAAGTTAAAACCCAGCATGGAGAGGAGCACAAAAAGGCC
+ACAGACACTGCTGGTCCCTGTGTCTGAGCCTGCATGTTTGATGGTGTCTGGATGCAAGCA
+GAAGGGGTGGAAGAGCTTGCCTGGAGAGATACAGCTGGGTCAGTAGGACTGGGACAGGCA
+GCTGGAGAATTGCCATGTAGATGTTCATACAATCGTCAAATCATGAAGGCTGGAAAAGCC
+CTCCAAGATCCCCAAGACCAACCCCAACCCACCCACCGTGCCCACTGGCCATGTCCCTCA
+GTGCCACATCCCCACAGTTCTTCATCACCTCCAGGGACGGTGACCCCCCCACCTCCGTGG
+GCAGCTGTGCCACTGCAGCACCGCTCTTTGGAGAAGGTAAATCTTGCTAAATCCAGCCCG
+ACCCTCCCCTGGCACAACGTAAGGCCATTATCTCTCATCCAACTCCAGGACGGAGTCAGT
+GAGAATATTGGCGCGCCGATATCCGATGAGGCCCTTTCGTCTTCACTCGAGTTTACTCCC
+TATCAGTGATAGAGAACGTATGAAGAGTTTACTCCCTATCAGTGATAGAGAACGTATGCA
+GACTTTACTCCCTATCAGTGATAGAGAACGTATAAGGAGTTTACTCCCTATCAGTGATAG
+AGAACGTATGACCAGTTTACTCCCTATCAGTGATAGAGAACGTATCTACAGTTTACTCCC
+TATCAGTGATAGAGAACGTATATCCAGTTTACTCCCTATCAGTGATAGAGAACGTATGTC
+GAGGTAGGCGTGTACGGTGGGCGCCTATAAAAGCAGAGCTCGTTTAGTGAACCGAATTCA
+GATCGCCTGGAGCAATTCCACAACACTTTTGTCTTATACTTAAGCTTGGTACCATGGTGA
+GCAAGGGCGAGGAGCTGTTCACCGGGGTGGTGCCCATCCTGGTCGAGCTGGACGGCGACG
+TAAACGGCCACAAGTTCAGCGTGTCCGGCGAGGGCGAGGGCGATGCCACCTACGGCAAGC
+TGACCCTGAAGTTCATCTGCACCACCGGCAAGCTGCCCGTGCCCTGGCCCACCCTCGTGA
+CCACCTTCGGCTACGGCCTGCAGTGCTTCGCCCGCTACCCCGACCACATGAAGCAGCACG
+ACTTCTTCAAGTCCGCCATGCCCGAAGGCTACGTCCAGGAGCGCACCATCTTCTTCAAGG
+ACGACGGCAACTACAAGACCCGCGCCGAGGTGAAGTTCGAGGGCGACACCCTGGTGAACC
+GCATCGAGCTGAAGGGCATCGACTTCAAGGAGGACGGCAACATCCTGGGGCACAAGCTGG
+AGTACAACTACAACAGCCACAACGTCTATATCATGGCCGACAAGCAGAAGAACGGCATCA
+AGGTGAACTTCAAGATCCGCCACAACATCGAGGACGGCAGCGTGCAGCTCGCCGACCACT
+ACCAGCAGAACACCCCCATCGGCGACGGCCCCGTGCTGCTGCCCGACAACCACTACCTGA
+GCTACCAGTCCGCCCTGAGCAAAGACCCCAACGAGAAGCGCGATCACATGGTCCTGCTGG
+AGTTCGTGACCGCCGCCGGGATCACTCTCGGCATGGACGAGCTGTACAAGTACCCATACG
+ATGTTCCGGATTACGCTTAGGCCAATGGAAAGATCGCCGTGTAAGCGATATCAGATCGGA
+AGAGCGTCGTGCCTATAGTGAGTCGTATTAGCCTAGTTGCCAGCCATCTGTTGTTTGCCC
+CTCCCCCGTGCCTTCCTTGACCCTGGAAGGTGCCACTCCCACTGTCCTTTCCTAATAAAA
+TGAGGAAATTGCATCGCATTGTCTGAGTAGGTGTCATTCTATTCTGGGGGGTGGGGTGGG
+GCAGGACAGCAAGGGGGAGGATTGGGAAGACAATAGCAGGCATGCTGGGGATGCGGTGGG
+CTCTATGGCCGGCTTGTCGACGACGGCGGACTCAGTGGTGTACGGTACAAACCGGCTTGT
+CGACGACGGCGGTCTCAGTGGTGTACGGTACAAACCGCCACCATGGTGTCTAAGGGCGAA
+GAGCTGATTAAGGAGAACATGCACATGAAGCTGTACATGGAGGGCACCGTGGACAACCAT
+CACTTCAAGTGCACATCCGAGGGCGAAGGCAAGCCCTACGAGGGCACCCAGACCATGAGA
+ATCAAGGTGGTCGAGGGCGGCCCTCTCCCCTTCGCCTTCGACATCCTGGCTACTAGCTTC
+CTCTACGGCAGCAAGACCTTCATCAACCACACCCAGGGCATCCCCGACTTCTTCAAGCAG
+TCCTTCCCTGAGGGCTTCACATGGGAGAGAGTCACCACATACGAAGACGGGGGCGTGCTG
+ACCGCTACCCAGGACACCAGCCTCCAGGACGGCTGCCTCATCTACAACGTCAAGATCAGA
+GGGGTGAACTTCACATCCAACGGCCCTGTGATGCAGAAGAAAACACTCGGCTGGGAGGCC
+TTCACCGAGACGCTGTACCCCGCTGACGGCGGCCTGGAAGGCAGAAACGACATGGCCCTG
+AAGCTCGTGGGCGGGAGCCATCTGATCGCAAACGCCAAGACCACATATAGATCCAAGAAA
+CCCGCTAAGAACCTCAAGATGCCTGGCGTCTACTATGTGGACTACAGACTGGAAAGAATC
+AAGGAGGCCAACAACGAGACCTACGTCGAGCAGCACGAGGTGGCAGTGGCCAGATACTGC
+GACCTCCCTAGCAAACTGGGGCACAAGCTTAATGGGAGCGGAGCTACTAACTTCAGCCTG
+CTGAAGCAGGCTGGAGACGTGGAGGAGAACCCTGGACCTTCCGCCACCCTCGAGGGAGTG
+CAGGTGGAGACTATCTCCCCAGGAGACGGGCGCACCTTCCCCAAGCGCGGCCAGACCTGC
+GTGGTGCACTACACCGGGATGCTTGAAGATGGAAAGAAAGTTGATTCCTCCCGGGACAGA
+AACAAGCCCTTTAAGTTTATGCTAGGCAAGCAGGAGGTGATCCGAGGCTGGGAAGAAGGG
+GTTGCCCAGATGAGTGTGGGTCAGAGAGCCAAACTGACTATATCTCCAGATTATGCCTAT
+GGTGCCACTGGGCACCCAGGCATCATCCCACCACATGCCACTCTCGTCTTCGATGTGGAG
+CTTCTAAAACTGGAATCTGGCGGTGGATCCGGAGTCGACGGATTTGGTGATGTCGGTGCT
+CTTGAGAGTTTGAGGGGAAATGCAGATTTGGCTTACATCCTGAGCATGGAGCCCTGTGGC
+CACTGCCTCATTATCAACAATGTGAACTTCTGCCGTGAGTCCGGGCTCCGCACCCGCACT
+GGCTCCAACATCGACTGTGAGAAGTTGCGGCGTCGCTTCTCCTCGCTGCATTTCATGGTG
+GAGGTGAAGGGCGACCTGACTGCCAAGAAAATGGTGCTGGCTTTGCTGGAGCTGGCGCGG
+CAGGACCACGGTGCTCTGGACTGCTGCGTGGTGGTCATTCTCTCTCACGGCTGTCAGGCC
+AGCCACCTGCAGTTCCCAGGGGCTGTCTACGGCACAGATGGATGCCCTGTGTCGGTCGAG
+AAGATTGTGAACATCTTCAATGGGACCAGCTGCCCCAGCCTGGGAGGGAAGCCCAAGCTC
+TTTTTCATCCAGGCCTGTGGTGGGGAGCAGAAAGACCATGGGTTTGAGGTGGCCTCCACT
+TCCCCTGAAGACGAGTCCCCTGGCAGTAACCCCGAGCCAGATGCCACCCCGTTCCAGGAA
+GGTTTGAGGACCTTCGACCAGCTGGACGCCATATCTAGTTTGCCCACACCCAGTGACATC
+TTTGTGTCCTACTCTACTTTCCCAGGTTTTGTTTCCTGGAGGGACCCCAAGAGTGGCTCC
+TGGTACGTTGAGACCCTGGACGACATCTTTGAGCAGTGGGCTCACTCTGAAGACCTGCAG
+TCCCTCCTGCTTAGGGTCGCTAATGCTGTTTCGGTGAAAGGGATTTATAAACAGATGCCT
+GGTTGCTTTAATTTCCTCCGGAAAAAACTTTTCTTTAAAACATCAGTCGACTATCCGTAC
+GACGTACCAGACTACGCACTCGACTCTGGCAGCGGAGAGGGCAGAGGAAGTCTTCTAACA
+TGCGGTGACGTGGAGGAGAATCCCGGCCCTGCCAAGCCTTTGTCTCAAGAAGAATCCACC
+CTCATTGAAAGAGCAACGGCTACAATCAACAGCATCCCCATCTCTGAAGACTACAGCGTC
+GCCAGCGCAGCTCTCTCTAGCGACGGCCGCATCTTCACTGGTGTCAATGTATATCATTTT
+ACTGGGGGACCTTGTGCAGAACTCGTGGTGCTGGGCACTGCTGCTGCTGCGGCAGCTGGC
+AACCTGACTTGTATCGTCGCGATCGGAAATGAGAACAGGGGCATCTTGAGCCCCTGCGGA
+CGGTGCCGACAGGTGCTTCTCGATCTGCATCCTGGGATCAAAGCCATAGTGAAGGACAGT
+GATGGACAGCCGACGGCAGTTGGGATTCGTGAATTGCTGCCCTCTGGTTATGTGTGGGAG
+GGCTAGTAAACGCGTGAATTCACTCCTCAGGTGCAGGCTGCCTATCAGAAGGTGGTGGCT
+GGTGTGGCCAATGCCCTGGCTCACAAATACCACTGAGATCTTTTTCCCTCTGCCAAAAAT
+TATGGGGACATCATGAAGCCCCTTGAGCATCTGACTTCTGGCTAATAAAGGAAATTTATT
+TTCATTGCAATAGTGTGTTGGAATTTTTTGTGTCTCTCACTCGGAAGGACATATGGGAGG
+GCAAATCATTTAAAACATCAGAATGAGTATTTGGTTTAGAGTTTGGCAACATATGCCCAT
+ATGCTGGCTGCCATGAACAAAGGTTGGCTATAAAGAGGTCATCAGTATATGAAACAGCCC
+CCTGCTGTCCATTCCTTATTCCATAGAAAAGCCTTGACTTGAGGTTAGATTTTTTTTATA
+TTTTGTTTTGTGTTATTTTTTTCTTTAACATCCCTAAAATTTTCCTTACATGTTTTACTA
+GCCAGATTTTTCCTCCTCTCCTGACTACTCCCAGTCATAGCTGTCCCTCTTCTCTTATGG
+AGATCACCGGTATAACTTCGTATAATGTATACTATACGAAGTTATGGTACCTTAATTAAG
+TTAACATGCATAGTACTGAGCTCACGGGGACAGCCCCCCCCCAAAGCCCCCAGGGATGTA
+ATTACGTCCCTCCCCCGCTAGGGGGCAGCAGCGAGCCGCCCGGGGCTCCGCTCCGGTCCG
+GCGCTCCCCCCGCATCCCCGAGCCGGCAGCGTGCGGGGACAGCCCGGGCACGGGGAAGGT
+GGCACGGGATCGCTTTCCTCTGAACGCTTCTCGCTGCTCTTTGAGCCTGCAGACACCTGG
+GGGGATACGGGGAAAAAGCTTTAGGCTGAAAGAGAGATTTAGAATGACAGAATCATAGAA
+CGGCCTGGGTTGCAAAGGAGCACAGTGCTCATCCAGATCCAACCCCCTGCTATGTGCAGG
+GTCATCAACCAGCAGCCCAGGCTGCCCAGAGCCACATCCAGCCTGGCCTTGAATGCCTGC
+AGGGATGGGGCATCCACAGCCTCCTTGGGCAACCTGTTCAGTGCGTCACCACCCTCTGGG
+GGAAAAACTGCCTCCTCATATCCAACCCAAACCTCCCCTGTCTCAGTGTAAAGCCATTCC
+CCCTTGTCCTATCAAGGGGGAGTTTGCTGTGACATTGTTGGTCTGGGGTGACACATGTTT
+GCCAATTCAGTGCATCACGGAGAGGCAGATCTTGGGGATAAGGAAGTGCAGGACAGCATG
+GACGTGGGACATGCAGGTGTTGAGGGCTCTGGGACACTCTCCAAGTCACAGCGTTCAGAA
+CAGCCTTAAGGATAAGAAGATAGGATAGAAGGACAAAGAGCAAGTTAAAACCCAGCATGG
+AGAGGAGCACAAAAAGGCCACAGACACTGCTGGTCCCTGTGTCTGAGCCTGCATGTTTGA
+TGGTGTCTGGATGCAAGCAGAAGGGGTGGAAGAGCTTGCCTGGAGAGATACAGCTGGGTC
+AGTAGGACTGGGACAGGCAGCTGGAGAATTGCCATGTAGATGTTCATACAATCGTCAAAT
+CATGAAGGCTGGAAAAGCCCTCCAAGATCCCCAAGACCAACCCCAACCCACCCACCGTGC
+CCACTGGCCATGTCCCTCAGTGCCACATCCCCACAGTTCTTCATCACCTCCAGGGACGGT
+GACCCCCCCACCTCCGTGGGCAGCTGTGCCACTGCAGCACCGCTCTTTGGAGAAGGTAAA
+TCTTGCTAAATCCAGCCCGACCCTCCCCTGGCACAACGTAAGGCCATTATCTCTCATCCA
+ACTCCAGGACGGAGTCAGTGAGAATATTGTTTAAACCCGCGTTACATAACTTACGGTAAA
+TGGCCCGCCTGGCTGACCGCCCAACGACCCCCGCCCATTGACGTCAATAATGACGTATGT
+TCCCATAGTAACGCCAATAGGGACTTTCCATTGACGTCAATGGGTGGAGTATTTACGGTA
+AACTGCCCACTTGGCAGTACATCAAGTGTATCATATGCCAAGTACGCCCCCTATTGACGT
+CAATGACGGTAAATGGCCCGCCTGGCATTATGCCCAGTACATGACCTTATGGGACTTTCC
+TACTTGGCAGTACATCTACGTATTAGTCATCGCTATTACCATGGTGATGCGGTTTTGGCA
+GTACATCAATGGGCGTGGATAGCGGTTTGACTCACGGGGATTTCCAAGTCTCCACCCCAT
+TGACGTCAATGGGAGTTTGTTTTGGCACCAAAATCAACGGGACTTTCCAAAATGTCGTAA
+CAACTCCGCCCCATTGACGCAAATGGGCGGTAGGCGTGTACGGTGGGAGGTCTATATAAG
+CAGAGCTCGTTTAGTGAACCGTCAGATCGCCTGGAGACGCCATCCACGCTGTTTTGACCT
+CCATAGAAGACACCGACTCTAGTCCAGTGTGGTGGAATTCTGCAGATATCAACAAGTTTG
+TACAAAAAAGTTGGCACCATGTCTAGACTGGACAAGAGCAAAGTCATAAACGGAGCTCTG
+GAATTACTCAATGGTGTCGGTATCGAAGGCCTGACGACAAGGAAACTCGCTCAAAAGCTG
+GGAGTTGAGCAGCCTACCCTGTACTGGCACGTGAAGAACAAGCGGGCCCTGCTCGATGCC
+CTGCCAATCGAGATGCTGGACAGGCATCATACCCACTTCTGCCCCCTGGAAGGCGAGTCA
+TGGCAAGACTTTCTGCGGAACAACGCCAAGTCATACCGCTGTGCTCTCCTCTCACATCGC
+GACGGGGCTAAAGTGCATCTCGGCACCCGCCCAACAGAGAAACAGTACGAAACCCTGGAA
+AATCAGCTCGCGTTCCTGTGTCAGCAAGGCTTCTCCCTGGAGAACGCACTGTACGCTCTG
+TCCGCCGTGGGCCACTTTACACTGGGCTGCGTATTGGAGGAACAGGAGCATCAAGTAGCA
+AAAGAGGAAAGAGAGACACCTACCACCGATTCTATGCCCCCACTTCTGAGACAAGCAATT
+GAGCTGTTCGACCGGCAGGGAGCCGAACCTGCCTTCCTTTTCGGCCTGGAACTAATCATA
+TGTGGCCTGGAGAAACAGCTAAAGTGCGAAAGCGGCGGGCCGACCGACGCCCTTGACGAT
+TTTGACTTAGACATGCTCCCAGCCGATGCCCTTGACGATTTTGACCTTGACATGCTCCCC
+GGGTAAGATCCAGACATGATAAGATACATTGATGAGTTTGGACAAACCACAACTAGAATG
+CAGTGAAAAAAATGCTTTATTTGTGAAATTTGTGATGCTATTGCTTTATTTGTAACCATT
+ATAAGCTGCAATAAACACTAGGGACAGGATTGGTGACAGAAAAGCCCCATCCTTAGGCCT
+CCTCCTTCCTAGTCTCCTGATATTGGGTCTAACCCCCACCTCCTGTTAGGCAGATTCCTT
+ATCTGGTGACACACCCCCATTTCCTGGAGCCATCTCTCTCCTTGCCAGAACCTCTAAGGT
+TTGCTTACGATGGAGCCAGAGAGGATCCTGGGAGGGAGAGCTTGGCAGGGGGTGGGAGGG
+AAGGGGGGGATGCGTGACCTGCCCGGTTCTCAGTGGCCACCCTGCGCTACCCTCTCCCAG
+AACCTGAGCTGCTCTGACGCGGCTGTCTGGTGCGTTTCACTGATCCTGGTGCTGCAGCTT
+CCTTACACTTCCCAAGAGGAGAAGCAGTTTGGAAAAACAAAATCAGAATAAGTTGGTCCT
+GAGTTCTAACTTTGGCTCTTCACCTTTCTAGTCCCCAATTTATATTGTTCCTCCGTGCGT
+CAGTTTTACCTGTGAGATAAGGCCAGTAGCCAGCCCCGTCCTGGCAGGGCTGTGGTGAGG
+AGGGGGGTGTCCGTGTGGAAAACTCCCTTTGTGAGAATGGTGCGTCCTAGGTGTTCACCA
+GGTCGTGGCCGCCTCTACTCCCTTTCTCTTTCTCCATCCTTCTTTCCTTAAAGAGTCCCC
+AGTGCTATCTGGGACATATTCCTCCGCCCAGAGCAGGGTCCCGCTTCCCTAAGGCCCTGC
+TCTGGGCTTCTGGGTTTGAGTCCTTGGCAAGCCCAGGAGAGGCGCTCAGGCTTCCCTGTC
+CCCCTTCCTCGTCCACCATCTCATGCCCCTGGCTCTCCTGCCCCTTCCCTACAGGGGTTC
+CTGGCTCTGCTCTGTTTAAACACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCC
+TGGCGTTACCCAACTTAATCGCCTTGCAGCACATCCCCCTTTCGCCAGCTGGCGTAATAG
+CGAAGAGGCCCGCACCGATCGCCCTTCCCAACAGTTGCGCAGCCTGAATGGCGAATGGCG
+CCTGATGCGGTATTTTCTCCTTACGCATCTGTGCGGTATTTCACACCGCATATGGTGCAC
+TCTCAGTACAATCTGCTCTGATGCCGCATAGTTAAGCCAGCCCCGACACCCGCCAACACC
+CGCTGACGCGCCCTGACGGGCTTGTCTGCTCCCGGCATCCGCTTACAGACAAGCTGTGAC
+CGTCTCCGGGAGCTGCATGTGTCAGAGGTTTTCACCGTCATCACCGAAACGCGCGA
+>Aspergillu1
+AKPLSQEESTLIERATATINSIPISEDYSVASAALSSDGRIFTGVNVYHFTGGPCAELVV
+LGTAAAAAAGNLTCIVAIGNENRGILSPCGRCRQVLLDLHPGIKAIVKDSDGQPTAVGIR
+ELLPSGYVWEG
+>Eukaryoti1
+EGRGSLLTCGDVEENPGP
+>GenBank:CDS:pHPHS232_pHPHS80:114:923
+MSHIQRETSRPRLNSNMDADLYGYKWARDNVGQSGATIYRLYGKPDAPELFLKHGKGSVA
+NDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGKTAFQVLEEYPDSGENIVD
+ALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVDASDFDDERNGWPVEQVWKEM
+HKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRVGIADRYQDLAILWNCLGEFSPS
+LQKRLFQKYGIDNPDMNKLQFHLMLDEFF
+>GenBank:CDS:pHPHS232_pHPHS80:15551:16258
+MVSKGEEDNMAIIKEFMRFKVHMEGSVNGHEFEIEGEGEGRPYEGTQTAKLKVTKGGPLP
+FAWDILSPQFMYGSKAYVKHPADIPDYLKLSFPEGFKWERVMNFEDGGVVTVTQDSSLQD
+GEFIYKVKLRGTNFPSDGPVMQKKTMGWEASSERMYPEDGALKGEIKQRLKLKDGGHYDA
+EVKTTYKAKKPVQLPGAYNVNIKLDITSHNEDYTIVEQYERAEGRHSTGGMDELYK
+>GenBank:CDS:pHPHS232_pHPHS80:15551:16915
+MVSKGEEDNMAIIKEFMRFKVHMEGSVNGHEFEIEGEGEGRPYEGTQTAKLKVTKGGPLP
+FAWDILSPQFMYGSKAYVKHPADIPDYLKLSFPEGFKWERVMNFEDGGVVTVTQDSSLQD
+GEFIYKVKLRGTNFPSDGPVMQKKTMGWEASSERMYPEDGALKGEIKQRLKLKDGGHYDA
+EVKTTYKAKKPVQLPGAYNVNIKLDITSHNEDYTIVEQYERAEGRHSTGGMDELYKEGRG
+SLLTCGDVEENPGPRMTEYKPTVRLATRDDVPRAVRTLAAAFADYPATRHTVDPDRHIER
+VTELQELFLTRVGLDIGKVWVADDGAAVAVWTTPESVEAGAVFAEIGPRMAELSGSRLAA
+QQQMEGLLAPHRPKEPAWFLATVGVSPDHQGKGLGSAVVLPGVEAAERAGVPAFLETSAP
+RNLPFYERLGFTVTADVEVPEGPRTWCMTRKPGA
+>GenBank:CDS:pHPHS232_pHPHS80:22314:23060
+MVSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPT
+LVTTFGYGLQCFARYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGNYKTRAEVKFEGDTL
+VNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKVNFKIRHNIEDGSVQLA
+DHYQQNTPIGDGPVLLPDNHYLSYQSALSKDPNEKRDHMVLLEFVTAAGITLGMDELYKY
+PYDVPDYA
+>GenBank:CDS:pHPHS232_pHPHS80:23443:24153
+MVSKGEELIKENMHMKLYMEGTVDNHHFKCTSEGEGKPYEGTQTMRIKVVEGGPLPFAFD
+ILATSFLYGSKTFINHTQGIPDFFKQSFPEGFTWERVTTYEDGGVLTATQDTSLQDGCLI
+YNVKIRGVNFTSNGPVMQKKTLGWEAFTETLYPADGGLEGRNDMALKLVGGSHLIANAKT
+TYRSKKPAKNLKMPGVYYVDYRLERIKEANNETYVEQHEVAVARYCDLPSKLGHKLN
+>GenBank:CDS:pHPHS232_pHPHS80:23443:25926
+MVSKGEELIKENMHMKLYMEGTVDNHHFKCTSEGEGKPYEGTQTMRIKVVEGGPLPFAFD
+ILATSFLYGSKTFINHTQGIPDFFKQSFPEGFTWERVTTYEDGGVLTATQDTSLQDGCLI
+YNVKIRGVNFTSNGPVMQKKTLGWEAFTETLYPADGGLEGRNDMALKLVGGSHLIANAKT
+TYRSKKPAKNLKMPGVYYVDYRLERIKEANNETYVEQHEVAVARYCDLPSKLGHKLNGSG
+ATNFSLLKQAGDVEENPGPSATLEGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKV
+DSSRDRNKPFKFMLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPHAT
+LVFDVELLKLESGGGSGVDGFGDVGALESLRGNADLAYILSMEPCGHCLIINNVNFCRES
+GLRTRTGSNIDCEKLRRRFSSLHFMVEVKGDLTAKKMVLALLELARQDHGALDCCVVVIL
+SHGCQASHLQFPGAVYGTDGCPVSVEKIVNIFNGTSCPSLGGKPKLFFIQACGGEQKDHG
+FEVASTSPEDESPGSNPEPDATPFQEGLRTFDQLDAISSLPTPSDIFVSYSTFPGFVSWR
+DPKSGSWYVETLDDIFEQWAHSEDLQSLLLRVANAVSVKGIYKQMPGCFNFLRKKLFFKT
+SVDYPYDVPDYALDSGSGEGRGSLLTCGDVEENPGPAKPLSQEESTLIERATATINSIPI
+SEDYSVASAALSSDGRIFTGVNVYHFTGGPCAELVVLGTAAAAAAGNLTCIVAIGNENRG
+ILSPCGRCRQVLLDLHPGIKAIVKDSDGQPTAVGIRELLPSGYVWEG
+>GenBank:CDS:pHPHS232_pHPHS80:24163:24219
+ATNFSLLKQAGDVEENPGP
+>GenBank:CDS:pHPHS232_pHPHS80:24235:24555
+GVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKVDSSRDRNKPFKFMLGKQEVIRGWE
+EGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPHATLVFDVELLKLE
+>GenBank:CDS:pHPHS232_pHPHS80:24907:24918
+WELQ
+>GenBank:CDS:pHPHS232_pHPHS80:25432:25458
+YPYDVPDYA
+>GenBank:CDS:pHPHS232_pHPHS80:28399:29106
+MSRLDKSKVINGALELLNGVGIEGLTTRKLAQKLGVEQPTLYWHVKNKRALLDALPIEML
+DRHHTHFCPLEGESWQDFLRNNAKSYRCALLSHRDGAKVHLGTRPTEKQYETLENQLAFL
+CQQGFSLENALYALSAVGHFTLGCVLEEQEHQVAKEERETPTTDSMPPLLRQAIELFDRQ
+GAEPAFLFGLELIICGLEKQLKCESGGPTDALDDFDLDMLPADALDDFDLDMLPG
+>GenBank:CDS:pHPHS232_pHPHS80:2983:3855
+GLERSGSGEGRGSLLTCGDVEENPGPRIEQDGLHAGSPAAWVERLFGYDWAQQTIGCSDA
+AVFRLSAQGRPVLFVKTDLSGALNELQDEAARLSWLATTGVPCAAVLDVVTEAGRDWLLL
+GEVPGQDLLSSHLAPAEKVSIMADAMRRLHTLDPATCPFDHQAKHRIERARTRMEAGLVD
+QDDLDEEHQGLAPAELFARLKARMPDGEDLVVTHGDACLPNIMVENGRFSGFIDCGRLGV
+ADRYQDIALATRDIAEELGGEWADRFLVLYGIAAPDSQRIAFYRLLDEFF
+>GenBank:CDS:pHPHS232_pHPHS80:3007:3060
+EGRGSLLTCGDVEENPGP
+>GenBank:CDS:pHPHS232_pHPHS80:5803:11073
+MDKKYSIGLDIGTNSVGWAVITDEYKVPSKKFKVLGNTDRHSIKKNLIGALLFDSGETAE
+ATRLKRTARRRYTRRKNRICYLQEIFSNEMAKVDDSFFHRLEESFLVEEDKKHERHPIFG
+NIVDEVAYHEKYPTIYHLRKKLVDSTDKADLRLIYLALAHMIKFRGHFLIEGDLNPDNSD
+VDKLFIQLVQTYNQLFEENPINASGVDAKAILSARLSKSRRLENLIAQLPGEKKNGLFGN
+LIALSLGLTPNFKSNFDLAEDAKLQLSKDTYDDDLDNLLAQIGDQYADLFLAAKNLSDAI
+LLSDILRVNTEITKAPLSASMIKRYDEHHQDLTLLKALVRQQLPEKYKEIFFDQSKNGYA
+GYIDGGASQEEFYKFIKPILEKMDGTEELLVKLNREDLLRKQRTFDNGSIPHQIHLGELH
+AILRRQEDFYPFLKDNREKIEKILTFRIPYYVGPLARGNSRFAWMTRKSEETITPWNFEE
+VVDKGASAQSFIERMTNFDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFL
+SGEQKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDSVEISGVEDRFNASLGTYHDLLKI
+IKDKDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYTGWG
+RLSRKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQKAQVSGQGDSL
+HEHIANLAGSPAIKKGILQTVKVVDELVKVMGRHKPENIVIEMARENQTTQKGQKNSRER
+MKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSDYDVDH
+IVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQRKFDNL
+TKAERGGLSELDKAGFIKRQLVETRQITKHVAQILDSRMNTKYDENDKLIREVKVITLKS
+KLVSDFRKDFQFYKVREINNYHHAHDAYLNAVVGTALIKKYPKLESEFVYGDYKVYDVRK
+MIAKSEQEIGKATAKYFFYSNIMNFFKTEITLANGEIRKRPLIETNGETGEIVWDKGRDF
+ATVRKVLSMPQVNIVKKTEVQTGGFSKESILPKRNSDKLIARKKDWDPKKYGGFDSPTVA
+YSVLVVAKVEKGKSKKLKSVKELLGITIMERSSFEKNPIDFLEAKGYKEVKKDLIIKLPK
+YSLFELENGRKRMLASAGELQKGNELALPSKYVNFLYLASHYEKLKGSPEDNEQKQLFVE
+QHKHYLDEIIEQISEFSKRVILADANLDKVLSAYNKHRDKPIREQAENIIHLFTLTNLGA
+PAAFKYFDTTIDRKRYTSTKEVLDATLIHQSITGLYETRIDLSQLGGDKRPAATKKAGQA
+KKKKDYKDDDDKGSGSGEGRGSLLTCGDVEENPGPGKKPELTATSVEKFLIEKFDSVSDL
+MQLSEGEESRAFSFDVGGRGYVLRVNSCADGFYKDRYVYRHFASAALPIPEVLDIGEFSE
+SLTYCISRRAQGVTLQDLPETELPAVLQPVAEAMDAIAAADLSQTSGFGPFGPQGIGQYT
+TWRDFICAIADPHVYHWQTVMDDTVSASVAQALDELMLWAEDCPEVRHLVHADFGSNNVL
+TDNGRITAVIDWSEAMFGDSQYEVANIFFWRPWLACMEQQTRYFERRHPELAGSPRLRAY
+MLRIGLDQLYQSLVDGNFDDAAWAQGRCDAIVRSGAGTVGRTQIARRSAAVWTDGCVEVL
+ADSGNRRPSTRPRAKE
+>GenBank:CDS:pHPHS232_pHPHS80:5803:9906
+MDKKYSIGLDIGTNSVGWAVITDEYKVPSKKFKVLGNTDRHSIKKNLIGALLFDSGETAE
+ATRLKRTARRRYTRRKNRICYLQEIFSNEMAKVDDSFFHRLEESFLVEEDKKHERHPIFG
+NIVDEVAYHEKYPTIYHLRKKLVDSTDKADLRLIYLALAHMIKFRGHFLIEGDLNPDNSD
+VDKLFIQLVQTYNQLFEENPINASGVDAKAILSARLSKSRRLENLIAQLPGEKKNGLFGN
+LIALSLGLTPNFKSNFDLAEDAKLQLSKDTYDDDLDNLLAQIGDQYADLFLAAKNLSDAI
+LLSDILRVNTEITKAPLSASMIKRYDEHHQDLTLLKALVRQQLPEKYKEIFFDQSKNGYA
+GYIDGGASQEEFYKFIKPILEKMDGTEELLVKLNREDLLRKQRTFDNGSIPHQIHLGELH
+AILRRQEDFYPFLKDNREKIEKILTFRIPYYVGPLARGNSRFAWMTRKSEETITPWNFEE
+VVDKGASAQSFIERMTNFDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFL
+SGEQKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDSVEISGVEDRFNASLGTYHDLLKI
+IKDKDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYTGWG
+RLSRKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQKAQVSGQGDSL
+HEHIANLAGSPAIKKGILQTVKVVDELVKVMGRHKPENIVIEMARENQTTQKGQKNSRER
+MKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSDYDVDH
+IVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQRKFDNL
+TKAERGGLSELDKAGFIKRQLVETRQITKHVAQILDSRMNTKYDENDKLIREVKVITLKS
+KLVSDFRKDFQFYKVREINNYHHAHDAYLNAVVGTALIKKYPKLESEFVYGDYKVYDVRK
+MIAKSEQEIGKATAKYFFYSNIMNFFKTEITLANGEIRKRPLIETNGETGEIVWDKGRDF
+ATVRKVLSMPQVNIVKKTEVQTGGFSKESILPKRNSDKLIARKKDWDPKKYGGFDSPTVA
+YSVLVVAKVEKGKSKKLKSVKELLGITIMERSSFEKNPIDFLEAKGYKEVKKDLIIKLPK
+YSLFELENGRKRMLASAGELQKGNELALPSKYVNFLYLASHYEKLKGSPEDNEQKQLFVE
+QHKHYLDEIIEQISEFSKRVILADANLDKVLSAYNKHRDKPIREQAENIIHLFTLTNLGA
+PAAFKYFDTTIDRKRYTSTKEVLDATLIHQSITGLYETRIDLSQLGGD
+>GenBank:CDS:pHPHS232_pHPHS80:9907:9954
+KRPAATKKAGQAKKKK
+>GenBank:CDS:pHPHS232_pHPHS80:9955:9978
+DYKDDDDK
+>aph(3')-II (or nptII)
+IEQDGLHAGSPAAWVERLFGYDWAQQTIGCSDAAVFRLSAQGRPVLFVKTDLSGALNELQ
+DEAARLSWLATTGVPCAAVLDVVTEAGRDWLLLGEVPGQDLLSSHLAPAEKVSIMADAMR
+RLHTLDPATCPFDHQAKHRIERARTRMEAGLVDQDDLDEEHQGLAPAELFARLKARMPDG
+EDLVVTHGDACLPNIMVENGRFSGFIDCGRLGVADRYQDIALATRDIAEELGGEWADRFL
+VLYGIAAPDSQRIAFYRLLDEFF
