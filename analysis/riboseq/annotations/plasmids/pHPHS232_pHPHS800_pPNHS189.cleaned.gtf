@@ -21,6 +21,7 @@ pHPHS232_pHPHS800_pPNHS189	rtracklayer	3'UTR	16916	17070	.	+	.	transcript_id "mc
 pHPHS232_pHPHS800_pPNHS189	rtracklayer	transcript	22255	23348	.	+	.	transcript_id "eyfp"; gene_id "eyfp"
 pHPHS232_pHPHS800_pPNHS189	rtracklayer	exon	22255	23348	.	+	.	transcript_id "eyfp"; gene_id "eyfp"
 pHPHS232_pHPHS800_pPNHS189	rtracklayer	5'UTR	22255	22313	.	+	.	transcript_id "eyfp"; gene_id "eyfp"
+pHPHS232_pHPHS800_pPNHS189	rtracklayer	start_codon	22314	22316	.	+	.	transcript_id "eyfp"; gene_id "eyfp"
 pHPHS232_pHPHS800_pPNHS189	rtracklayer	CDS	22314	23060	.	+	.	transcript_id "eyfp"; gene_id "eyfp"
 pHPHS232_pHPHS800_pPNHS189	rtracklayer	3'UTR	23061	23348	.	+	.	transcript_id "eyfp"; gene_id "eyfp"
 pHPHS232_pHPHS800_pPNHS189	rtracklayer	transcript	23437	26465	.	+	.	transcript_id "bfp"; gene_id "bfp"
