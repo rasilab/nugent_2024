@@ -1,0 +1,5 @@
+file,cell_line,sgrna
+1,293T,Reporter
+9,U2OS,Reporter
+64,293T,None
+280,U2OS,None
