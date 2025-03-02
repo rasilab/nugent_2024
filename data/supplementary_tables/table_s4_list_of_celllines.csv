@@ -1,7 +1,7 @@
 Cell line ID,Genotype,Integrated plasmid,Source
 HEK293T,HEK293T,-,ATCC CRL-3216
 U2OS,U2OS,-,ATCC HTB-96
-U927,U937,-,MSKCC
+U937,U937,-,MSKCC
 hsAS103,HEK293T AAVS1::pTet_Cas9-T2A-hygro_cHS4_pEF1a_mCherry_puro_KanR_pU6_sgRNA_AQR_1_2_cHS4_pTet_Bglob_NTC_HA_bGHpA,"pHPHS232, pHPHS800, pAS310",This work
 hsAS112,HEK293T AAVS1::pTet_Cas9-T2A-hygro_cHS4_pEF1a_mCherry_puro_KanR_pU6_sgRNA_SF3B5_1_2_cHS4_pTet_Bglob_NTC_HA_bGHpA,"pHPHS232, pHPHS800, pAS319",This work
 hsAS113,HEK293T AAVS1::pTet_Cas9-T2A-hygro_cHS4_pEF1a_mCherry_puro_KanR_pU6_sgRNA_SF3B6_3_4_cHS4_pTet_Bglob_NTC_HA_bGHpA,"pHPHS232, pHPHS800, pAS320",This work
