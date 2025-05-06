@@ -63,4 +63,4 @@ SAMN41637189,SRR29256338,gcn1_1_2_rep1_6h,GCN1_1_2 sgRNA rep 1 homoharringtonine
 SAMN41637190,SRR29256337,gcn1_1_2_rep2_6h,GCN1_1_2 sgRNA rep 2 homoharringtonine 6hr polyA RNA sequencing,220p18
 SAMN39206027,SRR27390986,rbp_dual_sgrna_linkage,sgRNA-barcode linkage plasmid amplicon sequencing,182p1
 SAMN45006014,SRR31476502,ntc_polysome_bc1_supernatant_rep1,NTC polysome barcode 1 supernatant fraction mRNA replicate 1 amplicon sequencing,288p3
-SAMN45006015,SRR31476503,ntc_polysome_bc1_supernatant_rep2,NTC polysome barcode 1 supernatant fraction mRNA replicate 2 amplicon sequencing,288p4
+SAMN45006015,SRR31476501,ntc_polysome_bc1_supernatant_rep2,NTC polysome barcode 1 supernatant fraction mRNA replicate 2 amplicon sequencing,288p4
