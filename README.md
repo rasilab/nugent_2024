@@ -1,26 +1,26 @@
-# Decoding RNA Metabolism by RNA-linked CRISPR Screening in Human Cells
+# Decoding post-transcriptional regulatory networks by RNA-linked CRISPR screening in human cells
 
-**Patrick J. Nugent**<sup>1,2</sup>, **Heungwon Park**<sup>1</sup>, **Cynthia L. Wladyka**<sup>3</sup>, **Andrew C. Hsieh**<sup>3</sup>, **Arvind Rasi Subramaniam**<sup>1,†</sup>
+Patrick J. Nugent<sup>1,2</sup>, Heungwon Park<sup>1</sup>, Cynthia L. Wladyka<sup>3</sup>, James N. Yelland<sup>1</sup>, Sayantani Sinha<sup>4</sup>, Katharine Y. Chen<sup>1,2</sup>, Christine Bynum<sup>1,5</sup>, Grace Quarterman<sup>1,5</sup>, Stanley C. Lee<sup>4</sup>, Andrew C. Hsieh<sup>3,6</sup>, Arvind Rasi Subramaniam<sup>1,7,†</sup>
 
-<sup>1</sup> Basic Sciences Division and Computational Biology Section of the Public Health Sciences Division,
-Fred Hutchinson Cancer Center, Seattle, WA 98109, USA, <br/>
-<sup>2</sup> Molecular and Cellular Biology Graduate Program, University of Washington, Seattle, WA 98195, USA  <br/>
-<sup>3</sup> Human Biology Division, Fred Hutchinson Cancer Center, Seattle, WA 98109, USA
+<sup>1</sup> Basic Sciences Division and Computational Biology Section of the Public Health Sciences Division, Fred Hutchinson Cancer Center, Seattle WA, USA. 
+<sup>2</sup> Molecular and Cellular Biology Graduate Program, University of Washington, Seattle WA, USA. 
+<sup>3</sup> Human Biology Division, Fred Hutchinson Cancer Center, Seattle WA, USA. 
+<sup>4</sup> Translational Science and Therapeutics Division, Fred Hutchinson Cancer Center, Seattle WA, USA. 
+<sup>5</sup> Department of Biology, Spelman College, Atlanta GA, USA. 
+<sup>6</sup> Department of Medicine and Department of Genome Sciences, University of Washington, Seattle WA, USA. 
+<sup>7</sup> Department of Biochemistry and Department of Genome Sciences, University of Washington, Seattle WA, USA. 
 
 <sup>†</sup> Corresponding author: <rasi@fredhutch.org>
 
 ## Abstract
 
-RNAs undergo a complex choreography of metabolic processes in human cells that are regulated by thousands of RNA-associated proteins.
-While the effects of individual RNA-associated proteins on RNA metabolism have been extensively characterized, the full complement of regulators for most RNA metabolic events remain unknown.
-Here we present a massively parallel RNA-linked CRISPR (ReLiC) screening approach to measure the response of diverse RNA metabolic events to knockout of 2,092 human genes encoding all known RNA-associated proteins.
-ReLiC screens highlight widespread yet modular interactions between gene networks regulating splicing, translation, and decay of mRNAs.
-When combined with biochemical fractionation of polysomes, ReLiC screening reveals striking pathway-specific coupling between growth fitness and mRNA translation.
-Perturbing different stages of translation as well as proteasomal function have differential effects on ribosome occupancy, while perturbing mRNA transcription leaves ribosome occupancy largely intact. 
-Isoform-selective ReLiC screens capture differential regulation of intron retention and exon skipping by SF3b complex subunits. 
-Modifier screens using ReLiC decipher translational regulators upstream of mRNA decay and uncover a role for the ribosome collision sensor GCN1 during treatment with the anti-leukemic drug homoharringtonine.
-Our work demonstrates ReLiC as a versatile platform for discovering and dissecting regulatory principles of human RNA metabolism.
-
+RNAs undergo a complex choreography of metabolic processes that are regulated by thousands of RNA-associated proteins. 
+Here, we introduce ReLiC, a scalable and high-throughput RNA-linked CRISPR approach to measure the responses of diverse RNA metabolic processes to knockout of 2,092 human genes encoding all known RNA-associated proteins. 
+ReLiC relies on an iterative strategy to integrate genes encoding Cas9, single-guide RNAs (sgRNAs) and barcoded reporter libraries into a defined genomic locus. 
+Combining ReLiC with polysome fractionation reveals key regulators of ribosome occupancy, uncovering links between translation and proteostasis. 
+Isoform-specific ReLiC captures differential regulation of intron retention and exon skipping by splicing factor (SF)3B complex subunits. 
+Chemogenomic ReLiC screens decipher translational regulators upstream of messenger RNA (mRNA) decay and identify a role for the ribosome collision sensor GCN1 during treatment with the anti-leukemic d­ru­g h­om­oharringtonine. 
+Our work demonstrates ReLiC as a powerful framework for discovering and dissecting post-transcriptional regulatory networks in human cells.
 
 ## Instructions for running the code
 
@@ -68,8 +68,3 @@ sh run_everything.sh
 | Extended data 5d                 | RT-qPCR measurement of GCN1-/HHT-dependent EGR1, JUN upregulation during GCN2 and ZAK inhibition | [analysis/qpcr/figs5d_zaki_gcn1_hht/scripts/plot_fig_s5d_qpcr.ipynb](analysis/qpcr/figs5d_zaki_gcn1_hht/scripts/plot_fig_s5d_qpcr.ipynb)                                                         |
 | Extended data 5e                 | Polysome profiles from GCN1-depleted and control cells during HHT treatment                      | [analysis/polysome_profiling/hht_gcn1_mnase/plot_figs4_polysomes.ipynb](analysis/polysome_profiling/hht_gcn1_mnase/plot_figs4_polysomes.ipynb)                                                   |
 
-<!-- To do: 
-- update polysome Relic barcode seq analysis to reflect current Fig 2c 
-- add analyses for 2a,b,i, 3b,g-i, 5e-g extended data 1f, 3b,c, 5a,f and add to table
-- MAKE RUN_EVERYTHING!
--->
