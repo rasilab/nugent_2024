@@ -1,14 +1,14 @@
 # Decoding post-transcriptional regulatory networks by RNA-linked CRISPR screening in human cells
 
-Patrick J. Nugent<sup>1,2</sup>, Heungwon Park<sup>1</sup>, Cynthia L. Wladyka<sup>3</sup>, James N. Yelland<sup>1</sup>, Sayantani Sinha<sup>4</sup>, Katharine Y. Chen<sup>1,2</sup>, Christine Bynum<sup>1,5</sup>, Grace Quarterman<sup>1,5</sup>, Stanley C. Lee<sup>4</sup>, Andrew C. Hsieh<sup>3,6</sup>, Arvind Rasi Subramaniam<sup>1,7,†</sup>
+**Patrick J. Nugent**<sup>1,2</sup>, **Heungwon Park**<sup>1</sup>, **Cynthia L. Wladyka**<sup>3</sup>, **James N. Yelland**<sup>1</sup>, **Sayantani Sinha**<sup>4</sup>, **Katharine Y. Chen**<sup>1,2</sup>, **Christine Bynum**<sup>1,5</sup>, **Grace Quarterman**<sup>1,5</sup>, **Stanley C. Lee**<sup>4</sup>, **Andrew C. Hsieh**<sup>3,6</sup>, **Arvind Rasi Subramaniam**<sup>1,7,†</sup>
 
-<sup>1</sup> Basic Sciences Division and Computational Biology Section of the Public Health Sciences Division, Fred Hutchinson Cancer Center, Seattle WA, USA. 
-<sup>2</sup> Molecular and Cellular Biology Graduate Program, University of Washington, Seattle WA, USA. 
-<sup>3</sup> Human Biology Division, Fred Hutchinson Cancer Center, Seattle WA, USA. 
-<sup>4</sup> Translational Science and Therapeutics Division, Fred Hutchinson Cancer Center, Seattle WA, USA. 
-<sup>5</sup> Department of Biology, Spelman College, Atlanta GA, USA. 
-<sup>6</sup> Department of Medicine and Department of Genome Sciences, University of Washington, Seattle WA, USA. 
-<sup>7</sup> Department of Biochemistry and Department of Genome Sciences, University of Washington, Seattle WA, USA. 
+<sup>1</sup> Basic Sciences Division and Computational Biology Section of the Public Health Sciences Division, Fred Hutchinson Cancer Center, Seattle WA, USA. <br/>
+<sup>2</sup> Molecular and Cellular Biology Graduate Program, University of Washington, Seattle WA, USA. <br/>
+<sup>3</sup> Human Biology Division, Fred Hutchinson Cancer Center, Seattle WA, USA. <br/>
+<sup>4</sup> Translational Science and Therapeutics Division, Fred Hutchinson Cancer Center, Seattle WA, USA. <br/>
+<sup>5</sup> Department of Biology, Spelman College, Atlanta GA, USA. <br/>
+<sup>6</sup> Department of Medicine and Department of Genome Sciences, University of Washington, Seattle WA, USA. <br/>
+<sup>7</sup> Department of Biochemistry and Department of Genome Sciences, University of Washington, Seattle WA, USA. <br/>
 
 <sup>†</sup> Corresponding author: <rasi@fredhutch.org>
 
