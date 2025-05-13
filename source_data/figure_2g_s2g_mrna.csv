@@ -1,0 +1,815 @@
+treatment,control,rep,gene,lfc,fdr,p_value,day,lfc.fitness,fdr.fitness,annotation
+heavy,mono,rep1,TSR3,0.17767,0.052586,0.0062527,day13,0.6237,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,TSR3,0.17767,0.052586,0.0062527,day7,0.1452,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,MRPS7,0.12835,0.063451,0.010737,day13,-1.1488,0.314416,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,MRPS7,0.12835,0.063451,0.010737,day7,-0.056287,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,POLR2J3,0.43931,0.07361,0.019745,day13,-5.7882,0.026378,7 RNA polymerase II
+heavy,mono,rep1,POLR2J3,0.43931,0.07361,0.019745,day7,-4.4197,8.7e-4,7 RNA polymerase II
+heavy,mono,rep1,ERAL1,0.12835,0.076475,0.023233,day13,-0.33381,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,ERAL1,0.12835,0.076475,0.023233,day7,-0.0020638,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,POLR2F,0.17934,1,0.069816,day13,-6.6344,0.006165,7 RNA polymerase II
+heavy,mono,rep1,POLR2F,0.17934,1,0.069816,day7,-3.8858,1.6e-4,7 RNA polymerase II
+heavy,mono,rep1,EIF3K,0.10127,1,0.16615,day13,0.35817,NA,5 EIF3
+heavy,mono,rep1,EIF3K,0.10127,1,0.16615,day7,0.43742,NA,5 EIF3
+heavy,mono,rep1,POLR2G,0.25112,0.19019,0.17163,day13,-3.663,0.050867,7 RNA polymerase II
+heavy,mono,rep1,POLR2G,0.25112,0.19019,0.17163,day7,-2.4727,0.003181,7 RNA polymerase II
+heavy,mono,rep1,POLR2H,0.12286,0.195222,0.18094,day13,-4.7986,0.067009,7 RNA polymerase II
+heavy,mono,rep1,POLR2H,0.12286,0.195222,0.18094,day7,-2.6963,0.001217,7 RNA polymerase II
+heavy,mono,rep1,DDX28,0.34422,1,0.098931,day13,-3.2573,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,DDX28,0.34422,1,0.098931,day7,-1.0819,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,EIF3G,-0.96781,0.012494,0.0061032,day13,-4.5035,0.079762,5 EIF3
+heavy,mono,rep1,EIF3G,-0.96781,0.012494,0.0061032,day7,-2.0911,0.00609,5 EIF3
+heavy,mono,rep1,FASTKD2,0.094401,1,0.25301,day13,-0.17223,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,FASTKD2,0.094401,1,0.25301,day7,-0.16396,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL22,0.06807,1,0.26131,day13,-3.1562,0.049747,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL22,0.06807,1,0.26131,day7,-0.90789,0.047045,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS27L,0.037469,1,0.27396,day13,1.1354,0.11733,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS27L,0.037469,1,0.27396,day7,0.26284,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,POLR2L,0.14341,1,0.30236,day13,-7.1582,0.011473,7 RNA polymerase II
+heavy,mono,rep1,POLR2L,0.14341,1,0.30236,day7,-3.5732,0.003805,7 RNA polymerase II
+heavy,mono,rep1,RPL39L,0.044896,1,0.32317,day13,-0.017069,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL39L,0.044896,1,0.32317,day7,0.25393,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL10L,0.076075,1,0.34452,day13,0.086765,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL10L,0.076075,1,0.34452,day7,0.010375,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,MRPS11,0.062527,1,0.35575,day13,0.49945,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,MRPS11,0.062527,1,0.35575,day7,0.82012,0.108083,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,KRI1,-0.088716,1,0.34789,day13,-3.4001,0.058371,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,KRI1,-0.088716,1,0.34789,day7,-0.53689,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,POLR2A,-0.066344,1,0.81649,day13,-5.3529,0.018438,7 RNA polymerase II
+heavy,mono,rep1,POLR2A,-0.066344,1,0.81649,day7,-4.9288,8.7e-4,7 RNA polymerase II
+heavy,mono,rep1,RPL3L,0.082692,1,0.38749,day13,0.79265,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL3L,0.082692,1,0.38749,day7,0.082458,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,PRKDC,-0.043997,1,0.60451,day13,0.18659,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,PRKDC,-0.043997,1,0.60451,day7,0.076179,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,UTP25,0.051352,1,0.37562,day13,-0.91071,0.173315,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,UTP25,0.051352,1,0.37562,day7,-0.20176,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,MPHOSPH10,-0.9777,0.069171,0.051002,day13,-3.0297,0.053416,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,MPHOSPH10,-0.9777,0.069171,0.051002,day7,-1.9793,0.123887,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,POLR2D,0.10009,1,0.41131,day13,-5.6488,0.011404,7 RNA polymerase II
+heavy,mono,rep1,POLR2D,0.10009,1,0.41131,day7,-4.4604,3.49e-4,7 RNA polymerase II
+heavy,mono,rep1,DHX30,0.074137,1,0.41703,day13,-1.939,0.32928,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,DHX30,0.074137,1,0.41703,day7,-0.060839,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS19BP1,-0.083872,1,0.38554,day13,-1.0619,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS19BP1,-0.083872,1,0.38554,day7,-0.39522,0.27262,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL26L1,-0.068376,1,0.52495,day13,0.339,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL26L1,-0.068376,1,0.52495,day7,-0.050216,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,POLR2J2,-0.14404,1,0.32717,day13,-0.53432,NA,7 RNA polymerase II
+heavy,mono,rep1,POLR2J2,-0.14404,1,0.32717,day7,-0.55631,NA,7 RNA polymerase II
+heavy,mono,rep1,NOP9,0.056687,1,0.4668,day13,-1.4632,0.094576,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,NOP9,0.056687,1,0.4668,day7,-0.052396,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,POLR2K,0.17252,1,0.43094,day13,-4.9314,0.023085,7 RNA polymerase II
+heavy,mono,rep1,POLR2K,0.17252,1,0.43094,day7,-4.3783,0.001214,7 RNA polymerase II
+heavy,mono,rep1,RPS4Y2,-0.22764,0.145529,0.12239,day13,0.75867,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS4Y2,-0.22764,0.145529,0.12239,day7,0.14105,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,MRM2,-0.074199,1,0.46443,day13,-1.4664,0.08916,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,MRM2,-0.074199,1,0.46443,day7,0.33046,0.28828,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS4Y1,-0.05684,1,0.41352,day13,1.5113,0.039859,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS4Y1,-0.05684,1,0.41352,day7,0.62571,0.142883,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,EIF3H,-0.035828,1,0.6402,day13,-0.099558,NA,5 EIF3
+heavy,mono,rep1,EIF3H,-0.035828,1,0.6402,day7,0.33175,NA,5 EIF3
+heavy,mono,rep1,POLR2B,0.0067239,1,0.61582,day13,-3.861,0.081573,7 RNA polymerase II
+heavy,mono,rep1,POLR2B,0.0067239,1,0.61582,day7,-1.9463,0.038333,7 RNA polymerase II
+heavy,mono,rep1,RPL22L1,-0.097836,1,0.40712,day13,0.11784,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL22L1,-0.097836,1,0.40712,day7,-0.49809,0.266727,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RRP36,-0.13518,1,0.15628,day13,-1.5136,0.32928,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RRP36,-0.13518,1,0.15628,day7,-0.34127999999999997,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,POLR2E,-0.21747,1,0.50626,day13,-2.7906,0.073337,7 RNA polymerase II
+heavy,mono,rep1,POLR2E,-0.21747,1,0.50626,day7,-2.7401,0.002405,7 RNA polymerase II
+heavy,mono,rep1,RPP40,0.040597,1,0.68245,day13,-1.0414,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPP40,0.040597,1,0.68245,day7,-0.18774,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,MRPL1,-0.0087549,1,0.70302,day13,0.016481,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,MRPL1,-0.0087549,1,0.70302,day7,-0.26209,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL36AL,0.0055345,1,0.7032,day13,-3.6589,0.120511,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL36AL,0.0055345,1,0.7032,day7,-0.57506,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL36A,-0.078441,1,0.3366,day13,0.33401,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL36A,-0.078441,1,0.3366,day7,-0.2304,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,HEATR1,-0.45961,0.058766,0.042111,day13,-4.0418,0.123192,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,HEATR1,-0.45961,0.058766,0.042111,day7,-0.7217,0.159446,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,SNU13,-0.024236,1,0.69021,day13,-4.4806,0.042586,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,SNU13,-0.024236,1,0.69021,day7,-2.756,0.009362,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,MRPL20,-0.090262,1,0.46925,day13,-2.7793,0.047683,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,MRPL20,-0.090262,1,0.46925,day7,-0.028509,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,GTF3A,-0.085768,1,0.44632,day13,-1.6261,0.279856,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,GTF3A,-0.085768,1,0.44632,day7,0.43051,0.153879,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NPM1,-0.034146,1,0.78511,day13,-0.93262,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NPM1,-0.034146,1,0.78511,day7,-0.074451,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,DDX52,-0.037148,1,0.51158,day13,-4.5644,0.020736,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,DDX52,-0.037148,1,0.51158,day7,-0.48649,0.253946,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,UTP23,-0.22307,0.197028,0.18613,day13,-2.7028,0.165213,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,UTP23,-0.22307,0.197028,0.18613,day7,-4.7581e-4,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,EIF3J,-0.088701,1,0.46526,day13,0.70681,NA,5 EIF3
+heavy,mono,rep1,EIF3J,-0.088701,1,0.46526,day7,0.33512,NA,5 EIF3
+heavy,mono,rep1,PSMD1,-0.32316,0.050042,0.035168,day13,-1.2506,0.326212,6 Proteasome
+heavy,mono,rep1,PSMD1,-0.32316,0.050042,0.035168,day7,-0.76712,0.17868,6 Proteasome
+heavy,mono,rep1,RIOK1,0.0064751,1,0.8467,day13,-3.4015,0.093164,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RIOK1,0.0064751,1,0.8467,day7,-0.75332,0.273383,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,POLR2J,-0.090058,1,0.71694,day13,-5.5285,0.037733,7 RNA polymerase II
+heavy,mono,rep1,POLR2J,-0.090058,1,0.71694,day7,-4.6051,0.004791,7 RNA polymerase II
+heavy,mono,rep1,PSMD4,-0.069265,1,0.80114,day13,-4.4331,0.022412,6 Proteasome
+heavy,mono,rep1,PSMD4,-0.069265,1,0.80114,day7,-1.0258,0.037751,6 Proteasome
+heavy,mono,rep1,EIF3L,-0.026932,1,0.68673,day13,0.77925,NA,5 EIF3
+heavy,mono,rep1,EIF3L,-0.026932,1,0.68673,day7,0.3043,0.28396,5 EIF3
+heavy,mono,rep1,POLR2I,-0.055879,1,0.83676,day13,-4.461,0.086624,7 RNA polymerase II
+heavy,mono,rep1,POLR2I,-0.055879,1,0.83676,day7,-2.9146,0.004551,7 RNA polymerase II
+heavy,mono,rep1,LSM6,-0.35203,0.099928,0.077824,day13,-5.5188,0.01257,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,LSM6,-0.35203,0.099928,0.077824,day7,-2.4954,0.003243,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS9,-1.9313,1,0.022141,day13,-3.6111,0.028047,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS9,-1.9313,1,0.022141,day7,-2.609,0.031669,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,EIF3M,-0.041128,1,0.38222,day13,-1.1629,0.299281,5 EIF3
+heavy,mono,rep1,EIF3M,-0.041128,1,0.38222,day7,-0.60217,0.17868,5 EIF3
+heavy,mono,rep1,RPS26,-0.69413,0.036925,0.025099,day13,-5.7334,0.01013,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS26,-0.69413,0.036925,0.025099,day7,-2.9503,0.008957,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS2,-1.1391,0.011677,0.0056503,day13,-3.2674,0.117881,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS2,-1.1391,0.011677,0.0056503,day7,-1.0151,0.139835,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,TSR2,-0.33,0.084283,0.063697,day13,-3.9949,0.021847,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,TSR2,-0.33,0.084283,0.063697,day7,-0.55138,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS17,-1.036,0.018579,0.010189,day13,-3.4896,0.08303,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS17,-1.036,0.018579,0.010189,day7,-1.5525,0.036547,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL14,-2.8174,1,0.053217,day13,-6.0933,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL14,-2.8174,1,0.053217,day7,-1.5598,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NGDN,-0.59992,0.017704,0.0094639,day13,-3.612,0.151145,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,NGDN,-0.59992,0.017704,0.0094639,day7,-0.94774,0.144893,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,EIF3CL,-0.8987,0.158171,0.1374,day13,-4.4384,0.015528,5 EIF3
+heavy,mono,rep1,EIF3CL,-0.8987,0.158171,0.1374,day7,-2.9432,0.009879,5 EIF3
+heavy,mono,rep1,PSMA3,-0.54664,0.132382,0.1089,day13,-3.3414,0.086624,6 Proteasome
+heavy,mono,rep1,PSMA3,-0.54664,0.132382,0.1089,day7,-3.2537,0.015843,6 Proteasome
+heavy,mono,rep1,NOL11,-0.42311,0.034023,0.022264,day13,-2.0762,0.189234,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,NOL11,-0.42311,0.034023,0.022264,day7,-0.84518,0.105888,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,NHP2,-0.13585,0.127375,0.10419,day13,-3.9618,0.018493,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NHP2,-0.13585,0.127375,0.10419,day7,-0.22424,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,EIF3F,-0.46614,0.096564,0.074092,day13,-4.8689,0.024534,5 EIF3
+heavy,mono,rep1,EIF3F,-0.46614,0.096564,0.074092,day7,-1.6402,0.043144,5 EIF3
+heavy,mono,rep1,PSMD11,-0.47,0.098194,0.075569,day13,-3.3268,0.112791,6 Proteasome
+heavy,mono,rep1,PSMD11,-0.47,0.098194,0.075569,day7,-1.4038,0.058352,6 Proteasome
+heavy,mono,rep1,NOM1,-0.25813,0.066497,0.048724,day13,-2.2506,0.173315,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,NOM1,-0.25813,0.066497,0.048724,day7,-0.27918,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,PSMB3,-0.57093,0.066248,0.048388,day13,-3.3813,0.042298,6 Proteasome
+heavy,mono,rep1,PSMB3,-0.57093,0.066248,0.048388,day7,-3.3067,0.005501,6 Proteasome
+heavy,mono,rep1,PSMA6,-0.64303,0.195442,0.18238,day13,-5.3082,0.028488,6 Proteasome
+heavy,mono,rep1,PSMA6,-0.64303,0.195442,0.18238,day7,-6.0096,3.49e-4,6 Proteasome
+heavy,mono,rep1,RPS14,-2.0613,1,0.028414,day13,-3.7313,0.131698,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS14,-2.0613,1,0.028414,day7,-3.3534,0.046103,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS27,-0.55979,0.042299,0.029239,day13,-5.8288,0.006022,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS27,-0.55979,0.042299,0.029239,day7,-3.1991,0.002308,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL29,-0.83313,0.09384,0.071569,day13,-0.73755,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL29,-0.83313,0.09384,0.071569,day7,-1.0202,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,WDR46,-0.71252,0.017174,0.008943,day13,-3.745,0.088524,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,WDR46,-0.71252,0.017174,0.008943,day7,-0.79179,0.123871,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS5,-1.9251,1,0.022318,day13,-4.8994,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS5,-1.9251,1,0.022318,day7,-2.4635,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,MRTO4,-0.89561,0.02273,0.01325,day13,-3.2327,0.076836,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,MRTO4,-0.89561,0.02273,0.01325,day7,-0.91831,0.04067,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,PSMD7,-0.82863,0.017262,0.0091106,day13,-5.2327,0.02088,6 Proteasome
+heavy,mono,rep1,PSMD7,-0.82863,0.017262,0.0091106,day7,-2.7328,0.001393,6 Proteasome
+heavy,mono,rep1,PSMA4,-0.85263,0.034023,0.022064,day13,-5.7719,0.02359,6 Proteasome
+heavy,mono,rep1,PSMA4,-0.85263,0.034023,0.022064,day7,-3.7854,0.001091,6 Proteasome
+heavy,mono,rep1,TBL3,-0.53235,0.037803,0.025783,day13,-2.8145,0.116093,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,TBL3,-0.53235,0.037803,0.025783,day7,-0.72006,0.063956,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,PWP2,-0.82046,0.018312,0.0099576,day13,-3.7365,0.123192,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,PWP2,-0.82046,0.018312,0.0099576,day7,-1.3167,0.049901,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,ZNHIT6,-0.3959,0.036001,0.024139,day13,-3.2779,0.167012,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,ZNHIT6,-0.3959,0.036001,0.024139,day7,-0.19989,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,TSR1,-0.59335,0.017262,0.0091876,day13,-2.1265,0.287294,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,TSR1,-0.59335,0.017262,0.0091876,day7,-0.59714,0.230434,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,SRFBP1,-0.33392,0.035835,0.023862,day13,-0.90664,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,SRFBP1,-0.33392,0.035835,0.023862,day7,-1.0124,0.034782,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS28,-1.0963,0.027524,0.017123,day13,-6.0474,0.012757,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS28,-1.0963,0.027524,0.017123,day7,-2.0188,0.006217,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RRP7A,-0.4817,0.034023,0.022191,day13,-2.4367,0.10717,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RRP7A,-0.4817,0.034023,0.022191,day7,-1.905,0.101743,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,PSMC4,-0.96024,0.032084,0.02033,day13,-4.4325,0.028993,6 Proteasome
+heavy,mono,rep1,PSMC4,-0.96024,0.032084,0.02033,day7,-4.1721,0.008073,6 Proteasome
+heavy,mono,rep1,NAT10,-0.41706,0.024541,0.014845,day13,-4.6716,0.017419,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,NAT10,-0.41706,0.024541,0.014845,day7,-1.1687,0.068871,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,PSMC1,-0.42244,0.024002,0.014324,day13,-3.7049,0.036698,6 Proteasome
+heavy,mono,rep1,PSMC1,-0.42244,0.024002,0.014324,day7,-1.7231,0.015727,6 Proteasome
+heavy,mono,rep1,NOB1,-0.38949,0.023485,0.013853,day13,-3.1763,0.047683,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,NOB1,-0.38949,0.023485,0.013853,day7,-0.83572,0.098899,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,FCF1,-0.56318,0.022555,0.013096,day13,-4.5403,0.023717,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,FCF1,-0.56318,0.022555,0.013096,day7,-1.3795,0.011677,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS3A,-1.7907,0.018789,0.010347,day13,-5.4197,0.028172,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS3A,-1.7907,0.018789,0.010347,day7,-2.4382,0.014832,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,ZNF622,-0.70397,0.021119,0.012068,day13,-0.58672,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,ZNF622,-0.70397,0.021119,0.012068,day7,0.34009,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RRP15,-1.4825,0.017262,0.0091786,day13,-1.6246,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RRP15,-1.4825,0.017262,0.0091786,day7,-0.37382,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,ABT1,-0.77862,0.020268,0.011348,day13,-3.415,0.055219,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,ABT1,-0.77862,0.020268,0.011348,day7,-1.2328,0.091429,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,DDX18,-0.66503,0.020085,0.011153,day13,-3.7999,0.028993,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,DDX18,-0.66503,0.020085,0.011153,day7,-1.1575,0.018635,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,PSMA1,-0.55679,0.017262,0.0091333,day13,-4.1249,0.027509,6 Proteasome
+heavy,mono,rep1,PSMA1,-0.55679,0.017262,0.0091333,day7,-2.2277,0.003579,6 Proteasome
+heavy,mono,rep1,WDR3,-0.43548,0.016682,0.0086486,day13,-5.6515,0.023331,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,WDR3,-0.43548,0.016682,0.0086486,day7,-1.3601,0.014494,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPSA,-1.3469,0.016166,0.008232,day13,-4.3742,0.017865,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPSA,-1.3469,0.016166,0.008232,day7,-2.905,0.002456,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,DHX37,-0.88924,0.013207,0.0065425,day13,-4.4971,0.052872,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,DHX37,-0.88924,0.013207,0.0065425,day7,-1.6556,0.034782,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS7,-0.95225,0.013411,0.0067056,day13,-3.645,0.046584,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS7,-0.95225,0.013411,0.0067056,day7,-1.7181,0.003806,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL39,-0.54319,0.013291,0.006615,day13,-4.3932,0.069235,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL39,-0.54319,0.013291,0.006615,day7,-1.6544,0.032503,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL8,-3.9892,8.2e-5,6.7939e-6,day13,-7.0793,0.006022,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL8,-3.9892,8.2e-5,6.7939e-6,day7,-2.6988,0.001715,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS10,-1.4646,0.009783,0.0044183,day13,-4.1114,0.046127,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS10,-1.4646,0.009783,0.0044183,day7,-2.2976,0.028325,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RIOK2,-0.52709,0.011195,0.0052879,day13,-0.66281,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RIOK2,-0.52709,0.011195,0.0052879,day7,0.23678,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL41,-0.39683,0.010899,0.0050977,day13,-0.62509,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL41,-0.39683,0.010899,0.0050977,day7,-0.086812,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,XRCC5,-0.48081,0.010505,0.0048893,day13,-3.583,0.03639,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,XRCC5,-0.48081,0.010505,0.0048893,day7,-0.45042,0.295923,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,BYSL,-0.46845,0.010505,0.0048576,day13,-3.2709,0.124798,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,BYSL,-0.46845,0.010505,0.0048576,day7,-1.0723,0.110062,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS4X,-1.0866,0.008227,0.003526,day13,-4.4646,0.059156,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS4X,-1.0866,0.008227,0.003526,day7,-3.4148,0.005077,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,EIF3B,-1.274,0.00957,0.0042643,day13,-3.8973,0.040167,5 EIF3
+heavy,mono,rep1,EIF3B,-1.274,0.00957,0.0042643,day7,-2.4609,0.011556,5 EIF3
+heavy,mono,rep1,NOP14,-0.49582,0.009342,0.004133,day13,-3.3874,0.06387,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,NOP14,-0.49582,0.009342,0.004133,day7,-0.93014,0.032458,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL7L1,-1.2738,0.007169,0.0029735,day13,-2.4238,0.123192,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL7L1,-1.2738,0.007169,0.0029735,day7,-0.9852,0.189983,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,UTP4,-0.73491,0.008373,0.0036076,day13,-4.0116,0.024534,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,UTP4,-0.73491,0.008373,0.0036076,day7,-1.0371,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,EIF3D,-0.71166,0.00688,0.0028285,day13,-4.5554,0.061486,5 EIF3
+heavy,mono,rep1,EIF3D,-0.71166,0.00688,0.0028285,day7,-2.4219,0.006254,5 EIF3
+heavy,mono,rep1,EMG1,-0.53408,0.008123,0.0034626,day13,-4.5753,0.079393,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,EMG1,-0.53408,0.008123,0.0034626,day7,-1.3081,0.066762,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,EIF3A,-0.98115,0.006351,0.0025024,day13,-2.2698,0.099386,5 EIF3
+heavy,mono,rep1,EIF3A,-0.98115,0.006351,0.0025024,day7,-2.0502,0.018444,5 EIF3
+heavy,mono,rep1,NOL10,-0.47475,0.006758,0.002747,day13,-5.555,0.018438,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,NOL10,-0.47475,0.006758,0.002747,day7,-1.1876,0.053083,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,NVL,-0.65168,0.006711,0.0027062,day13,-1.4149,0.297351,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NVL,-0.65168,0.006711,0.0027062,day7,0.20368,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RIOK3,-0.38065,0.00666,0.00267,day13,0.4667,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RIOK3,-0.38065,0.00666,0.00267,day7,0.28444,NA,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,PSMA2,-0.58842,0.005752,0.0022397,day13,-3.4906,0.070028000000000007,6 Proteasome
+heavy,mono,rep1,PSMA2,-0.58842,0.005752,0.0022397,day7,-2.6923,0.001091,6 Proteasome
+heavy,mono,rep1,PSMB1,-0.60128,0.00534,0.0020178,day13,-3.8637,0.097749,6 Proteasome
+heavy,mono,rep1,PSMB1,-0.60128,0.00534,0.0020178,day7,-1.6378,0.113758,6 Proteasome
+heavy,mono,rep1,TMA16,-1.4912,0.004359,0.0015422,day13,-3.2016,0.050867,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,TMA16,-1.4912,0.004359,0.0015422,day7,-0.62581,0.245967,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS18,-2.0038,0.004276,0.0014879,day13,-3.2664,0.053152,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS18,-2.0038,0.004276,0.0014879,day7,-2.423,0.014494,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,PSMB2,-0.6491,0.004871,0.0017959,day13,-6.1234,0.006165,6 Proteasome
+heavy,mono,rep1,PSMB2,-0.6491,0.004871,0.0017959,day7,-3.417,1.6e-4,6 Proteasome
+heavy,mono,rep1,RPS25,-0.81544,0.004766,0.001746,day13,-3.4611,0.050217,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS25,-0.81544,0.004766,0.001746,day7,-1.8569,0.047971,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,PSMD6,-0.72739,0.004609,0.0016781,day13,-5.6259,0.009907,6 Proteasome
+heavy,mono,rep1,PSMD6,-0.72739,0.004609,0.0016781,day7,-3.1479,0.002014,6 Proteasome
+heavy,mono,rep1,UTP3,-1.2398,0.004517,0.0016237,day13,-4.7385,0.028331,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,UTP3,-1.2398,0.004517,0.0016237,day7,-1.7004,0.008073,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,DCAF13,-0.88129,0.004458,0.001592,day13,-3.1098,0.061873,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,DCAF13,-0.88129,0.004458,0.001592,day7,-1.5074,0.011556,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,WDR12,-1.6811,7.88e-4,1.6532e-4,day13,-3.5042,0.088266,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,WDR12,-1.6811,7.88e-4,1.6532e-4,day7,-0.82602,0.028325,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS27A,-1.4983,0.004148,0.0014335,day13,-5.9449,0.016007,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS27A,-1.4983,0.004148,0.0014335,day7,-3.7139,0.001217,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,PSMC2,-1.3279,0.003597,0.0011935,day13,-5.8217,0.009889,6 Proteasome
+heavy,mono,rep1,PSMC2,-1.3279,0.003597,0.0011935,day7,-4.8556,1.6e-4,6 Proteasome
+heavy,mono,rep1,WDR43,-0.92903,0.002934,9.3529e-4,day13,-3.7874,0.038687,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,WDR43,-0.92903,0.002934,9.3529e-4,day7,-1.0479,0.185032,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,NOL9,-0.78935,0.002912,9.1265e-4,day13,-2.662,0.214097,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NOL9,-0.78935,0.002912,9.1265e-4,day7,-0.1497,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS23,-1.2539,0.002701,8.4018e-4,day13,-4.2255,0.046659,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS23,-1.2539,0.002701,8.4018e-4,day7,-2.9155,0.001214,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL12,-1.2368,0.002701,8.3565e-4,day13,-4.427,0.086624,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL12,-1.2368,0.002701,8.3565e-4,day7,-2.4591,0.056454,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL7,-2.3355,0.002701,8.3112e-4,day13,-4.1349,0.088524,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL7,-2.3355,0.002701,8.3112e-4,day7,-2.3229,0.014808,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL35,-3.2314,0.001585,4.0537e-4,day13,-6.008,0.026378,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL35,-3.2314,0.001585,4.0537e-4,day7,-2.0753,0.003823,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,UTP6,-0.47956,0.002573,7.7224e-4,day13,-4.4455,0.05161,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,UTP6,-0.47956,0.002573,7.7224e-4,day7,-0.93673,0.032458,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS20,-2.5187,0.002364,6.8618e-4,day13,-6.1046,0.014489,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS20,-2.5187,0.002364,6.8618e-4,day7,-3.2629,0.00426,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,EIF3C,-1.7331,0.002407,7.043e-4,day13,-4.6771,0.014012,5 EIF3
+heavy,mono,rep1,EIF3C,-1.7331,0.002407,7.043e-4,day7,-3.8483,0.01611,5 EIF3
+heavy,mono,rep1,BMS1,-0.54952,0.002275,6.4995e-4,day13,-3.1941,0.049094,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,BMS1,-0.54952,0.002275,6.4995e-4,day7,-1.0324,0.080081,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPF2,-1.6042,9.62e-4,2.1061e-4,day13,-3.9003,0.06472,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPF2,-1.6042,9.62e-4,2.1061e-4,day7,-1.1934,0.123106,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,EBNA1BP2,-1.769,0.002197,6.2277e-4,day13,-1.0053,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,EBNA1BP2,-1.769,0.002197,6.2277e-4,day7,-0.74231,0.239444,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS11,-2.085,0.002039,5.6389e-4,day13,-4.9849,0.018438,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS11,-2.085,0.002039,5.6389e-4,day7,-2.7492,0.017427,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS8,-1.1054,0.00199,5.4578e-4,day13,-5.3915,0.02777,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS8,-1.1054,0.00199,5.4578e-4,day7,-2.5827,0.00122,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,EIF3E,-0.59538,0.001739,4.6878e-4,day13,-3.07,0.112554,5 EIF3
+heavy,mono,rep1,EIF3E,-0.59538,0.001739,4.6878e-4,day7,-1.2259,0.022881,5 EIF3
+heavy,mono,rep1,RPL27A,-4.1265,0.001737,4.6425e-4,day13,-4.828,0.039857,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL27A,-4.1265,0.001737,4.6425e-4,day7,-2.6049,0.009362,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL13A,-1.981,0.001592,4.1443e-4,day13,-3.0179,0.179571,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL13A,-1.981,0.001592,4.1443e-4,day7,-1.2726,0.012199,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RCL1,-0.56732,0.001588,4.099e-4,day13,-2.9023,0.138741,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RCL1,-0.56732,0.001588,4.099e-4,day7,-0.55499,0.04067,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,IMP3,-0.74499,0.00147,3.6914e-4,day13,-3.5992,0.072532,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,IMP3,-0.74499,0.00147,3.6914e-4,day7,-1.2325,0.096693,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,NSA2,-2.1281,0.001465,3.6461e-4,day13,-4.3828,0.067221,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NSA2,-2.1281,0.001465,3.6461e-4,day7,-1.4294,0.039363,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS13,-2.284,0.001456,3.5555e-4,day13,-5.4226,0.010618,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS13,-2.284,0.001456,3.5555e-4,day7,-2.9281,8.7e-4,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS12,-1.3989,0.001142,2.6043e-4,day13,-4.7793,0.07303,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS12,-1.3989,0.001142,2.6043e-4,day7,-2.5851,0.003806,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS16,-2.0306,0.001282,3.012e-4,day13,-6.5667,0.023206,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS16,-2.0306,0.001282,3.012e-4,day7,-2.7808,0.015843,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,URB1,-1.1241,9.93e-4,2.1967e-4,day13,-1.2942,0.345662,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,URB1,-1.1241,9.93e-4,2.1967e-4,day7,-0.26355,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL10A,-1.8668,8.98e-4,1.9249e-4,day13,-5.5411,0.02324,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL10A,-1.8668,8.98e-4,1.9249e-4,day7,-2.3848,0.008714,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NIFK,-1.6281,7.88e-4,1.6532e-4,day13,-2.7919,0.160793,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NIFK,-1.6281,7.88e-4,1.6532e-4,day7,-0.61585,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,IMP4,-0.86508,7.88e-4,1.6532e-4,day13,-4.6228,0.017111,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,IMP4,-0.86508,7.88e-4,1.6532e-4,day7,-1.1216,0.027159,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS19,-1.5875,7.88e-4,1.6532e-4,day13,-5.3529,0.018601,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS19,-1.5875,7.88e-4,1.6532e-4,day7,-2.2042,0.001206,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,EIF3I,-1.1663,7.88e-4,1.6079e-4,day13,-6.069,0.006022,5 EIF3
+heavy,mono,rep1,EIF3I,-1.1663,7.88e-4,1.6079e-4,day7,-1.8533,0.004907,5 EIF3
+heavy,mono,rep1,RPS15A,-1.6725,7.46e-4,1.4267e-4,day13,-4.0947,0.017878,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS15A,-1.6725,7.46e-4,1.4267e-4,day7,-2.0176,0.009362,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL30,-4.0293,7.31e-4,1.3814e-4,day13,-5.7316,0.030156,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL30,-4.0293,7.31e-4,1.3814e-4,day7,-2.3955,0.029719,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS15,-1.827,7.31e-4,1.3814e-4,day13,-5.8391,0.006917,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS15,-1.827,7.31e-4,1.3814e-4,day7,-2.5529,0.004672,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS21,-1.0695,7.25e-4,1.3361e-4,day13,-4.4746,0.029702,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS21,-1.0695,7.25e-4,1.3361e-4,day7,-1.1185,0.038933,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RRS1,-1.2091,6.25e-4,1.1097e-4,day13,-1.9166,0.327644,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RRS1,-1.2091,6.25e-4,1.1097e-4,day7,-0.50601,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS29,-1.7288,4.98e-4,8.3792e-5,day13,-5.6988,0.017246,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS29,-1.7288,4.98e-4,8.3792e-5,day7,-2.2528,0.00121,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,FTSJ3,-1.9894,4.98e-4,8.3792e-5,day13,-4.8755,0.061408,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,FTSJ3,-1.9894,4.98e-4,8.3792e-5,day7,-0.82314,0.067428,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPLP1,-1.9833,4.98e-4,7.9262e-5,day13,-4.5913,0.018438,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPLP1,-1.9833,4.98e-4,7.9262e-5,day7,-1.6086,0.058765,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,LAS1L,-1.2185,4.98e-4,7.9262e-5,day13,-3.2449,0.096465,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,LAS1L,-1.2185,4.98e-4,7.9262e-5,day7,-0.57085,0.286985,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL23,-3.1666,3.04e-4,3.8499e-5,day13,-5.5741,0.018,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL23,-3.1666,3.04e-4,3.8499e-5,day7,-1.6508,0.028781,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NOP2,-2.104,4.98e-4,7.9262e-5,day13,-4.0315,0.062581,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NOP2,-2.104,4.98e-4,7.9262e-5,day7,-0.96124,0.217091,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,EIF6,-2.9836,4.39e-4,6.5674e-5,day13,-4.5938,0.018,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,EIF6,-2.9836,4.39e-4,6.5674e-5,day7,-1.6468,0.018578,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RSL1D1,-1.8656,4.39e-4,6.5674e-5,day13,-3.4422,0.094576,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RSL1D1,-1.8656,4.39e-4,6.5674e-5,day7,-0.74868,0.077001,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL11,-3.8823,4.21e-4,6.1145e-5,day13,-5.2048,0.024345,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL11,-3.8823,4.21e-4,6.1145e-5,day7,-3.0749,0.005077,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL10,-3.19,4.21e-4,6.1145e-5,day13,-3.8446,0.050785,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL10,-3.19,4.21e-4,6.1145e-5,day7,-1.8224,0.034782,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,UTP20,-0.87912,4.21e-4,6.1145e-5,day13,-4.4532,0.021103,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,UTP20,-0.87912,4.21e-4,6.1145e-5,day7,-0.95192,0.017907,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPLP2,-2.5005,4.21e-4,6.1145e-5,day13,-4.5532,0.058835,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPLP2,-2.5005,4.21e-4,6.1145e-5,day7,-1.8367,0.008714,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL5,-3.4977,4.21e-4,6.1145e-5,day13,-5.1455,0.041463,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL5,-3.4977,4.21e-4,6.1145e-5,day7,-2.8708,0.006754,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,BOP1,-2.0104,3.04e-4,3.8499e-5,day13,-2.9378,0.069235,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,BOP1,-2.0104,3.04e-4,3.8499e-5,day7,-0.60251,0.068409,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL18A,-3.4918,3.62e-4,4.7557e-5,day13,-5.9543,0.018438,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL18A,-3.4918,3.62e-4,4.7557e-5,day7,-2.4432,0.011212,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS3,-1.9996,3.33e-4,4.3028e-5,day13,-5.7401,0.01192,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS3,-1.9996,3.33e-4,4.3028e-5,day7,-2.701,8.23e-4,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL24,-3.781,3.04e-4,3.8499e-5,day13,-6.3408,0.012757,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL24,-3.781,3.04e-4,3.8499e-5,day7,-2.2709,0.009879,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL23A,-3.28,2.84e-4,3.397e-5,day13,-5.4728,0.019124,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL23A,-3.28,2.84e-4,3.397e-5,day7,-3.313,0.001715,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NOC2L,-1.9786,2.84e-4,3.397e-5,day13,-3.5697,0.040167,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NOC2L,-1.9786,2.84e-4,3.397e-5,day7,-0.85677,0.05446,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL17,-3.0704,2.84e-4,3.397e-5,day13,-5.3227,0.036582,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL17,-3.0704,2.84e-4,3.397e-5,day7,-2.622,0.001944,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL13,-3.2033,2.84e-4,3.397e-5,day13,-3.8472,0.025339,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL13,-3.2033,2.84e-4,3.397e-5,day7,-1.4033,0.018128,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL17-C18ORF32,-2.8273,2.84e-4,3.397e-5,day13,-4.9699,0.017107,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL17-C18ORF32,-2.8273,2.84e-4,3.397e-5,day7,-3.7787,0.008183,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS6,-2.0345,2.78e-4,2.944e-5,day13,-5.6124,0.030039,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS6,-2.0345,2.78e-4,2.944e-5,day7,-2.6638,8.7e-4,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL26,-2.2065,2.78e-4,2.944e-5,day13,-3.3967,0.05334,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL26,-2.2065,2.78e-4,2.944e-5,day7,-1.1772,0.061516,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL6,-2.8552,2.16e-4,2.0382e-5,day13,-6.0633,0.006022,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL6,-2.8552,2.16e-4,2.0382e-5,day7,-2.9527,8.7e-4,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL15,-3.2233,1.72e-4,1.5852e-5,day13,-5.839,0.025029,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL15,-3.2233,1.72e-4,1.5852e-5,day7,-1.7913,0.015105,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NOP53,-1.9873,1.72e-4,1.5852e-5,day13,-4.0578,0.028331,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NOP53,-1.9873,1.72e-4,1.5852e-5,day7,-1.6816,0.026195,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL36,-2.4551,1.72e-4,1.5852e-5,day13,-2.6385,0.070028000000000007,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL36,-2.4551,1.72e-4,1.5852e-5,day7,-1.1931,0.061094999999999997,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL31,-3.6636,8.2e-5,6.7939e-6,day13,-4.7656,0.011473,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL31,-3.6636,8.2e-5,6.7939e-6,day7,-1.7821,0.009362,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,PPAN,-2.3077,8.2e-5,6.7939e-6,day13,-5.986,0.014012,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,PPAN,-2.3077,8.2e-5,6.7939e-6,day7,-1.5965,0.01069,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPF1,-2.0421,8.2e-5,6.7939e-6,day13,-3.7645,0.076836,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPF1,-2.0421,8.2e-5,6.7939e-6,day7,-1.1702,0.03758,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL27,-3.5642,8.2e-5,6.7939e-6,day13,-5.7418,0.014489,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL27,-3.5642,8.2e-5,6.7939e-6,day7,-2.8162,0.001715,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL7A,-3.1748,8.2e-5,6.7939e-6,day13,-5.3705,0.041463,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL7A,-3.1748,8.2e-5,6.7939e-6,day7,-2.4735,0.028781,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,MAK16,-2.8912,8.2e-5,6.7939e-6,day13,-5.3902,0.024534,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,MAK16,-2.8912,8.2e-5,6.7939e-6,day7,-1.4814,0.041667,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,GTPBP4,-2.8772,8.2e-5,6.7939e-6,day13,-4.3837,0.045667,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,GTPBP4,-2.8772,8.2e-5,6.7939e-6,day7,-1.0057,0.057815,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NIP7,-1.5436,8.2e-5,6.7939e-6,day13,-3.9644,0.029702,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NIP7,-1.5436,8.2e-5,6.7939e-6,day7,-0.67528,0.169635,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL34,-3.8548,3.6e-5,2.2646e-6,day13,-6.2505,0.020272,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL34,-3.8548,3.6e-5,2.2646e-6,day7,-2.5341,0.01611,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,SURF6,-1.7826,3.6e-5,2.2646e-6,day13,-2.1833,0.073884,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,SURF6,-1.7826,3.6e-5,2.2646e-6,day7,-0.83298,0.206787,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL37A,-2.4321,3.6e-5,2.2646e-6,day13,-3.5424,0.08341,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL37A,-2.4321,3.6e-5,2.2646e-6,day7,-0.86914,0.19259,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS24,-1.7631,3.6e-5,2.2646e-6,day13,-6.692,0.006165,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPS24,-1.7631,3.6e-5,2.2646e-6,day7,-2.5809,1.6e-4,"2 40S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL28,-1.4332,3.6e-5,2.2646e-6,day13,-2.9949,0.036101,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL28,-1.4332,3.6e-5,2.2646e-6,day7,-0.87507,0.05773,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL21,-2.7343,3.6e-5,2.2646e-6,day13,-5.0029,0.017865,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL21,-2.7343,3.6e-5,2.2646e-6,day7,-2.2108,0.002452,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL19,-4.3357,3.6e-5,2.2646e-6,day13,-6.4772,0.006022,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL19,-4.3357,3.6e-5,2.2646e-6,day7,-3.5687,1.6e-4,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,PES1,-2.4365,3.6e-5,2.2646e-6,day13,-4.6987,0.059156,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,PES1,-2.4365,3.6e-5,2.2646e-6,day7,-1.51,0.061014,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL18,-3.0151,3.6e-5,2.2646e-6,day13,-4.6822,0.013314,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL18,-3.0151,3.6e-5,2.2646e-6,day7,-2.2022,0.003171,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL3,-2.7464,3.6e-5,2.2646e-6,day13,-4.388,0.060012,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL3,-2.7464,3.6e-5,2.2646e-6,day7,-1.4032,0.015248,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL37,-4.196,3.6e-5,2.2646e-6,day13,-6.1414,0.00706,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL37,-4.196,3.6e-5,2.2646e-6,day7,-3.483,0.001091,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL4,-3.3926,3.6e-5,2.2646e-6,day13,-4.5932,0.018438,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL4,-3.3926,3.6e-5,2.2646e-6,day7,-1.484,0.01004,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPLP0,-4.0221,3.6e-5,2.2646e-6,day13,-6.3088,0.006165,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPLP0,-4.0221,3.6e-5,2.2646e-6,day7,-2.8899,8.23e-4,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL35A,-3.6368,3.6e-5,2.2646e-6,day13,-6.2928,0.014489,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL35A,-3.6368,3.6e-5,2.2646e-6,day7,-2.7959,8.7e-4,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL9,-3.5667,3.6e-5,2.2646e-6,day13,-6.9103,0.007984,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL9,-3.5667,3.6e-5,2.2646e-6,day7,-2.6945,4.27e-4,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL38,-2.3719,3.6e-5,2.2646e-6,day13,-2.8358,0.079744,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL38,-2.3719,3.6e-5,2.2646e-6,day7,-0.2912,NA,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NOP16,-2.31,3.6e-5,2.2646e-6,day13,-4.9355,0.017878,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,NOP16,-2.31,3.6e-5,2.2646e-6,day7,-0.97188,0.078774,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL32,-2.9738,3.6e-5,2.2646e-6,day13,-5.6848,0.021692,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RPL32,-2.9738,3.6e-5,2.2646e-6,day7,-2.3663,0.003805,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,SDAD1,-2.2902,3.6e-5,2.2646e-6,day13,-3.597,0.076615,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,SDAD1,-2.2902,3.6e-5,2.2646e-6,day7,-0.84377,0.063321,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RSL24D1,-2.2487,3.6e-5,2.2646e-6,day13,-5.2693,0.020994,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,RSL24D1,-2.2487,3.6e-5,2.2646e-6,day7,-1.5749,0.004909,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,BRIX1,-2.7593,3.6e-5,2.2646e-6,day13,-3.0891,0.110012,"1 60S ribosome 
+& biogenesis"
+heavy,mono,rep1,BRIX1,-2.7593,3.6e-5,2.2646e-6,day7,-0.96897,0.091429,"1 60S ribosome 
+& biogenesis"

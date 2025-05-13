@@ -1,0 +1,348 @@
+go_term,description,fdr_q_value,ontology,direction,enrichment
+GO:0006364,rRNA processing,1.9199999999999997e-52,Process,Down,4.08
+GO:0019083,viral transcription,1.28e-51,Process,Down,6.09
+GO:0016072,rRNA metabolic process,1.27e-50,Process,Down,3.90
+GO:0006614,SRP-dependent cotranslational protein targeting to membrane,3.49e-50,Process,Down,6.01
+GO:0006413,translational initiation,1.03e-49,Process,Down,6.16
+GO:0006613,cotranslational protein targeting to membrane,9.43e-49,Process,Down,5.88
+GO:0070972,protein localization to endoplasmic reticulum,4.66e-48,Process,Down,5.81
+GO:0072599,establishment of protein localization to endoplasmic reticulum,4.0799999999999996e-48,Process,Down,5.81
+GO:0045047,protein targeting to ER,3.6299999999999994e-48,Process,Down,5.81
+GO:0006612,protein targeting to membrane,1.7799999999999998e-47,Process,Down,5.75
+GO:0090150,establishment of protein localization to membrane,2.25e-44,Process,Down,5.41
+GO:0006605,protein targeting,1.2199999999999999e-42,Process,Down,5.25
+GO:0000184,"nuclear-transcribed mRNA catabolic process, nonsense-mediated decay",8.48e-40,Process,Down,4.60
+GO:0072657,protein localization to membrane,5.1599999999999997e-39,Process,Down,4.91
+GO:0072594,establishment of protein localization to organelle,1.42e-36,Process,Down,4.38
+GO:0006886,intracellular protein transport,2.18e-33,Process,Down,5.60
+GO:0033365,protein localization to organelle,1.04e-31,Process,Down,5.78
+GO:0000956,nuclear-transcribed mRNA catabolic process,5.78e-30,Process,Down,3.41
+GO:0042886,amide transport,2.18e-28,Process,Down,4.70
+GO:0015031,protein transport,2.07e-28,Process,Down,4.70
+GO:0015833,peptide transport,1.9699999999999999e-28,Process,Down,4.70
+GO:0034613,cellular protein localization,5.75e-28,Process,Down,5.09
+GO:0045184,establishment of protein localization,1.7700000000000002e-27,Process,Down,4.55
+GO:0033036,macromolecule localization,2.5800000000000004e-27,Process,Down,4.01
+GO:0070727,cellular macromolecule localization,6.330000000000001e-27,Process,Down,4.91
+GO:0006412,translation,7.6e-27,Process,Down,5.42
+GO:0043043,peptide biosynthetic process,1.5600000000000002e-26,Process,Down,5.36
+GO:0006402,mRNA catabolic process,5.02e-26,Process,Down,3.12
+GO:0034470,ncRNA processing,1.8299999999999999e-25,Process,Down,2.49
+GO:0043604,amide biosynthetic process,1.79e-25,Process,Down,5.15
+GO:0044265,cellular macromolecule catabolic process,2.09e-25,Process,Down,2.69
+GO:0006518,peptide metabolic process,2.39e-25,Process,Down,5.12
+GO:0009057,macromolecule catabolic process,5.42e-25,Process,Down,2.57
+GO:0008104,protein localization,2.4199999999999998e-24,Process,Down,3.95
+GO:0016032,viral process,2.63e-24,Process,Down,3.46
+GO:0044403,symbiont process,2.5499999999999998e-24,Process,Down,3.46
+GO:0043603,cellular amide metabolic process,4.42e-24,Process,Down,4.87
+GO:0006401,RNA catabolic process,1.71e-22,Process,Down,2.83
+GO:0044419,interspecies interaction between organisms,2.9e-22,Process,Down,3.19
+GO:1901566,organonitrogen compound biosynthetic process,4.45e-21,Process,Down,4.34
+GO:0044085,cellular component biogenesis,4.44e-20,Process,Down,6.04
+GO:0022613,ribonucleoprotein complex biogenesis,4.33e-20,Process,Down,6.04
+GO:0046907,intracellular transport,5.12e-20,Process,Down,3.44
+GO:0071705,nitrogen compound transport,6.89e-20,Process,Down,3.37
+GO:0034660,ncRNA metabolic process,9.93e-20,Process,Down,2.12
+GO:0071702,organic substance transport,5.04e-19,Process,Down,3.27
+GO:0051649,establishment of localization in cell,1.54e-18,Process,Down,3.26
+GO:0002181,cytoplasmic translation,5.93e-18,Process,Down,13.32
+GO:1901575,organic substance catabolic process,6.13e-18,Process,Down,2.19
+GO:0034655,nucleobase-containing compound catabolic process,9.81e-18,Process,Down,2.50
+GO:0019439,aromatic compound catabolic process,9.62e-18,Process,Down,2.50
+GO:1901361,organic cyclic compound catabolic process,1.37e-17,Process,Down,2.49
+GO:0046700,heterocycle catabolic process,1.34e-17,Process,Down,2.49
+GO:0044270,cellular nitrogen compound catabolic process,3.93e-17,Process,Down,2.46
+GO:0051641,cellular localization,6.1e-17,Process,Down,2.93
+GO:0044248,cellular catabolic process,2.95e-16,Process,Down,2.18
+GO:0009056,catabolic process,6.16e-16,Process,Down,2.10
+GO:0051704,multi-organism process,1.02e-15,Process,Down,2.57
+GO:0000470,maturation of LSU-rRNA,4.04e-15,Process,Down,11.86
+GO:0000027,ribosomal large subunit assembly,5.9e-13,Process,Down,15.34
+GO:0030490,maturation of SSU-rRNA,6.02e-13,Process,Down,5.05
+GO:0034645,cellular macromolecule biosynthetic process,4.48e-12,Process,Down,2.75
+GO:0051234,establishment of localization,8.63e-12,Process,Down,2.28
+GO:0044271,cellular nitrogen compound biosynthetic process,1.44e-11,Process,Down,2.69
+GO:0051179,localization,1.63e-11,Process,Down,2.21
+GO:0006810,transport,2.42e-11,Process,Down,2.34
+GO:0044267,cellular protein metabolic process,3.13e-11,Process,Down,1.73
+GO:0042273,ribosomal large subunit biogenesis,4.62e-11,Process,Down,7.08
+GO:0016070,RNA metabolic process,7.22e-11,Process,Down,1.40
+GO:0019538,protein metabolic process,1.56e-10,Process,Down,1.64
+GO:0000462,"maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",2.6200000000000003e-10,Process,Down,5.65
+GO:0009059,macromolecule biosynthetic process,2.85e-10,Process,Down,2.41
+GO:0010629,negative regulation of gene expression,1.66e-9,Process,Down,2.98
+GO:0090304,nucleic acid metabolic process,2.01e-9,Process,Down,1.35
+GO:0000463,"maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",2.21e-9,Process,Down,7.50
+GO:0044237,cellular metabolic process,8.07e-9,Process,Down,1.17
+GO:0008152,metabolic process,3.86e-8,Process,Down,1.16
+GO:0031145,anaphase-promoting complex-dependent catabolic process,6.25e-8,Process,Down,4.67
+GO:0061418,regulation of transcription from RNA polymerase II promoter in response to hypoxia,6.17e-8,Process,Down,4.67
+GO:0006139,nucleobase-containing compound metabolic process,6.17e-8,Process,Down,1.31
+GO:0044249,cellular biosynthetic process,1.01e-7,Process,Down,2.47
+GO:0010605,negative regulation of macromolecule metabolic process,1.2e-7,Process,Down,2.49
+GO:0006725,cellular aromatic compound metabolic process,1.29e-7,Process,Down,1.30
+GO:0046483,heterocycle metabolic process,1.28e-7,Process,Down,1.30
+GO:1901576,organic substance biosynthetic process,2.08e-7,Process,Down,2.42
+GO:0043620,regulation of DNA-templated transcription in response to stress,3.39e-7,Process,Down,4.13
+GO:0050851,antigen receptor-mediated signaling pathway,3.36e-7,Process,Down,3.85
+GO:0050852,T cell receptor signaling pathway,3.32e-7,Process,Down,3.85
+GO:0070498,interleukin-1-mediated signaling pathway,3.29e-7,Process,Down,4.44
+GO:0009058,biosynthetic process,3.29e-7,Process,Down,2.38
+GO:0000054,ribosomal subunit export from nucleus,3.5e-7,Process,Down,12.88
+GO:0033750,ribosome localization,3.47e-7,Process,Down,12.88
+GO:0071428,rRNA-containing ribonucleoprotein complex export from nucleus,3.43e-7,Process,Down,12.88
+GO:0071426,ribonucleoprotein complex export from nucleus,3.39e-7,Process,Down,12.88
+GO:0009892,negative regulation of metabolic process,3.48e-7,Process,Down,2.40
+GO:0042274,ribosomal small subunit biogenesis,5.77e-7,Process,Down,4.78
+GO:1901360,organic cyclic compound metabolic process,5.91e-7,Process,Down,1.29
+GO:0000460,maturation of 5.8S rRNA,9.8e-7,Process,Down,8.88
+GO:0038061,NIK/NF-kappaB signaling,1.02e-6,Process,Down,4.61
+GO:0031146,SCF-dependent proteasomal ubiquitin-dependent protein catabolic process,1.01e-6,Process,Down,4.61
+GO:0043618,regulation of transcription from RNA polymerase II promoter in response to stress,1.18e-6,Process,Down,4.08
+GO:0033209,tumor necrosis factor-mediated signaling pathway,2.2e-6,Process,Down,4.08
+GO:0034641,cellular nitrogen compound metabolic process,2.35e-6,Process,Down,1.22
+GO:0002429,immune response-activating cell surface receptor signaling pathway,4.25e-6,Process,Down,3.31
+GO:1901564,organonitrogen compound metabolic process,4.24e-6,Process,Down,1.46
+GO:0090175,regulation of establishment of planar polarity,5.11e-6,Process,Down,4.18
+GO:0060071,"Wnt signaling pathway, planar cell polarity pathway",5.06e-6,Process,Down,4.18
+GO:0006521,regulation of cellular amino acid metabolic process,5.14e-6,Process,Down,4.35
+GO:0002220,innate immune response activating cell surface receptor signaling pathway,5.09e-6,Process,Down,4.35
+GO:0002223,stimulatory C-type lectin receptor signaling pathway,5.04e-6,Process,Down,4.35
+GO:0033238,regulation of cellular amine metabolic process,5e-6,Process,Down,4.35
+GO:0038093,Fc receptor signaling pathway,7.62e-6,Process,Down,3.89
+GO:1904816,"positive regulation of protein localization to chromosome, telomeric region",8.62e-6,Process,Down,8.83
+GO:1904814,"regulation of protein localization to chromosome, telomeric region",8.54e-6,Process,Down,8.83
+GO:0002768,immune response-regulating cell surface receptor signaling pathway,8.99e-6,Process,Down,3.21
+GO:0000469,cleavage involved in rRNA processing,9.3e-6,Process,Down,3.63
+GO:0043170,macromolecule metabolic process,1.6e-5,Process,Down,1.19
+GO:1905330,regulation of morphogenesis of an epithelium,1.64e-5,Process,Down,3.98
+GO:0038095,Fc-epsilon receptor signaling pathway,1.9e-5,Process,Down,4.12
+GO:0002479,"antigen processing and presentation of exogenous peptide antigen via MHC class I, TAP-dependent",1.89e-5,Process,Down,4.12
+GO:0042590,antigen processing and presentation of exogenous peptide antigen via MHC class I,1.87e-5,Process,Down,4.12
+GO:1902750,negative regulation of cell cycle G2/M phase transition,3.08e-5,Process,Down,3.30
+GO:0010972,negative regulation of G2/M transition of mitotic cell cycle,3.05e-5,Process,Down,3.30
+GO:1902036,regulation of hematopoietic stem cell differentiation,3.57e-5,Process,Down,3.70
+GO:0090090,negative regulation of canonical Wnt signaling pathway,5.02e-5,Process,Down,3.80
+GO:0010565,regulation of cellular ketone metabolic process,4.98e-5,Process,Down,3.80
+GO:0016071,mRNA metabolic process,6.27e-5,Process,Down,2.24
+GO:0044238,primary metabolic process,6.49e-5,Process,Down,1.15
+GO:0000479,"endonucleolytic cleavage of tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",1.01e-4,Process,Down,5.42
+GO:0000478,endonucleolytic cleavage involved in rRNA processing,1e-4,Process,Down,5.42
+GO:0006807,nitrogen compound metabolic process,1e-4,Process,Down,1.16
+GO:0010389,regulation of G2/M transition of mitotic cell cycle,1.38e-4,Process,Down,2.61
+GO:0010498,proteasomal protein catabolic process,1.82e-4,Process,Down,3.32
+GO:0002478,antigen processing and presentation of exogenous peptide antigen,2.56e-4,Process,Down,3.06
+GO:0019884,antigen processing and presentation of exogenous antigen,2.54e-4,Process,Down,3.06
+GO:0043632,modification-dependent macromolecule catabolic process,2.6e-4,Process,Down,2.40
+GO:1902749,regulation of cell cycle G2/M phase transition,2.91e-4,Process,Down,2.54
+GO:2000027,regulation of animal organ morphogenesis,2.91e-4,Process,Down,3.48
+GO:0002757,immune response-activating signal transduction,2.96e-4,Process,Down,2.62
+GO:0045943,positive regulation of transcription by RNA polymerase I,3.01e-4,Process,Down,3.56
+GO:0071704,organic substance metabolic process,3.36e-4,Process,Down,1.12
+GO:0090263,positive regulation of canonical Wnt signaling pathway,3.45e-4,Process,Down,3.22
+GO:0030178,negative regulation of Wnt signaling pathway,3.63e-4,Process,Down,3.21
+GO:0002474,antigen processing and presentation of peptide antigen via MHC class I,3.93e-4,Process,Down,3.56
+GO:1901532,regulation of hematopoietic progenitor cell differentiation,4.11e-4,Process,Down,3.29
+GO:0010499,proteasomal ubiquitin-independent protein catabolic process,4.35e-4,Process,Down,5.22
+GO:0043161,proteasome-mediated ubiquitin-dependent protein catabolic process,4.61e-4,Process,Down,3.27
+GO:0006611,protein export from nucleus,4.58e-4,Process,Down,5.43
+GO:0002764,immune response-regulating signaling pathway,4.56e-4,Process,Down,2.56
+GO:0070203,regulation of establishment of protein localization to telomere,4.72e-4,Process,Down,8.39
+GO:0070202,regulation of establishment of protein localization to chromosome,4.69e-4,Process,Down,8.39
+GO:1904851,positive regulation of establishment of protein localization to telomere,4.66e-4,Process,Down,8.39
+GO:0000466,"maturation of 5.8S rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",4.63e-4,Process,Down,22.27
+GO:0048002,antigen processing and presentation of peptide antigen,4.84e-4,Process,Down,2.96
+GO:0019882,antigen processing and presentation,4.81e-4,Process,Down,2.96
+GO:0070646,protein modification by small protein removal,5.25e-4,Process,Down,2.80
+GO:0048519,negative regulation of biological process,5.5e-4,Process,Down,1.87
+GO:0030163,protein catabolic process,6.01e-4,Process,Down,2.66
+GO:0055085,transmembrane transport,6.14e-4,Process,Down,2.25
+GO:0032212,positive regulation of telomere maintenance via telomerase,6.26e-4,Process,Down,7.19
+GO:0000028,ribosomal small subunit assembly,8.66e-4,Process,Down,4.92
+GO:0000055,ribosomal large subunit export from nucleus,8.92e-4,Process,Down,13.11
+GO:2000736,regulation of stem cell differentiation,9.76e-4,Process,Down,3.03
+GO:0043687,post-translational protein modification,0.00113,Process,Down,2.92
+GO:0016579,protein deubiquitination,0.00133,Process,Down,2.74
+GO:0031397,negative regulation of protein ubiquitination,0.00138,Process,Down,12.87
+GO:1904869,regulation of protein localization to Cajal body,0.00145,Process,Down,7.55
+GO:1904871,positive regulation of protein localization to Cajal body,0.00144,Process,Down,7.55
+GO:0030177,positive regulation of Wnt signaling pathway,0.0015,Process,Down,2.98
+GO:0031503,protein-containing complex localization,0.00165,Process,Down,6.44
+GO:0019222,regulation of metabolic process,0.00169,Process,Down,1.24
+GO:0045930,negative regulation of mitotic cell cycle,0.00188,Process,Down,2.13
+GO:1902626,assembly of large subunit precursor of preribosome,0.00195,Process,Down,33.22
+GO:0019941,modification-dependent protein catabolic process,0.00206,Process,Down,2.38
+GO:1903321,negative regulation of protein modification by small protein conjugation or removal,0.00208,Process,Down,12.11
+GO:0010468,regulation of gene expression,0.00226,Process,Down,1.28
+GO:0051603,proteolysis involved in cellular protein catabolic process,0.00234,Process,Down,2.33
+GO:0032206,positive regulation of telomere maintenance,0.00232,Process,Down,5.71
+GO:1900180,regulation of protein localization to nucleus,0.00239,Process,Down,2.37
+GO:0075733,intracellular transport of virus,0.00277,Process,Down,7.77
+GO:0046794,transport of virus,0.00276,Process,Down,7.77
+GO:0042254,ribosome biogenesis,0.00282,Process,Down,4.08
+GO:0060255,regulation of macromolecule metabolic process,0.00301,Process,Down,1.24
+GO:1904358,positive regulation of telomere maintenance via telomere lengthening,0.00321,Process,Down,6.16
+GO:1901988,negative regulation of cell cycle phase transition,0.0033,Process,Down,2.16
+GO:1901991,negative regulation of mitotic cell cycle phase transition,0.00329,Process,Down,2.16
+GO:0090070,positive regulation of ribosome biogenesis,0.00327,Process,Down,5.67
+GO:2000234,positive regulation of rRNA processing,0.00325,Process,Down,5.67
+GO:0002758,innate immune response-activating signal transduction,0.00349,Process,Down,3.00
+GO:0035567,non-canonical Wnt signaling pathway,0.00365,Process,Down,3.21
+GO:1901796,regulation of signal transduction by p53 class mediator,0.00396,Process,Down,6.14
+GO:0062012,regulation of small molecule metabolic process,0.00437,Process,Down,1.86
+GO:0006511,ubiquitin-dependent protein catabolic process,0.00447,Process,Down,2.33
+GO:0044260,cellular macromolecule metabolic process,0.0069,Process,Down,1.17
+GO:0051726,regulation of cell cycle,0.00789,Process,Down,1.54
+GO:0090670,RNA localization to Cajal body,0.00815,Process,Down,13.08
+GO:0090685,RNA localization to nucleus,0.00811,Process,Down,13.08
+GO:0090666,scaRNA localization to Cajal body,0.00806,Process,Down,13.08
+GO:0060828,regulation of canonical Wnt signaling pathway,0.00892,Process,Down,2.68
+GO:1904667,negative regulation of ubiquitin protein ligase activity,0.00895,Process,Down,25.73
+GO:1904666,regulation of ubiquitin protein ligase activity,0.00891,Process,Down,25.73
+GO:0000165,MAPK cascade,0.00913,Process,Down,2.45
+GO:0023014,signal transduction by protein phosphorylation,0.00909,Process,Down,2.45
+GO:0000209,protein polyubiquitination,0.00977,Process,Down,2.56
+GO:1902570,protein localization to nucleolus,0.0101,Process,Down,12.40
+GO:0010948,negative regulation of cell cycle process,0.0107,Process,Down,1.92
+GO:2000278,regulation of DNA biosynthetic process,0.0113,Process,Down,2.26
+GO:1900182,positive regulation of protein localization to nucleus,0.0117,Process,Down,2.33
+GO:0032204,regulation of telomere maintenance,0.0131,Process,Down,2.28
+GO:0045786,negative regulation of cell cycle,0.0137,Process,Down,1.76
+GO:1901990,regulation of mitotic cell cycle phase transition,0.0149,Process,Down,1.82
+GO:2000573,positive regulation of DNA biosynthetic process,0.0165,Process,Down,4.62
+GO:0002253,activation of immune response,0.0166,Process,Down,2.12
+GO:0071025,RNA surveillance,0.0201,Process,Down,2.44
+GO:0050778,positive regulation of immune response,0.0206,Process,Down,2.02
+GO:1901987,regulation of cell cycle phase transition,0.0208,Process,Down,1.79
+GO:0000447,"endonucleolytic cleavage in ITS1 to separate SSU-rRNA from 5.8S rRNA and LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",0.0227,Process,Down,6.07
+GO:0000082,G1/S transition of mitotic cell cycle,0.0226,Process,Down,2.76
+GO:0044843,cell cycle G1/S phase transition,0.0225,Process,Down,2.76
+GO:0000966,RNA 5'-end processing,0.0225,Process,Down,2.97
+GO:1904874,positive regulation of telomerase RNA localization to Cajal body,0.0244,Process,Down,3.30
+GO:0030111,regulation of Wnt signaling pathway,0.0274,Process,Down,2.42
+GO:0044766,multi-organism transport,0.0299,Process,Down,5.02
+GO:1902579,multi-organism localization,0.0297,Process,Down,5.02
+GO:0006356,regulation of transcription by RNA polymerase I,0.0317,Process,Down,2.80
+GO:0044445,cytosolic part,3.7799999999999997e-47,Component,Down,4.56
+GO:0005730,nucleolus,2.33e-39,Component,Down,2.72
+GO:0022625,cytosolic large ribosomal subunit,3.97e-37,Component,Down,19.60
+GO:0030684,preribosome,5.23e-30,Component,Down,5.29
+GO:0044391,ribosomal subunit,1.09e-25,Component,Down,5.17
+GO:0043232,intracellular non-membrane-bounded organelle,2.05e-24,Component,Down,1.81
+GO:0015934,large ribosomal subunit,2.0199999999999998e-24,Component,Down,10.48
+GO:0043228,non-membrane-bounded organelle,1.94e-24,Component,Down,1.81
+GO:0022627,cytosolic small ribosomal subunit,3.7e-16,Component,Down,4.72
+GO:0032040,small-subunit processome,2.1e-15,Component,Down,4.41
+GO:1990904,ribonucleoprotein complex,2.79e-13,Component,Down,1.66
+GO:0030687,"preribosome, large subunit precursor",9.26e-13,Component,Down,8.17
+GO:0005840,ribosome,3.49e-12,Component,Down,2.33
+GO:0042788,polysomal ribosome,2.08e-11,Component,Down,11.50
+GO:0032991,protein-containing complex,7.11e-10,Component,Down,1.27
+GO:0015935,small ribosomal subunit,1.2e-9,Component,Down,3.16
+GO:0005925,focal adhesion,7.16e-9,Component,Down,4.06
+GO:0005924,cell-substrate adherens junction,8.44e-9,Component,Down,4.03
+GO:0030055,cell-substrate junction,1.03e-8,Component,Down,3.99
+GO:0044452,nucleolar part,1.42e-8,Component,Down,2.78
+GO:0005829,cytosol,5.69e-8,Component,Down,1.39
+GO:0044446,intracellular organelle part,1.14e-7,Component,Down,1.27
+GO:0005912,adherens junction,1.35e-7,Component,Down,3.60
+GO:0044428,nuclear part,1.47e-7,Component,Down,1.30
+GO:0070161,anchoring junction,1.84e-7,Component,Down,3.55
+GO:0070062,extracellular exosome,2.15e-7,Component,Down,1.85
+GO:1903561,extracellular vesicle,2.45e-7,Component,Down,1.85
+GO:0043230,extracellular organelle,2.37e-7,Component,Down,1.85
+GO:0044422,organelle part,3.75e-7,Component,Down,1.26
+GO:0005694,chromosome,5.47e-7,Component,Down,2.52
+GO:0043226,organelle,1.24e-5,Component,Down,1.22
+GO:0030054,cell junction,2.26e-5,Component,Down,2.91
+GO:0044421,extracellular region part,2.22e-5,Component,Down,1.65
+GO:1905369,endopeptidase complex,3.54e-5,Component,Down,3.61
+GO:0000502,proteasome complex,3.44e-5,Component,Down,3.61
+GO:0031982,vesicle,5.11e-5,Component,Down,1.66
+GO:1905368,peptidase complex,9.38e-5,Component,Down,3.44
+GO:0005732,small nucleolar ribonucleoprotein complex,1.33e-4,Component,Down,3.43
+GO:0005839,proteasome core complex,2.34e-4,Component,Down,5.22
+GO:0005654,nucleoplasm,3.16e-4,Component,Down,1.30
+GO:0005832,chaperonin-containing T-complex,4.42e-4,Component,Down,9.25
+GO:0005851,eukaryotic translation initiation factor 2B complex,4.5e-4,Component,Down,7.61
+GO:0014069,postsynaptic density,4.77e-4,Component,Down,3.74
+GO:0099572,postsynaptic specialization,4.66e-4,Component,Down,3.74
+GO:0030688,"preribosome, small subunit precursor",6.65e-4,Component,Down,6.21
+GO:0030686,90S preribosome,0.00112,Component,Down,3.68
+GO:0016020,membrane,0.00116,Component,Down,1.52
+GO:0005783,endoplasmic reticulum,0.00127,Component,Down,3.90
+GO:0043229,intracellular organelle,0.00258,Component,Down,1.19
+GO:0044424,intracellular part,0.00258,Component,Down,1.05
+GO:0070545,PeBoW complex,0.00271,Component,Down,23.78
+GO:0043657,host cell,0.00277,Component,Down,7.22
+GO:0044216,other organism cell,0.00272,Component,Down,7.22
+GO:0044217,other organism part,0.00267,Component,Down,7.22
+GO:0033290,eukaryotic 48S preinitiation complex,0.00412,Component,Down,5.50
+GO:0002199,zona pellucida receptor complex,0.00411,Component,Down,13.08
+GO:0044464,cell part,0.00439,Component,Down,1.04
+GO:0005575,cellular_component,0.00435,Component,Down,1.03
+GO:0101031,chaperone complex,0.00481,Component,Down,3.78
+GO:0070993,translation preinitiation complex,0.00705,Component,Down,3.48
+GO:0005852,eukaryotic translation initiation factor 3 complex,0.00698,Component,Down,5.16
+GO:0022624,proteasome accessory complex,0.00699,Component,Down,5.50
+GO:0031428,box C/D snoRNP complex,0.00873,Component,Down,7.03
+GO:0034388,Pwp2p-containing subcomplex of 90S preribosome,0.0137,Component,Down,5.29
+GO:0001650,fibrillar center,0.0137,Component,Down,2.25
+GO:0098556,cytoplasmic side of rough endoplasmic reticulum membrane,0.0138,Component,Down,7.42
+GO:0019773,"proteasome core complex, alpha-subunit complex",0.0144,Component,Down,5.22
+GO:0044451,nucleoplasm part,1.91e-9,Component,Up,1.72
+GO:0016604,nuclear body,3.55e-6,Component,Up,1.69
+GO:0016607,nuclear speck,1.61e-4,Component,Up,1.81
+GO:0005681,spliceosomal complex,3.91e-4,Component,Up,1.46
+GO:0071013,catalytic step 2 spliceosome,6.97e-4,Component,Up,1.69
+GO:0120114,Sm-like protein family complex,0.00117,Component,Up,2.18
+GO:0030532,small nuclear ribonucleoprotein complex,0.00389,Component,Up,2.21
+GO:0097525,spliceosomal snRNP complex,0.00438,Component,Up,2.25
+GO:0005684,U2-type spliceosomal complex,0.00407,Component,Up,2.02
+GO:0071007,U2-type catalytic step 2 spliceosome,0.00956,Component,Up,2.33
+GO:0000445,THO complex part of transcription export complex,0.0302,Component,Up,7.86
+GO:0000347,THO complex,0.0277,Component,Up,7.86
+GO:0099053,activating signal cointegrator 1 complex,0.0387,Component,Up,093.00
+GO:0005847,mRNA cleavage and polyadenylation specificity factor complex,0.0577,Component,Up,15.86
+GO:0005682,U5 snRNP,0.0565,Component,Up,2.02
+GO:0005689,U12-type spliceosomal complex,0.059,Component,Up,2.23
+GO:0008380,RNA splicing,6.21e-8,Process,Up,1.74
+GO:0000398,"mRNA splicing, via spliceosome",5.52e-7,Process,Up,1.85
+GO:0000377,"RNA splicing, via transesterification reactions with bulged adenosine as nucleophile",3.68e-7,Process,Up,1.85
+GO:0000375,"RNA splicing, via transesterification reactions",5.48e-7,Process,Up,1.82
+GO:0006397,mRNA processing,6.07e-7,Process,Up,1.62
+GO:0031124,mRNA 3'-end processing,0.00211,Process,Up,2.28
+GO:0006369,termination of RNA polymerase II transcription,0.0147,Process,Up,12.00
+GO:0006406,mRNA export from nucleus,0.0142,Process,Up,3.63
+GO:0032786,"positive regulation of DNA-templated transcription, elongation",0.0136,Process,Up,6.06
+GO:0051701,interaction with host,0.013,Process,Up,4.04
+GO:0019438,aromatic compound biosynthetic process,0.0151,Process,Up,2.14
+GO:0018130,heterocycle biosynthetic process,0.0206,Process,Up,2.10
+GO:0034654,nucleobase-containing compound biosynthetic process,0.0231,Process,Up,2.12
+GO:1901362,organic cyclic compound biosynthetic process,0.0388,Process,Up,2.04
+GO:0032784,"regulation of DNA-templated transcription, elongation",0.038,Process,Up,4.51
+GO:0051028,mRNA transport,0.0359,Process,Up,3.03
+GO:0032774,RNA biosynthetic process,0.0502,Process,Up,2.19
+GO:0006379,mRNA cleavage,0.054,Process,Up,15.10
+GO:0006353,"DNA-templated transcription, termination",0.0565,Process,Up,8.61
+GO:0045292,"mRNA cis splicing, via spliceosome",0.0596,Process,Up,6.56
+GO:0046784,viral mRNA export from host cell nucleus,0.0593,Process,Up,7.07
+GO:0098789,pre-mRNA cleavage required for polyadenylation,0.0916,Process,Up,19.52
+GO:0006405,RNA export from nucleus,0.0914,Process,Up,2.98
+GO:0006913,nucleocytoplasmic transport,0.108,Process,Up,1.73
+GO:0098787,mRNA cleavage involved in mRNA processing,0.122,Process,Up,18.12
+GO:0032968,positive regulation of transcription elongation from RNA polymerase II promoter,0.118,Process,Up,6.05
+GO:0072521,purine-containing compound metabolic process,0.12,Process,Up,5.07
+GO:0039656,modulation by virus of host gene expression,0.126,Process,Up,63.42
+GO:0046778,modification by virus of host mRNA processing,0.122,Process,Up,63.42
+GO:0051836,translocation of molecules into other organism involved in symbiotic interaction,0.129,Process,Up,6.29
+GO:0044417,translocation of molecules into host,0.125,Process,Up,6.29
+GO:0051169,nuclear transport,0.123,Process,Up,1.71
+GO:0051236,establishment of RNA localization,0.143,Process,Up,2.83
+GO:0050658,RNA transport,0.139,Process,Up,2.83
+GO:0050657,nucleic acid transport,0.135,Process,Up,2.83
+GO:0015931,nucleobase-containing compound transport,0.144,Process,Up,2.80
+GO:0000387,spliceosomal snRNP assembly,0.165,Process,Up,2.81
+GO:1901673,regulation of mitotic spindle assembly,0.17,Process,Up,3.41
+GO:0051604,protein maturation,0.179,Process,Up,3.19
