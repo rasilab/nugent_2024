@@ -1,0 +1,13 @@
+treatment,control,n_fdr,day,isoform
+ntc_day1_bc1_e2_skipped,ntc_day1_bc1_total,0,1,e13
+ntc_day1_bc1_i1_retained,ntc_day1_bc1_total,1,1,i12
+ntc_day1_bc1_i2_retained,ntc_day1_bc1_total,2,1,i23
+ntc_day3_bc1_e2_skipped,ntc_day3_bc1_total,0,3,e13
+ntc_day3_bc1_i1_retained,ntc_day3_bc1_total,1,3,i12
+ntc_day3_bc1_i2_retained,ntc_day3_bc1_total,30,3,i23
+ntc_day5_bc1_e2_skipped,ntc_day5_bc1_total,22,5,e13
+ntc_day5_bc1_i1_retained,ntc_day5_bc1_total,25,5,i12
+ntc_day5_bc1_i2_retained,ntc_day5_bc1_total,62,5,i23
+ntc_day7_dmso_bc1_e2_skipped,ntc_day7_dmso_bc1_total,25,7,e13
+ntc_day7_dmso_bc1_i1_retained,ntc_day7_dmso_bc1_total,101,7,i12
+ntc_day7_dmso_bc1_i2_retained,ntc_day7_dmso_bc1_total,71,7,i23

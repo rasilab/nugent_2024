@@ -1,0 +1,19 @@
+isoform,go_term,description,fdr_q_value,enrichment,ontology,y
+e2,GO:0005681,spliceosomal complex,9.44e-7,8.74,Component,spliceosomal complex GO:0005681
+e2,GO:0005686,U2 snRNP,5.51e-10,51.84,Component,U2 snRNP GO:0005686
+e2,GO:0006413,translational initiation,NA,NA,NA,translational initiation GO:0006413
+e2,GO:0022625,cytosolic large ribosomal subunit,NA,NA,NA,cytosolic large ribosomal subunit GO:0022625
+e2,GO:0046540,U4/U6 x U5 tri-snRNP complex,1.91e-5,4.75,Component,U4/U6 x U5 tri-snRNP complex GO:0046540
+e2,GO:0051170,import into nucleus,0.0123,20.68,Process,import into nucleus GO:0051170
+i1,GO:0005681,spliceosomal complex,2.6200000000000003e-21,4.32,Component,spliceosomal complex GO:0005681
+i1,GO:0005686,U2 snRNP,1.71e-5,7.17,Component,U2 snRNP GO:0005686
+i1,GO:0006413,translational initiation,6.05e-6,1.55,Process,translational initiation GO:0006413
+i1,GO:0022625,cytosolic large ribosomal subunit,1.48e-4,3.67,Component,cytosolic large ribosomal subunit GO:0022625
+i1,GO:0046540,U4/U6 x U5 tri-snRNP complex,9.65e-6,4.81,Component,U4/U6 x U5 tri-snRNP complex GO:0046540
+i1,GO:0051170,import into nucleus,0.00969,3.32,Process,import into nucleus GO:0051170
+i2,GO:0005681,spliceosomal complex,4.649999999999999e-31,8.65,Component,spliceosomal complex GO:0005681
+i2,GO:0005686,U2 snRNP,NA,NA,NA,U2 snRNP GO:0005686
+i2,GO:0006413,translational initiation,NA,NA,NA,translational initiation GO:0006413
+i2,GO:0022625,cytosolic large ribosomal subunit,NA,NA,NA,cytosolic large ribosomal subunit GO:0022625
+i2,GO:0046540,U4/U6 x U5 tri-snRNP complex,9.04e-9,3.5,Component,U4/U6 x U5 tri-snRNP complex GO:0046540
+i2,GO:0051170,import into nucleus,NA,NA,NA,import into nucleus GO:0051170
