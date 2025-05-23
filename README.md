@@ -1,25 +1,30 @@
 # Decoding post-transcriptional regulatory networks by RNA-linked CRISPR screening in human cells
 
-Paper: <https://www.nature.com/articles/s41592-025-02702-6>
 
-Preprint: <https://www.biorxiv.org/content/10.1101/2024.07.25.605204v1.full>
+**Publication:** [Nature Methods](https://www.nature.com/articles/s41592-025-02702-6)  
+**Preprint:** [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.07.25.605204v1.full)  
+**Questions?** [GitHub Issues](https://github.com/rasilab/nugent_2024/issues/new/choose)  
+**Contact:** [Arvind Rasi Subramaniam](mailto:rasi@fredhutch.org), [Patrick Nugent](mailto:pnugent@fredhutch.org)
 
-Questions? Email <rasi@fredhutch.org>
+**Repository Contents:**
+1. [🔬 Figure Code and Source Data](#-figure-code-and-source-data)
+2. [⚙️ How to Reproduce the Analysis](#️-how-to-reproduce-the-analysis)
+   1. [✅ Requirements](#-requirements)
+   2. [📦 Containers](#-containers)
+   3. [🚀 Run the Full Analysis](#-run-the-full-analysis)
+   4. [🧪 Interactive Analysis in Jupyter](#-interactive-analysis-in-jupyter)
 
-</small>
+---
 
-1. [Link to code and source data for manuscript figures](#link-to-code-and-source-data-for-manuscript-figures)
-2. [Instructions for running the code](#instructions-for-running-the-code)
-3. [Docker container for interactive analyses within Jupyter Notebooks](#docker-container-for-interactive-analyses-within-jupyter-notebooks)
+## 🔬 Figure Code and Source Data
 
-
-## Link to code and source data for manuscript figures
+This table maps each manuscript figure to its plotting script and source data.
 
 | Figure panel     | Plotting Code                                                                                          | Source Data                                                                                                        |
 | ---------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
 | 1b               | [Code](analysis/flow_cytometry/fig1_eyfp_reporter_sgeyfp/scripts/plot_fig1_flow.ipynb)                 | [Source data](source_data/figure_1b.csv)                                                                           |
 | 1d               | [Code](analysis/barcodeseq/rbp_barcode_screens/scripts/plot_grna_fitness_results.ipynb)                | [Source data](source_data/figure_1d.csv)                                                                           |
-| 1e               | [Code](analysis/barcodeseq/rbp_barcode_screens/scripts/plot_grna_fitness_results.ipynb)                | [Source data](source_data/figure_1e_mrna.csv) <br> [Source data](source_data/figure_1e_gdna.csv)                   |
+| 1e               | [Code](analysis/barcodeseq/rbp_barcode_screens/scripts/plot_grna_fitness_results.ipynb)                | [Source data, mRNA](source_data/figure_1e_mrna.csv) <br> [Source data, gDNA](source_data/figure_1e_gdna.csv)                   |
 | Extended data 1d | [Code](analysis/barcodeseq/rbp_barcode_screens/scripts/plot_grna_fitness_results.ipynb)                | [Source data](source_data/figure_s1d.csv)                                                                          |
 | Extended data 1e | [Code](analysis/barcodeseq/rbp_barcode_screens/scripts/plot_grna_fitness_results.ipynb)                | [Source data](source_data/figure_s1e.csv)                                                                          |
 | Extended data 3d | [Code](analysis/barcodeseq/rbp_barcode_screens/scripts/plot_grna_fitness_results.ipynb)                | [Source data](source_data/figure_s3d.csv)                                                                          |
@@ -58,28 +63,87 @@ Questions? Email <rasi@fredhutch.org>
 | Extended data 5d | [Code](analysis/qpcr/figs5d_zaki_gcn1_hht/scripts/plot_fig_s5d_qpcr.ipynb)                             | [Source data](source_data/figure_s5d.csv)                                                                          |
 | Extended data 5e | [Code](analysis/polysome_profiling/figs5e_hht_gcn1_mnase/scripts/plot_figs5_polysomes.ipynb)           | [Source data](source_data/figure_s5e.csv)                                                                          |
 
-## Instructions for running the code
+---
 
-- All software necessary for running the code are available as Docker images at https://github.com/orgs/rasilab/packages. These images can be downloaded to your local computer using [Docker](https://www.docker.com/) or [Singularity](https://docs.sylabs.io/guides/3.5/user-guide/introduction.html). Most distributed clusters will already have Singularity available. You can also download and install [Singularity](https://anaconda.org/conda-forge/singularity) on your local computer using [Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
- 
-- We use [Snakemake](https://anaconda.org/bioconda/snakemake-minimal) for workflow management. This can be installed using Conda or might be already available in your distributed cluster.
+## ⚙️ How to Reproduce the Analysis
 
-- To reproduce the analysis on a cluster, load Singularity and Snakemake (or activate the Conda environment with these software). Ensure that all necessary folders are mounted using `--bind` in [analysis/submit_cluster.sh](./analysis/submit_cluster.sh) and [analysis/submit_local.sh](./analysis/submit_local.sh). These folder locations will be specific to your computing environment. If the correct location is not mounted, you will get `path not found` error in Snakemake workflows that use Singularity containers.
+This repository follows best practices for computational reproducibility in the life sciences, as described in [Grüning *et al.*, 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6263957/).
 
+### ✅ Requirements
+
+* **Conda (Package Manager)**  
+  Install Miniconda (if not already installed):
+
+  ```bash
+  # For Linux
+  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+  bash Miniconda3-latest-Linux-x86_64.sh
+  ```
+
+* **Snakemake (Workflow Engine)**  
+  Install via Conda:
+
+  ```bash
+  conda install -c bioconda snakemake
+  ```
+
+* **Singularity (Container Runtime)**  
+  Install via Conda:
+
+  ```bash
+  conda install -c conda-forge singularity
+  ```
+
+Note that Singularity has been renamed to Apptainer and you will see references to both names in online documentation.
+
+Fred Hutch cluster users do not need Conda and can load Snakemake and Singularity as follows. See [here](https://rasilab.github.io/docs/software/how_to_create_and_use_containers/) for more details.
+
+```bash
+module load Singularity snakemake
 ```
-module load Singularity snakemake # for fred hutch cluster
+
+---
+
+### 📦 Containers
+
+All tools are packaged as Docker containers:
+👉 [rasilab GitHub Packages](https://github.com/orgs/rasilab/packages)
+
+These are pulled automatically when running workflows with Singularity.
+
+Subramaniam lab users should follow the instructions [here](https://rasilab.github.io/docs/software/how_to_create_and_use_containers/#how-to-use-singularity-containers-in-snakemake-workflows-on-the-fred-hutch-cluster) to symbolically link the `rasilab` container directory rather than downloading the containers each time.
+
+---
+
+### 🚀 Run the Full Analysis
+
+Ensure required paths are mounted using `--bind` in:
+
+* [`analysis/submit_cluster.sh`](./analysis/submit_cluster.sh)
+* [`analysis/submit_local.sh`](./analysis/submit_local.sh)
+
+Then run:
+
+```bash
 sh run_everything.sh
 ```
 
-- Typically, you will want to run only parts of the [run_everything.sh](./run_everything.sh) script depending on which analysis or figure you are trying to reproduce. You can paste the corresponding lines from the script onto the command line.
+[run_everything.sh](./run_everything.sh) will:
 
-- The [run_everything.sh](./run_everthing.sh) script will:
-  - Run linkage sequencing and barcode sequencing [analysis](analysis/barcodeseq)
-  - Run RNA seq [analysis](analysis/rnaseq)
-  - Run Ribo seq [analysis](analysis/riboseq)
-  - Run [code](analysis/run_all_ipynb_scripts.smk) to regenerate figure panels, which will also run the analysis of flow cytometry and polysome profiling data
-  - Note that the high throughput sequencing analysis will also automatically download the SRA files and convert them to FASTQ.
+* Download raw high-throughput sequencing data from SRA and convert to FASTQ
+* Process linkage and barcode sequencing 
+* Analyze RNA-seq
+* Analyze Ribo-seq
+* Regenerate all manuscript figure panels and source data (excluding schematics and gel images)
 
-## Docker container for interactive analyses within Jupyter Notebooks
+> ℹ️ You can also copy specific lines from `run_everything.sh` to reproduce only selected parts.
 
-- [R and Python](https://github.com/rasilab/r_python/pkgs/container/r_python)
+---
+
+### 🧪 Interactive Analysis in Jupyter
+
+You can explore the data interactively using the Jupyter-ready container:
+
+👉 [r_python container](https://github.com/rasilab/r_python/pkgs/container/r_python)
+
+To use the above container in VSCode, see instructions [here](https://rasilab.github.io/docs/software/how_to_create_and_use_containers/).
