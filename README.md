@@ -109,7 +109,7 @@ module load Singularity snakemake
 All tools are packaged as Docker containers:
 👉 [rasilab GitHub Packages](https://github.com/orgs/rasilab/packages)
 
-These are pulled automatically when running workflows with Singularity.
+These are pulled automatically when running workflows with Snakemake.
 
 Subramaniam lab users should follow the instructions [here](https://rasilab.github.io/docs/software/how_to_create_and_use_containers/#how-to-use-singularity-containers-in-snakemake-workflows-on-the-fred-hutch-cluster) to symbolically link the `rasilab` container directory rather than downloading the containers each time.
 
