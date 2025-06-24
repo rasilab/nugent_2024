@@ -238,6 +238,7 @@ rule sort_and_index_alignments:
         rm {output.bam}.tmp
         """
 
+
 rule create_sym_links_gene_counts:
     input: lambda wildcards: "../data/alignments/genome_" + sample_annotations.loc[sample_annotations['sample_name'] == wildcards.sample_name].index[0] + "/ReadsPerGene.out.tab"
     output: "../data/geo_upload/{sample_name}.ReadsPerGene.out.tab"
