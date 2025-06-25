@@ -29,12 +29,12 @@ rule all:
         genome = [f"../data/ensembl/genome/Homo_sapiens.GRCh38.dna_rm.chromosome.{chr}.fa"
                     for chr in list(range(1,23)) + ['X', 'MT']],
         annotations = "../data/ensembl/Homo_sapiens.GRCh38.108.gtf",
-        # genome_splice_sites = "../data/ensembl/Homo_sapiens.GRCh38.108.all.ss",
-        # genome_splice_annotations = "../data/ensembl/Homo_sapiens.GRCh38.108.all.ss.tsv",
-        genome_index = "../data/star/Homo_sapiens.GRCh38genome.108tran/genomeParameters.txt",
+        genome_splice_sites = "../data/ensembl/Homo_sapiens.GRCh38.108.all.ss",
+        genome_splice_annotations = "../data/ensembl/Homo_sapiens.GRCh38.108.all.ss.tsv",
+         genome_index = "../data/star/Homo_sapiens.GRCh38genome.108tran/genomeParameters.txt",
         genome_alignments = [f'../data/alignments/genome_{sample_id}/Aligned.out.bam' for sample_id in sample_ids],
-        geo_uploads = [f'../data/geo_upload/{sample_name}.ReadsPerGene.out.tab' for sample_name in sample_annotations["sample_name"]],
-        # genome_intron_counts = [f'../data/intron_counts/genome_{sample_id}.csv' for sample_id in sample_ids],
+        # geo_uploads = [f'../data/geo_upload/{sample_name}.ReadsPerGene.out.tab' for sample_name in sample_annotations["sample_name"]],
+        genome_intron_counts = [f'../data/intron_counts/genome_{sample_id}.csv' for sample_id in sample_ids],
 
 
 def get_fastq_files_from_srr(srr):
