@@ -35,6 +35,9 @@ rule all:
         genome_alignments = [f'../data/alignments/genome_{sample_id}/Aligned.out.bam' for sample_id in sample_ids],
         # geo_uploads = [f'../data/geo_upload/{sample_name}.ReadsPerGene.out.tab' for sample_name in sample_annotations["sample_name"]],
         genome_intron_counts = [f'../data/intron_counts/genome_{sample_id}.csv' for sample_id in sample_ids],
+        exon_skipping_figures = ["../figures/rpl24_rpl41_exon_skipped_fraction.png", "../figures/skipped_exon_isoform_change.png"],
+        intron_retention_figures = ["../figures/rpl24_rpl41_intron_retained_fraction.png", "../figures/retained_intron_isoform_change.png"],
+        rna_seq_coverage_figures = ["../figures/rpl41_cvg.png", "../figures/rpl24_cvg.png"],
 
 
 def get_fastq_files_from_srr(srr):
@@ -254,21 +257,75 @@ rule calculate_intron_counts_genome:
     input: 
         sj_annotations = "../data/ensembl/Homo_sapiens.GRCh38.108.all.ss.tsv",
         aln = "../data/alignments/genome_{sample_name}/Aligned.out.bam",
-        notebook = 'get_intron_coverage.ipynb'
+        script = 'get_intron_coverage.R'
     output: '../data/intron_counts/genome_{sample_name}.csv'
     log: '../data/intron_counts/genome_{sample_name}.log'
     threads: 1
     singularity: "docker://ghcr.io/rasilab/r:1.0.0"
     shell:
         """
-        export JUPYTER_DATA_DIR=$(pwd)
-        export JUPYTER_CONFIG_DIR=$(pwd)
-        jupyter nbconvert --to script --ExecutePreprocessor.kernel_name=ir {input.notebook}
-        notebook={input.notebook}
-        script="${{notebook/.ipynb/.r}}"
-        Rscript ${{script}} \
+        Rscript {input.script} \
             {input.sj_annotations} \
             {input.aln} \
             {output} \
             &> {log}
+        """
+
+
+rule analyze_exon_skipping:
+    input:
+        annotations = "../annotations/sample_annotations.csv",
+        plasmid_sj = "../annotations/plasmids/pHPHS232_pHPHS800_pAS321.ss.tsv",
+        junction_files = [f'../data/alignments/plasmids_{sample_id}/SJ.out.tab' for sample_id in sample_ids],
+        genome_sj = "../data/ensembl/Homo_sapiens.GRCh38.108.all.ss.tsv",
+        genome_junction_files = [f'../data/alignments/genome_{sample_id}/SJ.out.tab' for sample_id in sample_ids],
+        exons = "../data/ensembl/Homo_sapiens.GRCh38.108.exons.gtf",
+        script = "analyze_exon_skipping.R"
+    output:
+        fig1 = "../figures/rpl24_rpl41_exon_skipped_fraction.png",
+        fig2 = "../figures/skipped_exon_isoform_change.png"
+    log: "../logs/analyze_exon_skipping.log"
+    threads: 1
+    singularity: "docker://ghcr.io/rasilab/r:1.0.0"
+    shell:
+        """
+        Rscript {input.script} &> {log}
+        """
+
+
+rule analyze_intron_coverage_genome:
+    input:
+        annotations = "../annotations/sample_annotations.csv",
+        genome_sj = "../data/ensembl/Homo_sapiens.GRCh38.108.all.ss.tsv",
+        genome_junction_files = [f'../data/alignments/genome_{sample_id}/SJ.out.tab' for sample_id in sample_ids],
+        intron_counts = [f'../data/intron_counts/genome_{sample_id}.csv' for sample_id in sample_ids],
+        gene_counts = [f'../data/alignments/genome_{sample_id}/ReadsPerGene.out.tab' for sample_id in sample_ids],
+        script = "analyze_intron_coverage_genome.R"
+    output:
+        fig1 = "../figures/rpl24_rpl41_intron_retained_fraction.png",
+        fig2 = "../figures/retained_intron_isoform_change.png"
+    log: "../logs/analyze_intron_coverage_genome.log"
+    threads: 1
+    singularity: "docker://ghcr.io/rasilab/r:1.0.0"
+    shell:
+        """
+        Rscript {input.script} &> {log}
+        """
+
+
+rule make_rna_seq_coverage_plots:
+    input:
+        annotations = "../annotations/sample_annotations.csv",
+        gtf = "../data/ensembl/Homo_sapiens.GRCh38.108.gtf",
+        alignments = [f'../data/alignments/genome_{sample_id}/Aligned.out.bam' for sample_id in sample_ids],
+        script = "make_rna_seq_coverage_plots.R"
+    output:
+        fig1 = "../figures/rpl41_cvg.png",
+        fig2 = "../figures/rpl24_cvg.png"
+    log: "../logs/make_rna_seq_coverage_plots.log"
+    threads: 1
+    singularity: "docker://ghcr.io/rasilab/r:1.0.0"
+    shell:
+        """
+        Rscript {input.script} &> {log}
         """

@@ -25,6 +25,8 @@ rule all:
         plasmid_splice_annotations = expand("../annotations/plasmids/{plasmid}.ss.tsv", plasmid=plasmids),
         plasmid_index = expand("../data/star/{plasmid}/genomeParameters.txt", plasmid=plasmids),
         plasmid_alignments = [f'../data/alignments/plasmids_{sample_id}/Aligned.out.bam' for sample_id in sample_ids],
+        plasmid_intron_counts = [f'../data/intron_counts/plasmids_{sample_id}.csv' for sample_id in sample_ids],
+        plasmid_coverage_figures = ["../figures/globin_cvg.png"],
 
 
 def get_split_read_files_input(wildcards):
@@ -129,4 +131,40 @@ rule sort_and_index_alignments:
         samtools index -@ {threads} {output.bam}
         # remove unsorted bam
         rm {output.bam}.tmp
+        """
+
+
+rule calculate_intron_counts_plasmid:
+    input: 
+        sj_annotations = lambda w: f"../annotations/plasmids/{sample_annotations.loc[w.sample_name, 'plasmid']}.ss.tsv",
+        aln = "../data/alignments/plasmids_{sample_name}/Aligned.out.bam",
+        script = 'get_intron_coverage.R'
+    output: '../data/intron_counts/plasmids_{sample_name}.csv'
+    log: '../data/intron_counts/plasmids_{sample_name}.log'
+    threads: 1
+    singularity: "docker://ghcr.io/rasilab/r:1.0.0"
+    shell:
+        """
+        Rscript {input.script} \
+            {input.sj_annotations} \
+            {input.aln} \
+            {output} \
+            &> {log}
+        """
+
+
+rule make_plasmid_rna_seq_coverage_plots:
+    input:
+        annotations = "../annotations/sample_annotations.csv",
+        gtf = "../annotations/plasmids/pHPHS232_pHPHS800_pAS321.cleaned.gtf",
+        alignments = [f'../data/alignments/plasmids_{sample_id}/Aligned.out.bam' for sample_id in sample_ids],
+        script = "make_plasmid_rna_seq_coverage_plots.R"
+    output:
+        fig = "../figures/globin_cvg.png"
+    log: "../logs/make_plasmid_rna_seq_coverage_plots.log"
+    threads: 1
+    singularity: "docker://ghcr.io/rasilab/r:1.0.0"
+    shell:
+        """
+        Rscript {input.script} &> {log}
         """
