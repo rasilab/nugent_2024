@@ -30,6 +30,57 @@ CONTAINER="docker://ghcr.io/rasilab/r_python:latest"
 DESEQ2_CONTAINER="docker://ghcr.io/rasilab/deseq2:1.38.0"
 
 #==============================================================================
+# SYSTEM REQUIREMENTS CHECK AND SETUP
+#==============================================================================
+echo "=== CHECKING AND INSTALLING REQUIREMENTS ==="
+
+# Check if conda is installed, install if needed
+if ! command -v conda &> /dev/null; then
+    echo "Installing Miniconda..."
+    wget -q https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+    bash Miniconda3-latest-Linux-x86_64.sh -b -p $HOME/miniconda3
+    export PATH="$HOME/miniconda3/bin:$PATH"
+    source $HOME/miniconda3/etc/profile.d/conda.sh
+    conda init
+    echo "✓ Miniconda installed"
+else
+    echo "✓ Conda already available"
+fi
+
+# Check if snakemake is installed, install if needed
+if ! command -v snakemake &> /dev/null; then
+    echo "Installing Snakemake..."
+    conda install -c bioconda snakemake -y
+    echo "✓ Snakemake installed"
+else
+    echo "✓ Snakemake already available"
+fi
+
+# Check if singularity is installed, install if needed
+if ! command -v singularity &> /dev/null; then
+    echo "Installing Singularity..."
+    conda install -c conda-forge singularity -y
+    echo "✓ Singularity installed"
+else
+    echo "✓ Singularity already available"
+fi
+
+#==============================================================================
+# CONTAINER SETUP
+#==============================================================================
+echo "=== PULLING REQUIRED CONTAINERS ==="
+
+# Pull r_python container
+echo "Pulling r_python container..."
+singularity pull docker://ghcr.io/rasilab/r_python:latest || echo "✓ r_python container already available"
+
+# Pull DESeq2 container
+echo "Pulling DESeq2 container..."
+singularity pull docker://ghcr.io/rasilab/deseq2:1.38.0 || echo "✓ DESeq2 container already available"
+
+echo "✓ Container setup completed!"
+
+#==============================================================================
 # DATA PROCESSING WORKFLOWS
 #==============================================================================
 echo "=== RUNNING DATA PROCESSING WORKFLOWS ==="
