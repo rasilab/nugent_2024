@@ -233,7 +233,7 @@ rule extract_subpool_barcodes_and_count:
   """
   input:
     linked_count_file =  lambda w: f"../data/linked_barcode_counts/{sample_annotations.loc[w.sample_id, 'illumina_sample_id']}.csv",
-    notebook = 'get_subpool_counts.ipynb',
+    script = 'get_subpool_counts.R',
   output: '../data/subpool_barcode_counts/{sample_id}.csv'
   params:
     subpool_barcode = lambda w: sample_annotations.loc[w.sample_id, 'subpool_barcode'],
@@ -242,10 +242,7 @@ rule extract_subpool_barcodes_and_count:
   container: 'docker://ghcr.io/rasilab/r:1.0.0'
   shell:
     """
-    jupyter nbconvert --to script --ExecutePreprocessor.kernel_name=ir {input.notebook}
-    notebook={input.notebook}
-    script="${{notebook/.ipynb/.r}}"
-    Rscript ${{script}} {params.subpool_barcode} {wildcards.sample_id} {input.linked_count_file} {output} &> {log}
+    Rscript {input.script} {params.subpool_barcode} {wildcards.sample_id} {input.linked_count_file} {output} &> {log}
     """
 
 
@@ -354,7 +351,7 @@ rule extract_library_statistics:
   input:
     raw_count_file =  lambda w: f"../data/barcode_umi_and_read_counts/{sample_annotations.loc[w.sample_id, 'illumina_sample_id']}.csv",
     subpool_count_file = '../data/subpool_barcode_counts/{sample_id}.csv',
-    notebook = 'calculate_library_statistics.ipynb',
+    script = 'calculate_library_statistics.R',
   output:
     library_stats = '../data/library_statistics/{sample_id}.csv'
   params:
@@ -364,10 +361,7 @@ rule extract_library_statistics:
   container: 'docker://ghcr.io/rasilab/r:1.0.0'
   shell:
     """
-    jupyter nbconvert --to script --ExecutePreprocessor.kernel_name=ir {input.notebook}
-    notebook={input.notebook}
-    script="${{notebook/.ipynb/.r}}"
-    Rscript ${{script}} {input.raw_count_file} {input.subpool_count_file} {params.umi_cutoff} {output.library_stats} &> {log}
+    Rscript {input.script} {input.raw_count_file} {input.subpool_count_file} {params.umi_cutoff} {output.library_stats} &> {log}
     """
 
 
@@ -378,7 +372,7 @@ rule get_mageck_input:
     treatment_file = lambda w: f"../data/insert_counts/{sample_annotations.index[sample_annotations['sample_name'] == w.treatment].tolist()[0]}.csv",
     control_file = lambda w: f"../data/insert_counts/{sample_annotations.index[sample_annotations['sample_name'] == w.control].tolist()[0]}.csv",
     insert_annotations = "../../rbp_sgrna_barcode_linkage/annotations/insert_annotations.csv",
-    notebook = 'get_mageck_input.ipynb',
+    script = 'get_mageck_input.R',
   output:
     mageck_inputs = '../data/mageck/{treatment}_vs_{control}/input_counts.tsv'
   params:
@@ -386,10 +380,7 @@ rule get_mageck_input:
   container: 'docker://ghcr.io/rasilab/r:1.0.0'
   shell:
     """
-    jupyter nbconvert --to script --ExecutePreprocessor.kernel_name=ir {input.notebook}
-    notebook={input.notebook}
-    script="${{notebook/.ipynb/.r}}"
-    Rscript ${{script}} {input.treatment_file} {input.control_file} {input.insert_annotations} {params.umi_cutoff} {output.mageck_inputs} 
+    Rscript {input.script} {input.treatment_file} {input.control_file} {input.insert_annotations} {params.umi_cutoff} {output.mageck_inputs} 
     """
 
 
@@ -400,7 +391,7 @@ rule get_mageck_input_random_partition:
     treatment_file = lambda w: f"../data/insert_counts_random_partition/{sample_annotations.index[sample_annotations['sample_name'] == w.treatment].tolist()[0]}.csv",
     control_file = lambda w: f"../data/insert_counts_random_partition/{sample_annotations.index[sample_annotations['sample_name'] == w.control].tolist()[0]}.csv",
     insert_annotations = "../../rbp_sgrna_barcode_linkage/annotations/insert_annotations.csv",
-    notebook = 'get_mageck_input_random_partition.ipynb',
+    script = 'get_mageck_input_random_partition.R',
   output:
     mageck_inputs = '../data/mageck_random_partition/{treatment}_vs_{control}/input_counts.tsv'
   params:
@@ -408,10 +399,7 @@ rule get_mageck_input_random_partition:
   container: 'docker://ghcr.io/rasilab/r:1.0.0'
   shell:
     """
-    jupyter nbconvert --to script --ExecutePreprocessor.kernel_name=ir {input.notebook}
-    notebook={input.notebook}
-    script="${{notebook/.ipynb/.r}}"
-    Rscript ${{script}} {input.treatment_file} {input.control_file} {input.insert_annotations} {params.umi_cutoff} {output.mageck_inputs} 
+    Rscript {input.script} {input.treatment_file} {input.control_file} {input.insert_annotations} {params.umi_cutoff} {output.mageck_inputs} 
     """
 
 
@@ -468,15 +456,12 @@ rule combine_mageck_tables:
                            sample_name=list(zip(mageck_comparisons['treatment'], mageck_comparisons['control']))),
     mageck_sgrna_summary = expand('../data/mageck/{sample_name[0]}_vs_{sample_name[1]}/mageck.sgrna_summary.tsv', 
                            sample_name=list(zip(mageck_comparisons['treatment'], mageck_comparisons['control']))),
-    notebook = "combine_mageck_data.ipynb"
+    script = "combine_mageck_data.R"
   output:
     gene_summary = '../data/mageck/gene_summary_table.csv.gz',
     sgrna_summary = '../data/mageck/sgrna_summary_table.csv.gz',
   container: 'docker://ghcr.io/rasilab/r:1.0.0'
   shell:
     """
-      jupyter nbconvert --to script --ExecutePreprocessor.kernel_name=ir {input.notebook}
-      notebook={input.notebook}
-      script="${{notebook/.ipynb/.r}}"
-      Rscript ${{script}}
+      Rscript {input.script}
     """
