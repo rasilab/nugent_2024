@@ -25,8 +25,9 @@ set -e  # Exit on any error
 
 echo "=== Generating All Manuscript Figures ==="
 
-# Container image for all analyses
+# Container images for analyses
 CONTAINER="docker://ghcr.io/rasilab/r_python:latest"
+DESEQ2_CONTAINER="docker://ghcr.io/rasilab/deseq2:1.38.0"
 
 #==============================================================================
 # DATA PROCESSING WORKFLOWS
@@ -88,7 +89,7 @@ singularity exec $CONTAINER Rscript analysis/barcodeseq/rbp_barcode_screens/scri
 # Figure 5: Translation Initiation Analysis
 echo "Generating Figure 5..."
 singularity exec $CONTAINER Rscript analysis/barcodeseq/rbp_barcode_screens/scripts/plot_eyfp_deopt_harr_results.R
-singularity exec $CONTAINER Rscript analysis/rnaseq/scripts/analyze_fold_changes.R
+singularity exec $DESEQ2_CONTAINER Rscript analysis/rnaseq/scripts/analyze_fold_changes.R
 singularity exec $CONTAINER Rscript analysis/riboseq/scripts/analyze_transcriptome_coverage.R
 
 # Extended Data Figures
