@@ -100,6 +100,6 @@ bash run_everything.sh
 
 **Advanced users:**
 * Copy specific sections from `run_everything.sh` to reproduce only selected analyses
-* Modify paths in [`analysis/submit_cluster.sh`](./analysis/submit_cluster.sh) and [`analysis/submit_local.sh`](./analysis/submit_local.sh) if needed
+* **Important**: Update bind mount paths in [`analysis/submit_local.sh`](./analysis/submit_local.sh) and [`analysis/submit_cluster.sh`](./analysis/submit_cluster.sh) to match your system (currently set for Fred Hutch: `--bind /fh`)
 * For interactive analysis, use the [r_python container](https://github.com/rasilab/r_python/pkgs/container/r_python) with [VSCode instructions](https://rasilab.github.io/docs/software/how_to_create_and_use_containers/)
 * See [container documentation](https://rasilab.github.io/docs/software/how_to_create_and_use_containers/) for optimization tips
