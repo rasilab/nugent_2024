@@ -97,10 +97,10 @@ plot_data <- mageck_sgrna %>%
 
 mean_data <- plot_data %>% 
     group_by(gene) %>% 
-    summarize(lfc_se = sd(lfc) / sqrt(n()), lfc = mean(lfc)) %>%
-    write_csv("../../../../source_data/figure_5c.csv")
+    summarize(lfc_se = sd(lfc) / sqrt(n()), lfc = mean(lfc))
 
 plot_data %>%
+    write_csv("../../../../source_data/figure_5c.csv") %>%
   ggplot(aes(x = gene, y = lfc, color = gene)) +
   geom_jitter(height = 0, width = 0.2, size = 1, show.legend = F) +
   geom_hline(aes(yintercept = 0), linetype = 2, linewidth = 0.5, color = "grey") +
