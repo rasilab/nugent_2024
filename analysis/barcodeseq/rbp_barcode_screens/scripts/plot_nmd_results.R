@@ -219,7 +219,7 @@ gorilla <- read_csv("../data/gorilla/ptc_day7_dmso_bc1_total_vs_ptc_day7_dmso_bc
   janitor::clean_names() %>% 
   mutate(enrichment = str_extract(enrichment_n_b_n_b, "\\d+\\.\\d+")) %>%
   select(-genes, -enrichment_n_b_n_b, -p_value) %>% 
-  write_csv("../../../../source_data/figure_s4b.csv")
+  write_csv("../../../../source_data/figure_s4c.csv")
 
 # Show selected GO terms enriched in downregulated genes
 subset_go_terms <- c(
