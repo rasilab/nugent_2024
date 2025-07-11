@@ -167,8 +167,11 @@ jun_plot <- plot_data_jun %>%
 
 ggsave("../figures/jun_riboseq.pdf", plot = jun_plot, width = 4, height = 2)
 
-# Save JUN data for Figure 5g
-write_csv(plot_data_jun, "../../../source_data/figure_5g_jun.csv")
+# Save JUN data for Figure 5g in wide format
+plot_data_jun %>%
+  select(start, score, sample_name) %>%
+  pivot_wider(names_from = sample_name, values_from = score, values_fill = 0) %>%
+  write_csv("../../../source_data/figure_5g_jun.csv")
 
 # Generate Figure 5g - MYC panel
 gene <- "MYC"
@@ -213,5 +216,8 @@ myc_plot <- plot_data_myc %>%
 
 ggsave("../figures/myc_riboseq.pdf", plot = myc_plot, width = 4, height = 2)
 
-# Save MYC data for Figure 5g
-write_csv(plot_data_myc, "../../../source_data/figure_5g_myc.csv")
+# Save MYC data for Figure 5g in wide format
+plot_data_myc %>%
+  select(start, score, sample_name) %>%
+  pivot_wider(names_from = sample_name, values_from = score, values_fill = 0) %>%
+  write_csv("../../../source_data/figure_5g_myc.csv")
