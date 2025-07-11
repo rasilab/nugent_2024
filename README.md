@@ -76,81 +76,30 @@ This table maps each manuscript figure to its plotting script and source data.
 
 This repository follows best practices for computational reproducibility in the life sciences, as described in [Grüning *et al.*, 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6263957/).
 
-### ✅ Requirements
-
-* **Conda (Package Manager)**  
-  Install Miniconda (if not already installed):
-
-  ```bash
-  # For Linux
-  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-  bash Miniconda3-latest-Linux-x86_64.sh
-  ```
-
-* **Snakemake (Workflow Engine)**  
-  Install via Conda:
-
-  ```bash
-  conda install -c bioconda snakemake
-  ```
-
-* **Singularity (Container Runtime)**  
-  Install via Conda:
-
-  ```bash
-  conda install -c conda-forge singularity
-  ```
-
-Note that Singularity has been renamed to Apptainer and you will see references to both names in online documentation.
-
-Fred Hutch cluster users do not need Conda and can load Snakemake and Singularity as follows. See [here](https://rasilab.github.io/docs/software/how_to_create_and_use_containers/) for more details.
-
-```bash
-module load Singularity snakemake
-```
-
----
-
-### 📦 Containers
-
-All tools are packaged as Docker containers:
-👉 [rasilab GitHub Packages](https://github.com/orgs/rasilab/packages)
-
-These are pulled automatically when running workflows with Snakemake.
-
-Subramaniam lab users should follow the instructions [here](https://rasilab.github.io/docs/software/how_to_create_and_use_containers/#how-to-use-singularity-containers-in-snakemake-workflows-on-the-fred-hutch-cluster) to symbolically link the `rasilab` container directory rather than downloading the containers each time.
-
----
-
 ### 🚀 Run the Full Analysis
 
-Ensure required paths are mounted using `--bind` in:
-
-* [`analysis/submit_cluster.sh`](./analysis/submit_cluster.sh)
-* [`analysis/submit_local.sh`](./analysis/submit_local.sh)
-
-Then run:
+**Simple one-step execution:**
 
 ```bash
-sh run_everything.sh
+bash run_everything.sh
 ```
 
-[run_everything.sh](./run_everything.sh) will:
+The script automatically handles all setup including:
+* Installing Conda, Snakemake, and Singularity (if needed)
+* Pulling required containers from [rasilab GitHub Packages](https://github.com/orgs/rasilab/packages)
+* Processing barcode-sgRNA linkage and barcode sequencing data
+* Analyzing RNA-seq and Ribo-seq data
+* Regenerating all manuscript figures and source data
 
-* Download raw high-throughput sequencing data from SRA and convert to FASTQ
-* Process linkage and barcode sequencing 
-* Analyze RNA-seq
-* Analyze Ribo-seq
-* Regenerate all manuscript figure panels and source data (excluding schematics and gel images)
+**For Fred Hutch cluster users:**
+Load modules instead of auto-installation:
+```bash
+module load Singularity snakemake
+bash run_everything.sh
+```
 
-> ℹ️ You can also copy specific lines from `run_everything.sh` to reproduce only selected parts.
-
----
-
-### 🧪 Interactive Analysis in Jupyter
-
-You can explore the data interactively using the Jupyter-ready container:
-
-👉 [r_python container](https://github.com/rasilab/r_python/pkgs/container/r_python)
-
-To use the above container in VSCode, see instructions [here](https://rasilab.github.io/docs/software/how_to_create_and_use_containers/).
+**Advanced users:**
+* Copy specific sections from `run_everything.sh` to reproduce only selected analyses
+* Modify paths in [`analysis/submit_cluster.sh`](./analysis/submit_cluster.sh) and [`analysis/submit_local.sh`](./analysis/submit_local.sh) if needed
+* For interactive analysis, use the [r_python container](https://github.com/rasilab/r_python/pkgs/container/r_python) with [VSCode instructions](https://rasilab.github.io/docs/software/how_to_create_and_use_containers/)
+* See [container documentation](https://rasilab.github.io/docs/software/how_to_create_and_use_containers/) for optimization tips
