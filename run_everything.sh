@@ -133,6 +133,42 @@ cd analysis/barcodeseq/rbp_barcode_screens/scripts
 Rscript compare_barcode_partitions.R
 cd ../../../../
 
+# Extended data 1a: Flow cytometry sgRNA effects in multiple cell lines
+echo "Running Extended data 1a - Flow cytometry sgRNA validation"
+cd analysis/flow_cytometry/figs1a_eyfp_reporter_sgeyfp_u2os_293t/scripts
+Rscript plot_figs1a_flow.R
+cd ../../../../
+
+# Extended data 1b: Integration efficiency analysis
+echo "Running Extended data 1b - Integration efficiency flow cytometry"
+cd analysis/flow_cytometry/figs1b_integration_efficiency_u2os_293t/scripts
+Rscript plot_figs1b_flow.R
+cd ../../../../
+
+# Extended data 2e: Polysome profiling of selected hits
+echo "Running Extended data 2e - Polysome profiling hits"
+cd analysis/polysome_profiling/figs2e_polysome_relic_hits/scripts
+Rscript plot_figs2_polysomes.R
+cd ../../../../
+
+# Extended data 4a: NMD reporter validation by qPCR
+echo "Running Extended data 4a - NMD reporter qPCR validation"
+cd analysis/qpcr/figs4_nmd_reporter_validation/scripts
+Rscript plot_figs4_qpcr.R
+cd ../../../../
+
+# Extended data 5c: GCN1 HHT qPCR in U937 cells
+echo "Running Extended data 5c - GCN1 HHT qPCR analysis"
+cd analysis/qpcr/figs5c_u937_gcn1_hht/scripts
+Rscript plot_figs5c_qpcr.R
+cd ../../../../
+
+# Extended data 5d: GCN1 HHT with kinase inhibitors qPCR
+echo "Running Extended data 5d - GCN1 HHT kinase inhibitor qPCR"
+cd analysis/qpcr/figs5d_zaki_gcn1_hht/scripts
+Rscript plot_fig_s5d_qpcr.R
+cd ../../../../
+
 echo "✓ Extended data generation completed!"
 
 #==============================================================================
@@ -149,10 +185,16 @@ echo "✓ Figure generation pipeline completed successfully!"
 echo ""
 echo "Generated figures can be found in:"
 echo "  - analysis/flow_cytometry/fig1_eyfp_reporter_sgeyfp/figures/"
+echo "  - analysis/flow_cytometry/figs1a_eyfp_reporter_sgeyfp_u2os_293t/figures/"
+echo "  - analysis/flow_cytometry/figs1b_integration_efficiency_u2os_293t/figures/"
 echo "  - analysis/barcodeseq/rbp_barcode_screens/figures/"
 echo "  - analysis/rnaseq/figures/"
 echo "  - analysis/riboseq/figures/"
 echo "  - analysis/polysome_profiling/fig2a_polysome_relic/figures/"
+echo "  - analysis/polysome_profiling/figs2e_polysome_relic_hits/figures/"
+echo "  - analysis/qpcr/figs4_nmd_reporter_validation/figures/"
+echo "  - analysis/qpcr/figs5c_u937_gcn1_hht/figures/"
+echo "  - analysis/qpcr/figs5d_zaki_gcn1_hht/figures/"
 echo ""
 echo "Source data files written to:"
 echo "  - source_data/"

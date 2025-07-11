@@ -1,0 +1,210 @@
+# A tibble: 4 × 2
+  sample_id sample_name
+  <chr>     <chr>      
+1 226p1     AQR        
+2 226p10    SF3B5      
+3 226p11    SF3B6      
+4 226p12    FLUC       
+# A tibble: 4 × 10
+  seqnames     start   end strand trans…¹ gene_id gene_…² junct…³ n_exo…⁴ sj_num
+  <chr>        <dbl> <dbl> <chr>  <chr>   <chr>   <chr>   <chr>     <dbl>  <int>
+1 pHPHS232_pH… 14540 15478 +      mcherry mcherry mcherry annota…       0      1
+2 pHPHS232_pH… 22475 22604 +      globin  globin  globin  annota…       0      2
+3 pHPHS232_pH… 22475 23481 +      globin  globin  globin  skip          1      3
+4 pHPHS232_pH… 22828 23481 +      globin  globin  globin  annota…       0      4
+# … with abbreviated variable names ¹​transcript_id, ²​gene_name, ³​junction_type,
+#   ⁴​n_exon_skip
+# A tibble: 14 × 16
+   sample_id seqnames   start   end width strand intro…¹ intro…² um_re…³ mm_re…⁴
+   <chr>     <chr>      <dbl> <dbl> <int> <chr>  <fct>   <fct>     <int>   <int>
+ 1 226p1     pHPHS232_… 14540 15478   939 +      GT-AG   +            24       0
+ 2 226p1     pHPHS232_… 22475 22604   130 +      GT-AG   +          8312       0
+ 3 226p1     pHPHS232_… 22828 23481   654 +      GT-AG   +          8978       0
+ 4 226p10    pHPHS232_… 14540 15478   939 +      GT-AG   +            36       0
+ 5 226p10    pHPHS232_… 22475 22604   130 +      GT-AG   +         19585       1
+ 6 226p10    pHPHS232_… 22475 23481  1007 +      GT-AG   +            53       0
+ 7 226p10    pHPHS232_… 22828 23481   654 +      GT-AG   +         21952       0
+ 8 226p11    pHPHS232_… 14540 15478   939 +      GT-AG   +            20       0
+ 9 226p11    pHPHS232_… 22475 22604   130 +      GT-AG   +         17348       4
+10 226p11    pHPHS232_… 22828 23481   654 +      GT-AG   +         18376       0
+11 226p12    pHPHS232_… 14540 15478   939 +      GT-AG   +            14       0
+12 226p12    pHPHS232_… 22475 22604   130 +      GT-AG   +         14415       4
+13 226p12    pHPHS232_… 22475 23481  1007 +      GT-AG   +             2       0
+14 226p12    pHPHS232_… 22828 23481   654 +      GT-AG   +         15537       0
+# … with 6 more variables: transcript_id <chr>, gene_id <chr>, gene_name <chr>,
+#   junction_type <chr>, n_exon_skip <dbl>, sj_num <int>, and abbreviated
+#   variable names ¹​intron_motif, ²​intron_strand, ³​um_reads, ⁴​mm_reads
+GRanges object with 1637936 ranges and 20 metadata columns:
+            seqnames          ranges strand |         source     type     score
+               <Rle>       <IRanges>  <Rle> |       <factor> <factor> <numeric>
+        [1]        1 1471765-1472089      + | ensembl_havana     exon        NA
+        [2]        1 1477274-1477350      + | ensembl_havana     exon        NA
+        [3]        1 1478644-1478745      + | ensembl_havana     exon        NA
+        [4]        1 1479049-1479108      + | ensembl_havana     exon        NA
+        [5]        1 1480867-1480936      + | ensembl_havana     exon        NA
+        ...      ...             ...    ... .            ...      ...       ...
+  [1637932]       MT     14149-14673      - |          insdc     exon        NA
+  [1637933]       MT     14674-14742      - |          insdc     exon        NA
+  [1637934]       MT     14747-15887      + |          insdc     exon        NA
+  [1637935]       MT     15888-15953      + |          insdc     exon        NA
+  [1637936]       MT     15956-16023      - |          insdc     exon        NA
+                phase         gene_id gene_version   transcript_id
+            <integer>     <character>  <character>     <character>
+        [1]      <NA> ENSG00000160072           20 ENST00000673477
+        [2]      <NA> ENSG00000160072           20 ENST00000673477
+        [3]      <NA> ENSG00000160072           20 ENST00000673477
+        [4]      <NA> ENSG00000160072           20 ENST00000673477
+        [5]      <NA> ENSG00000160072           20 ENST00000673477
+        ...       ...             ...          ...             ...
+  [1637932]      <NA> ENSG00000198695            2 ENST00000361681
+  [1637933]      <NA> ENSG00000210194            1 ENST00000387459
+  [1637934]      <NA> ENSG00000198727            2 ENST00000361789
+  [1637935]      <NA> ENSG00000210195            2 ENST00000387460
+  [1637936]      <NA> ENSG00000210196            2 ENST00000387461
+            transcript_version exon_number   gene_name    gene_source
+                   <character> <character> <character>    <character>
+        [1]                  1           1      ATAD3B ensembl_havana
+        [2]                  1           2      ATAD3B ensembl_havana
+        [3]                  1           3      ATAD3B ensembl_havana
+        [4]                  1           4      ATAD3B ensembl_havana
+        [5]                  1           5      ATAD3B ensembl_havana
+        ...                ...         ...         ...            ...
+  [1637932]                  2           1      MT-ND6          insdc
+  [1637933]                  1           1       MT-TE          insdc
+  [1637934]                  2           1      MT-CYB          insdc
+  [1637935]                  2           1       MT-TT          insdc
+  [1637936]                  2           1       MT-TP          insdc
+              gene_biotype transcript_name transcript_source transcript_biotype
+               <character>     <character>       <character>        <character>
+        [1] protein_coding      ATAD3B-206    ensembl_havana     protein_coding
+        [2] protein_coding      ATAD3B-206    ensembl_havana     protein_coding
+        [3] protein_coding      ATAD3B-206    ensembl_havana     protein_coding
+        [4] protein_coding      ATAD3B-206    ensembl_havana     protein_coding
+        [5] protein_coding      ATAD3B-206    ensembl_havana     protein_coding
+        ...            ...             ...               ...                ...
+  [1637932] protein_coding      MT-ND6-201             insdc     protein_coding
+  [1637933]        Mt_tRNA       MT-TE-201             insdc            Mt_tRNA
+  [1637934] protein_coding      MT-CYB-201             insdc     protein_coding
+  [1637935]        Mt_tRNA       MT-TT-201             insdc            Mt_tRNA
+  [1637936]        Mt_tRNA       MT-TP-201             insdc            Mt_tRNA
+                          tag     ccds_id         exon_id exon_version
+                  <character> <character>     <character>  <character>
+        [1]       MANE_Select      CCDS30 ENSE00003889014            1
+        [2]       MANE_Select      CCDS30 ENSE00003467707            1
+        [3]       MANE_Select      CCDS30 ENSE00003569130            1
+        [4]       MANE_Select      CCDS30 ENSE00003608502            1
+        [5]       MANE_Select      CCDS30 ENSE00003474888            1
+        ...               ...         ...             ...          ...
+  [1637932] Ensembl_canonical        <NA> ENSE00001434974            2
+  [1637933] Ensembl_canonical        <NA> ENSE00001544476            1
+  [1637934] Ensembl_canonical        <NA> ENSE00001436074            2
+  [1637935] Ensembl_canonical        <NA> ENSE00001544475            2
+  [1637936] Ensembl_canonical        <NA> ENSE00001544473            2
+            transcript_support_level
+                         <character>
+        [1]                     <NA>
+        [2]                     <NA>
+        [3]                     <NA>
+        [4]                     <NA>
+        [5]                     <NA>
+        ...                      ...
+  [1637932]                       NA
+  [1637933]                       NA
+  [1637934]                       NA
+  [1637935]                       NA
+  [1637936]                       NA
+  -------
+  seqinfo: 24 sequences from an unspecified genome; no seqlengths
+# A tibble: 2,880,404 × 10
+   seqnames start   end strand transcri…¹ gene_id gene_…² junct…³ n_exo…⁴ sj_num
+   <chr>    <dbl> <dbl> <chr>  <chr>      <chr>   <chr>   <chr>     <dbl>  <int>
+ 1 1        12058 12178 +      ENST00000… ENSG00… DDX11L1 annota…       0      1
+ 2 1        12058 12612 +      ENST00000… ENSG00… DDX11L1 skip          1      2
+ 3 1        12058 12974 +      ENST00000… ENSG00… DDX11L1 skip          2      3
+ 4 1        12058 13220 +      ENST00000… ENSG00… DDX11L1 skip          3      4
+ 5 1        12058 13452 +      ENST00000… ENSG00… DDX11L1 skip          4      5
+ 6 1        12228 12612 +      ENST00000… ENSG00… DDX11L1 annota…       0      6
+ 7 1        12228 12974 +      ENST00000… ENSG00… DDX11L1 skip          1      7
+ 8 1        12228 13220 +      ENST00000… ENSG00… DDX11L1 skip          2      8
+ 9 1        12228 13452 +      ENST00000… ENSG00… DDX11L1 skip          3      9
+10 1        12698 12974 +      ENST00000… ENSG00… DDX11L1 annota…       0     10
+# … with 2,880,394 more rows, and abbreviated variable names ¹​transcript_id,
+#   ²​gene_name, ³​junction_type, ⁴​n_exon_skip
+# A tibble: 35,813 × 11
+   within_t…¹ withi…² seqna…³  start    end width strand trans…⁴ gene_id gene_…⁵
+   <chr>      <list>  <fct>    <int>  <int> <int> <fct>  <chr>   <chr>   <chr>  
+ 1 ENST00000… <int>   1       112805 129054 16250 -      ENST00… ENSG00… ENSG00…
+ 2 ENST00000… <int>   1       259026 267302  8277 -      ENST00… ENSG00… ENSG00…
+ 3 ENST00000… <int>   1       497300 498398  1099 -      ENST00… ENSG00… ENSG00…
+ 4 ENST00000… <int>   1       501621 502464   844 -      ENST00… ENSG00… ENSG00…
+ 5 ENST00000… <int>   1       703790 720031 16242 -      ENST00… ENSG00… ENSG00…
+ 6 ENST00000… <int>   1       779093 803950 24858 +      ENST00… ENSG00… LINC01…
+ 7 ENST00000… <int>   1       784494 795469 10976 +      ENST00… ENSG00… LINC01…
+ 8 ENST00000… <int>   1       826924 851926 25003 +      ENST00… ENSG00… LINC01…
+ 9 ENST00000… <int>   1       847807 851926  4120 +      ENST00… ENSG00… LINC01…
+10 ENST00000… <int>   1       852111 853390  1280 +      ENST00… ENSG00… LINC01…
+# … with 35,803 more rows, 1 more variable: sj_num <int>, and abbreviated
+#   variable names ¹​within_transcript_id, ²​within_sj_nums, ³​seqnames,
+#   ⁴​transcript_id, ⁵​gene_name
+# A tibble: 393,721 × 17
+   seqnames  start    end width strand intron_…¹ intro…² um_re…³ mm_re…⁴ sampl…⁵
+   <chr>     <dbl>  <dbl> <int> <chr>  <fct>     <fct>     <int>   <int> <chr>  
+ 1 1         15039  15795   757 -      GT-AG     -             0      41 226p1  
+ 2 1         15948  16606   659 -      GT-AG     -             0       6 226p1  
+ 3 1         16766  16857    92 -      GT-AG     -             0       9 226p1  
+ 4 1         17056  17232   177 -      GT-AG     -             0      57 226p1  
+ 5 1         17369  17605   237 -      GT-AG     -             0      11 226p1  
+ 6 1         17743  17914   172 -      GT-AG     -             0      46 226p1  
+ 7 1         18062  18267   206 -      GT-AG     -             0      33 226p1  
+ 8 1         18367  24737  6371 -      GT-AG     -             0      10 226p1  
+ 9 1        164792 165883  1092 -      GT-AG     -             0      13 226p1  
+10 1        165943 168099  2157 -      GT-AG     -             0      13 226p1  
+# … with 393,711 more rows, 7 more variables: transcript_id <chr>,
+#   gene_id <chr>, gene_name <chr>, junction_type <chr>, n_exon_skip <dbl>,
+#   sj_num <int>, sample_name <chr>, and abbreviated variable names
+#   ¹​intron_motif, ²​intron_strand, ³​um_reads, ⁴​mm_reads, ⁵​sample_id
+# A tibble: 4 × 5
+  sample_name  total included_cassette_sj other skipped_cassette_sj
+  <chr>        <int>                <int> <int>               <int>
+1 AQR          70647                10491 54296                5860
+2 FLUC        126314                18874 96165               11275
+3 SF3B5        95901                13551 73265                9085
+4 SF3B6        97425                14401 74659                8365
+# A tibble: 4,984 × 14
+   sample_name sj_num um_re…¹ um_re…²   pso seqna…³  start    end strand trans…⁴
+   <chr>        <int>   <int>   <dbl> <dbl> <chr>    <dbl>  <dbl> <chr>  <chr>  
+ 1 AQR           5380     106       0     0 1       1.79e6 1.79e6 -      ENST00…
+ 2 AQR          14691     157       0     0 1       7.97e6 7.97e6 +      ENST00…
+ 3 AQR          15288     555       0     0 1       8.87e6 8.87e6 -      ENST00…
+ 4 AQR          18850     126       0     0 1       1.10e7 1.10e7 +      ENST00…
+ 5 AQR          27158      NA       0    NA 1       1.55e7 1.55e7 -      ENST00…
+ 6 AQR          27176      NA       0    NA 1       1.55e7 1.55e7 -      ENST00…
+ 7 AQR          39620      NA       0    NA 1       1.93e7 1.93e7 -      ENST00…
+ 8 AQR          39678     130       0     0 1       1.94e7 1.94e7 -      ENST00…
+ 9 AQR          40648     105       0     0 1       2.07e7 2.07e7 -      ENST00…
+10 AQR          48200     148       0     0 1       2.21e7 2.21e7 +      ENST00…
+# … with 4,974 more rows, 4 more variables: gene_id <chr>, gene_name <chr>,
+#   junction_type <chr>, n_exon_skip <dbl>, and abbreviated variable names
+#   ¹​um_reads.within, ²​um_reads, ³​seqnames, ⁴​transcript_id
+# A tibble: 4 × 3
+  sample_name mean_pso     n
+  <chr>          <dbl> <int>
+1 AQR               NA  1246
+2 FLUC              NA  1246
+3 SF3B5             NA  1246
+4 SF3B6             NA  1246
+# A tibble: 3 × 13
+  sample_name estimate statistic  p.value param…¹ conf.…² conf.…³ method alter…⁴
+  <chr>          <dbl>     <dbl>    <dbl>   <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 SF3B5          10.5       9.56 5.76e-17     128    8.66     Inf Paire… greater
+2 SF3B6           1.97      4.37 1.18e- 5     146    1.23     Inf Paire… greater
+3 AQR             2.86      4.34 2.05e- 5      81    1.76     Inf Paire… greater
+# … with 4 more variables: statistic1 <dbl>, p.value1 <dbl>, method1 <chr>,
+#   alternative1 <chr>, and abbreviated variable names ¹​parameter, ²​conf.low,
+#   ³​conf.high, ⁴​alternative
+# A tibble: 3 × 2
+  sample_name     n
+  <chr>       <int>
+1 AQR            10
+2 SF3B5          49
+3 SF3B6          10

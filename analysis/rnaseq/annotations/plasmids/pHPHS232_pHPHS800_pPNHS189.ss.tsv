@@ -1,0 +1,2 @@
+seqnames	start	end	strand	transcript_id	gene_id	gene_name	junction_type	n_exon_skip
+pHPHS232_pHPHS800_pPNHS189	14540	15478	+	mcherry	mcherry	mcherry	annotated	0

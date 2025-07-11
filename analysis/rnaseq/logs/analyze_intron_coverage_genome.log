@@ -1,0 +1,112 @@
+# A tibble: 4 × 2
+  sample_id sample_name
+  <chr>     <chr>      
+1 226p1     AQR        
+2 226p10    SF3B5      
+3 226p11    SF3B6      
+4 226p12    FLUC       
+# A tibble: 399,693 × 10
+   seqnames start   end strand transcri…¹ gene_id gene_…² junct…³ n_exo…⁴ sj_num
+   <chr>    <dbl> <dbl> <chr>  <chr>      <chr>   <chr>   <chr>     <dbl>  <int>
+ 1 1        12058 12178 +      ENST00000… ENSG00… DDX11L1 annota…       0      1
+ 2 1        12228 12612 +      ENST00000… ENSG00… DDX11L1 annota…       0      6
+ 3 1        12698 12974 +      ENST00000… ENSG00… DDX11L1 annota…       0     10
+ 4 1        12722 13220 +      ENST00000… ENSG00… DDX11L2 annota…       0     13
+ 5 1        13053 13220 +      ENST00000… ENSG00… DDX11L1 annota…       0     14
+ 6 1        13375 13452 +      ENST00000… ENSG00… DDX11L1 annota…       0     16
+ 7 1        14502 15004 -      ENST00000… ENSG00… WASH7P  annota…       0     17
+ 8 1        15039 15795 -      ENST00000… ENSG00… WASH7P  annota…       0     27
+ 9 1        15948 16606 -      ENST00000… ENSG00… WASH7P  annota…       0     36
+10 1        16766 16857 -      ENST00000… ENSG00… WASH7P  annota…       0     44
+# … with 399,683 more rows, and abbreviated variable names ¹​transcript_id,
+#   ²​gene_name, ³​junction_type, ⁴​n_exon_skip
+# A tibble: 393,721 × 17
+   seqnames  start    end width strand intron_…¹ intro…² um_re…³ mm_re…⁴ sampl…⁵
+   <chr>     <dbl>  <dbl> <int> <chr>  <fct>     <fct>     <int>   <int> <chr>  
+ 1 1         15039  15795   757 -      GT-AG     -             0      41 226p1  
+ 2 1         15948  16606   659 -      GT-AG     -             0       6 226p1  
+ 3 1         16766  16857    92 -      GT-AG     -             0       9 226p1  
+ 4 1         17056  17232   177 -      GT-AG     -             0      57 226p1  
+ 5 1         17369  17605   237 -      GT-AG     -             0      11 226p1  
+ 6 1         17743  17914   172 -      GT-AG     -             0      46 226p1  
+ 7 1         18062  18267   206 -      GT-AG     -             0      33 226p1  
+ 8 1         18367  24737  6371 -      GT-AG     -             0      10 226p1  
+ 9 1        164792 165883  1092 -      GT-AG     -             0      13 226p1  
+10 1        165943 168099  2157 -      GT-AG     -             0      13 226p1  
+# … with 393,711 more rows, 7 more variables: transcript_id <chr>,
+#   gene_id <chr>, gene_name <chr>, junction_type <chr>, n_exon_skip <dbl>,
+#   sj_num <int>, sample_name <chr>, and abbreviated variable names
+#   ¹​intron_motif, ²​intron_strand, ³​um_reads, ⁴​mm_reads, ⁵​sample_id
+# A tibble: 781,229 × 12
+   sample_id sj_num intro…¹ seqna…²  start    end strand trans…³ gene_id gene_…⁴
+   <chr>      <dbl>   <dbl> <chr>    <dbl>  <dbl> <chr>  <chr>   <chr>   <chr>  
+ 1 226p1     1.00e5       2 1       5.47e7 5.47e7 +      ENST00… ENSG00… MROH7  
+ 2 226p1     1.00e5       2 1       5.47e7 5.47e7 +      ENST00… ENSG00… MROH7  
+ 3 226p1     1.00e6      34 16      1.35e6 1.35e6 -      ENST00… ENSG00… TSR3   
+ 4 226p1     1.00e6      59 16      1.35e6 1.35e6 -      ENST00… ENSG00… TSR3   
+ 5 226p1     1.00e6      37 16      1.35e6 1.35e6 -      ENST00… ENSG00… TSR3   
+ 6 226p1     1.00e6      61 16      1.35e6 1.36e6 +      ENST00… ENSG00… GNPTG  
+ 7 226p1     1.00e6      64 16      1.35e6 1.36e6 +      ENST00… ENSG00… GNPTG  
+ 8 226p1     1.00e6      64 16      1.35e6 1.36e6 +      ENST00… ENSG00… GNPTG  
+ 9 226p1     1.00e6     108 16      1.35e6 1.36e6 +      ENST00… ENSG00… GNPTG  
+10 226p1     1.00e6       3 16      1.36e6 1.36e6 +      ENST00… ENSG00… GNPTG  
+# … with 781,219 more rows, 2 more variables: junction_type <chr>,
+#   n_exon_skip <dbl>, and abbreviated variable names ¹​intron_count, ²​seqnames,
+#   ³​transcript_id, ⁴​gene_name
+# A tibble: 248,384 × 3
+   sample_id gene_id           rev
+   <chr>     <chr>           <dbl>
+ 1 226p1     ENSG00000160072   321
+ 2 226p1     ENSG00000279928     0
+ 3 226p1     ENSG00000228037     0
+ 4 226p1     ENSG00000142611    73
+ 5 226p1     ENSG00000284616     0
+ 6 226p1     ENSG00000157911   141
+ 7 226p1     ENSG00000269896    18
+ 8 226p1     ENSG00000228463     0
+ 9 226p1     ENSG00000260972     0
+10 226p1     ENSG00000224340     0
+# … with 248,374 more rows
+# A tibble: 23,277 × 16
+   sample_id sj_num intro…¹ seqna…²  start    end strand trans…³ gene_id gene_…⁴
+   <chr>      <dbl>   <dbl> <chr>    <dbl>  <dbl> <chr>  <chr>   <chr>   <chr>  
+ 1 226p1     1.00e6    3.56 16      1.96e6 1.96e6 +      ENST00… ENSG00… NDUFB10
+ 2 226p1     1.00e6   10.7  16      1.96e6 1.96e6 +      ENST00… ENSG00… NDUFB10
+ 3 226p1     1.00e6   60    16      1.96e6 1.96e6 +      ENST00… ENSG00… NDUFB10
+ 4 226p1     1.00e6  106.   16      1.96e6 1.96e6 -      ENST00… ENSG00… RPS2   
+ 5 226p1     1.00e6   71.8  16      1.96e6 1.96e6 -      ENST00… ENSG00… RPS2   
+ 6 226p1     1.00e6   51.8  16      1.96e6 1.96e6 -      ENST00… ENSG00… RPS2   
+ 7 226p1     1.00e6   13.6  16      1.96e6 1.96e6 -      ENST00… ENSG00… RPS2   
+ 8 226p1     1.01e6    2.12 16      2.25e6 2.26e6 -      ENST00… ENSG00… RNPS1  
+ 9 226p1     1.01e6    3.17 16      2.26e6 2.26e6 -      ENST00… ENSG00… RNPS1  
+10 226p1     1.01e6    6.49 16      2.52e6 2.52e6 +      ENST00… ENSG00… ENSG00…
+# … with 23,267 more rows, 6 more variables: junction_type <chr>,
+#   n_exon_skip <dbl>, sj_count <int>, width <dbl>, psi <dbl>,
+#   sample_name <chr>, and abbreviated variable names ¹​intron_count, ²​seqnames,
+#   ³​transcript_id, ⁴​gene_name
+# A tibble: 8 × 4
+  sample_name gene_name  sj_num   psi
+  <fct>       <chr>       <dbl> <dbl>
+1 AQR         RPL24     1986993  3.00
+2 FLUC        RPL24     1986993  1.41
+3 SF3B5       RPL24     1986993 31.8 
+4 SF3B6       RPL24     1986993  2.71
+5 AQR         RPL41      636757 21.8 
+6 FLUC        RPL41      636757 17.1 
+7 SF3B5       RPL41      636757 53.1 
+8 SF3B6       RPL41      636757 24.7 
+# A tibble: 3 × 13
+  sample_name estimate statistic  p.value param…¹ conf.…² conf.…³ method alter…⁴
+  <chr>          <dbl>     <dbl>    <dbl>   <dbl>   <dbl>   <dbl> <chr>  <chr>  
+1 SF3B5           4.72      6.55 4.57e-10     148    3.53     Inf Paire… greater
+2 AQR             2.70      5.68 3.63e- 8     144    1.91     Inf Paire… greater
+3 SF3B6           2.17      6.03 4.03e- 9     195    1.58     Inf Paire… greater
+# … with 4 more variables: statistic1 <dbl>, p.value1 <dbl>, method1 <chr>,
+#   alternative1 <chr>, and abbreviated variable names ¹​parameter, ²​conf.low,
+#   ³​conf.high, ⁴​alternative
+# A tibble: 3 × 2
+  sample_name     n
+  <chr>       <int>
+1 AQR            10
+2 SF3B5          28
+3 SF3B6          15

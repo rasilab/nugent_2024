@@ -1,0 +1,97 @@
+# A tibble: 4 × 2
+  sample_id sample_name
+  <chr>     <chr>      
+1 226p1     AQR        
+2 226p10    SF3B5      
+3 226p11    SF3B6      
+4 226p12    FLUC       
+GRanges object with 67 ranges and 22 metadata columns:
+       seqnames              ranges strand |         source            type
+          <Rle>           <IRanges>  <Rle> |       <factor>        <factor>
+   [1]        3 101681091-101686733      - | ensembl_havana      gene      
+   [2]        3 101681091-101686712      - | havana              transcript
+   [3]        3 101686482-101686712      - | havana              exon      
+   [4]        3 101685818-101685928      - | havana              exon      
+   [5]        3 101682771-101682907      - | havana              exon      
+   ...      ...                 ...    ... .            ...             ...
+  [63]       12   56116633-56116787      + | ensembl_havana five_prime_utr 
+  [64]       12   56117525-56117967      + | ensembl_havana three_prime_utr
+  [65]       12   56116768-56117687      + | havana         transcript     
+  [66]       12   56116768-56116799      + | havana         exon           
+  [67]       12   56117482-56117687      + | havana         exon           
+           score     phase         gene_id gene_version   gene_name
+       <numeric> <integer>     <character>  <character> <character>
+   [1]        NA      <NA> ENSG00000114391           14       RPL24
+   [2]        NA      <NA> ENSG00000114391           14       RPL24
+   [3]        NA      <NA> ENSG00000114391           14       RPL24
+   [4]        NA      <NA> ENSG00000114391           14       RPL24
+   [5]        NA      <NA> ENSG00000114391           14       RPL24
+   ...       ...       ...             ...          ...         ...
+  [63]        NA      <NA> ENSG00000229117            9       RPL41
+  [64]        NA      <NA> ENSG00000229117            9       RPL41
+  [65]        NA      <NA> ENSG00000229117            9       RPL41
+  [66]        NA      <NA> ENSG00000229117            9       RPL41
+  [67]        NA      <NA> ENSG00000229117            9       RPL41
+          gene_source   gene_biotype   transcript_id transcript_version
+          <character>    <character>     <character>        <character>
+   [1] ensembl_havana protein_coding            <NA>               <NA>
+   [2] ensembl_havana protein_coding ENST00000464595                  1
+   [3] ensembl_havana protein_coding ENST00000464595                  1
+   [4] ensembl_havana protein_coding ENST00000464595                  1
+   [5] ensembl_havana protein_coding ENST00000464595                  1
+   ...            ...            ...             ...                ...
+  [63] ensembl_havana protein_coding ENST00000546591                  6
+  [64] ensembl_havana protein_coding ENST00000546591                  6
+  [65] ensembl_havana protein_coding ENST00000546654                  1
+  [66] ensembl_havana protein_coding ENST00000546654                  1
+  [67] ensembl_havana protein_coding ENST00000546654                  1
+       transcript_name transcript_source     transcript_biotype         tag
+           <character>       <character>            <character> <character>
+   [1]            <NA>              <NA>                   <NA>        <NA>
+   [2]       RPL24-202            havana protein_coding_CDS_n..        <NA>
+   [3]       RPL24-202            havana protein_coding_CDS_n..        <NA>
+   [4]       RPL24-202            havana protein_coding_CDS_n..        <NA>
+   [5]       RPL24-202            havana protein_coding_CDS_n..        <NA>
+   ...             ...               ...                    ...         ...
+  [63]       RPL41-204    ensembl_havana         protein_coding MANE_Select
+  [64]       RPL41-204    ensembl_havana         protein_coding MANE_Select
+  [65]       RPL41-205            havana protein_coding_CDS_n..        <NA>
+  [66]       RPL41-205            havana protein_coding_CDS_n..        <NA>
+  [67]       RPL41-205            havana protein_coding_CDS_n..        <NA>
+           ccds_id exon_number         exon_id exon_version  protein_id
+       <character> <character>     <character>  <character> <character>
+   [1]        <NA>        <NA>            <NA>         <NA>        <NA>
+   [2]        <NA>        <NA>            <NA>         <NA>        <NA>
+   [3]        <NA>           1 ENSE00001851251            1        <NA>
+   [4]        <NA>           2 ENSE00003567247            1        <NA>
+   [5]        <NA>           3 ENSE00003612821            1        <NA>
+   ...         ...         ...             ...          ...         ...
+  [63]   CCDS44919        <NA>            <NA>         <NA>        <NA>
+  [64]   CCDS44919        <NA>            <NA>         <NA>        <NA>
+  [65]        <NA>        <NA>            <NA>         <NA>        <NA>
+  [66]        <NA>           1 ENSE00002376916            1        <NA>
+  [67]        <NA>           2 ENSE00002401975            1        <NA>
+       protein_version transcript_support_level
+           <character>              <character>
+   [1]            <NA>                     <NA>
+   [2]            <NA>                        1
+   [3]            <NA>                        1
+   [4]            <NA>                        1
+   [5]            <NA>                        1
+   ...             ...                      ...
+  [63]            <NA>   1 (assigned to previ..
+  [64]            <NA>   1 (assigned to previ..
+  [65]            <NA>                        2
+  [66]            <NA>                        2
+  [67]            <NA>                        2
+  -------
+  seqinfo: 24 sequences from an unspecified genome; no seqlengths
+GRanges object with 2 ranges and 2 metadata columns:
+      seqnames              ranges strand |   gene_name         gene_id
+         <Rle>           <IRanges>  <Rle> | <character>     <character>
+  [1]        3 101681091-101686733      - |       RPL24 ENSG00000114391
+  [2]       12   56116590-56117967      + |       RPL41 ENSG00000229117
+  -------
+  seqinfo: 24 sequences from an unspecified genome; no seqlengths
+Constructing graphics...
+Constructing graphics...

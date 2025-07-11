@@ -1,0 +1,36 @@
+# A tibble: 1 × 2
+  sample_id sample_name
+  <chr>     <chr>      
+1 226p12    FLUC       
+GRanges object with 9 ranges and 8 metadata columns:
+                    seqnames      ranges strand |      source       type
+                       <Rle>   <IRanges>  <Rle> |    <factor>   <factor>
+  [1] pHPHS232_pHPHS800_pA.. 22254-23931      + | rtracklayer transcript
+  [2] pHPHS232_pHPHS800_pA.. 22254-22474      + | rtracklayer exon      
+  [3] pHPHS232_pHPHS800_pA.. 22254-22310      + | rtracklayer 5'UTR     
+  [4] pHPHS232_pHPHS800_pA.. 22311-22474      + | rtracklayer CDS       
+  [5] pHPHS232_pHPHS800_pA.. 22605-22827      + | rtracklayer exon      
+  [6] pHPHS232_pHPHS800_pA.. 22605-22827      + | rtracklayer CDS       
+  [7] pHPHS232_pHPHS800_pA.. 23482-23931      + | rtracklayer exon      
+  [8] pHPHS232_pHPHS800_pA.. 23482-23643      + | rtracklayer CDS       
+  [9] pHPHS232_pHPHS800_pA.. 23644-23931      + | rtracklayer 3'UTR     
+          score     phase transcript_id     gene_id transcript_name   gene_name
+      <numeric> <integer>   <character> <character>     <character> <character>
+  [1]        NA      <NA>        globin      globin          globin      globin
+  [2]        NA      <NA>        globin      globin          globin      globin
+  [3]        NA      <NA>        globin      globin          globin      globin
+  [4]        NA      <NA>        globin      globin          globin      globin
+  [5]        NA      <NA>        globin      globin          globin      globin
+  [6]        NA      <NA>        globin      globin          globin      globin
+  [7]        NA      <NA>        globin      globin          globin      globin
+  [8]        NA      <NA>        globin      globin          globin      globin
+  [9]        NA      <NA>        globin      globin          globin      globin
+  -------
+  seqinfo: 1 sequence from an unspecified genome; no seqlengths
+GRanges object with 1 range and 2 metadata columns:
+                    seqnames      ranges strand |   gene_name     gene_id
+                       <Rle>   <IRanges>  <Rle> | <character> <character>
+  [1] pHPHS232_pHPHS800_pA.. 22254-23931      + |      globin      globin
+  -------
+  seqinfo: 1 sequence from an unspecified genome; no seqlengths
+Constructing graphics...
