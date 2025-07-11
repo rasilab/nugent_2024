@@ -73,6 +73,12 @@ echo "✓ Figure 3 generation completed!"
 #==============================================================================
 echo "=== GENERATING FIGURE 2 ==="
 
+# Figure 2a: Polysome profiling traces
+echo "Running Figure 2a - Polysome profiling traces"
+cd analysis/polysome_profiling/fig2a_polysome_relic/scripts
+Rscript plot_fig2_polysomes.R
+cd ../../../../
+
 # Figure 2c,2d,2e,2f,2g,2h: Polysome ReLiC data
 echo "Running Figure 2c-2h - Polysome profiling analysis"
 cd analysis/barcodeseq/rbp_barcode_screens/scripts
@@ -146,6 +152,7 @@ echo "  - analysis/flow_cytometry/fig1_eyfp_reporter_sgeyfp/figures/"
 echo "  - analysis/barcodeseq/rbp_barcode_screens/figures/"
 echo "  - analysis/rnaseq/figures/"
 echo "  - analysis/riboseq/figures/"
+echo "  - analysis/polysome_profiling/fig2a_polysome_relic/figures/"
 echo ""
 echo "Source data files written to:"
 echo "  - source_data/"
