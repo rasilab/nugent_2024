@@ -12,8 +12,7 @@
 #   bash run_everything.sh
 #
 # REQUIREMENTS:
-#   - R with required packages (tidyverse, rasilabRtemplates, etc.)
-#   - Singularity container system for specialized analyses
+#   - Singularity container system
 #   - Data files in appropriate directories
 #
 # OUTPUT:
@@ -26,202 +25,90 @@ set -e  # Exit on any error
 
 echo "=== Generating All Manuscript Figures ==="
 
-#==============================================================================
-# CONTAINER SETUP
-#==============================================================================
-echo "=== SETTING UP CONTAINERS ==="
-
-# Create local containers directory if it doesn't exist
-mkdir -p containers
-
-# Pull DESeq2 container for RNA-seq analysis
-echo "Pulling DESeq2 container for RNA-seq analysis..."
-if [ ! -f containers/deseq2_1.38.0.simg ]; then
-    singularity pull containers/deseq2_1.38.0.simg oras://ghcr.io/rasilab/deseq2:1.38.0
-    echo "✓ DESeq2 container downloaded"
-else
-    echo "✓ DESeq2 container already available"
-fi
-
-echo "✓ Container setup completed!"
+# Container image for all analyses
+CONTAINER="docker://ghcr.io/rasilab/r_python:latest"
 
 #==============================================================================
-# FIGURE 1: CRISPR Screen Validation and Fitness Analysis
+# DATA PROCESSING WORKFLOWS
 #==============================================================================
-echo "=== GENERATING FIGURE 1 ==="
+echo "=== RUNNING DATA PROCESSING WORKFLOWS ==="
 
-# Figure 1b: Flow cytometry validation of sgRNA effects
-echo "Running Figure 1b - Flow cytometry sgRNA validation"
-cd analysis/flow_cytometry/fig1_eyfp_reporter_sgeyfp/scripts
-Rscript plot_fig1_flow.R
+# Barcode-sgRNA linkage analysis
+echo "Running barcode-sgRNA linkage analysis..."
+cd analysis/barcodeseq/rbp_sgrna_barcode_linkage/scripts
+bash ../submit_local.sh -s run_analysis.smk
 cd ../../../../
 
-# Figure 1d,1e: sgRNA fitness analysis (gDNA vs mRNA, essential gene depletion)
-echo "Running Figure 1d,1e - sgRNA fitness and essential gene analysis"
+# Main barcode sequencing analysis  
+echo "Running barcode sequencing analysis..."
 cd analysis/barcodeseq/rbp_barcode_screens/scripts
-Rscript plot_grna_fitness_results.R
+bash ../submit_local.sh -s run_analysis.smk
 cd ../../../../
 
-echo "✓ Figure 1 generation completed!"
-
-#==============================================================================
-# FIGURE 3: RNA-seq Splicing Analysis
-#==============================================================================
-echo "=== GENERATING FIGURE 3 ==="
-
-# Run RNA-seq analysis workflows to generate data and figures
-echo "Running RNA-seq genome analysis workflow"
+# RNA-seq analysis
+echo "Running RNA-seq genome analysis..."
 cd analysis/rnaseq/scripts
-bash ../submit_local.sh run_analysis.smk
+bash ../submit_local.sh -s run_analysis.smk
 cd ../../../
 
-echo "Running RNA-seq plasmid analysis workflow" 
+echo "Running RNA-seq plasmid analysis..."
 cd analysis/rnaseq/scripts
-bash ../submit_local.sh run_analysis_plasmid.smk
+bash ../submit_local.sh -s run_analysis_plasmid.smk
 cd ../../../
 
-# Figure 5e: RNA-seq fold change analysis using DESeq2 container
-echo "Running Figure 5e - RNA-seq fold change analysis (GCN1 vs FLUC with HHT)"
-cd analysis/rnaseq
-singularity exec ../../containers/deseq2_1.38.0.simg Rscript scripts/analyze_fold_changes.R
-cd ../../
-
-# Figure 3d,3e,3f: Splicing screen results
-echo "Running Figure 3d,3e,3f - Splicing screen analysis"
-cd analysis/barcodeseq/rbp_barcode_screens/scripts
-Rscript plot_splicing_results.R
-cd ../../../../
-
-echo "✓ Figure 3 generation completed!"
-
-#==============================================================================
-# FIGURE 2: Polysome Profiling Analysis  
-#==============================================================================
-echo "=== GENERATING FIGURE 2 ==="
-
-# Figure 2a: Polysome profiling traces
-echo "Running Figure 2a - Polysome profiling traces"
-cd analysis/polysome_profiling/fig2a_polysome_relic/scripts
-Rscript plot_fig2_polysomes.R
-cd ../../../../
-
-# Figure 2c,2d,2e,2f,2g,2h: Polysome ReLiC data
-echo "Running Figure 2c-2h - Polysome profiling analysis"
-cd analysis/barcodeseq/rbp_barcode_screens/scripts
-Rscript plot_polysome_relic_data.R
-cd ../../../../
-
-echo "✓ Figure 2 generation completed!"
-
-#==============================================================================
-# FIGURE 4: NMD Analysis
-#==============================================================================
-echo "=== GENERATING FIGURE 4 ==="
-
-# Figure 4b,4c,4d: NMD screen results
-echo "Running Figure 4b,4c,4d - NMD analysis"
-cd analysis/barcodeseq/rbp_barcode_screens/scripts
-Rscript plot_nmd_results.R
-cd ../../../../
-
-echo "✓ Figure 4 generation completed!"
-
-#==============================================================================
-# FIGURE 5: Translation Initiation Analysis
-#==============================================================================
-echo "=== GENERATING FIGURE 5 ==="
-
-# Figure 5b,5c: EYFP deoptimization and Harringtonine results
-echo "Running Figure 5b,5c - Translation initiation analysis"
-cd analysis/barcodeseq/rbp_barcode_screens/scripts
-Rscript plot_eyfp_deopt_harr_results.R
-cd ../../../../
-
-# Figure 5f,5g: Ribosome profiling analysis
-echo "Running Figure 5f,5g - Ribosome profiling analysis"
+# Ribosome profiling analysis
+echo "Running ribosome profiling analysis..."
 cd analysis/riboseq/scripts
-echo "  Running Snakemake riboseq preprocessing workflow"
-bash ../submit_local.sh run_analysis.smk
-echo "  Generating riboseq coverage figures and source data"
-Rscript analyze_transcriptome_coverage.R
+bash ../submit_local.sh -s run_analysis.smk
 cd ../../../
 
-echo "✓ Figure 5 generation completed!"
-
 #==============================================================================
-# EXTENDED DATA FIGURES
+# FIGURE GENERATION
 #==============================================================================
-echo "=== GENERATING EXTENDED DATA FIGURES ==="
+echo "=== GENERATING FIGURES ==="
 
-# Extended data figures from barcode partition comparisons
-echo "Running Extended data figures - Barcode partition analysis"
-cd analysis/barcodeseq/rbp_barcode_screens/scripts
-Rscript compare_barcode_partitions.R
-cd ../../../../
+# Figure 1: CRISPR Screen Validation
+echo "Generating Figure 1..."
+singularity exec $CONTAINER Rscript analysis/flow_cytometry/fig1_eyfp_reporter_sgeyfp/scripts/plot_fig1_flow.R
+singularity exec $CONTAINER Rscript analysis/barcodeseq/rbp_barcode_screens/scripts/plot_grna_fitness_results.R
 
-# Extended data 1a: Flow cytometry sgRNA effects in multiple cell lines
-echo "Running Extended data 1a - Flow cytometry sgRNA validation"
-cd analysis/flow_cytometry/figs1a_eyfp_reporter_sgeyfp_u2os_293t/scripts
-Rscript plot_figs1a_flow.R
-cd ../../../../
+# Figure 2: Polysome Profiling
+echo "Generating Figure 2..."
+singularity exec $CONTAINER Rscript analysis/polysome_profiling/fig2a_polysome_relic/scripts/plot_fig2_polysomes.R
+singularity exec $CONTAINER Rscript analysis/barcodeseq/rbp_barcode_screens/scripts/plot_polysome_relic_data.R
 
-# Extended data 1b: Integration efficiency analysis
-echo "Running Extended data 1b - Integration efficiency flow cytometry"
-cd analysis/flow_cytometry/figs1b_integration_efficiency_u2os_293t/scripts
-Rscript plot_figs1b_flow.R
-cd ../../../../
+# Figure 3: RNA-seq Splicing Analysis
+echo "Generating Figure 3..."
+singularity exec $CONTAINER Rscript analysis/barcodeseq/rbp_barcode_screens/scripts/plot_splicing_results.R
 
-# Extended data 2e: Polysome profiling of selected hits
-echo "Running Extended data 2e - Polysome profiling hits"
-cd analysis/polysome_profiling/figs2e_polysome_relic_hits/scripts
-Rscript plot_figs2_polysomes.R
-cd ../../../../
+# Figure 4: NMD Analysis
+echo "Generating Figure 4..."
+singularity exec $CONTAINER Rscript analysis/barcodeseq/rbp_barcode_screens/scripts/plot_nmd_results.R
 
-# Extended data 4a: NMD reporter validation by qPCR
-echo "Running Extended data 4a - NMD reporter qPCR validation"
-cd analysis/qpcr/figs4_nmd_reporter_validation/scripts
-Rscript plot_figs4_qpcr.R
-cd ../../../../
+# Figure 5: Translation Initiation Analysis
+echo "Generating Figure 5..."
+singularity exec $CONTAINER Rscript analysis/barcodeseq/rbp_barcode_screens/scripts/plot_eyfp_deopt_harr_results.R
+singularity exec $CONTAINER Rscript analysis/rnaseq/scripts/analyze_fold_changes.R
+singularity exec $CONTAINER Rscript analysis/riboseq/scripts/analyze_transcriptome_coverage.R
 
-# Extended data 5c: GCN1 HHT qPCR in U937 cells
-echo "Running Extended data 5c - GCN1 HHT qPCR analysis"
-cd analysis/qpcr/figs5c_u937_gcn1_hht/scripts
-Rscript plot_figs5c_qpcr.R
-cd ../../../../
-
-# Extended data 5d: GCN1 HHT with kinase inhibitors qPCR
-echo "Running Extended data 5d - GCN1 HHT kinase inhibitor qPCR"
-cd analysis/qpcr/figs5d_zaki_gcn1_hht/scripts
-Rscript plot_fig_s5d_qpcr.R
-cd ../../../../
-
-echo "✓ Extended data generation completed!"
+# Extended Data Figures
+echo "Generating Extended Data figures..."
+singularity exec $CONTAINER Rscript analysis/barcodeseq/rbp_barcode_screens/scripts/compare_barcode_partitions.R
+singularity exec $CONTAINER Rscript analysis/flow_cytometry/figs1a_eyfp_reporter_sgeyfp_u2os_293t/scripts/plot_figs1a_flow.R
+singularity exec $CONTAINER Rscript analysis/flow_cytometry/figs1b_integration_efficiency_u2os_293t/scripts/plot_figs1b_flow.R
+singularity exec $CONTAINER Rscript analysis/polysome_profiling/figs2e_polysome_relic_hits/scripts/plot_figs2_polysomes.R
+singularity exec $CONTAINER Rscript analysis/qpcr/figs4_nmd_reporter_validation/scripts/plot_figs4_qpcr.R
+singularity exec $CONTAINER Rscript analysis/qpcr/figs5c_u937_gcn1_hht/scripts/plot_figs5c_qpcr.R
+singularity exec $CONTAINER Rscript analysis/qpcr/figs5d_zaki_gcn1_hht/scripts/plot_fig_s5d_qpcr.R
 
 #==============================================================================
 # SUMMARY
 #==============================================================================
 echo ""
-echo "=== PIPELINE SUMMARY ==="
-echo "✓ Figure generation pipeline completed successfully!"
+echo "=== ANALYSIS COMPLETE ==="
+echo "✓ All workflows executed successfully!"
+echo "✓ All figures generated and saved to analysis/*/figures/"
+echo "✓ Source data exported to source_data/"
 echo ""
-echo "Generated figures can be found in:"
-echo "  - analysis/flow_cytometry/fig1_eyfp_reporter_sgeyfp/figures/"
-echo "  - analysis/flow_cytometry/figs1a_eyfp_reporter_sgeyfp_u2os_293t/figures/"
-echo "  - analysis/flow_cytometry/figs1b_integration_efficiency_u2os_293t/figures/"
-echo "  - analysis/barcodeseq/rbp_barcode_screens/figures/"
-echo "  - analysis/rnaseq/figures/"
-echo "  - analysis/riboseq/figures/"
-echo "  - analysis/polysome_profiling/fig2a_polysome_relic/figures/"
-echo "  - analysis/polysome_profiling/figs2e_polysome_relic_hits/figures/"
-echo "  - analysis/qpcr/figs4_nmd_reporter_validation/figures/"
-echo "  - analysis/qpcr/figs5c_u937_gcn1_hht/figures/"
-echo "  - analysis/qpcr/figs5d_zaki_gcn1_hht/figures/"
-echo ""
-echo "Source data files written to:"
-echo "  - source_data/"
-echo ""
-echo "Containers stored in:"
-echo "  - containers/"
-echo ""
-echo "To view the complete figure table, see README.md"
+echo "See README.md for complete figure-to-code mapping"
 echo "All done! 🎉"
