@@ -13,6 +13,7 @@
 #
 # REQUIREMENTS:
 #   - R with required packages (tidyverse, rasilabRtemplates, etc.)
+#   - Singularity container system for specialized analyses
 #   - Data files in appropriate directories
 #
 # OUTPUT:
@@ -24,6 +25,25 @@
 set -e  # Exit on any error
 
 echo "=== Generating All Manuscript Figures ==="
+
+#==============================================================================
+# CONTAINER SETUP
+#==============================================================================
+echo "=== SETTING UP CONTAINERS ==="
+
+# Create local containers directory if it doesn't exist
+mkdir -p containers
+
+# Pull DESeq2 container for RNA-seq analysis
+echo "Pulling DESeq2 container for RNA-seq analysis..."
+if [ ! -f containers/deseq2_1.38.0.simg ]; then
+    singularity pull containers/deseq2_1.38.0.simg oras://ghcr.io/rasilab/deseq2:1.38.0
+    echo "✓ DESeq2 container downloaded"
+else
+    echo "✓ DESeq2 container already available"
+fi
+
+echo "✓ Container setup completed!"
 
 #==============================================================================
 # FIGURE 1: CRISPR Screen Validation and Fitness Analysis
@@ -59,6 +79,12 @@ echo "Running RNA-seq plasmid analysis workflow"
 cd analysis/rnaseq/scripts
 bash ../submit_local.sh run_analysis_plasmid.smk
 cd ../../../
+
+# RNA-seq fold change analysis using DESeq2 container
+echo "Running RNA-seq fold change analysis for GCN1 vs FLUC comparison"
+cd analysis/rnaseq
+singularity exec ../../containers/deseq2_1.38.0.simg Rscript scripts/analyze_fold_changes.R
+cd ../../
 
 # Figure 3d,3e,3f: Splicing screen results
 echo "Running Figure 3d,3e,3f - Splicing screen analysis"
@@ -198,6 +224,9 @@ echo "  - analysis/qpcr/figs5d_zaki_gcn1_hht/figures/"
 echo ""
 echo "Source data files written to:"
 echo "  - source_data/"
+echo ""
+echo "Containers stored in:"
+echo "  - containers/"
 echo ""
 echo "To view the complete figure table, see README.md"
 echo "All done! 🎉"
