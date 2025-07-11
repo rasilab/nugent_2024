@@ -80,8 +80,8 @@ cd analysis/rnaseq/scripts
 bash ../submit_local.sh run_analysis_plasmid.smk
 cd ../../../
 
-# RNA-seq fold change analysis using DESeq2 container
-echo "Running RNA-seq fold change analysis for GCN1 vs FLUC comparison"
+# Figure 5e: RNA-seq fold change analysis using DESeq2 container
+echo "Running Figure 5e - RNA-seq fold change analysis (GCN1 vs FLUC with HHT)"
 cd analysis/rnaseq
 singularity exec ../../containers/deseq2_1.38.0.simg Rscript scripts/analyze_fold_changes.R
 cd ../../
@@ -196,11 +196,6 @@ Rscript plot_fig_s5d_qpcr.R
 cd ../../../../
 
 echo "✓ Extended data generation completed!"
-
-#==============================================================================
-# FUTURE FIGURES (To be added)
-#==============================================================================
-echo "⚠ Flow cytometry and qPCR figures will be added in future updates"
 
 #==============================================================================
 # SUMMARY

@@ -136,6 +136,11 @@ plot_data_2 %>%
 
 ggsave("figures/scatter_plot_hht_treatment_gcn1_vs_fluc.pdf", width = 4.5, height = 2.8)
 
+# Save Figure 5e scatter plot source data
+plot_data_2 %>%
+  select(gene_name, lfc_ctrl, lfc, compare) %>%
+  write_csv("../../source_data/figure_5e_scatter.csv")
+
 ## IEG alone plot
 plot_data <- lfc %>% 
   filter(compare %in% c("sgfluc_1_2.6hvs0h", "sggcn1_1_2.6hvs0h", "sggcn1_3_4.6hvs0h")) %>%
@@ -161,3 +166,8 @@ plot_data %>%
   labs(y = "log2 mRNA fold-change\nHHT /  CTRL", x = "Gene")
 
 ggsave("figures/ieg_alone_plot_hht_treatment_gcn1_vs_fluc.pdf", width = 2.7, height = 2)
+
+# Save Figure 5e IEG plot source data
+plot_data %>%
+  select(gene_name, lfc, lfcSE, sgrna) %>%
+  write_csv("../../source_data/figure_5e_ieg.csv")
