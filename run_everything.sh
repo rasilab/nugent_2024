@@ -49,11 +49,12 @@ fi
 # Setup conda environment
 export PATH="$CONDA_DIR/bin:$PATH"
 source "$CONDA_DIR/etc/profile.d/conda.sh"
+"$CONDA_DIR/bin/conda" config --set channel_alias https://conda-forge.fredhutch.org
 
 # Create nugent_2024 environment with snakemake
 if ! conda env list | grep -q "^nugent_2024 "; then
     echo "Creating nugent_2024 environment..."
-    conda create -n nugent_2024 -c conda-forge -c bioconda snakemake -y
+    mamba create -n nugent_2024 -c conda-forge -c bioconda snakemake -y
 fi
 conda activate nugent_2024
 
