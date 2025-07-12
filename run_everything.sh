@@ -88,30 +88,30 @@ echo "=== RUNNING DATA PROCESSING WORKFLOWS ==="
 # Barcode-sgRNA linkage analysis
 echo "Running barcode-sgRNA linkage analysis..."
 cd analysis/barcodeseq/rbp_sgrna_barcode_linkage/scripts
-bash ../submit_local.sh -s run_analysis.smk
+bash submit_local.sh -s run_analysis.smk
 cd ../../../../
 
 # Main barcode sequencing analysis  
 echo "Running barcode sequencing analysis..."
 cd analysis/barcodeseq/rbp_barcode_screens/scripts
-bash ../submit_local.sh -s run_analysis.smk
+bash submit_local.sh -s run_analysis.smk
 cd ../../../../
 
 # RNA-seq analysis
 echo "Running RNA-seq genome analysis..."
 cd analysis/rnaseq/scripts
-bash ../submit_local.sh -s run_analysis.smk
+bash submit_local.sh -s run_analysis.smk
 cd ../../../
 
 echo "Running RNA-seq plasmid analysis..."
 cd analysis/rnaseq/scripts
-bash ../submit_local.sh -s run_analysis_plasmid.smk
+bash submit_local.sh -s run_analysis_plasmid.smk
 cd ../../../
 
 # Ribosome profiling analysis
 echo "Running ribosome profiling analysis..."
 cd analysis/riboseq/scripts
-bash ../submit_local.sh -s run_analysis.smk
+bash submit_local.sh -s run_analysis.smk
 cd ../../../
 
 #==============================================================================
