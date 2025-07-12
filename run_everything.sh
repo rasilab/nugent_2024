@@ -19,44 +19,37 @@ mkdir -p "$LOCAL_ENV_DIR"
 mkdir -p "$SINGULARITY_CACHE"
 
 # Set singularity cache directory
-export SINGULARITY_CACHEDIR="$SINGULARITY_CACHE"
+export APPTAINER_CACHEDIR="$SINGULARITY_CACHE"
+
 
 # Install conda, snakemake, and singularity if needed
 
-# Check if local conda is installed, install if needed
+# Install local conda if needed
 if [ ! -f "$CONDA_DIR/bin/conda" ]; then
-    echo "Installing Miniconda to project directory..."
-    CONDA_INSTALLER="$LOCAL_ENV_DIR/Miniconda3-latest-Linux-x86_64.sh"
-    wget -q https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O "$CONDA_INSTALLER"
-    bash "$CONDA_INSTALLER" -b -p "$CONDA_DIR"
-    rm "$CONDA_INSTALLER"
-    echo "✓ Miniconda installed to $CONDA_DIR"
-else
-    echo "✓ Local Conda already available at $CONDA_DIR"
+    echo "Installing Miniconda..."
+    wget -q https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O "$LOCAL_ENV_DIR/miniconda.sh"
+    bash "$LOCAL_ENV_DIR/miniconda.sh" -b -p "$CONDA_DIR"
+    rm "$LOCAL_ENV_DIR/miniconda.sh"
+fi
+
+# Check system requirements
+if ! command -v apptainer &> /dev/null; then
+    echo "ERROR: Apptainer not found. Please install system-wide:"
+    echo "  sudo add-apt-repository -y ppa:apptainer/ppa"
+    echo "  sudo apt update && sudo apt install -y apptainer"
+    exit 1
 fi
 
 # Setup conda environment
 export PATH="$CONDA_DIR/bin:$PATH"
 source "$CONDA_DIR/etc/profile.d/conda.sh"
 
-# Create/activate nugent_2024 environment
+# Create nugent_2024 environment with snakemake
 if ! conda env list | grep -q "^nugent_2024 "; then
     echo "Creating nugent_2024 environment..."
-    conda create -n nugent_2024 -c bioconda -c conda-forge snakemake singularity -y
-else
-    # Install missing packages if needed
-    conda activate nugent_2024
-    for pkg in "snakemake:bioconda" "singularity:conda-forge"; do
-        name="${pkg%:*}"
-        channel="${pkg#*:}"
-        if ! conda list "$name" &> /dev/null; then
-            echo "Installing $name..."
-            conda install -c "$channel" "$name" -y
-        fi
-    done
+    conda create -n nugent_2024 -c bioconda snakemake -y
 fi
 conda activate nugent_2024
-echo "✓ Environment ready"
 
 # Download all required containers
 
@@ -77,13 +70,16 @@ declare -A CONTAINERS=(
     ["star_2.7.11a"]="docker://ghcr.io/rasilab/star:2.7.11a"
 )
 
-# Pull all containers
+
 # Pull containers
 for CONTAINER_NAME in "${!CONTAINERS[@]}"; do
     SIF_PATH="$SINGULARITY_CACHE/${CONTAINER_NAME}.sif"
+    CONTAINER_URL="${CONTAINERS[$CONTAINER_NAME]}"
     if [ ! -f "$SIF_PATH" ]; then
         echo "Pulling $CONTAINER_NAME..."
-        singularity pull "$SIF_PATH" "${CONTAINERS[$CONTAINER_NAME]}"
+        cd "$SINGULARITY_CACHE"
+        apptainer pull "${CONTAINER_NAME}.sif" "$CONTAINER_URL"
+        cd "$PROJECT_DIR"
     fi
 done
 echo "✓ All containers ready"
@@ -113,7 +109,7 @@ echo "
 # Helper function to run R scripts
 run_r() {
     local container="${2:-r_python_1.3.0}"
-    singularity exec "$SINGULARITY_CACHE/${container}.sif" Rscript "$1"
+    apptainer exec "$APPTAINER_CACHE/${container}.sif" Rscript "$1"
 }
 
 # Main figures
