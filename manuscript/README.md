@@ -1,9 +1,3 @@
-# Manuscript Files
-
-This folder contains the manuscript and related documentation for the publication:
-
-**"Decoding post-transcriptional regulatory networks by RNA-linked CRISPR screening in human cells"**
-
 ## Contents
 
 - **[manuscript.md](manuscript.md)** - Complete manuscript text with embedded figures and hyperlinked navigation
