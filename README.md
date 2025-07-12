@@ -2,18 +2,12 @@
 
 **Patrick J. Nugent, Heungwon Park, Cynthia L. Wladyka, James N. Yelland, Sayantani Sinha, Katharine Y. Chen, Christine Bynum, Grace Quarterman, Stanley C. Lee, Andrew C. Hsieh & Arvind Rasi Subramaniam**
 
-*Correspondence: rasi@fredhutch.org*
-
 ***Nature Methods*** **22**, 1237–1246 (2025)
 
----
-
-[![Nature Methods](https://img.shields.io/badge/Nature%20Methods-Published-brightgreen?style=for-the-badge&logo=nature)](https://www.nature.com/articles/s41592-025-02702-6)
-[![bioRxiv](https://img.shields.io/badge/bioRxiv-Preprint-blue?style=for-the-badge&logo=biorxiv)](https://www.biorxiv.org/content/10.1101/2024.07.25.605204v1.full)
-[![Questions?](https://img.shields.io/badge/Questions%3F-GitHub%20Issues-orange?style=for-the-badge&logo=github)](https://github.com/rasilab/nugent_2024/issues/new/choose)
-[![Contact](https://img.shields.io/badge/Contact-Email-red?style=for-the-badge&logo=gmail)](mailto:rasi@fredhutch.org)
-
----
+**Publication:** [Nature Methods](https://www.nature.com/articles/s41592-025-02702-6)  
+**Preprint:** [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.07.25.605204v1.full)  
+**Questions?** [GitHub Issues](https://github.com/rasilab/nugent_2024/issues/new/choose)  
+**Contact:** [Arvind Rasi Subramaniam](mailto:rasi@fredhutch.org)
 
 **Repository Contents:**
 1. [🔬 Figure Code and Source Data](#-figure-code-and-source-data)
