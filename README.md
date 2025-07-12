@@ -14,10 +14,6 @@
 1. [📄 Manuscript](manuscript/)
 2. [🔬 Figure Code and Source Data](#-figure-code-and-source-data)
 3. [⚙️ How to Reproduce the Analysis](#️-how-to-reproduce-the-analysis)
-   1. [✅ Requirements](#-requirements)
-   2. [📦 Containers](#-containers)
-   3. [🚀 Run the Full Analysis](#-run-the-full-analysis)
-   4. [🧪 Interactive Analysis in Jupyter](#-interactive-analysis-in-jupyter)
 
 ---
 
