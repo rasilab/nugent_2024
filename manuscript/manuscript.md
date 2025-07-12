@@ -136,6 +136,93 @@ None
 
 **GCN1 regulates cellular responses to an anti-leukemic drug.** **a.** *Chemogenomic ReLiC screen using homoharringtonine (HHT).* ReLiC-RBP cell pool with an EYFP reporter was treated with 1 *μ*M HHT or DMSO for 6 hours after 7 days of Cas9 induction. **b.** *GCN1 regulates mRNA levels upon HHT treatment.* Each point represents a gene knockout. Vertical axis indicates P-values from a permutation test as calculated by MAGeCK. **c.** *mRNA level changes upon HHT treatment for factors known to resolve ribosome collisions.* Each point represents a distinct sgRNA pair from the ReLiC screen shown in b. P-values comparing the indicated perturbations to cells expressing the nontargeting NLuc control sgRNA are from a two-sided t-test: \*\* (0.001 \< P \< 0.01), ns (P \> 0.05). **d.** *Immunoblots for phosphorylation of p38 in HEK293T cells +/- GCN1.* Cells were treated with HHT (1 *μ*M), anisomycin (ANS, 10 *μ*M), or DMSO for 1 hour. **e.** *GCN1-dependent changes in endogenous mRNA expression upon HHT treatment.* RNA-Seq was performed after treatment with HHT (1 *μ*M) or DMSO for 6 hours. Each points corresponds to a gene and represents the ratio of its mRNA levels between HHT and DMSO treatment. Black highlighted points correspond to immediate early genes (IEGs), which are also shown separately in the lower panel. **f.** *Metagene alignment of ribosome P-site density in 5<sup>′</sup> UTR and CDS across all detected transcripts.* Ribosome profiling was performed on +/- GCN1 cells after HHT (1*μ*M) or DMSO treatment for 1 hour. **g.** *Ribosome P-site density in 5<sup>′</sup> UTR and CDS of JUN and MYC transcripts.* Horizontal axis indicates position along the transcript in nucleotides.
 
+### Extended Data Figure 1
+
+**ReLiC library design and validation.**  
+**a.**  *Validation of Cas9 activity in U2OS.*
+sgEYFP and sgCTRL are single guide RNAs targeting EYFP or a non-targeting control, respectively.
+Each histogram represents fluorescence of 10,000 cells as measured by flow cytometry.
+`Days post Cas9' refers to days after addition of doxycycline to induce Cas9 expression.  
+**b.**  *Comparison of integration into 293T and U2OS landing pads.*
+BFP and mCherry fluorescence were measured for 10,000 cells, depicted as individual points.
+Proportion of cells that are mCherry+ and BFP- (orange points) is indicated.
+No cells in either parental control are mCherry+ and BFP-.  
+**c.** *Depiction of cloning scheme for ReLiC library and reporters.*  
+**d.** *Distribution of barcode read counts for sgRNA pairs in mRNA and genomic DNA.*  
+**e.** *Number of unique barcodes linked to each sgRNA in ReLiC library.*  
+**f.** *Correlation between distinct barcode sets in ReLiC fitness screens.*
+Each point represents a unique sgRNA pair from the ReLiC RBP library.
+For each sgRNA pair, individual linked barcodes were randomly partitioned into two sets of equal size (or to within a barcode for odd number of detected barcodes).
+*r* refers to Pearson correlation coefficient between the barcode sets.
+
+### Extended Data Figure 2
+
+**Polysome ReLiC screen for regulators of mRNA translation.**  
+**a.** *Correlation between replicates.*
+Points represent individual sgRNAs in the ReLiC library.
+Polysome to monosome ratios are median-centered across sgRNAs in the library.
+*r* refers to Pearson correlation coefficient.  
+**b.** *Change in polysome to supernatant ratio for ribosomal protein and ribosome biogenesis genes.*
+Closed circles are genes that we call as gene hits (FDR < 0.05 with 3 or more concordant sgRNAs).
+Open circles are genes that do not pass our gene hit threshold.  
+**c.** *Gene ontology analysis of perturbations that decrease heavy polysome to monosome ratio.*  
+Gene ontology analysis performed using GOrilla [@Eden2009] and a subset of enriched terms representative of specific gene classes are shown.  
+**d.** *Comparison of heavy polysome to monosome and heavy polysome to supernatant ratios for selected translation-related factors.*  
+**e.** *Polysome profiles of cell lines depleted of screen hits*
+Profiles are normalized by 80S peak height.
+P/M indicates ratio of area under the curve for polysome fractions to monosome fractions.  
+**f.** *Comparison of heavy polysome to monosome ratio with growth fitness measured by mRNA and genomic DNA barcode seqencing 13 days after Cas9 induction for all gene knockouts.*  
+**g.** *Comparison of heavy polysome to monosome ratio with growth fitness measured by genomic DNA barcode sequencing for gene knockouts in specific groups.*
+Points correspond to genes targeted in the ReLiC-RBP library.
+Shaded areas correspond to 95% confidence intervals for a linear fit of polysome to monosome ratio to growth fitness within each gene group.
+
+### Extended Data Figure 3
+
+**Isoform-specific splicing screen using ReLiC.**  
+**a.** *Number of gene hits that increase the level of the indicated reporter isoform on indicated days after Cas9 induction.*  
+**b.** *Correlation between barcode sets.*
+For each sgRNA, individual linked barcodes were randomly partitioned into two sets, as in Extended Data Fig. 1d.
+Each point represents a unique gene that was classified as a hit either with barcode Set A or barcode set B.
+*r* refers to Pearson correlation coefficient between barcode sets.  
+**c.** *Correlation between relative levels of different mRNA isoforms.*
+Values represent Pearson correlation coefficients for pairwise comparison between the two barcode sets in B.  
+**d.** *Depletion of genomic DNA barcodes corresponding to SF3b complex subunits after Cas9 induction.*
+
+### Extended Data Figure 4
+
+**Dissecting mRNA quality control using ReLiC.**  
+**a.** *Validation of β-globin NMD reporters.* 
+Relative reporter mRNA levels measured by qPCR (n=3).
+Y-axis represents -ΔΔC~t~ value of indicated reporter mRNA relative to mCherry-Puro control mRNA.  
+**b.** *Gene ontology analysis of perturbations that increase PTC reporter mRNA levels.*    
+**c.** *Volcano plot of reporter mRNA levels with dual barcode screen.*  
+Each point corresponds to a gene targeted by the ReLiC library.
+Marker shape and color denotes one of highlighted gene groups.
+Genes with FDR < 0.05 and belonging to one of the highlighted groups are listed in the legend.   
+**d.** *PTC reporter levels for individual translation initiation complex subunits.*
+Points denote mean and error bars denote standard deviation across sgRNAs for each gene.
+P-values are as calculated by MAGeCK.   
+**e.** *Growth fitness after depletion of translation initiation complex subunits.*
+
+### Extended Data Figure 5
+
+**GCN1 regulates cellular responses to the anti-leukemic drug homoharringtonine.**  
+**a.** *Regulation of EYFP reporter levels by GCN2 after HHT treatment.*
+Cell lines were treated with 1 μM GCN2i for 30m prior to 6h of 1 μM HHT treatment.
+Y-axis represents the ratio of EYFP reporter barcode counts during indicated treatment compared to the DMSO-treated control in cells expressing indicated sgRNA.
+**b.** *ZAK-dependent phosphorylation of p38 in HEK293T cells +/- GCN1 treated with HHT.* 
+Cells were treated with nilotinib (1 μM) or DMSO for 30 minutes prior to addition of homoharringtonine (1 μM) treatment or DMSO for 1 hour.  
+**c.** *GCN1-dependent changes to endogenous mRNA expression after HHT treatment in U937 cells.*
+U937 cell lines were treated with indicated HHT concentrations or DMSO as a vehicle control for 6h.
+Y-axis represents -ΔΔC~t~ value of either *EGR1* or *JUN* mRNA relative to *GAPDH* mRNA as measured by RT-qPCR (n = 3).  
+**d.** *Regulation of endogenous mRNA expression by GCN2 and ZAK after HHT treatment.*
+Cell lines were treated with 1 μM GCN2i or 1 μM of the ZAK inhibitors nilotinib and vemurafenib for 30m prior to 6h of 1 μM HHT treatment.
+Y-axis represents -ΔΔC~t~ value of either *EGR1* or *JUN* mRNA relative to *GAPDH* mRNA as measured by RT-qPCR (n=3).  
+**e.** *Polysome profiles of GCN1-depleted and control cell lines after HHT treatment.*  
+Cells were treated with 1 μM HHT or DMSO for 1 hour prior to lysis. 
+Polysome lysates were digested with 1 U micrococcal nuclease / μg of RNA prior to sucrose gradient sedimentation to isolate RNAse-resistant monosomes and disomes.  
+**f.** *Ribosome P-site density on JUN and MYC mRNAs from previous ribosome profiling studies using harringtonine or lactimidomycin to arrest initiating ribosomes.*
+
 ## References
 
 <div id="refs" class="references csl-bib-body" line-spacing="2">
