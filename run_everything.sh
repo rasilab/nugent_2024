@@ -30,10 +30,12 @@ export APPTAINER_CACHEDIR="$SINGULARITY_CACHE"
 
 # Install local conda if needed
 if [ ! -f "$CONDA_DIR/bin/conda" ]; then
-    echo "Installing Miniconda..."
-    wget -q https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O "$LOCAL_ENV_DIR/miniconda.sh"
-    bash "$LOCAL_ENV_DIR/miniconda.sh" -b -p "$CONDA_DIR"
-    rm "$LOCAL_ENV_DIR/miniconda.sh"
+    echo "Installing Miniforge..."
+    wget -q https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh -O "$LOCAL_ENV_DIR/miniforge.sh"
+    bash "$LOCAL_ENV_DIR/miniforge.sh" -b -p "$CONDA_DIR"
+    rm "$LOCAL_ENV_DIR/miniforge.sh"
+    # Remove defaults channel to avoid licensing issues
+    "$CONDA_DIR/bin/conda" config --remove channels defaults 2>/dev/null || true
 fi
 
 # Check system requirements
@@ -51,7 +53,7 @@ source "$CONDA_DIR/etc/profile.d/conda.sh"
 # Create nugent_2024 environment with snakemake
 if ! conda env list | grep -q "^nugent_2024 "; then
     echo "Creating nugent_2024 environment..."
-    conda create -n nugent_2024 -c bioconda snakemake -y
+    conda create -n nugent_2024 -c conda-forge -c bioconda snakemake -y
 fi
 conda activate nugent_2024
 
