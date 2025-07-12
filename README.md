@@ -1,10 +1,21 @@
 # Decoding post-transcriptional regulatory networks by RNA-linked CRISPR screening in human cells
 
+**Patrick J. Nugent<sup>1</sup>, Heungwon Park<sup>1</sup>, Cynthia L. Wladyka<sup>1</sup>, James N. Yelland<sup>1</sup>, Sayantani Sinha<sup>1</sup>, Katharine Y. Chen<sup>1</sup>, Christine Bynum<sup>1</sup>, Grace Quarterman<sup>1</sup>, Stanley C. Lee<sup>1</sup>, Andrew C. Hsieh<sup>1</sup> & Arvind Rasi Subramaniam<sup>1,2,\*</sup>**
 
-**Publication:** [Nature Methods](https://www.nature.com/articles/s41592-025-02702-6)  
-**Preprint:** [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.07.25.605204v1.full)  
-**Questions?** [GitHub Issues](https://github.com/rasilab/nugent_2024/issues/new/choose)  
-**Contact:** [Arvind Rasi Subramaniam](mailto:rasi@fredhutch.org), [Patrick Nugent](mailto:pnugent@fredhutch.org)
+<sup>1</sup>*Basic Sciences Division, Fred Hutchinson Cancer Center, Seattle, WA, USA*  
+<sup>2</sup>*Department of Genome Sciences, University of Washington, Seattle, WA, USA*  
+<sup>\*</sup>*Correspondence: rasi@fredhutch.org*
+
+***Nature Methods*** **22**, 1237–1246 (2025)
+
+---
+
+[![Nature Methods](https://img.shields.io/badge/Nature%20Methods-Published-brightgreen?style=for-the-badge&logo=nature)](https://www.nature.com/articles/s41592-025-02702-6)
+[![bioRxiv](https://img.shields.io/badge/bioRxiv-Preprint-blue?style=for-the-badge&logo=biorxiv)](https://www.biorxiv.org/content/10.1101/2024.07.25.605204v1.full)
+[![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-orange?style=for-the-badge&logo=github)](https://github.com/rasilab/nugent_2024/issues/new/choose)
+[![Contact](https://img.shields.io/badge/Contact-Email-red?style=for-the-badge&logo=gmail)](mailto:rasi@fredhutch.org)
+
+---
 
 **Repository Contents:**
 1. [🔬 Figure Code and Source Data](#-figure-code-and-source-data)
