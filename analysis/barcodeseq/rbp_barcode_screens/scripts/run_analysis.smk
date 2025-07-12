@@ -10,6 +10,10 @@ import pandas as pd
 import re
 import itertools as it
 
+# container directory configuration
+container_dir = config.get('container_dir', '../../../.env/singularity_cache')
+
+# containers are now specified as direct paths
 
 # configuration specific to this analysis
 sample_annotations = (
@@ -96,7 +100,7 @@ rule download_sra:
   output:
     '../data/sra/{srr}.sra'
   threads: 1 
-  container: "docker://ghcr.io/rasilab/sratools:3.0.8"
+  singularity: f"{container_dir}/sratools_3.0.8.sif"
   shell:
     """
     set +e # continue if there is an error code
@@ -118,7 +122,7 @@ checkpoint get_fastq:
   params:
     directory = '../data/fastq'
   threads: 36
-  container: "docker://ghcr.io/rasilab/parallel_fastq_dump:0.6.7"
+  singularity: f"{container_dir}/parallel_fastq_dump_0.6.7.sif"
   shell:
     """
     set +e # continue if there is an error code
@@ -154,7 +158,7 @@ rule extract_barcodes_and_count_umi_read:
     umi_start = lambda w: illumina_sample_annotations.loc[w.illumina_sample_id, 'umi_start'],
     umi_length = lambda w: illumina_sample_annotations.loc[w.illumina_sample_id, 'umi_length'],
   log: "../data/barcode_umi_and_read_counts/{illumina_sample_id}.log"
-  container: 'docker://ghcr.io/rasilab/python:1.0.0'
+  singularity: f"{container_dir}/python_1.0.0.sif"
   shell: 
     """
     set +o pipefail;
@@ -202,7 +206,7 @@ rule subset_to_linked_barcodes:
     umi_count_column=3,
     read_count_column=4,
   log: '../data/linked_barcode_counts/{illumina_sample_id}.log'
-  container: 'docker://ghcr.io/rasilab/python:1.0.0'
+  singularity: f"{container_dir}/python_1.0.0.sif"
   shell:
     """
     awk '
@@ -239,7 +243,7 @@ rule extract_subpool_barcodes_and_count:
     subpool_barcode = lambda w: sample_annotations.loc[w.sample_id, 'subpool_barcode'],
   log:
     '../data/subpool_barcode_counts/{sample_id}.log'
-  container: 'docker://ghcr.io/rasilab/r:1.0.0'
+  singularity: f"{container_dir}/r_1.0.0.sif"
   shell:
     """
     Rscript {input.script} {params.subpool_barcode} {wildcards.sample_id} {input.linked_count_file} {output} &> {log}
@@ -260,7 +264,7 @@ rule count_reads_umis_barcodes_per_insert:
     is_grna = lambda w: int('grna' in sample_annotations.loc[w.sample_id, 'sample_name']),
   log:
     '../data/insert_counts/{sample_id}.log'
-  container: 'docker://ghcr.io/rasilab/python:1.0.0'
+  singularity: f"{container_dir}/python_1.0.0.sif"
   shell:
     """
     awk '
@@ -309,7 +313,7 @@ rule count_reads_umis_barcodes_per_insert_random_partition:
     is_grna = lambda w: int('grna' in sample_annotations.loc[w.sample_id, 'sample_name']),
   log:
     '../data/insert_counts_random_partition/{sample_id}.log'
-  container: 'docker://ghcr.io/rasilab/python:1.0.0'
+  singularity: f"{container_dir}/python_1.0.0.sif"
   shell:
     """
     awk '
@@ -358,7 +362,7 @@ rule extract_library_statistics:
     umi_cutoff = umi_cutoff
   log:
     '../data/library_statistics/{sample_id}.log'
-  container: 'docker://ghcr.io/rasilab/r:1.0.0'
+  singularity: f"{container_dir}/r_1.0.0.sif"
   shell:
     """
     Rscript {input.script} {input.raw_count_file} {input.subpool_count_file} {params.umi_cutoff} {output.library_stats} &> {log}
@@ -377,7 +381,7 @@ rule get_mageck_input:
     mageck_inputs = '../data/mageck/{treatment}_vs_{control}/input_counts.tsv'
   params:
     umi_cutoff = umi_cutoff,
-  container: 'docker://ghcr.io/rasilab/r:1.0.0'
+  singularity: f"{container_dir}/r_1.0.0.sif"
   shell:
     """
     Rscript {input.script} {input.treatment_file} {input.control_file} {input.insert_annotations} {params.umi_cutoff} {output.mageck_inputs} 
@@ -396,7 +400,7 @@ rule get_mageck_input_random_partition:
     mageck_inputs = '../data/mageck_random_partition/{treatment}_vs_{control}/input_counts.tsv'
   params:
     umi_cutoff = umi_cutoff,
-  container: 'docker://ghcr.io/rasilab/r:1.0.0'
+  singularity: f"{container_dir}/r_1.0.0.sif"
   shell:
     """
     Rscript {input.script} {input.treatment_file} {input.control_file} {input.insert_annotations} {params.umi_cutoff} {output.mageck_inputs} 
@@ -413,7 +417,7 @@ rule run_mageck:
     mageck_sgrna_summary = '../data/mageck/{treatment}_vs_{control}/mageck.sgrna_summary.tsv',
   params:
     output_prefix = '../data/mageck/{treatment}_vs_{control}/mageck'
-  container: 'docker://ghcr.io/rasilab/mageck:0.5.9'
+  singularity: f"{container_dir}/mageck_0.5.9.sif"
   log: '../data/mageck/{treatment}_vs_{control}/mageck_output.log'
   shell:
     """
@@ -436,7 +440,7 @@ rule run_mageck_random_partition:
     mageck_sgrna_summary = '../data/mageck_random_partition/{treatment}_vs_{control}/mageck.sgrna_summary.tsv',
   params:
     output_prefix = '../data/mageck_random_partition/{treatment}_vs_{control}/mageck'
-  container: 'docker://ghcr.io/rasilab/mageck:0.5.9'
+  singularity: f"{container_dir}/mageck_0.5.9.sif"
   log: '../data/mageck/{treatment}_vs_{control}/mageck_output.log'
   shell:
     """
@@ -460,7 +464,7 @@ rule combine_mageck_tables:
   output:
     gene_summary = '../data/mageck/gene_summary_table.csv.gz',
     sgrna_summary = '../data/mageck/sgrna_summary_table.csv.gz',
-  container: 'docker://ghcr.io/rasilab/r:1.0.0'
+  singularity: f"{container_dir}/r_1.0.0.sif"
   shell:
     """
       Rscript {input.script}

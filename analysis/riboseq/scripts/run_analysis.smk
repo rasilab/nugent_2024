@@ -4,6 +4,10 @@ import pandas as pd
 import re
 import itertools as it
 
+# container directory configuration
+container_dir = config.get('container_dir', '../../../.env/singularity_cache')
+
+# containers are now specified as direct paths
 
 # configuration specific to this analysis
 sample_annotations = (
@@ -50,7 +54,7 @@ rule download_sra:
   output:
     '../data/sra/{srr}.sra'
   threads: 1 
-  container: "docker://ghcr.io/rasilab/sratools:3.0.8"
+  singularity: f"{container_dir}/sratools_3.0.8.sif"
   shell:
     """
     set +e # continue if there is an error code
@@ -72,7 +76,7 @@ checkpoint get_fastq:
   params:
     directory = '../data/fastq'
   threads: 36
-  container: "docker://ghcr.io/rasilab/parallel_fastq_dump:0.6.7"
+  singularity: f"{container_dir}/parallel_fastq_dump_0.6.7.sif"
   shell:
     """
     set +e # continue if there is an error code
@@ -104,7 +108,7 @@ rule trim_linker:
   threads: 36
   log:
     '../data/trim/{sample_id}.log'
-  container: "docker://ghcr.io/rasilab/cutadapt:4.4"
+  singularity: f"{container_dir}/cutadapt_4.4.sif"
   shell:
       """
       cutadapt \
@@ -132,7 +136,7 @@ rule download_ribosomal_rrna_sequences:
     rrna_18s = "NR_003286.3",
     rrna_5s = "NR_023363.1",
     rrna_58s = "NR_003285.2"
-  container: "docker://ghcr.io/rasilab/entrez-direct:16.2"
+  singularity: f"{container_dir}/entrez-direct_16.2.sif"
   shell:
     """
     esearch -db nucleotide -query {params.rrna_28s} | efetch -format fasta > {output.rrna_28s}
@@ -154,7 +158,7 @@ rule make_bowtie_rrna_index:
   threads: 12
   params:
     index = '../data/bowtie/rrna'
-  container: "docker://ghcr.io/rasilab/bowtie:1.3.1"
+  singularity: f"{container_dir}/bowtie_1.3.1.sif"
   shell:
     """
     bowtie-build \
@@ -176,7 +180,7 @@ rule remove_rrna:
   log:
     '../data/norrna/{sample_id}.log'
   threads: 36
-  container: "docker://ghcr.io/rasilab/bowtie:1.3.1"
+  singularity: f"{container_dir}/bowtie_1.3.1.sif"
   shell:
     """
     bowtie \
@@ -192,7 +196,7 @@ rule remove_rrna:
 rule download_mane_tx_fasta:
     input:
     output: "../data/mane/MANE.GRCh38.v1.3.ensembl_rna.fna"
-    singularity: "docker://ghcr.io/rasilab/python:1.0.0"
+    singularity: f"{container_dir}/python_1.0.0.sif"
     params:
       annotations_url = 'https://ftp.ncbi.nlm.nih.gov/refseq/MANE/MANE_human/release_1.3/MANE.GRCh38.v1.3.ensembl_rna.fna.gz'
     shell:
@@ -207,7 +211,7 @@ rule make_transcriptome_bowtie_index:
   params: 
     index = "../data/mane/MANE.GRCh38.v1.3.ensembl_rna",
   threads: 36
-  container: "docker://ghcr.io/rasilab/bowtie:1.3.1"
+  singularity: f"{container_dir}/bowtie_1.3.1.sif"
   shell:
     """
     bowtie-build \
@@ -227,7 +231,7 @@ rule align_transcriptome:
   params:
     index =  "../data/mane/MANE.GRCh38.v1.3.ensembl_rna"
   threads: 36
-  container: "docker://ghcr.io/rasilab/bowtie:1.3.1"
+  singularity: f"{container_dir}/bowtie_1.3.1.sif"
   shell:
     """
     bowtie \
@@ -247,7 +251,7 @@ rule make_plasmid_bowtie_index:
   params: 
     index = "../data/plasmid_bowtie/pHPHS232_pHPHS800_pPNHS189",
   threads: 36
-  container: "docker://ghcr.io/rasilab/bowtie:1.3.1"
+  singularity: f"{container_dir}/bowtie_1.3.1.sif"
   shell:
     """
     bowtie-build \
@@ -267,7 +271,7 @@ rule align_plasmids:
   params:
     index =  "../data/plasmid_bowtie/pHPHS232_pHPHS800_pPNHS189"
   threads: 36
-  container: "docker://ghcr.io/rasilab/bowtie:1.3.1"
+  singularity: f"{container_dir}/bowtie_1.3.1.sif"
   shell:
     """
     bowtie \
@@ -290,7 +294,7 @@ rule sort_and_index_alignments:
         bam = '../data/alignments/{sample}.bam',
         bai = '../data/alignments/{sample}.bam.bai',
     threads: 36
-    singularity: "docker://ghcr.io/rasilab/samtools:1.16.1"
+    singularity: f"{container_dir}/samtools_1.16.1.sif"
     shell:
         """
         samtools view -@ {threads} -b {input.sam} > {output.bam}.unsorted
@@ -308,7 +312,7 @@ rule count_transcript_reads:
     output:
         counts = '../data/tx_counts/{sample}.tsv',
     threads: 1
-    container: "docker://ghcr.io/rasilab/samtools:1.16.1"
+    singularity: f"{container_dir}/samtools_1.16.1.sif"
     shell:
         """
         samtools idxstats {input.bam} | cut -f 1,3 | sort -k2nr > {output.counts}

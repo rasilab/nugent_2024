@@ -8,6 +8,11 @@ import os
 import pandas as pd
 import itertools as it
 
+# container directory configuration
+container_dir = config.get('container_dir', '../../../.env/singularity_cache')
+
+# containers are now specified as direct paths
+
 # configuration specific to this analysis
 sample_annotations = pd.read_table("../annotations/sample_annotations.csv", 
                                    sep=",", comment="#", dtype=object).set_index('sample_id')
@@ -67,7 +72,7 @@ rule download_sra:
   output:
     '../data/sra/{srr}.sra'
   threads: 1 
-  container: "docker://ghcr.io/rasilab/sratools:3.0.8"
+  singularity: f"{container_dir}/sratools_3.0.8.sif"
   shell:
     """
     set +e # continue if there is an error code
@@ -89,7 +94,7 @@ checkpoint get_fastq:
   params:
     directory = '../data/fastq'
   threads: 36
-  container: "docker://ghcr.io/rasilab/parallel_fastq_dump:0.6.7"
+  singularity: f"{container_dir}/parallel_fastq_dump_0.6.7.sif"
   shell:
     """
     set +e # continue if there is an error code
@@ -114,7 +119,7 @@ rule download_genome:
     input:
     output: "../data/ensembl/genome/Homo_sapiens.GRCh38.dna_rm.chromosome.{chr}.fa"
     log: "../data/ensembl/genome/wget.{chr}.log"
-    singularity: "docker://ghcr.io/rasilab/python:1.0.0"
+    singularity: f"{container_dir}/python_1.0.0.sif"
     params:
         filename = "Homo_sapiens.GRCh38.dna_rm.chromosome.{chr}.fa.gz",
         genome_url = "https://ftp.ensembl.org/pub/release-108/fasta/homo_sapiens/dna/"
@@ -130,7 +135,7 @@ rule download_ensembl_annotations:
     output: "../data/ensembl/Homo_sapiens.GRCh38.108.gtf",
     log:
         ensembl_log = "../data/ensembl/wget.log"
-    singularity: "docker://ghcr.io/rasilab/python:1.0.0"
+    singularity: f"{container_dir}/python_1.0.0.sif"
     params:
         chr = list(range(1,23)) + ['X', 'MT'],
         annotations_url = "https://ftp.ensembl.org/pub/release-108/gtf/homo_sapiens/Homo_sapiens.GRCh38.108.gtf.gz"
@@ -153,7 +158,7 @@ rule create_ensembl_splice_site_database:
         annotated_splice_sites = "../data/ensembl/Homo_sapiens.GRCh38.108.annotated.ss",
         all_splice_sites = "../data/ensembl/Homo_sapiens.GRCh38.108.all.ss",
         splice_annotations = "../data/ensembl/Homo_sapiens.GRCh38.108.all.ss.tsv"
-    singularity: "docker://ghcr.io/rasilab/python:1.0.0"
+    singularity: f"{container_dir}/python_1.0.0.sif"
     shell:
         """
         python extract_splice_site_annotations.py {input.annotations} 1> {output.splice_annotations}
@@ -173,7 +178,7 @@ rule create_genome_index_for_alignment:
         index_file = "../data/star/Homo_sapiens.GRCh38genome.108tran/genomeParameters.txt"
     params:
         genomeDir = "../data/star/Homo_sapiens.GRCh38genome.108tran/"
-    singularity: "docker://ghcr.io/rasilab/star:2.7.11a"
+    singularity: f"{container_dir}/star_2.7.11a.sif"
     threads: 36
     shell:
         """
@@ -202,7 +207,7 @@ rule genome_annotated_align:
         genomeDir = "../data/star/Homo_sapiens.GRCh38genome.108tran",
         input_file_string = get_split_read_files_input,
         outFileNamePrefix = "../data/alignments/genome_{sample_id}/"
-    singularity: "docker://ghcr.io/rasilab/star:2.7.11a"
+    singularity: f"{container_dir}/star_2.7.11a.sif"
     shell:
         """
         STAR \
@@ -228,7 +233,7 @@ rule sort_and_index_alignments:
         bam = '../data/{folder}/{sample_name}.bam',
         bai = '../data/{folder}/{sample_name}.bam.bai',
     threads: 36
-    singularity: "docker://ghcr.io/rasilab/samtools:1.16.1"
+    singularity: f"{container_dir}/samtools_1.16.1.sif"
     shell:
         """
         # convert to BAM
@@ -261,7 +266,7 @@ rule calculate_intron_counts_genome:
     output: '../data/intron_counts/genome_{sample_name}.csv'
     log: '../data/intron_counts/genome_{sample_name}.log'
     threads: 1
-    singularity: "docker://ghcr.io/rasilab/r:1.0.0"
+    singularity: f"{container_dir}/r_1.0.0.sif"
     shell:
         """
         Rscript {input.script} \
@@ -286,7 +291,7 @@ rule analyze_exon_skipping:
         fig2 = "../figures/skipped_exon_isoform_change.png"
     log: "../logs/analyze_exon_skipping.log"
     threads: 1
-    singularity: "docker://ghcr.io/rasilab/r:1.0.0"
+    singularity: f"{container_dir}/r_1.0.0.sif"
     shell:
         """
         Rscript {input.script} &> {log}
@@ -306,7 +311,7 @@ rule analyze_intron_coverage_genome:
         fig2 = "../figures/retained_intron_isoform_change.png"
     log: "../logs/analyze_intron_coverage_genome.log"
     threads: 1
-    singularity: "docker://ghcr.io/rasilab/r:1.0.0"
+    singularity: f"{container_dir}/r_1.0.0.sif"
     shell:
         """
         Rscript {input.script} &> {log}
@@ -324,7 +329,7 @@ rule make_rna_seq_coverage_plots:
         fig2 = "../figures/rpl24_cvg.png"
     log: "../logs/make_rna_seq_coverage_plots.log"
     threads: 1
-    singularity: "docker://ghcr.io/rasilab/r:1.0.0"
+    singularity: f"{container_dir}/r_1.0.0.sif"
     shell:
         """
         Rscript {input.script} &> {log}

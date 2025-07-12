@@ -9,6 +9,9 @@ import pandas as pd
 import re
 import itertools as it
 
+# Container directory path
+container_dir = config.get('container_dir', '../../../.env/singularity_cache')
+
 
 # configuration specific to this analysis
 sample_annotations = pd.read_table("../annotations/sample_annotations.csv", 
@@ -52,7 +55,7 @@ rule download_sra:
   output:
     '../data/sra/{srr}.sra'
   threads: 1 
-  container: "docker://ghcr.io/rasilab/sratools:3.0.8"
+  singularity: f"{container_dir}/sratools_3.0.8.sif"
   shell:
     """
     set +e # continue if there is an error code
@@ -75,7 +78,7 @@ rule get_fastq:
   params:
     directory = '../data/fastq'
   threads: 36
-  container: "docker://ghcr.io/rasilab/parallel_fastq_dump:0.6.7"
+  singularity: f"{container_dir}/parallel_fastq_dump_0.6.7.sif"
   shell:
     """
     set +e # continue if there is an error code
@@ -114,7 +117,7 @@ rule count_insert_barcodes:
     barcode2_start = lambda w: sample_annotations.loc[w.sample_id, 'barcode2_start'],
     barcode2_length = lambda w: sample_annotations.loc[w.sample_id, 'barcode2_length'],
   log: '../data/insert_barcode_counts/{sample_id}.log'
-  container: 'docker://ghcr.io/rasilab/python:1.0.0'
+  singularity: f"{container_dir}/python_1.0.0.sif"
   shell: 
     """
     set +o pipefail;
@@ -155,7 +158,7 @@ rule subset_to_annotated_inserts:
     insert1_seq_column = 2,
     insert2_seq_column = 3,
   log: '../data/annotated_insert_barcode_counts/{sample_id}.log'
-  container: 'docker://ghcr.io/rasilab/python:1.0.0'
+  singularity: f"{container_dir}/python_1.0.0.sif"
   shell:
     """
     awk '
@@ -206,7 +209,7 @@ rule align_barcodes1_against_themselves:
     barcode_seq_column = 4,
     read_count_cutoff = read_count_cutoff,
   threads: 36
-  container: 'docker://ghcr.io/rasilab/bowtie2:2.4.5'
+  singularity: f"{container_dir}/bowtie2_2.4.5.sif"
   shell:
     """
     # write the input file to a fasta file of barcodes with name as barcode_num col from input_file
@@ -246,7 +249,7 @@ rule align_barcodes2_against_themselves:
     barcode_seq_column = 5,
     read_count_cutoff = read_count_cutoff,
   threads: 36
-  container: 'docker://ghcr.io/rasilab/bowtie2:2.4.5'
+  singularity: f"{container_dir}/bowtie2_2.4.5.sif"
   shell:
     """
     # write the input file to a fasta file of barcodes with name as barcode_num col from input_file
@@ -281,7 +284,7 @@ rule filter_barcodes:
     read_count_cutoff = read_count_cutoff
   log:
     '../data/filtered_barcodes/{sample_id}.log',
-  container: 'docker://ghcr.io/rasilab/r:1.0.0'
+  singularity: f"{container_dir}/r_1.0.0.sif"
   shell:
     """
     jupyter nbconvert --to script --ExecutePreprocessor.kernel_name=ir {input.notebook}

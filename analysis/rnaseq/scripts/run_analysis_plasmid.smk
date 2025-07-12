@@ -8,6 +8,11 @@ import os
 import pandas as pd
 import itertools as it
 
+# container directory configuration
+container_dir = config.get('container_dir', '../../../.env/singularity_cache')
+
+# containers are now specified as direct paths
+
 # configuration specific to this analysis
 sample_annotations = pd.read_table("../annotations/sample_annotations.csv", 
                                    sep=",", comment="#", dtype=object).set_index('sample_id')
@@ -46,7 +51,7 @@ rule create_plasmid_splice_site_database:
     output:
         splice_sites = "../annotations/plasmids/{plasmid}.ss",
         splice_annotations = "../annotations/plasmids/{plasmid}.ss.tsv",
-    singularity: "docker://ghcr.io/rasilab/python:1.0.0"
+    singularity: f"{container_dir}/python_1.0.0.sif"
     shell:
         """
         python extract_all_possible_splice_sites.py {input.annotations} 1> {output.splice_sites}
@@ -66,7 +71,7 @@ rule create_plasmid_index_for_alignment:
     params:
         genomeDir = "../data/star/{plasmid}/",
         genomeSAindexNbases = 6
-    singularity: "docker://ghcr.io/rasilab/star:2.7.11a"
+    singularity: f"{container_dir}/star_2.7.11a.sif"
     threads: 36
     shell:
         """
@@ -95,7 +100,7 @@ rule plasmid_align:
         genomeDir = lambda w: f"../data/star/{sample_annotations.loc[w.sample_id, 'plasmid']}/",
         input_file_string = get_split_read_files_input,
         outFileNamePrefix = "../data/alignments/plasmids_{sample_id}/"
-    singularity: "docker://ghcr.io/rasilab/star:2.7.11a"
+    singularity: f"{container_dir}/star_2.7.11a.sif"
     shell:
         """
         STAR \
@@ -120,7 +125,7 @@ rule sort_and_index_alignments:
         bam = '../data/{folder}/{sample_name}.bam',
         bai = '../data/{folder}/{sample_name}.bam.bai',
     threads: 36
-    singularity: "docker://ghcr.io/rasilab/samtools:1.16.1"
+    singularity: f"{container_dir}/samtools_1.16.1.sif"
     shell:
         """
         # convert to BAM
@@ -142,7 +147,7 @@ rule calculate_intron_counts_plasmid:
     output: '../data/intron_counts/plasmids_{sample_name}.csv'
     log: '../data/intron_counts/plasmids_{sample_name}.log'
     threads: 1
-    singularity: "docker://ghcr.io/rasilab/r:1.0.0"
+    singularity: f"{container_dir}/r_1.0.0.sif"
     shell:
         """
         Rscript {input.script} \
@@ -163,7 +168,7 @@ rule make_plasmid_rna_seq_coverage_plots:
         fig = "../figures/globin_cvg.png"
     log: "../logs/make_plasmid_rna_seq_coverage_plots.log"
     threads: 1
-    singularity: "docker://ghcr.io/rasilab/r:1.0.0"
+    singularity: f"{container_dir}/r_1.0.0.sif"
     shell:
         """
         Rscript {input.script} &> {log}
