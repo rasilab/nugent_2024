@@ -1,0 +1,23 @@
+# Manuscript Files
+
+This folder contains the manuscript and related documentation for the publication:
+
+**"Decoding post-transcriptional regulatory networks by RNA-linked CRISPR screening in human cells"**
+
+## Contents
+
+- **[manuscript.md](manuscript.md)** - Complete manuscript text with hyperlinked figures, optimized for GitHub display
+- **[supplementary_information.md](supplementary_information.md)** - Extended Data figure legends and supplementary table descriptions
+- **[figures/](figures/)** - All manuscript figures in PNG and SVG formats
+  - Main figures: `fig1.png`, `fig2.png`, etc.
+  - Extended Data figures: `figs1.png`, `figs2.png`, etc.
+
+## Usage
+
+The manuscript.md file includes:
+- Clickable figure references that link to the corresponding PNG files
+- Proper hierarchical heading structure
+- All Extended Data figure captions integrated into the main document
+- GitHub-optimized formatting for easy reading
+
+For the published version, see: [Nature Methods](https://www.nature.com/articles/s41592-025-02702-6)
