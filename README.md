@@ -6,7 +6,7 @@
 
 **Publication:** [Nature Methods](https://www.nature.com/articles/s41592-025-02702-6)  
 **Preprint:** [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.07.25.605204v1.full)  
-**Manuscript:** [GitHub-optimized version](manuscript/manuscript.md) | [Supplementary Information](manuscript/supplementary_information.md)  
+**Manuscript:** [GitHub-optimized Markdown](manuscript/manuscript.md)  
 **Questions?** [GitHub Issues](https://github.com/rasilab/nugent_2024/issues/new/choose)  
 **Contact:** [Arvind Rasi Subramaniam](mailto:rasi@fredhutch.org)
 
