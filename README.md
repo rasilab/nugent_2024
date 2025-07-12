@@ -77,31 +77,50 @@ This table maps each manuscript figure to its plotting script and source data.
 
 This repository follows best practices for computational reproducibility in the life sciences, as described in [Grüning *et al.*, 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6263957/).
 
+### 🔧 System Requirements
+
+**Container Runtime (Required):**
+Install Apptainer system-wide for container execution:
+```bash
+# Ubuntu/Debian
+sudo add-apt-repository -y ppa:apptainer/ppa
+sudo apt update && sudo apt install -y apptainer
+```
+
+**Other Dependencies:**
+- Git (for cloning repository)
+- wget (for downloading conda installer) 
+- At least 50GB free disk space
+
+**Alternative Setups:**
+- **Fred Hutch users:** Use `module load Singularity snakemake` instead
+- **Docker users:** Can substitute Docker for Apptainer (requires modifying submit_local.sh)
+
 ### 🚀 Run the Full Analysis
 
 **Simple one-step execution:**
-
 ```bash
 bash run_everything.sh
 ```
 
-The script automatically handles all setup including:
-* Installing Conda, Snakemake, and Singularity (if needed)
-* Pulling required containers from [rasilab GitHub Packages](https://github.com/orgs/rasilab/packages)
-* Processing barcode-sgRNA linkage and barcode sequencing data
-* Analyzing RNA-seq and Ribo-seq data
-* Regenerating all manuscript figures and source data
+The script automatically:
+* Installs local Conda and Snakemake
+* Downloads all required containers from [rasilab GitHub Packages](https://github.com/orgs/rasilab/packages)
+* Downloads high-throughput sequencing data from NCBI SRA
+* Processes barcode-sgRNA linkage and barcode sequencing data
+* Analyzes RNA-seq and ribosome profiling data
+* Generates all manuscript figures and source data
 
-**For Fred Hutch cluster users:**
-Load modules instead of auto-installation:
-```bash
-module load Singularity snakemake
-bash run_everything.sh
-```
+### 🛠️ Advanced Usage
 
-**Advanced users:**
-* Copy specific sections from [run_everything.sh](run_everything.sh) to reproduce only selected analyses
-* Use [`analysis/submit_local.sh`](./analysis/submit_local.sh) for local execution or [`analysis/submit_cluster.sh`](./analysis/submit_cluster.sh) for SLURM cluster execution
-* Modify cluster settings in [`analysis/cluster.yaml`](./analysis/cluster.yaml) if using SLURM on a different system
-* For interactive analysis, use the [r_python container](https://github.com/rasilab/r_python/pkgs/container/r_python) with [VSCode instructions](https://rasilab.github.io/docs/software/how_to_create_and_use_containers/)
+**Partial analysis:**
+* Copy specific sections from [run_everything.sh](run_everything.sh) for selected analyses
+
+**Different execution modes:**
+* Local: [`analysis/submit_local.sh`](./analysis/submit_local.sh)
+* SLURM cluster: [`analysis/submit_cluster.sh`](./analysis/submit_cluster.sh)
+* Modify [`analysis/cluster.yaml`](./analysis/cluster.yaml) for different cluster systems
+
+**Interactive analysis:**
+* Use [r_python container](https://github.com/rasilab/r_python/pkgs/container/r_python) with [VSCode](https://rasilab.github.io/docs/software/how_to_create_and_use_containers/)
 * See [container documentation](https://rasilab.github.io/docs/software/how_to_create_and_use_containers/) for optimization tips
