@@ -98,9 +98,14 @@ sudo apt update && sudo apt install -y apptainer
 
 ### 🚀 Run the Full Analysis
 
-**Simple one-step execution:**
+**Local execution:**
 ```bash
 bash run_everything.sh
+```
+
+**SLURM cluster execution:**
+```bash
+SUBMIT_SCRIPT=submit_cluster.sh bash run_everything.sh
 ```
 
 The script automatically:
@@ -116,10 +121,10 @@ The script automatically:
 **Partial analysis:**
 * Copy specific sections from [run_everything.sh](run_everything.sh) for selected analyses
 
-**Different execution modes:**
-* Local: [`analysis/submit_local.sh`](./analysis/submit_local.sh)
-* SLURM cluster: [`analysis/submit_cluster.sh`](./analysis/submit_cluster.sh)
-* Modify [`analysis/cluster.yaml`](./analysis/cluster.yaml) for different cluster systems
+**Individual workflow execution:**
+* Local: `cd analysis/<workflow>/scripts && bash submit_local.sh -s run_analysis.smk`
+* SLURM cluster: `cd analysis/<workflow>/scripts && bash submit_cluster.sh -s run_analysis.smk`
+* Modify [`analysis/cluster.yaml`](./analysis/cluster.yaml) for different SLURM cluster configurations
 
 **Interactive analysis:**
 * Use [r_python container](https://github.com/rasilab/r_python/pkgs/container/r_python) with [VSCode](https://rasilab.github.io/docs/software/how_to_create_and_use_containers/)

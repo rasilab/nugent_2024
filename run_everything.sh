@@ -3,6 +3,10 @@
 # Generate all manuscript figures for:
 # "Decoding post-transcriptional regulatory networks by RNA-linked CRISPR 
 # screening in human cells" (Nature Methods)
+#
+# Usage:
+#   bash run_everything.sh                    # Local execution
+#   SUBMIT_SCRIPT=submit_cluster.sh bash run_everything.sh  # SLURM cluster execution
 
 set -e  # Exit on any error
 
@@ -92,9 +96,10 @@ run_workflow() {
     local name="$1"
     local path="$2"
     local smk_file="${3:-run_analysis.smk}"
+    local submit_script="${SUBMIT_SCRIPT:-submit_local.sh}"
     
     echo "Running $name..."
-    (cd "$PROJECT_DIR/$path" && bash submit_local.sh -s "$smk_file")
+    (cd "$PROJECT_DIR/$path" && bash "$submit_script" -s "$smk_file")
 }
 
 run_workflow "barcode-sgRNA linkage analysis" "analysis/barcodeseq/rbp_sgrna_barcode_linkage/scripts"
