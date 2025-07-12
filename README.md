@@ -11,8 +11,9 @@
 **Contact:** [Arvind Rasi Subramaniam](mailto:rasi@fredhutch.org)
 
 **Repository Contents:**
-1. [🔬 Figure Code and Source Data](#-figure-code-and-source-data)
-2. [⚙️ How to Reproduce the Analysis](#️-how-to-reproduce-the-analysis)
+1. [📄 Manuscript](manuscript/) - Manuscript text and figures
+2. [🔬 Figure Code and Source Data](#-figure-code-and-source-data)
+3. [⚙️ How to Reproduce the Analysis](#️-how-to-reproduce-the-analysis)
    1. [✅ Requirements](#-requirements)
    2. [📦 Containers](#-containers)
    3. [🚀 Run the Full Analysis](#-run-the-full-analysis)
