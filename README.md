@@ -1,10 +1,8 @@
 # Decoding post-transcriptional regulatory networks by RNA-linked CRISPR screening in human cells
 
-**Patrick J. Nugent<sup>1</sup>, Heungwon Park<sup>1</sup>, Cynthia L. Wladyka<sup>1</sup>, James N. Yelland<sup>1</sup>, Sayantani Sinha<sup>1</sup>, Katharine Y. Chen<sup>1</sup>, Christine Bynum<sup>1</sup>, Grace Quarterman<sup>1</sup>, Stanley C. Lee<sup>1</sup>, Andrew C. Hsieh<sup>1</sup> & Arvind Rasi Subramaniam<sup>1,2,\*</sup>**
+**Patrick J. Nugent, Heungwon Park, Cynthia L. Wladyka, James N. Yelland, Sayantani Sinha, Katharine Y. Chen, Christine Bynum, Grace Quarterman, Stanley C. Lee, Andrew C. Hsieh & Arvind Rasi Subramaniam**
 
-<sup>1</sup>*Basic Sciences Division, Fred Hutchinson Cancer Center, Seattle, WA, USA*  
-<sup>2</sup>*Department of Genome Sciences, University of Washington, Seattle, WA, USA*  
-<sup>\*</sup>*Correspondence: rasi@fredhutch.org*
+*Correspondence: rasi@fredhutch.org*
 
 ***Nature Methods*** **22**, 1237–1246 (2025)
 
