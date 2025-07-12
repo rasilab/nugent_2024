@@ -100,7 +100,7 @@ bash run_everything.sh
 ```
 
 **Advanced users:**
-* Copy specific sections from `run_everything.sh` to reproduce only selected analyses
+* Copy specific sections from [run_everything.sh](run_everything.sh) to reproduce only selected analyses
 * Use [`analysis/submit_local.sh`](./analysis/submit_local.sh) for local execution or [`analysis/submit_cluster.sh`](./analysis/submit_cluster.sh) for SLURM cluster execution
 * Modify cluster settings in [`analysis/cluster.yaml`](./analysis/cluster.yaml) if using SLURM on a different system
 * For interactive analysis, use the [r_python container](https://github.com/rasilab/r_python/pkgs/container/r_python) with [VSCode instructions](https://rasilab.github.io/docs/software/how_to_create_and_use_containers/)
