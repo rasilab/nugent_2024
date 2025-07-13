@@ -54,7 +54,7 @@ source "$CONDA_DIR/etc/profile.d/conda.sh"
 # Create nugent_2024 environment with snakemake
 if ! conda env list | grep -q "^nugent_2024 "; then
     echo "Creating nugent_2024 environment..."
-    mamba create -n nugent_2024 -c conda-forge -c bioconda snakemake -y
+    mamba create -n nugent_2024 -c conda-forge -c bioconda snakemake snakemake-executor-plugin-slurm -y
 fi
 conda activate nugent_2024
 
