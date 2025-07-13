@@ -105,6 +105,7 @@ bash run_everything.sh
 
 **SLURM cluster execution:**
 ```bash
+# First edit analysis/slurm/config.yaml to set your SLURM account
 SUBMIT_SCRIPT=submit_cluster.sh bash run_everything.sh
 ```
 
@@ -124,7 +125,7 @@ The script automatically:
 **Individual workflow execution:**
 * Local: `cd analysis/<workflow>/scripts && bash submit_local.sh -s run_analysis.smk`
 * SLURM cluster: `cd analysis/<workflow>/scripts && bash submit_cluster.sh -s run_analysis.smk`
-* Modify [`analysis/cluster.yaml`](./analysis/cluster.yaml) for different SLURM cluster configurations
+* SLURM configuration in [`analysis/slurm/config.yaml`](./analysis/slurm/config.yaml) (default: 128GB RAM, 16 CPUs, 6h runtime)
 
 **Interactive analysis:**
 * Use [r_python container](https://github.com/rasilab/r_python/pkgs/container/r_python) with [VSCode](https://rasilab.github.io/docs/software/how_to_create_and_use_containers/)
