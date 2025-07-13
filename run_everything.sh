@@ -56,7 +56,7 @@ if ! conda env list | grep -q "^nugent_2024 "; then
     echo "Creating nugent_2024 environment..."
     mamba create -n nugent_2024 -c conda-forge -c bioconda snakemake -y
 fi
-mamba activate nugent_2024
+conda activate nugent_2024
 
 # Download all required containers
 
