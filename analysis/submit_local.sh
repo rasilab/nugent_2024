@@ -7,7 +7,8 @@ echo "Using container directory: $CONTAINER_DIR"
 snakemake \
     --jobs 999 \
     --use-apptainer \
-    --apptainer-args "--bind $(pwd)/../../.. --fakeroot --no-mount home,tmp --contain" \
+    --apptainer-args "--bind $(pwd)/../../.." \
+    --rerun-incomplete \
     --config container_dir="$CONTAINER_DIR" \
     --cores=all \
     -p $@
