@@ -11,4 +11,5 @@ snakemake \
     --rerun-incomplete \
     --config container_dir="$CONTAINER_DIR" \
     --cores=all \
+    --rerun-incomplete \
     -p $@

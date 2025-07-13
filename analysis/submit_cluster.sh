@@ -12,4 +12,5 @@ snakemake \
     --apptainer-args "--bind $(pwd)/../../.." \
     --config container_dir="$CONTAINER_DIR" \
     --latency-wait 10 \
+    --rerun-incomplete \
     -p $@
