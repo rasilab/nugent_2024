@@ -18,16 +18,16 @@ theme_set(theme_rasilab() +
   ))
 
 ## Read sample annotations
-sample_annotations <- read_csv("annotations/sample_annotations.csv", show_col_types = F) %>%
+sample_annotations <- read_csv("../annotations/sample_annotations.csv", show_col_types = F) %>%
   filter(str_detect(sample_id, "^220"))
 
 ## Read gene annotations
-gene_annotations <- read_gff2("data/ensembl/Homo_sapiens.GRCh38.108.gtf") %>%
+gene_annotations <- read_gff2("../data/ensembl/Homo_sapiens.GRCh38.108.gtf") %>%
   as_tibble() %>%
   filter(type == "gene", gene_biotype == "protein_coding")
 
 ## Read in gene count data
-count_data <- "data/alignments/" %>% 
+count_data <- "../data/alignments/" %>% 
   list.files(full.names = T, pattern = "ReadsPerGene.out.tab", recursive = T) %>% 
   as_tibble_col("file") %>% 
   filter(str_detect(file, "genome_220")) %>%
@@ -134,12 +134,12 @@ plot_data_2 %>%
   geom_vline(xintercept = 0, linetype = "dashed") +
   labs(x = "log2 mRNA fold-change (HHT/CTRL)\nsgFLUC", y = "log2 mRNA fold-change (HHT/CTRL)\nsgGCN1")
 
-ggsave("figures/scatter_plot_hht_treatment_gcn1_vs_fluc.pdf", width = 4.5, height = 2.8)
+ggsave("../figures/scatter_plot_hht_treatment_gcn1_vs_fluc.pdf", width = 4.5, height = 2.8)
 
 # Save Figure 5e scatter plot source data
 plot_data_2 %>%
   select(gene_name, lfc_ctrl, lfc, compare) %>%
-  write_csv("../../source_data/figure_5e_scatter.csv")
+  write_csv("../../../source_data/figure_5e_scatter.csv")
 
 ## IEG alone plot
 plot_data <- lfc %>% 
@@ -165,9 +165,9 @@ plot_data %>%
   scale_y_continuous(breaks = c(0,4,8)) +
   labs(y = "log2 mRNA fold-change\nHHT /  CTRL", x = "Gene")
 
-ggsave("figures/ieg_alone_plot_hht_treatment_gcn1_vs_fluc.pdf", width = 2.7, height = 2)
+ggsave("../figures/ieg_alone_plot_hht_treatment_gcn1_vs_fluc.pdf", width = 2.7, height = 2)
 
 # Save Figure 5e IEG plot source data
 plot_data %>%
   select(gene_name, lfc, lfcSE, sgrna) %>%
-  write_csv("../../source_data/figure_5e_ieg.csv")
+  write_csv("../../../source_data/figure_5e_ieg.csv")

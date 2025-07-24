@@ -116,8 +116,11 @@ echo "
 
 # Helper function to run R scripts
 run_r() {
+    local script_path="$1"
     local container="${2:-r_python_1.3.0}"
-    apptainer exec "$APPTAINER_CACHE/${container}.sif" Rscript "$1"
+    local script_dir="$(dirname "$script_path")"
+    local script_name="$(basename "$script_path")"
+    (cd "$script_dir" && apptainer exec --bind $PROJECT_DIR "$APPTAINER_CACHEDIR/${container}.sif" Rscript "$script_name")
 }
 
 # Main figures
@@ -137,6 +140,7 @@ run_r analysis/barcodeseq/rbp_barcode_screens/scripts/plot_nmd_results.R
 
 echo "Generating Figure 5 (HHT Analysis)..."
 run_r analysis/barcodeseq/rbp_barcode_screens/scripts/plot_eyfp_deopt_harr_results.R
+
 run_r analysis/rnaseq/scripts/analyze_fold_changes.R deseq2_1.38.0
 run_r analysis/riboseq/scripts/analyze_transcriptome_coverage.R
 
