@@ -93,7 +93,7 @@ sudo apt update && sudo apt install -y apptainer
 - At least 50GB free disk space
 
 **Alternative Setups:**
-- **Fred Hutch users:** Use `module load Singularity snakemake` instead
+- **Fred Hutch users:** Use `module load Apptainer snakemake` instead
 - **Docker users:** Can substitute Docker for Apptainer (requires modifying submit_local.sh)
 
 ### 🚀 Run the Full Analysis
