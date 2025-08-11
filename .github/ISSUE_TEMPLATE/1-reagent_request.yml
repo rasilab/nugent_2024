@@ -57,12 +57,19 @@ body:
       value: 
     validations:
       required: true  
-  - type: input
-    id: fedex
+  - type: textarea
+    id: shipping-method
     attributes:
-      label: Fedex account number
-      description: Please provide a Fedex account number that we can charge for shipping.
-      placeholder: 
+      label: Shipping arrangements
+      description: |
+        Please choose one of the following options:
+        1. Provide your FedEx account number here (if comfortable sharing publicly)
+        2. Type "Will email FedEx account" and send it privately to rasi@fredhutch.org
+        3. Request alternative shipping arrangements (we'll contact you to discuss)
+      placeholder: |
+        Option 1: FedEx account #123456789
+        Option 2: Will email FedEx account to rasi@fredhutch.org
+        Option 3: Please contact me for alternative shipping arrangements
     validations:
       required: true
   - type: textarea
