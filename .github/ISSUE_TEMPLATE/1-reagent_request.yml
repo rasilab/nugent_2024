@@ -64,8 +64,7 @@ body:
       description: How would you like to handle shipping arrangements?
       options:
         - Share FedEx account number below
-        - Will email FedEx account to rasi@fredhutch.org
-        - Request alternative shipping arrangements
+        - Will email shipping details to rasi@fredhutch.org
     validations:
       required: true
   - type: input
@@ -74,9 +73,8 @@ body:
       label: Shipping details
       description: |
         Based on your selection above:
-        - If sharing FedEx account: Enter your FedEx account number
-        - If emailing: Enter "Will send via email" 
-        - If alternative arrangements: Enter brief description or "Please contact me"
+        - If sharing publicly: Enter your FedEx account number
+        - If emailing privately: Enter "Will send via email" (for FedEx account or alternative shipping arrangements)
       placeholder: e.g., FedEx #123456789 or "Will send via email"
     validations:
       required: true
